@@ -24,14 +24,14 @@ jobs:
           sudo chmod -R 755 /opt/microchip/xc8
           sudo ls -l /opt/microchip/xc8
 
-      - name: Descargar e instalar MPLAB X
+      - name: Descargar e instalar PIC16F1xxxx DFP Pack desde Drive
         run: |
-          wget -nv -O /tmp/mplabx.tar http://ww1.microchip.com/downloads/en/DeviceDoc/MPLABX-v6.00-linux-installer.tar
-          tar -xf /tmp/mplabx.tar -C /tmp
-          mv /tmp/MPLAB*-linux-installer.sh /tmp/mplabx_installer.sh
-          chmod +x /tmp/mplabx_installer.sh
-          sudo /tmp/mplabx_installer.sh --nox11 -- --unattendedmodeui none --mode unattended --ipe 0 --collectInfo 0 --installdir /opt/mplabx
-          rm /tmp/mplabx_installer.sh
+          sudo apt-get install -y p7zip-full
+          sudo mkdir -p "/opt/microchip/mplabx/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410"
+          pip install gdown
+          gdown "https://drive.google.com/uc?id=1o33lGYOxfhRTig8rJccEi6xjUGgItAUc" -O /tmp/Microchip.PIC16F1xxxx_DFP.1.26.410.atpack
+          7z x /tmp/Microchip.PIC16F1xxxx_DFP.1.26.410.atpack -o"/opt/microchip/mplabx/v6.25/packs/Microchip/PIC_
+      
 
       - name: Generar Makefiles y compilar proyecto
         run: |
