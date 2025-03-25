@@ -32,9 +32,10 @@ jobs:
           sudo /tmp/mplabx_installer.sh --nox11 -- --unattendedmodeui none --mode unattended --ipe 0 --collectInfo 0 --installdir /opt/mplabx
           rm /tmp/mplabx_installer.sh
           
-      - name: Verificar los chips disponibles en XC8
+      - name: Check with sh
         run: |
-          /opt/microchip/xc8/bin/xc8 --CHIPINFO
+          /opt/mplabx/mplab_platform/bin/prjMakefilesGenerator.sh $1@$2 || exit 1
+          make -C $1 CONF=$2 build || exit 2
 
       - name: Compilar proyecto con XC8
         run: |
