@@ -32,7 +32,7 @@ jobs:
           pip install gdown
           gdown "https://drive.google.com/uc?id=1o33lGYOxfhRTig8rJccEi6xjUGgItAUc" -O /tmp/Microchip.PIC16F1xxxx_DFP.1.26.410.atpack
           7z x /tmp/Microchip.PIC16F1xxxx_DFP.1.26.410.atpack -o"/opt/microchip/mplabx/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410" -r -y
-          sudo ls -l "/opt/microchip/mplabx/v6.25/packs/Microchip/"
+          sudo ls -l "/opt/microchip/mplabx/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410/"
       
 
       - name: Generar Makefiles y compilar proyecto
@@ -40,7 +40,7 @@ jobs:
           PROJECT_DIR="firmware/ENERGY_LIGHT_V3.X"
           CONFIG="default" 
           export PATH=/opt/microchip/xc8/bin:$PATH
-          make -C $PROJECT_DIR 
+          sudo make -C $PROJECT_DIR 
 
       - name: Subir artefacto compilado
         uses: actions/upload-artifact@v4
