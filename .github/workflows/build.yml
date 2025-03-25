@@ -37,7 +37,7 @@ jobs:
         run: |
           PROJECT_DIR="firmware/ENERGY_LIGHT_V3.X"
           CONFIG="default" 
-          make -f Makefile
+          make -C $PROJECT_DIR 
             
       - name: Generar Makefiles y compilar proyecto
         run: |
