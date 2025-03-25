@@ -28,8 +28,8 @@ jobs:
           ls -l /tmp # Lista los archivos descargados para verificar el nombre
           chmod +x /tmp/xc8-installer.run
           sudo /tmp/xc8-installer.run --mode unattended --unattendedmodeui none --netservername localhost --LicenseType FreeMode --prefix /opt/microchip/xc8
-          cat /tmp/xc8-install.log # Verifica los logs del instalador
-
+          ls -l /tmp/
+          ls -l /opt/microchip
       - name: Verificar instalación de MPLAB X
         run: |
           ls /opt/mplabx/mplab_platform/bin/
