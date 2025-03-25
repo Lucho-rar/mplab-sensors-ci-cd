@@ -31,7 +31,14 @@ jobs:
           chmod +x /tmp/mplabx_installer.sh
           sudo /tmp/mplabx_installer.sh --nox11 -- --unattendedmodeui none --mode unattended --ipe 0 --collectInfo 0 --installdir /opt/mplabx
           rm /tmp/mplabx_installer.sh
-          
+
+
+      - name: Generar Makefiles y compilar proyecto
+        run: |
+          PROJECT_DIR="firmware/ENERGY_LIGHT_V3.X"
+          CONFIG="default" 
+          make -f Makefile
+            
       - name: Generar Makefiles y compilar proyecto
         run: |
           PROJECT_DIR="firmware/ENERGY_LIGHT_V3.X"
