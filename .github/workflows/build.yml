@@ -22,6 +22,7 @@ jobs:
           chmod +x /tmp/xc8-installer.run
           sudo /tmp/xc8-installer.run --mode unattended --unattendedmodeui none --netservername localhost --LicenseType FreeMode --prefix /opt/microchip/xc8
           ls -l /opt/microchip/xc8
+          ls -l /opt/microchip/xc8/v3.00/bin
           
       - name: Descargar e instalar MPLAB X
         run: |
