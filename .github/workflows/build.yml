@@ -23,16 +23,6 @@ jobs:
           sudo /tmp/xc8-installer.run --mode unattended --unattendedmodeui none --netservername localhost --LicenseType FreeMode --prefix /opt/microchip/xc8
           sudo chmod -R 755 /opt/microchip/xc8
           sudo ls -l /opt/microchip/xc8
-          
-      - name: Descargar e instalar MPLAB X
-        run: |
-          wget -nv -O /tmp/mplabx.tar http://ww1.microchip.com/downloads/en/DeviceDoc/MPLABX-v6.00-linux-installer.tar
-          tar -xf /tmp/mplabx.tar -C /tmp
-          mv /tmp/MPLAB*-linux-installer.sh /tmp/mplabx_installer.sh
-          chmod +x /tmp/mplabx_installer.sh
-          sudo /tmp/mplabx_installer.sh --nox11 -- --unattendedmodeui none --mode unattended --ipe 0 --collectInfo 0 --installdir /opt/mplabx
-          rm /tmp/mplabx_installer.sh
-
 
       - name: Generar Makefiles y compilar proyecto
         run: |
@@ -40,21 +30,9 @@ jobs:
           CONFIG="default" 
           export PATH=/opt/microchip/xc8/bin:$PATH
           make -C $PROJECT_DIR 
-            
-      - name: Generar Makefiles y compilar proyecto
-        run: |
-          PROJECT_DIR="firmware/ENERGY_LIGHT_V3.X"
-          CONFIG="default" 
-          export JAVA_TOOL_OPTIONS="-Djava.awt.headless=true"  
-          /opt/mplabx/mplab_platform/bin/prjMakefilesGenerator.sh $PROJECT_DIR@$CONFIG || exit 1
-          make -C $PROJECT_DIR CONF=$CONFIG build || exit 2
-          
-      - name: Compilar proyecto con XC8
-        run: |
-          /opt/microchip/xc8/bin/xc8 --chip=16F877A --opt=none firmware/ENERGY_LIGHT_V3.X/main.c
 
       - name: Subir artefacto compilado
         uses: actions/upload-artifact@v4
         with:
           name: firmware-hex
-          path: firmware/MiProyecto.X/dist/default/production/*.hex
+          path: firmware/ENERGY_LIGHT_V3.X/dist/default/production/*.hex
