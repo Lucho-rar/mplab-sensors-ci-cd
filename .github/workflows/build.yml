@@ -22,10 +22,12 @@ jobs:
           chmod +x /tmp/xc8-installer.run
           sudo /tmp/xc8-installer.run --mode unattended --unattendedmodeui none --netservername localhost --LicenseType FreeMode --prefix /opt/microchip/xc8
           ls -l /opt/microchip/xc8
-
-      - name: Verificar instalación de XC8
+          
+      - name: Verificar los chips disponibles en XC8
         run: |
-          /opt/microchip/xc8/bin/xc8 --version
+          /opt/microchip/xc8/bin/xc8 --CHIPINFO
+
+      
 
       - name: Compilar proyecto con XC8
         run: |
