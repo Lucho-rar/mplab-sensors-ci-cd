@@ -32,7 +32,7 @@ jobs:
       - name: Compilar proyecto con MPLAB X y XC8
         run: |
           /opt/mplabx/mplab_platform/bin/prjMakefilesGenerator.sh firmware/ENERGY_LIGHT_V3.X@default
-          make -C firmware/MiProyecto.X CONF=default build
+          make -C firmware/ENERGY_LIGHT_V3.X CONF=default build
 
       - name: Subir artefacto compilado
         uses: actions/upload-artifact@v4
