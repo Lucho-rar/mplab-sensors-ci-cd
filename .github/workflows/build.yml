@@ -26,11 +26,13 @@ jobs:
 
       - name: Descargar e instalar PIC16F1xxxx DFP Pack desde Drive
         run: |
+          sudo apt-get update
           sudo apt-get install -y p7zip-full
           sudo mkdir -p "/opt/microchip/mplabx/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410"
           pip install gdown
           gdown "https://drive.google.com/uc?id=1o33lGYOxfhRTig8rJccEi6xjUGgItAUc" -O /tmp/Microchip.PIC16F1xxxx_DFP.1.26.410.atpack
-          7z x /tmp/Microchip.PIC16F1xxxx_DFP.1.26.410.atpack -o"/opt/microchip/mplabx/v6.25/packs/Microchip/PIC_
+          7z x /tmp/Microchip.PIC16F1xxxx_DFP.1.26.410.atpack -o"/opt/microchip/mplabx/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410" -r -y
+          ls -l "/opt/microchip/mplabx/v6.25/packs/Microchip/PIC16
       
 
       - name: Generar Makefiles y compilar proyecto
