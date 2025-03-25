@@ -1,0 +1,2535 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\gaston\AppData\Local\Temp\xcAsg58.o
+idloc IDLOC 5 8000 8000 4 2 1
+reset_vec CODE 0 0 0 2 2 1
+end_init CODE 0 30 30 2 2 1
+config CONFIG 4 8007 8007 5 2 1
+$dist/default/production\ENERGY_LIGHT_V3.X.production.o
+cinit CODE 0 32 32 5C 2 1
+idloc IDLOC 5 8000 8000 4 2 1
+text1 CODE 0 7CD 7CD 33 2 1
+text2 CODE 0 C1F C1F 26 2 1
+text3 CODE 0 AA2 AA2 15 2 1
+text4 CODE 0 8E 8E 179 2 1
+text5 CODE 0 572 572 65 2 1
+text6 CODE 0 B65 B65 1B 2 1
+text7 CODE 0 FC4 FC4 3C 2 1
+text8 CODE 0 364 364 103 2 1
+text9 CODE 0 B80 B80 1D 2 1
+nvCOMMON COMMON 1 76 76 2 1 1
+text10 CODE 0 F88 F88 3C 2 1
+text11 CODE 0 BD9 BD9 22 2 1
+text12 CODE 0 9DB 9DB C 2 1
+text13 CODE 0 904 904 4 2 1
+text14 CODE 0 B31 B31 1A 2 1
+text15 CODE 0 E9C E9C 3B 2 1
+text16 CODE 0 9CF 9CF C 2 1
+text17 CODE 0 900 900 4 2 1
+text18 CODE 0 BBB BBB 1E 2 1
+text19 CODE 0 996 996 A 2 1
+text20 CODE 0 8FC 8FC 4 2 1
+text21 CODE 0 CBC CBC 2A 2 1
+text22 CODE 0 D40 D40 2E 2 1
+text23 CODE 0 91C 91C 5 2 1
+text24 CODE 0 8F8 8F8 4 2 1
+text25 CODE 0 8F4 8F4 4 2 1
+text26 CODE 0 8F0 8F0 4 2 1
+text27 CODE 0 8EC 8EC 4 2 1
+text28 CODE 0 8E8 8E8 4 2 1
+text29 CODE 0 8E4 8E4 4 2 1
+text30 CODE 0 8E0 8E0 4 2 1
+text31 CODE 0 957 957 6 2 1
+text32 CODE 0 786 786 47 2 1
+text33 CODE 0 736 736 50 2 1
+text34 CODE 0 969 969 7 2 1
+text35 CODE 0 970 970 8 2 1
+text36 CODE 0 917 917 5 2 1
+text37 CODE 0 D9D D9D 2F 2 1
+text38 CODE 0 8CD 8CD 3 2 1
+text39 CODE 0 951 951 6 2 1
+text40 CODE 0 912 912 5 2 1
+text41 CODE 0 8DC 8DC 4 2 1
+text42 CODE 0 8CA 8CA 3 2 1
+text43 CODE 0 8D8 8D8 4 2 1
+text44 CODE 0 8C7 8C7 3 2 1
+text45 CODE 0 2 2 2 2 1
+text46 CODE 0 8A7 8A7 2 2 1
+text47 CODE 0 B18 B18 19 2 1
+text48 CODE 0 A7B A7B 12 2 1
+text49 CODE 0 A69 A69 12 2 1
+text50 CODE 0 A57 A57 12 2 1
+text51 CODE 0 A45 A45 12 2 1
+text52 CODE 0 9C3 9C3 C 2 1
+text53 CODE 0 BFB BFB 24 2 1
+text54 CODE 0 A13 A13 10 2 1
+text55 CODE 0 8C4 8C4 3 2 1
+text56 CODE 0 8C1 8C1 3 2 1
+text57 CODE 0 8BE 8BE 3 2 1
+text58 CODE 0 AFF AFF 19 2 1
+text59 CODE 0 8A5 8A5 2 2 1
+text60 CODE 0 8BB 8BB 3 2 1
+text61 CODE 0 8B8 8B8 3 2 1
+text62 CODE 0 D12 D12 2E 2 1
+text63 CODE 0 DCC DCC 30 2 1
+text64 CODE 0 AE6 AE6 19 2 1
+text65 CODE 0 6E2 6E2 54 2 1
+text66 CODE 0 8A3 8A3 2 2 1
+text67 CODE 0 8B5 8B5 3 2 1
+text68 CODE 0 9A0 9A0 B 2 1
+text69 CODE 0 8D4 8D4 4 2 1
+text70 CODE 0 98C 98C A 2 1
+text71 CODE 0 467 467 8A 2 1
+text72 CODE 0 CE6 CE6 2C 2 1
+text73 CODE 0 DFC DFC 34 2 1
+text74 CODE 0 94B 94B 6 2 1
+text75 CODE 0 C94 C94 28 2 1
+text76 CODE 0 E66 E66 36 2 1
+text77 CODE 0 636 636 56 2 1
+text78 CODE 0 5D7 5D7 5F 2 1
+text79 CODE 0 4F1 4F1 81 2 1
+text80 CODE 0 68C 68C 56 2 1
+text81 CODE 0 8B2 8B2 3 2 1
+text82 CODE 0 8AF 8AF 3 2 1
+text83 CODE 0 8A1 8A1 2 2 1
+text84 CODE 0 89F 89F 2 2 1
+text85 CODE 0 B9D B9D 1E 2 1
+text86 CODE 0 A8D A8D 15 2 1
+text87 CODE 0 945 945 6 2 1
+text88 CODE 0 AB7 AB7 17 2 1
+text89 CODE 0 93F 93F 6 2 1
+text90 CODE 0 ACE ACE 18 2 1
+text91 CODE 0 939 939 6 2 1
+text92 CODE 0 A34 A34 11 2 1
+text93 CODE 0 C6C C6C 28 2 1
+text94 CODE 0 982 982 A 2 1
+text95 CODE 0 978 978 A 2 1
+text96 CODE 0 D6E D6E 2F 2 1
+text97 CODE 0 933 933 6 2 1
+text98 CODE 0 90D 90D 5 2 1
+text99 CODE 0 92D 92D 6 2 1
+nvBANK0 BANK0 1 62 62 8 1 1
+nvBANK1 BANK1 1 EA EA 6 1 1
+maintext CODE 0 207 207 15D 2 1
+cstackCOMMON COMMON 1 70 70 6 1 1
+cstackBANK0 BANK0 1 20 20 33 1 1
+cstackBANK1 BANK1 1 DF DF B 1 1
+inittext CODE 0 963 963 6 2 1
+stringtext1 STRCODE 0 1000 1000 20 2 1
+intentry CODE 0 4 4 2C 2 1
+bssBANK0 BANK0 1 6A 6A 3 1 1
+bssBANK1 BANK1 1 A0 A0 25 1 1
+bssBANK5 BANK5 1 2A0 2A0 40 1 1
+bssBANK6 BANK6 1 320 320 40 1 1
+idataBANK0 CODE 0 A04 A04 F 2 1
+idataBANK1 CODE 0 B4B B4B 1A 2 1
+idataBANK2 CODE 0 F4D F4D 3B 2 1
+idataBANK3 CODE 0 F12 F12 3B 2 1
+idataBANK4 CODE 0 ED7 ED7 3B 2 1
+dataBANK0 BANK0 1 53 53 F 1 1
+dataBANK1 BANK1 1 C5 C5 1A 1 1
+dataBANK2 BANK2 1 120 120 3B 1 1
+dataBANK3 BANK3 1 1A0 1A0 3B 1 1
+dataBANK4 BANK4 1 220 220 3B 1 1
+clrtext CODE 0 95D 95D 6 2 1
+text100 CODE 0 908 908 5 2 1
+text101 CODE 0 927 927 6 2 1
+text102 CODE 0 9F5 9F5 F 2 1
+text104 CODE 0 9B7 9B7 C 2 1
+text105 CODE 0 89D 89D 2 2 1
+text106 CODE 0 9AB 9AB C 2 1
+text107 CODE 0 89B 89B 2 2 1
+text108 CODE 0 A23 A23 11 2 1
+text109 CODE 0 8AC 8AC 3 2 1
+text110 CODE 0 C45 C45 27 2 1
+text111 CODE 0 8D0 8D0 4 2 1
+text112 CODE 0 8A9 8A9 3 2 1
+text113 CODE 0 E30 E30 36 2 1
+text114 CODE 0 9E7 9E7 E 2 1
+text115 CODE 0 921 921 6 2 1
+bssCOMMON COMMON 1 78 78 2 1 1
+config CONFIG 4 8007 8007 5 2 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 6D-6F 1
+RAM 15B-16F 1
+RAM 1DB-1EF 1
+RAM 25B-26F 1
+RAM 2E0-2EF 1
+RAM 360-36F 1
+RAM 3A0-3EF 1
+RAM 420-46F 1
+RAM 4A0-4EF 1
+RAM 520-56F 1
+RAM 5A0-5EF 1
+RAM 620-64F 1
+BANK0 6D-6F 1
+BANK2 15B-16F 1
+BANK3 1DB-1EF 1
+BANK4 25B-26F 1
+BANK5 2E0-2EF 1
+BANK6 360-36F 1
+BANK7 3A0-3EF 1
+BANK8 420-46F 1
+BANK9 4A0-4EF 1
+CONST 800-89A 2
+CONST 1020-1FFF 2
+ENTRY 800-89A 2
+ENTRY 1020-1FFF 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-6EF 1
+SFR14 700-76F 1
+SFR15 780-7EF 1
+SFR16 800-86F 1
+SFR17 880-8EF 1
+SFR18 900-96F 1
+SFR19 980-9EF 1
+SFR20 A00-A6F 1
+SFR21 A80-AEF 1
+SFR22 B00-B6F 1
+SFR23 B80-BEF 1
+SFR24 C00-C6F 1
+SFR25 C80-CEF 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+SFR32 1000-106F 1
+SFR33 1080-10EF 1
+SFR34 1100-116F 1
+SFR35 1180-11EF 1
+SFR36 1200-126F 1
+SFR37 1280-12EF 1
+SFR38 1300-136F 1
+SFR39 1380-13EF 1
+SFR40 1400-146F 1
+SFR41 1480-14EF 1
+SFR42 1500-156F 1
+SFR43 1580-15EF 1
+SFR44 1600-166F 1
+SFR45 1680-16EF 1
+SFR46 1700-176F 1
+SFR47 1780-17EF 1
+SFR48 1800-186F 1
+SFR49 1880-18EF 1
+SFR50 1900-196F 1
+SFR51 1980-19EF 1
+SFR52 1A00-1A6F 1
+SFR53 1A80-1AEF 1
+SFR54 1B00-1B6F 1
+SFR55 1B80-1BEF 1
+SFR56 1C00-1C6F 1
+SFR57 1C80-1CEF 1
+SFR58 1D00-1D6F 1
+SFR59 1D80-1DEF 1
+SFR60 1E00-1E6F 1
+SFR61 1E80-1EEF 1
+SFR62 1F00-1F6F 1
+SFR63 1F80-1FEF 1
+CODE 800-89A 2
+CODE 1020-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BANK10 520-56F 1
+BANK11 5A0-5EF 1
+BANK12 620-64F 1
+BIGRAM 2000-23EF 1
+COMMON 7A-7D 1
+EEDATA F000-F0FF 2
+STRCODE 800-89A 2
+STRCODE 1020-1FFF 2
+STRING 800-89A 2
+STRING 1020-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\ENERGY_LIGHT_V3.X.production.o
+32 cinit CODE >13945:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+32 cinit CODE >13948:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+32 cinit CODE >14070:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+33 cinit CODE >14071:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+34 cinit CODE >14072:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+35 cinit CODE >14073:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+36 cinit CODE >14074:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+37 cinit CODE >14075:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+38 cinit CODE >14076:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+39 cinit CODE >14077:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+3A cinit CODE >14078:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+3B cinit CODE >14079:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+3E cinit CODE >14083:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+3F cinit CODE >14084:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+40 cinit CODE >14085:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+41 cinit CODE >14086:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+42 cinit CODE >14087:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+43 cinit CODE >14088:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+44 cinit CODE >14089:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+45 cinit CODE >14090:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+46 cinit CODE >14091:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+47 cinit CODE >14092:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+4A cinit CODE >14096:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+4B cinit CODE >14097:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+4C cinit CODE >14098:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+4D cinit CODE >14099:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+4E cinit CODE >14100:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+4F cinit CODE >14101:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+50 cinit CODE >14102:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+51 cinit CODE >14103:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+52 cinit CODE >14104:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+53 cinit CODE >14105:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+56 cinit CODE >14109:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+57 cinit CODE >14110:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+58 cinit CODE >14111:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+59 cinit CODE >14112:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+5A cinit CODE >14113:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+5B cinit CODE >14114:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+5C cinit CODE >14115:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+5D cinit CODE >14116:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+5E cinit CODE >14117:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+5F cinit CODE >14118:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+62 cinit CODE >14122:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+63 cinit CODE >14123:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+64 cinit CODE >14124:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+65 cinit CODE >14125:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+66 cinit CODE >14126:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+67 cinit CODE >14127:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+68 cinit CODE >14128:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+69 cinit CODE >14129:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+6A cinit CODE >14130:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+6B cinit CODE >14131:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+6E cinit CODE >14148:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+6F cinit CODE >14149:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+70 cinit CODE >14153:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+71 cinit CODE >14154:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+72 cinit CODE >14155:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+73 cinit CODE >14159:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+74 cinit CODE >14160:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+75 cinit CODE >14161:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+76 cinit CODE >14162:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+77 cinit CODE >14163:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+78 cinit CODE >14164:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+7B cinit CODE >14168:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+7C cinit CODE >14169:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+7D cinit CODE >14170:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+7E cinit CODE >14171:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+7F cinit CODE >14172:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+80 cinit CODE >14173:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+83 cinit CODE >14177:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+84 cinit CODE >14178:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+85 cinit CODE >14179:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+86 cinit CODE >14180:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+87 cinit CODE >14181:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+88 cinit CODE >14182:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+8A cinit CODE >14188:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+8A cinit CODE >14190:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+8B cinit CODE >14191:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+8C cinit CODE >14192:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+4 intentry CODE >52:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+6 intentry CODE >55:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+A intentry CODE >57:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+D intentry CODE >58:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+E intentry CODE >59:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+10 intentry CODE >61:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+13 intentry CODE >63:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+16 intentry CODE >64:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+17 intentry CODE >65:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+1A intentry CODE >67:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+1D intentry CODE >68:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+1E intentry CODE >69:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+21 intentry CODE >71:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+24 intentry CODE >72:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+25 intentry CODE >73:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+28 intentry CODE >75:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+2E intentry CODE >86:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/interrupt_manager.c
+921 text115 CODE >89:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+921 text115 CODE >91:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+926 text115 CODE >92:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+9E7 text114 CODE >94:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+9E7 text114 CODE >97:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+9E8 text114 CODE >98:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+9EC text114 CODE >98:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+9EE text114 CODE >100:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+9F1 text114 CODE >101:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+9F2 text114 CODE >103:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+9F4 text114 CODE >105:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+E30 text113 CODE >195:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+E30 text113 CODE >198:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+E3A text113 CODE >199:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+E42 text113 CODE >201:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+E4B text113 CODE >203:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+E50 text113 CODE >205:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+E57 text113 CODE >206:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+E5D text113 CODE >207:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+E5F text113 CODE >207:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+E61 text113 CODE >209:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+E65 text113 CODE >213:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+8A9 text112 CODE >225:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+8A9 text112 CODE >226:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+8AB text112 CODE >227:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+8D0 text111 CODE >217:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+8D0 text111 CODE >220:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+8D2 text111 CODE >221:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+8D3 text111 CODE >223:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+C45 text110 CODE >171:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+C45 text110 CODE >174:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+C4B text110 CODE >181:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+C4E text110 CODE >182:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+C54 text110 CODE >183:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+C5A text110 CODE >186:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+C62 text110 CODE >187:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+C68 text110 CODE >188:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+C69 text110 CODE >189:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+C6B text110 CODE >193:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+8AC text109 CODE >155:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+8AC text109 CODE >158:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+8AE text109 CODE >159:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+A23 text108 CODE >134:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+A23 text108 CODE >137:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+A24 text108 CODE >139:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+A27 text108 CODE >140:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+A29 text108 CODE >142:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+A2E text108 CODE >144:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+A33 text108 CODE >148:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+89B text107 CODE >183:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+89B text107 CODE >186:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+89C text107 CODE >187:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+9AB text106 CODE >166:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+9AB text106 CODE >170:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+9AC text106 CODE >172:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+9B1 text106 CODE >174:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+9B6 text106 CODE >176:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+89D text105 CODE >183:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+89D text105 CODE >186:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+89E text105 CODE >187:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+9B7 text104 CODE >166:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+9B7 text104 CODE >170:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+9B8 text104 CODE >172:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+9BD text104 CODE >174:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+9C2 text104 CODE >176:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+9F5 text102 CODE >61:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+9F5 text102 CODE >68:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+9F7 text102 CODE >71:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+9FA text102 CODE >74:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+9FC text102 CODE >77:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+9FE text102 CODE >80:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+A00 text102 CODE >83:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+A02 text102 CODE >86:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+A03 text102 CODE >87:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/cmp1.c
+927 text101 CODE >58:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/dac1.c
+927 text101 CODE >61:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/dac1.c
+92A text101 CODE >63:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/dac1.c
+92C text101 CODE >64:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/dac1.c
+908 text100 CODE >237:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+908 text100 CODE >238:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+90C text100 CODE >239:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+92D text99 CODE >229:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+92D text99 CODE >230:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+932 text99 CODE >231:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+90D text98 CODE >233:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+90D text98 CODE >234:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+911 text98 CODE >235:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+933 text97 CODE >242:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+933 text97 CODE >243:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+938 text97 CODE >244:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D6E text96 CODE >81:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D6E text96 CODE >84:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D70 text96 CODE >85:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D77 text96 CODE >89:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D7A text96 CODE >92:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D7C text96 CODE >95:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D7E text96 CODE >98:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D80 text96 CODE >101:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D81 text96 CODE >104:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D88 text96 CODE >105:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D8F text96 CODE >106:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D95 text96 CODE >108:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D97 text96 CODE >111:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D98 text96 CODE >112:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D99 text96 CODE >113:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D9A text96 CODE >116:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+D9C text96 CODE >117:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+978 text95 CODE >167:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+978 text95 CODE >169:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+97B text95 CODE >170:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+97D text95 CODE >171:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+97E text95 CODE >172:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+980 text95 CODE >173:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+981 text95 CODE >174:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+982 text94 CODE >64:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+982 text94 CODE >67:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+985 text94 CODE >69:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+986 text94 CODE >71:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+987 text94 CODE >73:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+988 text94 CODE >75:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+989 text94 CODE >77:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+98B text94 CODE >78:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+C6C text93 CODE >55:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C6C text93 CODE >60:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C6E text93 CODE >61:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C6F text93 CODE >66:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C71 text93 CODE >67:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C73 text93 CODE >72:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C76 text93 CODE >73:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C78 text93 CODE >78:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C79 text93 CODE >79:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C7A text93 CODE >84:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C7B text93 CODE >85:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C7C text93 CODE >90:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C7E text93 CODE >91:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C80 text93 CODE >96:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C82 text93 CODE >97:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C84 text93 CODE >106:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C86 text93 CODE >107:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C89 text93 CODE >108:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C8C text93 CODE >109:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C8E text93 CODE >110:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C91 text93 CODE >111:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+C93 text93 CODE >112:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/pin_manager.c
+A34 text92 CODE >80:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+A34 text92 CODE >83:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+A37 text92 CODE >85:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+A39 text92 CODE >87:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+A3B text92 CODE >89:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+A3D text92 CODE >91:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+A3F text92 CODE >93:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+A41 text92 CODE >95:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+A42 text92 CODE >97:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+A44 text92 CODE >98:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+939 text91 CODE >151:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+939 text91 CODE >152:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+93E text91 CODE >153:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+ACE text90 CODE >66:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+ACE text90 CODE >71:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+AD1 text90 CODE >74:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+AD3 text90 CODE >77:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+AD5 text90 CODE >80:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+AD9 text90 CODE >83:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+ADB text90 CODE >86:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+ADC text90 CODE >89:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+AE2 text90 CODE >92:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+AE5 text90 CODE >93:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+93F text89 CODE >179:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+93F text89 CODE >180:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+944 text89 CODE >181:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+AB7 text88 CODE >65:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+AB7 text88 CODE >70:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+ABA text88 CODE >73:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+ABC text88 CODE >76:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+ABE text88 CODE >79:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+AC0 text88 CODE >82:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+AC1 text88 CODE >85:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+AC3 text88 CODE >88:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+AC4 text88 CODE >91:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+ACA text88 CODE >94:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+ACD text88 CODE >95:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+945 text87 CODE >179:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+945 text87 CODE >180:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+94A text87 CODE >181:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+A8D text86 CODE >65:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+A8D text86 CODE >70:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+A90 text86 CODE >73:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+A91 text86 CODE >76:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+A92 text86 CODE >79:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+A94 text86 CODE >82:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+A95 text86 CODE >85:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+A97 text86 CODE >88:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+A98 text86 CODE >91:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+A9E text86 CODE >94:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+AA1 text86 CODE >95:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+B9D text85 CODE >50:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+B9D text85 CODE >52:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+BA0 text85 CODE >53:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+BA3 text85 CODE >54:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+BA6 text85 CODE >55:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+BA9 text85 CODE >56:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+BAC text85 CODE >57:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+BAF text85 CODE >58:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+BB2 text85 CODE >59:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+BB5 text85 CODE >60:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+BB8 text85 CODE >61:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+BBA text85 CODE >62:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/mcc.c
+89F text84 CODE >109:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+89F text84 CODE >112:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+8A0 text84 CODE >113:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+8A1 text83 CODE >120:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+8A1 text83 CODE >123:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+8A2 text83 CODE >124:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr2.c
+8AF text82 CODE >109:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+8AF text82 CODE >112:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+8B1 text82 CODE >113:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+8B2 text81 CODE >120:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+8B2 text81 CODE >123:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+8B4 text81 CODE >124:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr4.c
+68C text80 CODE >110:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+68C text80 CODE >113:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+695 text80 CODE >115:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+696 text80 CODE >117:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+6B4 text80 CODE >117:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+6B8 text80 CODE >117:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+6BA text80 CODE >119:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+6CF text80 CODE >121:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+6D3 text80 CODE >123:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+6D7 text80 CODE >125:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+6D9 text80 CODE >126:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+6DF text80 CODE >126:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+4F1 text79 CODE >5:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+4F1 text79 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+4F2 text79 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+4F4 text79 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+4F9 text79 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+4FB text79 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+4FD text79 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+4FF text79 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+501 text79 CODE >17:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+501 text79 CODE >18:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+503 text79 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+508 text79 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+50A text79 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+50C text79 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+50E text79 CODE >20:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+512 text79 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+51A text79 CODE >23:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+51E text79 CODE >23:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+520 text79 CODE >24:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+522 text79 CODE >25:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+524 text79 CODE >26:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+52B text79 CODE >27:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+52F text79 CODE >25:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+530 text79 CODE >30:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+537 text79 CODE >31:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+539 text79 CODE >31:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+53D text79 CODE >31:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+541 text79 CODE >31:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+545 text79 CODE >31:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+547 text79 CODE >32:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+54F text79 CODE >33:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+550 text79 CODE >35:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+557 text79 CODE >36:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+55B text79 CODE >38:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+55E text79 CODE >39:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+563 text79 CODE >39:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+565 text79 CODE >39:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+567 text79 CODE >39:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+569 text79 CODE >40:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+571 text79 CODE >41:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aldiv.c
+5D7 text78 CODE >150:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+5D7 text78 CODE >152:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+5DF text78 CODE >154:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+5E8 text78 CODE >155:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+5E9 text78 CODE >157:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+609 text78 CODE >158:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+60C text78 CODE >160:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+610 text78 CODE >162:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+612 text78 CODE >163:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+618 text78 CODE >163:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+61A text78 CODE >164:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+635 text78 CODE >165:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+636 text77 CODE >130:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+636 text77 CODE >133:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+63F text77 CODE >135:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+640 text77 CODE >137:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+65E text77 CODE >137:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+662 text77 CODE >137:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+664 text77 CODE >139:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+679 text77 CODE >141:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+67D text77 CODE >143:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+681 text77 CODE >145:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+683 text77 CODE >146:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+689 text77 CODE >146:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+E66 text76 CODE >100:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+E66 text76 CODE >102:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+E6F text76 CODE >103:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+E78 text76 CODE >104:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+E81 text76 CODE >105:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+E8A text76 CODE >106:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+E93 text76 CODE >107:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+E9B text76 CODE >108:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+C94 text75 CODE >8:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+C95 text75 CODE >10:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+C97 text75 CODE >13:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+CA2 text75 CODE >13:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+CA6 text75 CODE >13:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+CAA text75 CODE >13:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+CAE text75 CODE >13:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+CB0 text75 CODE >12:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+CB7 text75 CODE >13:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+94B text74 CODE >127:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+94B text74 CODE >130:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+94E text74 CODE >131:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+950 text74 CODE >132:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/tmr0.c
+DFC text73 CODE >5:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+DFC text73 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+DFE text73 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+E02 text73 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+E04 text73 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+E06 text73 CODE >17:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+E0B text73 CODE >18:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+E0F text73 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+E10 text73 CODE >21:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+E15 text73 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+E17 text73 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+E1B text73 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+E1D text73 CODE >23:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+E21 text73 CODE >24:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+E22 text73 CODE >26:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+E27 text73 CODE >27:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+E2B text73 CODE >29:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+E2F text73 CODE >30:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+CE6 text72 CODE >5:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+CE6 text72 CODE >12:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+CEA text72 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+CEC text72 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+CEE text72 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+CF3 text72 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+CF7 text72 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+CF8 text72 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+CFA text72 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+CFE text72 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+D00 text72 CODE >20:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+D04 text72 CODE >21:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+D09 text72 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+D0D text72 CODE >24:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+D11 text72 CODE >25:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+467 text71 CODE >88:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+467 text71 CODE >90:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+46B text71 CODE >91:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+46F text71 CODE >93:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+470 text71 CODE >94:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+475 text71 CODE >94:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+47A text71 CODE >96:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+481 text71 CODE >97:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+482 text71 CODE >98:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+482 text71 CODE >100:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+484 text71 CODE >102:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+48B text71 CODE >103:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+48F text71 CODE >104:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+493 text71 CODE >106:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+495 text71 CODE >108:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+4A5 text71 CODE >109:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+4AA text71 CODE >109:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+4AE text71 CODE >109:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+4B4 text71 CODE >111:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+4BD text71 CODE >112:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+4C1 text71 CODE >113:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+4C3 text71 CODE >115:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+4D2 text71 CODE >116:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+4E1 text71 CODE >117:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+4EA text71 CODE >117:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+4EE text71 CODE >117:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+98C text70 CODE >159:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+98D text70 CODE >161:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+98F text70 CODE >162:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+98F text70 CODE >164:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+992 text70 CODE >166:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+995 text70 CODE >167:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+8D4 text69 CODE >129:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+8D4 text69 CODE >131:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+8D7 text69 CODE >132:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+9A0 text68 CODE >119:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+9A0 text68 CODE >121:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+9AA text68 CODE >122:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+8B5 text67 CODE >72:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+8B5 text67 CODE >74:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+8B7 text67 CODE >75:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+8A3 text66 CODE >67:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+8A3 text66 CODE >69:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+8A4 text66 CODE >70:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+6E2 text65 CODE >20:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+6E3 text65 CODE >22:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+6E6 text65 CODE >24:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+6E8 text65 CODE >34:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+6F3 text65 CODE >34:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+6F7 text65 CODE >34:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+6FB text65 CODE >34:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+6FF text65 CODE >34:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+701 text65 CODE >26:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+705 text65 CODE >26:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+707 text65 CODE >29:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+70F text65 CODE >30:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+713 text65 CODE >30:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+715 text65 CODE >31:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+717 text65 CODE >32:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+71B text65 CODE >34:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+721 text65 CODE >35:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+725 text65 CODE >35:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+727 text65 CODE >37:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+72B text65 CODE >38:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+72F text65 CODE >38:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+731 text65 CODE >39:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+733 text65 CODE >41:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+735 text65 CODE >42:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+AE6 text64 CODE >69:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+AE8 text64 CODE >71:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+AE9 text64 CODE >73:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+AEA text64 CODE >75:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+AF0 text64 CODE >76:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+AF2 text64 CODE >77:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+AF6 text64 CODE >78:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+AFD text64 CODE >79:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+AFE text64 CODE >80:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+DCC text63 CODE >29:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+DCC text63 CODE >31:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+DDA text63 CODE >32:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+DE5 text63 CODE >34:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+DEC text63 CODE >34:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+DFB text63 CODE >36:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+D12 text62 CODE >167:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+D12 text62 CODE >170:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+D1B text62 CODE >171:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+D1C text62 CODE >173:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+D2E text62 CODE >174:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+D31 text62 CODE >176:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+D35 text62 CODE >178:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+D37 text62 CODE >179:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+D3D text62 CODE >179:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+8B8 text61 CODE >640:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8B8 text61 CODE >642:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8BA text61 CODE >643:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8BB text60 CODE >557:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8BB text60 CODE >560:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8BD text60 CODE >561:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8A5 text59 CODE >635:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8A5 text59 CODE >637:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8A6 text59 CODE >638:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+AFF text58 CODE >209:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+AFF text58 CODE >211:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+B01 text58 CODE >212:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+B04 text58 CODE >214:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+B05 text58 CODE >215:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+B09 text58 CODE >216:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+B0C text58 CODE >217:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+B0F text58 CODE >218:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+B11 text58 CODE >219:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+B16 text58 CODE >221:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+B17 text58 CODE >222:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8BE text57 CODE >588:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8BE text57 CODE >590:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8C0 text57 CODE >591:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8C1 text56 CODE >573:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8C1 text56 CODE >575:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8C3 text56 CODE >576:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8C4 text55 CODE >593:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8C4 text55 CODE >595:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8C6 text55 CODE >596:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+A13 text54 CODE >263:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+A14 text54 CODE >265:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+A17 text54 CODE >267:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+A1D text54 CODE >268:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+A21 text54 CODE >269:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+A22 text54 CODE >271:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+BFB text53 CODE >298:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+BFC text53 CODE >300:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+C00 text53 CODE >302:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+C08 text53 CODE >303:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+C10 text53 CODE >304:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+C11 text53 CODE >307:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+C19 text53 CODE >308:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+C1E text53 CODE >310:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+9C3 text52 CODE >273:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+9C3 text52 CODE >275:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+9CE text52 CODE >276:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+A45 text51 CODE >163:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A45 text51 CODE >165:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A4E text51 CODE >166:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A55 text51 CODE >167:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A56 text51 CODE >168:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A57 text50 CODE >142:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A57 text50 CODE >144:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A60 text50 CODE >145:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A67 text50 CODE >146:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A68 text50 CODE >147:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A69 text49 CODE >149:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A69 text49 CODE >151:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A72 text49 CODE >152:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A79 text49 CODE >153:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A7A text49 CODE >154:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A7B text48 CODE >156:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A7B text48 CODE >158:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A84 text48 CODE >159:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A8B text48 CODE >160:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+A8C text48 CODE >161:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+B18 text47 CODE >170:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+B18 text47 CODE >172:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+B28 text47 CODE >173:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+B2F text47 CODE >174:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+B30 text47 CODE >175:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+8A7 text46 CODE >520:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8A7 text46 CODE >522:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8A8 text46 CODE >523:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+2 text45 CODE >525:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+2 text45 CODE >527:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+3 text45 CODE >528:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8C7 text44 CODE >583:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8C7 text44 CODE >585:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8C9 text44 CODE >586:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8D8 text43 CODE >609:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8D8 text43 CODE >611:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8DA text43 CODE >612:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8DB text43 CODE >613:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8CA text42 CODE >563:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8CA text42 CODE >565:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8CC text42 CODE >566:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8DC text41 CODE >603:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8DC text41 CODE >605:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8DE text41 CODE >606:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8DF text41 CODE >607:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+912 text40 CODE >568:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+913 text40 CODE >570:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+916 text40 CODE >571:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+951 text39 CODE >598:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+951 text39 CODE >600:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+956 text39 CODE >601:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8CD text38 CODE >645:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8CD text38 CODE >647:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8CF text38 CODE >648:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+D9D text37 CODE >409:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+D9D text37 CODE >411:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+D9F text37 CODE >412:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+DA0 text37 CODE >416:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+DA3 text37 CODE >418:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+DA5 text37 CODE >419:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+DA7 text37 CODE >422:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+DAA text37 CODE >423:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+DBA text37 CODE >423:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+DBF text37 CODE >423:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+DC2 text37 CODE >423:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+DC5 text37 CODE >423:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+DC8 text37 CODE >423:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+DCB text37 CODE >424:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+917 text36 CODE >333:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+917 text36 CODE >335:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+919 text36 CODE >336:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+91A text36 CODE >337:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+91B text36 CODE >338:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+970 text35 CODE >340:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+970 text35 CODE >342:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+972 text35 CODE >343:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+976 text35 CODE >344:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+977 text35 CODE >345:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+969 text34 CODE >347:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+969 text34 CODE >349:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+96B text34 CODE >350:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+96E text34 CODE >351:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+96F text34 CODE >352:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+736 text33 CODE >354:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+736 text33 CODE >356:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+73A text33 CODE >356:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+73D text33 CODE >361:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+740 text33 CODE >363:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+743 text33 CODE >367:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+746 text33 CODE >368:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+75A text33 CODE >368:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+75F text33 CODE >368:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+762 text33 CODE >368:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+765 text33 CODE >368:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+768 text33 CODE >368:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+76B text33 CODE >370:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+76B text33 CODE >372:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+76D text33 CODE >373:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+779 text33 CODE >374:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+785 text33 CODE >376:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+786 text32 CODE >378:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+786 text32 CODE >380:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+797 text32 CODE >381:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+79F text32 CODE >383:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+7A1 text32 CODE >384:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+7A3 text32 CODE >386:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+7A3 text32 CODE >388:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+7A4 text32 CODE >389:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+7A5 text32 CODE >393:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+7A8 text32 CODE >397:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+7AB text32 CODE >398:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+7BB text32 CODE >398:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+7C0 text32 CODE >398:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+7C3 text32 CODE >398:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+7C6 text32 CODE >398:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+7C9 text32 CODE >398:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+7CC text32 CODE >400:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+957 text31 CODE >402:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+957 text31 CODE >404:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+959 text31 CODE >405:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+95B text31 CODE >406:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+95C text31 CODE >407:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8E0 text30 CODE >450:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8E0 text30 CODE >452:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8E2 text30 CODE >453:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8E3 text30 CODE >454:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8E4 text29 CODE >456:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8E4 text29 CODE >458:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8E6 text29 CODE >459:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8E7 text29 CODE >460:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8E8 text28 CODE >463:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8E8 text28 CODE >465:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8EA text28 CODE >466:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8EB text28 CODE >467:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8EC text27 CODE >469:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8EC text27 CODE >471:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8EE text27 CODE >472:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8EF text27 CODE >473:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8F0 text26 CODE >475:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8F0 text26 CODE >477:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8F2 text26 CODE >478:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8F3 text26 CODE >479:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8F4 text25 CODE >482:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8F4 text25 CODE >484:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8F6 text25 CODE >485:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8F7 text25 CODE >486:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8F8 text24 CODE >488:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8F8 text24 CODE >490:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8FA text24 CODE >491:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8FB text24 CODE >492:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+91C text23 CODE >494:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+91C text23 CODE >496:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+91E text23 CODE >497:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+91F text23 CODE >498:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+920 text23 CODE >499:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+D40 text22 CODE >500:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+D40 text22 CODE >502:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+D42 text22 CODE >503:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+D48 text22 CODE >504:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+D49 text22 CODE >508:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+D4C text22 CODE >510:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+D4F text22 CODE >511:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+D62 text22 CODE >511:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+D67 text22 CODE >511:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+D6A text22 CODE >511:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+D6D text22 CODE >512:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+CBC text21 CODE >321:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+CBC text21 CODE >323:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+CBF text21 CODE >325:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+CC6 text21 CODE >325:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+CC8 text21 CODE >327:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+CCE text21 CODE >329:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+CE5 text21 CODE >330:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8FC text20 CODE >650:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8FC text20 CODE >652:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+8FC text20 CODE >654:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+996 text19 CODE >312:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+996 text19 CODE >314:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+999 text19 CODE >316:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+99C text19 CODE >317:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+99F text19 CODE >314:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+BBB text18 CODE >224:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+BBD text18 CODE >226:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+BBF text18 CODE >227:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+BC2 text18 CODE >229:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+BC3 text18 CODE >230:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+BC5 text18 CODE >232:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+BC8 text18 CODE >234:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+BCB text18 CODE >235:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+BCC text18 CODE >238:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+BD1 text18 CODE >240:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+BD4 text18 CODE >241:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+BD6 text18 CODE >243:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+BD8 text18 CODE >244:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+900 text17 CODE >246:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+900 text17 CODE >248:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+903 text17 CODE >249:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+9CF text16 CODE >543:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+9CF text16 CODE >545:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+9D2 text16 CODE >547:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+9D4 text16 CODE >548:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+9D6 text16 CODE >549:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+9D7 text16 CODE >550:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+9D9 text16 CODE >551:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+9DA text16 CODE >555:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+E9C text15 CODE >176:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+E9D text15 CODE >178:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+E9F text15 CODE >180:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+EA2 text15 CODE >182:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+EA8 text15 CODE >183:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+EA9 text15 CODE >184:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+EAA text15 CODE >185:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+EAB text15 CODE >186:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+EAF text15 CODE >187:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+EB3 text15 CODE >188:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+EB4 text15 CODE >191:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+EB8 text15 CODE >192:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+EB9 text15 CODE >193:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+EBD text15 CODE >194:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+EBE text15 CODE >195:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+EC2 text15 CODE >196:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+EC3 text15 CODE >197:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+EC7 text15 CODE >198:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+EC8 text15 CODE >199:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+ECC text15 CODE >200:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+ECD text15 CODE >202:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+ED0 text15 CODE >203:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+ED2 text15 CODE >204:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+ED4 text15 CODE >205:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+ED4 text15 CODE >206:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+ED6 text15 CODE >207:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+B31 text14 CODE >120:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+B32 text14 CODE >122:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+B37 text14 CODE >122:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+B39 text14 CODE >123:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+B41 text14 CODE >124:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+B44 text14 CODE >125:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+B48 text14 CODE >125:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+904 text13 CODE >251:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+904 text13 CODE >253:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+907 text13 CODE >254:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+9DB text12 CODE >283:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+9DB text12 CODE >285:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+9E6 text12 CODE >286:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/i2c1_master.c
+BD9 text11 CODE >111:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+BDA text11 CODE >113:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+BDF text11 CODE >113:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+BE1 text11 CODE >114:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+BE9 text11 CODE >115:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+BF1 text11 CODE >116:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+BF4 text11 CODE >117:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+BF8 text11 CODE >117:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/examples/i2c1_master_example.c
+F88 text10 CODE >19:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+F89 text10 CODE >25:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+F8D text10 CODE >26:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+F91 text10 CODE >27:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+F9D text10 CODE >28:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+FA9 text10 CODE >29:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+FB1 text10 CODE >30:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+FB8 text10 CODE >31:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+FBC text10 CODE >31:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+FBF text10 CODE >32:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+FC3 text10 CODE >33:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+B80 text9 CODE >35:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+B81 text9 CODE >40:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+B85 text9 CODE >41:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+B89 text9 CODE >42:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+B8D text9 CODE >43:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+B91 text9 CODE >44:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+B9C text9 CODE >45:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+364 text8 CODE >58:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+364 text8 CODE >62:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+365 text8 CODE >63:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+36E text8 CODE >65:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+385 text8 CODE >66:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+39C text8 CODE >68:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+3AE text8 CODE >69:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+3BF text8 CODE >70:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+3C3 text8 CODE >72:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+3CD text8 CODE >74:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+3D7 text8 CODE >76:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+3DE text8 CODE >77:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+3E7 text8 CODE >78:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+3F0 text8 CODE >79:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+3F0 text8 CODE >81:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+40A text8 CODE >83:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+41B text8 CODE >85:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+425 text8 CODE >87:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+42F text8 CODE >89:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+436 text8 CODE >90:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+440 text8 CODE >91:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+44A text8 CODE >92:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+44A text8 CODE >94:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+465 text8 CODE >96:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+466 text8 CODE >98:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+FC4 text7 CODE >8:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+FC4 text7 CODE >11:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+FD2 text7 CODE >15:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+FD4 text7 CODE >16:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+FED text7 CODE >16:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+FF1 text7 CODE >16:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+FF3 text7 CODE >19:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+FFF text7 CODE >20:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+B65 text6 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+B65 text6 CODE >43:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+B67 text6 CODE >45:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+B69 text6 CODE >46:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+B6D text6 CODE >47:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+B72 text6 CODE >48:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+B77 text6 CODE >49:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+B7B text6 CODE >52:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+B7F text6 CODE >53:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+572 text5 CODE >201:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+573 text5 CODE >203:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+575 text5 CODE >204:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+579 text5 CODE >205:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+57B text5 CODE >207:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+582 text5 CODE >209:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+584 text5 CODE >211:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+589 text5 CODE >212:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+58C text5 CODE >214:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+58E text5 CODE >215:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+590 text5 CODE >216:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+595 text5 CODE >216:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+59C text5 CODE >216:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+59E text5 CODE >218:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+5A5 text5 CODE >218:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+5B3 text5 CODE >219:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+5C2 text5 CODE >212:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+5C3 text5 CODE >222:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+5D2 text5 CODE >223:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+5D6 text5 CODE >224:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+8E text4 CODE >182:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+90 text4 CODE >184:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+91 text4 CODE >187:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+97 text4 CODE >188:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+98 text4 CODE >190:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+9E text4 CODE >191:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+9F text4 CODE >193:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+BC text4 CODE >194:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+D9 text4 CODE >195:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+DA text4 CODE >197:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+E3 text4 CODE >198:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+EC text4 CODE >199:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+F8 text4 CODE >200:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+104 text4 CODE >201:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+105 text4 CODE >203:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+10E text4 CODE >204:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+117 text4 CODE >205:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+123 text4 CODE >206:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+12F text4 CODE >207:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+130 text4 CODE >209:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+139 text4 CODE >210:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+142 text4 CODE >211:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+14F text4 CODE >212:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+15B text4 CODE >213:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+15C text4 CODE >215:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+165 text4 CODE >216:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+16D text4 CODE >217:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+16E text4 CODE >219:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+17D text4 CODE >220:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+17F text4 CODE >221:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+180 text4 CODE >226:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+181 text4 CODE >227:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+182 text4 CODE >228:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+182 text4 CODE >229:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+184 text4 CODE >230:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+185 text4 CODE >233:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+18D text4 CODE >233:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+192 text4 CODE >233:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+195 text4 CODE >233:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+198 text4 CODE >236:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1A6 text4 CODE >237:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1A7 text4 CODE >239:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1B5 text4 CODE >240:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1B6 text4 CODE >242:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1BD text4 CODE >243:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1C4 text4 CODE >244:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1CE text4 CODE >245:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1D7 text4 CODE >246:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1D8 text4 CODE >249:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1DD text4 CODE >249:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1E2 text4 CODE >249:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1E5 text4 CODE >249:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1E8 text4 CODE >249:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1EB text4 CODE >249:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1EE text4 CODE >249:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1F1 text4 CODE >249:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1F4 text4 CODE >249:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1F7 text4 CODE >249:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1FA text4 CODE >249:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+1FD text4 CODE >249:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+200 text4 CODE >249:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+203 text4 CODE >249:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+206 text4 CODE >250:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\sensor.c
+AA2 text3 CODE >139:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+AA2 text3 CODE >148:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+AA4 text3 CODE >148:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+AA6 text3 CODE >150:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+AAF text3 CODE >151:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+AB5 text3 CODE >156:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+AB6 text3 CODE >157:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\mcc_generated_files/eusart1.c
+C1F text2 CODE >49:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+C20 text2 CODE >51:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+C21 text2 CODE >56:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+C27 text2 CODE >57:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+C29 text2 CODE >57:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+C2B text2 CODE >59:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+C39 text2 CODE >61:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+C3D text2 CODE >63:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+C44 text2 CODE >65:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\communication.c
+7CD text1 CODE >47:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+7CE text1 CODE >49:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+7D0 text1 CODE >51:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+7D2 text1 CODE >60:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+7D8 text1 CODE >60:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+7DC text1 CODE >60:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+7DE text1 CODE >53:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+7E8 text1 CODE >53:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+7EA text1 CODE >54:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+7EF text1 CODE >57:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+7F3 text1 CODE >58:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+7F7 text1 CODE >60:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+7FC text1 CODE >61:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+7FF text1 CODE >62:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\device.c
+207 maintext CODE >99:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+207 maintext CODE >101:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+215 maintext CODE >106:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+218 maintext CODE >107:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+21B maintext CODE >109:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+21C maintext CODE >110:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+21D maintext CODE >111:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+21E maintext CODE >113:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+21F maintext CODE >114:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+220 maintext CODE >117:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+220 maintext CODE >119:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+221 maintext CODE >120:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+225 maintext CODE >122:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+227 maintext CODE >123:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+233 maintext CODE >124:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+23B maintext CODE >126:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+24B maintext CODE >128:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+258 maintext CODE >129:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+258 maintext CODE >130:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+269 maintext CODE >132:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+276 maintext CODE >133:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+276 maintext CODE >134:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+287 maintext CODE >136:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+294 maintext CODE >139:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+298 maintext CODE >141:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+29F maintext CODE >142:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2A6 maintext CODE >143:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2AD maintext CODE >144:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2B4 maintext CODE >145:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2BB maintext CODE >146:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2C2 maintext CODE >147:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2C3 maintext CODE >150:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2C5 maintext CODE >150:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2C7 maintext CODE >152:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2CA maintext CODE >154:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2CC maintext CODE >157:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2CD maintext CODE >159:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2D1 maintext CODE >160:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2D1 maintext CODE >162:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2D3 maintext CODE >162:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2D5 maintext CODE >164:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2D8 maintext CODE >166:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2DA maintext CODE >169:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2DB maintext CODE >171:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2DF maintext CODE >172:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2DF maintext CODE >174:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2E1 maintext CODE >174:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2E3 maintext CODE >175:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2E6 maintext CODE >177:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2E9 maintext CODE >178:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2EC maintext CODE >179:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2ED maintext CODE >181:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2F0 maintext CODE >182:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2F3 maintext CODE >183:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2F5 maintext CODE >185:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+2FA maintext CODE >188:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+301 maintext CODE >188:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+306 maintext CODE >188:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+308 maintext CODE >190:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+319 maintext CODE >190:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+31D maintext CODE >190:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+31F maintext CODE >192:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+322 maintext CODE >195:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+326 maintext CODE >195:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+32C maintext CODE >195:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+32E maintext CODE >197:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+331 maintext CODE >200:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+341 maintext CODE >200:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+345 maintext CODE >200:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+347 maintext CODE >202:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+349 maintext CODE >203:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+34A maintext CODE >204:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+35A maintext CODE >204:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+35E maintext CODE >204:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+360 maintext CODE >206:C:\Users\gaston\Downloads\ENERGY_LIGHT_V3.X\main.c
+95D clrtext CODE >14137:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+95D clrtext CODE >14138:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+95E clrtext CODE >14139:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+95E clrtext CODE >14140:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+95F clrtext CODE >14141:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+960 clrtext CODE >14142:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+961 clrtext CODE >14143:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+962 clrtext CODE >14144:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+963 inittext CODE >14059:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+963 inittext CODE >14060:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+964 inittext CODE >14061:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+964 inittext CODE >14062:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+965 inittext CODE >14063:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+966 inittext CODE >14064:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+967 inittext CODE >14065:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+968 inittext CODE >14066:C:\Users\gaston\AppData\Local\Temp\xcAsg58.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_SetCallback 183E 0 CODE 0 text53 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___lwmod@counter 75 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+__LdataBANK1 0 0 ABS 0 dataBANK1 -
+__LdataBANK2 0 0 ABS 0 dataBANK2 -
+__LdataBANK3 0 0 ABS 0 dataBANK3 -
+__LdataBANK4 0 0 ABS 0 dataBANK4 -
+getINA220Data@buff 46 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_Initialize 12F0 0 CODE 0 text95 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+processCommand@sensor 49 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Hspace_0 1020 0 ABS 0 - -
+__Hspace_1 360 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 10013 0 ABS 0 - -
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+__HidataBANK1 0 0 ABS 0 idataBANK1 -
+__HidataBANK2 0 0 ABS 0 idataBANK2 -
+__HidataBANK3 0 0 ABS 0 idataBANK3 -
+__HidataBANK4 0 0 ABS 0 idataBANK4 -
+_CM1CON0 990 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_CM1CON1 991 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+EUSART1_SetErrorHandler@interruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_Initialize 1ADC 0 CODE 0 text96 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__end_of_I2C1_SetBuffer 1446 0 CODE 0 text54 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+getHis@data 40 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_SetDataCompleteCallback@ptr 25 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PMD_Initialize 1468 0 CODE 0 text92 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_MasterDisableIrq 114E 0 CODE 0 text59 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+?_stringToInt16 24 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_EUSART1_DefaultErrorHandler 1158 0 CODE 0 text112 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Hstrings 0 0 ABS 0 strings -
+stringToInt16@sign 27 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_CPUDOZE 88C 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_LATA 18 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_LATC 1A 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PMD0 796 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PMD1 797 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PMD2 798 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PMD3 799 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PMD4 79A 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PMD5 79B 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PMD6 79C 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PMD7 79D 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_T2PR 28D 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_T4PR 293 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_WPUA 1F39 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_WPUC 1F4F 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\gaston\AppData\Local\Temp\xcAsg58.o
+_cons 220 0 BANK4 1 dataBANK4 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_main 40E 0 CODE 0 maintext dist/default/production\ENERGY_LIGHT_V3.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+start 60 0 CODE 0 init C:\Users\gaston\AppData\Local\Temp\xcAsg58.o
+_TMR0_InterruptHandler 62 0 BANK0 1 nvBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_Close@returnValue 75 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+__end_of_TMR0_SetInterruptHandler 127E 0 CODE 0 text91 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterSendAck 11B8 0 CODE 0 text41 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TMR2_Stop 1146 0 CODE 0 text83 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+getMetrics@device 3E 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+stringToInt16@result 2A 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+?___wmul 20 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_int16ToString 8CE 0 CODE 0 text71 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+readINA220@address 35 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TMR4_Stop 116A 0 CODE 0 text81 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+writeINA220@regdata 35 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+stringToInt16@string 2C 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+stringToInt16@strlen 24 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_initRxBuffer 1928 0 CODE 0 text75 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterDisableIrq 114A 0 CODE 0 text59 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+writeINA220@Txbuffer 3B 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_DAC1CON0 90E 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_DAC1CON1 90F 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__LidataBANK1 0 0 ABS 0 idataBANK1 -
+__LidataBANK2 0 0 ABS 0 idataBANK2 -
+__LidataBANK3 0 0 ABS 0 idataBANK3 -
+__LidataBANK4 0 0 ABS 0 idataBANK4 -
+__end_of_wr2RegCompleteHandler 14AE 0 CODE 0 text51 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+_I2C1_DO_IDLE 122E 0 CODE 0 text36 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_DO_RCEN 12AE 0 CODE 0 text31 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TMR4_Start 1164 0 CODE 0 text82 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_CallbackReturnReset 4 0 CODE 0 text45 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_SetDataCompleteCallback 139E 0 CODE 0 text52 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR2_Initialize 156E 0 CODE 0 text88 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+sendPacket@i 2A 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__LnvCOMMON 0 0 ABS 0 nvCOMMON -
+__end_of_I2C1_MasterStartRx 1194 0 CODE 0 text44 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_getINA220Data 8CE 0 CODE 0 text8 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+TMR0_SetInterruptHandler@InterruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+rd1RegCompleteHandler@ptr 27 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_is_tx_ready$357 74 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR2_Stop 1142 0 CODE 0 text83 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\gaston\AppData\Local\Temp\xcAsg58.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\gaston\AppData\Local\Temp\xcAsg58.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\gaston\AppData\Local\Temp\xcAsg58.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\gaston\AppData\Local\Temp\xcAsg58.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\gaston\AppData\Local\Temp\xcAsg58.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\gaston\AppData\Local\Temp\xcAsg58.o
+__ptext100 1210 0 CODE 0 text100 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext101 124E 0 CODE 0 text101 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext102 13EA 0 CODE 0 text102 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext104 136E 0 CODE 0 text104 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext105 113A 0 CODE 0 text105 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext106 1356 0 CODE 0 text106 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext107 1136 0 CODE 0 text107 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext108 1446 0 CODE 0 text108 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext109 1158 0 CODE 0 text109 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext110 188A 0 CODE 0 text110 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext111 11A0 0 CODE 0 text111 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext112 1152 0 CODE 0 text112 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext113 1C60 0 CODE 0 text113 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext114 13CE 0 CODE 0 text114 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext115 1242 0 CODE 0 text115 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+__end_of_I2C1_DO_TX_EMPTY 1B98 0 CODE 0 text37 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___aldiv@divisor 20 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_fsmStateTable 2040 0 STRCODE 0 stringtext1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterGetRxData 1194 0 CODE 0 text42 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR4_Stop 1164 0 CODE 0 text81 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+_RC1STAbits 11D 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_getMetrics 1CCC 0 CODE 0 text76 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_wr2RegCompleteHandler 148A 0 CODE 0 text51 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_PMD_Initialize 148A 0 CODE 0 text92 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+processCommand@data 48 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___aldiv@sign 29 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+EUSART1_Write@txData 74 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+writeINA220@pTxbuffer 3A 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext -
+__end_of_DAC1_Initialize 125A 0 CODE 0 text101 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_eusart1PacketFinish 6B 0 BANK0 1 bssBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_Receive_ISR 188A 0 CODE 0 text110 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___wmul@multiplicand 22 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_timer0ReloadVal16bit 76 0 COMMON 1 nvCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+getINA220Data@device 40 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_writeINA220 1700 0 CODE 0 text9 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_rdBlkRegCompleteHandler 1630 0 CODE 0 text47 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_ANSELA 1F38 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_ANSELC 1F4E 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_ReadNBytes@len 32 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR0_DefaultInterruptHandler 1158 0 CODE 0 text109 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_DO_RX_NACK_STOP 11F0 0 CODE 0 text25 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterEnableRestart 1182 0 CODE 0 text56 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+int16ToString@value 27 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+stringCompare@byte_count 22 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TMR4_DefaultInterruptHandler 113E 0 CODE 0 text105 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_rdBlkRegCompleteHandler 1662 0 CODE 0 text47 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterStartRx 118E 0 CODE 0 text44 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+receiveData@data 23 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_INTERRUPT_InterruptManager 60 0 CODE 0 intentry dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_CM1NCH 992 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_CM1PCH 993 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_stringCompare F9A 0 CODE 0 text1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of___wmul 1700 0 CODE 0 text6 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+int16ToString@divisor 32 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_EUSART1_SetRxInterruptHandler 1272 0 CODE 0 text97 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_WriteNBytes@address 34 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_MasterOpen 13B6 0 CODE 0 text16 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_MasterRead 1208 0 CODE 0 text17 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_MasterStop 118E 0 CODE 0 text55 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_CMP1_GetOutputStatus 1242 0 CODE 0 text115 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_DO_SEND_RESTART 11D0 0 CODE 0 text28 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_CM1CON0bits 990 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+__LnvBANK0 0 0 ABS 0 nvBANK0 -
+__LnvBANK1 0 0 ABS 0 nvBANK1 -
+_I2C1_DO_SEND_RESTART_WRITE 11C8 0 CODE 0 text29 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+readINA220@regadd 3D 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_WriteNBytes 17B2 0 CODE 0 text11 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___lwmod@divisor 20 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+sendSensorInfo@F11027 D8 0 BANK1 1 dataBANK1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of___aldiv AE4 0 CODE 0 text79 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+EUSART1_SetFramingErrorHandler@interruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_initRxBuffer 1978 0 CODE 0 text75 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of___lwdiv 1C60 0 CODE 0 text73 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of___lwmod 1A24 0 CODE 0 text72 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_DO_IDLE 1238 0 CODE 0 text36 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_DO_RCEN 12BA 0 CODE 0 text31 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_INLVLA 1F3C 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_INLVLC 1F52 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_MasterSendTxData@data 74 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___stackhi 0 0 ABS 0 - C:\Users\gaston\AppData\Local\Temp\xcAsg58.o
+___stacklo 0 0 ABS 0 - C:\Users\gaston\AppData\Local\Temp\xcAsg58.o
+__end_of_getMetrics 1D38 0 CODE 0 text76 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+sendSensorData@packet 38 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_MasterOperation 17B2 0 CODE 0 text18 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___lwdiv@quotient 25 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_DAC1_Initialize 124E 0 CODE 0 text101 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_getHis 1A80 0 CODE 0 text62 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_getMax DC4 0 CODE 0 text80 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_getMed C6C 0 CODE 0 text78 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_getMin D18 0 CODE 0 text77 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR2_SetInterruptHandler 127E 0 CODE 0 text89 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+getMax@data 74 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_stringlen 15FE 0 CODE 0 text64 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__HnvCOMMON 0 0 ABS 0 nvCOMMON -
+___lwmod@dividend 22 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_DO_SEND_RESTART_READ 11C0 0 CODE 0 text30 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PIN_MANAGER_Initialize 18D8 0 CODE 0 text93 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+getMed@buff 38 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+getMed@data 2E 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+start_initialization 64 0 CODE 0 cinit dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_stringToInt16 AE4 0 CODE 0 text5 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_eusart1RxLastError 6A 0 BANK0 1 bssBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_ODCONA 1F3A 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_ODCONC 1F50 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_OSCFRQ 893 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+initRxBuffer@size 20 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___aldiv@quotient 2A 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_DO_SEND_ADR_WRITE 12D2 0 CODE 0 text34 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TMR4_SetInterruptHandler 1296 0 CODE 0 text87 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_WriteNBytes@len 32 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_CMP1_Initialize 1408 0 CODE 0 text102 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_RC0PPS 1F20 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_RC1PPS 1F21 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_RC1REG 119 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_RC1STA 11D 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_RC4PPS 1F24 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+rdBlkRegCompleteHandler@ptr 27 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+receiveData@maxdata 20 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+readINA220@buff 3B 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_SYSTEM_Initialize 1776 0 CODE 0 text85 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterOpen 139E 0 CODE 0 text16 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterRead 1200 0 CODE 0 text17 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterStop 1188 0 CODE 0 text55 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_rd2RegCompleteHandler 14F6 0 CODE 0 text49 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_CallbackReturnReset@funPtr 27 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_stringlen 15CC 0 CODE 0 text64 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+clear_ram0 12BA 0 CODE 0 clrtext dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pcstackBANK1 DF 0 BANK1 1 cstackBANK1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_T0CON0 59E 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_T0CON1 59F 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_T2CLKCON 290 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_int16ToString 9E2 0 CODE 0 text71 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_Poller 132C 0 CODE 0 text19 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+writeINA220@regadd 39 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_SetCallback@idx 75 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_SetCallback@ptr 22 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_MasterIsNack 12AE 0 CODE 0 text39 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TX1REG 11A 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TX1STA 11E 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR2_Start 113E 0 CODE 0 text84 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_WriteNBytes@data 31 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_ReadNBytes@address 34 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_DefaultFramingErrorHandler 0 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TMR4_Initialize 1544 0 CODE 0 text86 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_DefaultOverrunErrorHandler 11A0 0 CODE 0 text111 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+TMR2_SetInterruptHandler@InterruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_EUSART1_Receive_ISR 18D8 0 CODE 0 text110 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_Status A0 0 BANK1 1 bssBANK1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\gaston\AppData\Local\Temp\xcAsg58.o
+receiveData@charCount 25 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+sendPacket@byteCount 22 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+initRxBuffer@buf 28 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_Write 1318 0 CODE 0 text70 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_measureTime 61 0 BANK0 1 dataBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_rd2RegCompleteHandler 14D2 0 CODE 0 text49 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Hcinit 11C 0 CODE 0 cinit -
+__Hidloc 10008 0 IDLOC 5 idloc -
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hsfr32 0 0 ABS 0 sfr32 -
+__Hsfr33 0 0 ABS 0 sfr33 -
+__Hsfr34 0 0 ABS 0 sfr34 -
+__Hsfr35 0 0 ABS 0 sfr35 -
+__Hsfr36 0 0 ABS 0 sfr36 -
+__Hsfr37 0 0 ABS 0 sfr37 -
+__Hsfr38 0 0 ABS 0 sfr38 -
+__Hsfr39 0 0 ABS 0 sfr39 -
+__Hsfr40 0 0 ABS 0 sfr40 -
+__Hsfr41 0 0 ABS 0 sfr41 -
+__Hsfr42 0 0 ABS 0 sfr42 -
+__Hsfr43 0 0 ABS 0 sfr43 -
+__Hsfr44 0 0 ABS 0 sfr44 -
+__Hsfr45 0 0 ABS 0 sfr45 -
+__Hsfr46 0 0 ABS 0 sfr46 -
+__Hsfr47 0 0 ABS 0 sfr47 -
+__Hsfr48 0 0 ABS 0 sfr48 -
+__Hsfr49 0 0 ABS 0 sfr49 -
+__Hsfr50 0 0 ABS 0 sfr50 -
+__Hsfr51 0 0 ABS 0 sfr51 -
+__Hsfr52 0 0 ABS 0 sfr52 -
+__Hsfr53 0 0 ABS 0 sfr53 -
+__Hsfr54 0 0 ABS 0 sfr54 -
+__Hsfr55 0 0 ABS 0 sfr55 -
+__Hsfr56 0 0 ABS 0 sfr56 -
+__Hsfr57 0 0 ABS 0 sfr57 -
+__Hsfr58 0 0 ABS 0 sfr58 -
+__Hsfr59 0 0 ABS 0 sfr59 -
+__Hsfr60 0 0 ABS 0 sfr60 -
+__Hsfr61 0 0 ABS 0 sfr61 -
+__Hsfr62 0 0 ABS 0 sfr62 -
+__Hsfr63 0 0 ABS 0 sfr63 -
+__end_of_wr1RegCompleteHandler 151A 0 CODE 0 text48 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Hstack 0 0 STACK 2 stack -
+_I2C1_SetAddressNackCallback 13B6 0 CODE 0 text12 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___lwdiv@counter 24 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__Hbank15 0 0 BANK15 1 bank15 -
+__Hbank16 0 0 BANK16 1 bank16 -
+__Hbank17 0 0 BANK17 1 bank17 -
+__Hbank18 0 0 BANK18 1 bank18 -
+__Hbank19 0 0 BANK19 1 bank19 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Hbank25 0 0 BANK25 1 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbank32 0 0 BANK32 1 bank32 -
+__Hbank33 0 0 BANK33 1 bank33 -
+__Hbank34 0 0 BANK34 1 bank34 -
+__Hbank35 0 0 BANK35 1 bank35 -
+__Hbank36 0 0 BANK36 1 bank36 -
+__Hbank37 0 0 BANK37 1 bank37 -
+__Hbank38 0 0 BANK38 1 bank38 -
+__Hbank39 0 0 BANK39 1 bank39 -
+__Hbank40 0 0 BANK40 1 bank40 -
+__Hbank41 0 0 BANK41 1 bank41 -
+__Hbank42 0 0 BANK42 1 bank42 -
+__Hbank43 0 0 BANK43 1 bank43 -
+__Hbank44 0 0 BANK44 1 bank44 -
+__Hbank45 0 0 BANK45 1 bank45 -
+__Hbank46 0 0 BANK46 1 bank46 -
+__Hbank47 0 0 BANK47 1 bank47 -
+__Hbank48 0 0 BANK48 1 bank48 -
+__Hbank49 0 0 BANK49 1 bank49 -
+__Hbank50 0 0 BANK50 1 bank50 -
+__Hbank51 0 0 BANK51 1 bank51 -
+__Hbank52 0 0 BANK52 1 bank52 -
+__Hbank53 0 0 BANK53 1 bank53 -
+__Hbank54 0 0 BANK54 1 bank54 -
+__Hbank55 0 0 BANK55 1 bank55 -
+__Hbank56 0 0 BANK56 1 bank56 -
+__Hbank57 0 0 BANK57 1 bank57 -
+__Hbank58 0 0 BANK58 1 bank58 -
+__Hbank59 0 0 BANK59 1 bank59 -
+__Hbank60 0 0 BANK60 1 bank60 -
+__Hbank61 0 0 BANK61 1 bank61 -
+__Hbank62 0 0 BANK62 1 bank62 -
+__Hbank63 0 0 BANK63 1 bank63 -
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+_BAUD1CON 11F 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+main@F11064 C5 0 BANK1 1 dataBANK1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_WriteNBytes 17F6 0 CODE 0 text11 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_receiveData 183E 0 CODE 0 text2 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10018 0 CONFIG 4 config -
+_TMR0_Reload 1296 0 CODE 0 text74 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_MasterOperation@read 2F 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_readINA220 1F10 0 CODE 0 text10 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__Lcinit 64 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 5 idloc -
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lsfr32 0 0 ABS 0 sfr32 -
+__Lsfr33 0 0 ABS 0 sfr33 -
+__Lsfr34 0 0 ABS 0 sfr34 -
+__Lsfr35 0 0 ABS 0 sfr35 -
+__Lsfr36 0 0 ABS 0 sfr36 -
+__Lsfr37 0 0 ABS 0 sfr37 -
+__Lsfr38 0 0 ABS 0 sfr38 -
+__Lsfr39 0 0 ABS 0 sfr39 -
+__Lsfr40 0 0 ABS 0 sfr40 -
+__Lsfr41 0 0 ABS 0 sfr41 -
+__Lsfr42 0 0 ABS 0 sfr42 -
+__Lsfr43 0 0 ABS 0 sfr43 -
+__Lsfr44 0 0 ABS 0 sfr44 -
+__Lsfr45 0 0 ABS 0 sfr45 -
+__Lsfr46 0 0 ABS 0 sfr46 -
+__Lsfr47 0 0 ABS 0 sfr47 -
+__Lsfr48 0 0 ABS 0 sfr48 -
+__Lsfr49 0 0 ABS 0 sfr49 -
+__Lsfr50 0 0 ABS 0 sfr50 -
+__Lsfr51 0 0 ABS 0 sfr51 -
+__Lsfr52 0 0 ABS 0 sfr52 -
+__Lsfr53 0 0 ABS 0 sfr53 -
+__Lsfr54 0 0 ABS 0 sfr54 -
+__Lsfr55 0 0 ABS 0 sfr55 -
+__Lsfr56 0 0 ABS 0 sfr56 -
+__Lsfr57 0 0 ABS 0 sfr57 -
+__Lsfr58 0 0 ABS 0 sfr58 -
+__Lsfr59 0 0 ABS 0 sfr59 -
+__Lsfr60 0 0 ABS 0 sfr60 -
+__Lsfr61 0 0 ABS 0 sfr61 -
+__Lsfr62 0 0 ABS 0 sfr62 -
+__Lsfr63 0 0 ABS 0 sfr63 -
+__Lstack 0 0 STACK 2 stack -
+_EUSART1_FramingErrorHandler EE 0 BANK1 1 nvBANK1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_ReadNBytes@data 31 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_OverrunErrorHandler EC 0 BANK1 1 nvBANK1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+init_ram 12C6 0 CODE 0 inittext dist/default/production\ENERGY_LIGHT_V3.X.production.o
+int16ToString@dividend 30 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_MasterSetIrq 11A0 0 CODE 0 text38 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Linittext 0 0 ABS 0 inittext -
+_CMP1_Initialize 13EA 0 CODE 0 text102 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_wr1RegCompleteHandler 14F6 0 CODE 0 text48 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_INTCONbits B 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hheap 0 0 HEAP 7 heap -
+__Hinit 60 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Lheap 0 0 HEAP 7 heap -
+__Linit 60 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+__pstringtext1 2000 0 STRCODE 0 stringtext1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pnvBANK0 62 0 BANK0 1 nvBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pnvBANK1 EA 0 BANK1 1 nvBANK1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_SSP1CON1 190 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_SSP1CON2 191 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_SSP1STAT 18F 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___wmul 16CA 0 CODE 0 text6 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+int$flags 7E 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+int16ToString@flag_0 2B 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+sendSensorInfo@sensor_info 2D 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_I2C1_MasterSendNack 11B0 0 CODE 0 text43 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_RxDefaultInterruptHandler 68 0 BANK0 1 nvBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+getHis@aux 45 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__S0 1020 0 ABS 0 - -
+__S1 360 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+_TxDeviceEnable 1146 0 CODE 0 text66 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_ReadNBytes 1696 0 CODE 0 text14 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_stringCompare 1000 0 CODE 0 text1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_DefaultErrorHandler 1152 0 CODE 0 text112 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR4_Initialize 151A 0 CODE 0 text86 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_processCommand 11C 0 CODE 0 text4 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_DO_ADDRESS_NACK 1ADC 0 CODE 0 text22 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pnvCOMMON 76 0 COMMON 1 nvCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TMR2_Start 1142 0 CODE 0 text84 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TMR0_DefaultInterruptHandler 115E 0 CODE 0 text109 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_CallbackReturnStop 114E 0 CODE 0 text46 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_CallbackReturnReset 8 0 CODE 0 text45 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_Open@address 20 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_sendPacket DC4 0 CODE 0 text65 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+readINA220@ret 3E 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_DO_SEND_STOP 11E0 0 CODE 0 text27 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_CallbackReturnStop 1152 0 CODE 0 text46 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_DO_RESET 1238 0 CODE 0 text23 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_SYSTEM_Initialize 173A 0 CODE 0 text85 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_battery 120 0 BANK2 1 dataBANK2 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR2_DefaultInterruptHandler 1136 0 CODE 0 text107 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_getHis 1A24 0 CODE 0 text62 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_getMax D18 0 CODE 0 text80 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_getMed BAE 0 CODE 0 text78 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_getMin C6C 0 CODE 0 text77 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterIsNack 12A2 0 CODE 0 text39 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+int16ToString@data 29 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__HnvBANK0 0 0 ABS 0 nvBANK0 -
+__HnvBANK1 0 0 ABS 0 nvBANK1 -
+__Lintentry 8 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec C:\Users\gaston\AppData\Local\Temp\xcAsg58.o
+__pdataBANK0 53 0 BANK0 1 dataBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pdataBANK1 C5 0 BANK1 1 dataBANK1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pdataBANK2 120 0 BANK2 1 dataBANK2 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pdataBANK3 1A0 0 BANK3 1 dataBANK3 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pdataBANK4 220 0 BANK4 1 dataBANK4 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+processCommand@command 4F 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_readINA220 1F88 0 CODE 0 text10 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__LbssBANK5 0 0 ABS 0 bssBANK5 -
+__LbssBANK6 0 0 ABS 0 bssBANK6 -
+__Lstringtext1 0 0 ABS 0 stringtext1 -
+wr2RegCompleteHandler@ptr 27 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+int16ToString@result 2C 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_INTERRUPT_InterruptManager 8 0 CODE 0 intentry dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_writeINA220 173A 0 CODE 0 text9 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_stringToInt16 BAE 0 CODE 0 text5 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PIE0bits 716 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PIE2bits 718 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PIE3bits 719 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PIE4bits 71A 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_eusart1RxHead 79 0 COMMON 1 bssCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_eusart1RxTail 78 0 COMMON 1 bssCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_ReadNBytes 1662 0 CODE 0 text14 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_SetDataCompleteCallback@cb 23 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TxDeviceEnable 114A 0 CODE 0 text66 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR0_ISR 1446 0 CODE 0 text108 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+getMin@data 74 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR2_ISR 1356 0 CODE 0 text106 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext10 1F10 0 CODE 0 text10 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext11 17B2 0 CODE 0 text11 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext12 13B6 0 CODE 0 text12 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext13 1208 0 CODE 0 text13 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext14 1662 0 CODE 0 text14 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext15 1D38 0 CODE 0 text15 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext16 139E 0 CODE 0 text16 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext17 1200 0 CODE 0 text17 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext18 1776 0 CODE 0 text18 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext19 132C 0 CODE 0 text19 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext20 11F8 0 CODE 0 text20 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext21 1978 0 CODE 0 text21 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext22 1A80 0 CODE 0 text22 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext23 1238 0 CODE 0 text23 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext24 11F0 0 CODE 0 text24 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext25 11E8 0 CODE 0 text25 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext26 11E0 0 CODE 0 text26 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext27 11D8 0 CODE 0 text27 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext28 11D0 0 CODE 0 text28 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext29 11C8 0 CODE 0 text29 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext30 11C0 0 CODE 0 text30 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext31 12AE 0 CODE 0 text31 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext32 F0C 0 CODE 0 text32 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext33 E6C 0 CODE 0 text33 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext34 12D2 0 CODE 0 text34 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext35 12E0 0 CODE 0 text35 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext36 122E 0 CODE 0 text36 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext37 1B3A 0 CODE 0 text37 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext38 119A 0 CODE 0 text38 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext39 12A2 0 CODE 0 text39 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext40 1224 0 CODE 0 text40 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext41 11B8 0 CODE 0 text41 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext42 1194 0 CODE 0 text42 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext43 11B0 0 CODE 0 text43 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext44 118E 0 CODE 0 text44 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext45 4 0 CODE 0 text45 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext46 114E 0 CODE 0 text46 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext47 1630 0 CODE 0 text47 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext48 14F6 0 CODE 0 text48 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext49 14D2 0 CODE 0 text49 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext50 14AE 0 CODE 0 text50 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext51 148A 0 CODE 0 text51 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext52 1386 0 CODE 0 text52 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext53 17F6 0 CODE 0 text53 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext54 1426 0 CODE 0 text54 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext55 1188 0 CODE 0 text55 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext56 1182 0 CODE 0 text56 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext57 117C 0 CODE 0 text57 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext58 15FE 0 CODE 0 text58 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext59 114A 0 CODE 0 text59 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext60 1176 0 CODE 0 text60 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext61 1170 0 CODE 0 text61 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext62 1A24 0 CODE 0 text62 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext63 1B98 0 CODE 0 text63 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext64 15CC 0 CODE 0 text64 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext65 DC4 0 CODE 0 text65 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext66 1146 0 CODE 0 text66 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext67 116A 0 CODE 0 text67 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext68 1340 0 CODE 0 text68 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext69 11A8 0 CODE 0 text69 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext70 1318 0 CODE 0 text70 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext71 8CE 0 CODE 0 text71 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext72 19CC 0 CODE 0 text72 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext73 1BF8 0 CODE 0 text73 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext74 1296 0 CODE 0 text74 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext75 1928 0 CODE 0 text75 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext76 1CCC 0 CODE 0 text76 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext77 C6C 0 CODE 0 text77 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext78 BAE 0 CODE 0 text78 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext79 9E2 0 CODE 0 text79 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext80 D18 0 CODE 0 text80 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext81 1164 0 CODE 0 text81 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext82 115E 0 CODE 0 text82 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext83 1142 0 CODE 0 text83 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext84 113E 0 CODE 0 text84 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext85 173A 0 CODE 0 text85 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext86 151A 0 CODE 0 text86 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext87 128A 0 CODE 0 text87 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext88 156E 0 CODE 0 text88 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext89 127E 0 CODE 0 text89 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext90 159C 0 CODE 0 text90 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext91 1272 0 CODE 0 text91 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext92 1468 0 CODE 0 text92 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext93 18D8 0 CODE 0 text93 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext94 1304 0 CODE 0 text94 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext95 12F0 0 CODE 0 text95 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext96 1ADC 0 CODE 0 text96 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext97 1266 0 CODE 0 text97 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext98 121A 0 CODE 0 text98 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext99 125A 0 CODE 0 text99 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR4_ISR 136E 0 CODE 0 text104 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_EUSART1_DefaultOverrunErrorHandler 11A8 0 CODE 0 text111 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_DO_RX_ACK 11E0 0 CODE 0 text26 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_MasterEnableRestart 1188 0 CODE 0 text56 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_PIN_MANAGER_Initialize 1928 0 CODE 0 text93 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_processCommand 40E 0 CODE 0 text4 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___aldiv 9E2 0 CODE 0 text79 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TMR0_Initialize 15CC 0 CODE 0 text90 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_ErrorHandler EA 0 BANK1 1 nvBANK1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___lwdiv 1BF8 0 CODE 0 text73 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___lwmod 19CC 0 CODE 0 text72 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__Lbank14 0 0 BANK14 1 bank14 -
+__Lbank15 0 0 BANK15 1 bank15 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__Lbank18 0 0 BANK18 1 bank18 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__Lbank32 0 0 BANK32 1 bank32 -
+__Lbank33 0 0 BANK33 1 bank33 -
+__Lbank34 0 0 BANK34 1 bank34 -
+__Lbank35 0 0 BANK35 1 bank35 -
+__Lbank36 0 0 BANK36 1 bank36 -
+__Lbank37 0 0 BANK37 1 bank37 -
+__Lbank38 0 0 BANK38 1 bank38 -
+__Lbank39 0 0 BANK39 1 bank39 -
+__Lbank40 0 0 BANK40 1 bank40 -
+__Lbank41 0 0 BANK41 1 bank41 -
+__Lbank42 0 0 BANK42 1 bank42 -
+__Lbank43 0 0 BANK43 1 bank43 -
+__Lbank44 0 0 BANK44 1 bank44 -
+__Lbank45 0 0 BANK45 1 bank45 -
+__Lbank46 0 0 BANK46 1 bank46 -
+__Lbank47 0 0 BANK47 1 bank47 -
+__Lbank48 0 0 BANK48 1 bank48 -
+__Lbank49 0 0 BANK49 1 bank49 -
+__Lbank50 0 0 BANK50 1 bank50 -
+__Lbank51 0 0 BANK51 1 bank51 -
+__Lbank52 0 0 BANK52 1 bank52 -
+__Lbank53 0 0 BANK53 1 bank53 -
+__Lbank54 0 0 BANK54 1 bank54 -
+__Lbank55 0 0 BANK55 1 bank55 -
+__Lbank56 0 0 BANK56 1 bank56 -
+__Lbank57 0 0 BANK57 1 bank57 -
+__Lbank58 0 0 BANK58 1 bank58 -
+__Lbank59 0 0 BANK59 1 bank59 -
+__Lbank60 0 0 BANK60 1 bank60 -
+__Lbank61 0 0 BANK61 1 bank61 -
+__Lbank62 0 0 BANK62 1 bank62 -
+__Lbank63 0 0 BANK63 1 bank63 -
+__pmaintext 40E 0 CODE 0 maintext dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Lbigram 0 0 ABS 0 bigram -
+__end_of_I2C1_MasterSendTxData 122E 0 CODE 0 text40 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_SetBuffer@bufferSize 74 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_DO_RX_NACK_STOP 11E8 0 CODE 0 text25 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+stringCompare@buf 20 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+stringCompare@idx 24 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+stringCompare@str 26 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+__end_of_I2C1_Open 1DAE 0 CODE 0 text15 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_EUSART1_is_tx_done 11B0 0 CODE 0 text69 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterWaitForEvent 11F8 0 CODE 0 text20 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TMR0_ISR 1468 0 CODE 0 text108 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TMR2_ISR 136E 0 CODE 0 text106 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterSetIrq 119A 0 CODE 0 text38 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TMR4_ISR 1386 0 CODE 0 text104 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Hinittext 0 0 ABS 0 inittext -
+___wmul@multiplier 20 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_LATAbits 18 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_LATCbits 1A 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+TMR4_SetInterruptHandler@InterruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_SetErrorHandler 1210 0 CODE 0 text100 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_DO_SEND_ADR_WRITE 12E0 0 CODE 0 text34 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterFsm 1978 0 CODE 0 text21 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_SetAddressNackCallback@ptr 25 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+sendSensorInfo@packet 2F 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_Read 1544 0 CODE 0 text3 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_MasterOperation@returnValue 30 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_MasterWaitForEvent 1200 0 CODE 0 text20 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterClose 1176 0 CODE 0 text60 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_EUSART1_SetErrorHandler 121A 0 CODE 0 text100 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterStart 117C 0 CODE 0 text57 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_sendSensorData 1B98 0 CODE 0 text63 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_sendSensorInfo 1F88 0 CODE 0 text7 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterWrite 1208 0 CODE 0 text13 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_sendPacket E6C 0 CODE 0 text65 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___lwdiv@divisor 20 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+stringToInt16@multiple 28 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_status 5A 0 BANK0 1 dataBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR0_SetInterruptHandler 1272 0 CODE 0 text91 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_rd1RegCompleteHandler 14D2 0 CODE 0 text50 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterSendTxData 1224 0 CODE 0 text40 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_EUSART1_SetFramingErrorHandler 1266 0 CODE 0 text99 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_Open@returnValue 21 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_EUSART1_SetOverrunErrorHandler 1224 0 CODE 0 text98 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_EUSART1_Write 132C 0 CODE 0 text70 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_MasterSendNack 11B8 0 CODE 0 text43 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_SSP1CLKPPS 1EC5 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_OSCCON1 88D 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_OSCCON3 88F 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_OSCTUNE 892 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_SSP1DATPPS 1EC6 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_Open 1D38 0 CODE 0 text15 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_status_prev 53 0 BANK0 1 dataBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_DO_RX_NACK_RESTART 11F0 0 CODE 0 text24 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__pbssCOMMON 78 0 COMMON 1 bssCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TMR2_SetInterruptHandler 128A 0 CODE 0 text89 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_EUSART1_RxDataHandler 1CCC 0 CODE 0 text113 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__end_of_I2C1_DO_RX_NACK_RESTART 11F8 0 CODE 0 text24 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_DO_SEND_STOP 11D8 0 CODE 0 text27 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_rd1RegCompleteHandler 14AE 0 CODE 0 text50 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PIR0bits 70C 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_is_tx_ready 1340 0 CODE 0 text68 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PIR2bits 70E 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PIR3bits 70F 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_MasterOperation 1776 0 CODE 0 text18 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_PIR4bits 710 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Lend_init 60 0 CODE 0 end_init -
+EUSART1_RxDataHandler@t 72 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_is_tx_done 11A8 0 CODE 0 text69 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__end_of_I2C1_MasterGetRxData 119A 0 CODE 0 text42 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TxDeviceDisable 1170 0 CODE 0 text67 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+end_of_initialization 114 0 CODE 0 cinit dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_DO_RX_ACK 11E8 0 CODE 0 text26 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+EUSART1_Read@readValue 75 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR0_Initialize 159C 0 CODE 0 text90 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Hintentry 60 0 CODE 0 intentry -
+_I2C1_MasterClearIrq 1170 0 CODE 0 text61 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TX1STAbits 11E 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Lstrings 0 0 ABS 0 strings -
+?___aldiv 20 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___lwdiv@dividend 22 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+?___lwdiv 20 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+?___lwmod 20 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Hreset_vec 4 0 CODE 0 reset_vec -
+readINA220@pTxbuffer 3A 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+EUSART1_SetRxInterruptHandler@interruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+__HbssBANK5 0 0 ABS 0 bssBANK5 -
+__HbssBANK6 0 0 ABS 0 bssBANK6 -
+_EUSART1_RxDataHandler 1C60 0 CODE 0 text113 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_Poller 1340 0 CODE 0 text19 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_MasterFsm 19CC 0 CODE 0 text21 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_Close 15FE 0 CODE 0 text58 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_DO_RX F0C 0 CODE 0 text32 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_DO_TX E6C 0 CODE 0 text33 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_sendSensorData 1BF8 0 CODE 0 text63 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_sendSensorInfo 2000 0 CODE 0 text7 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext1 F9A 0 CODE 0 text1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext2 183E 0 CODE 0 text2 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext3 1544 0 CODE 0 text3 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext4 11C 0 CODE 0 text4 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext5 AE4 0 CODE 0 text5 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext6 16CA 0 CODE 0 text6 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext7 1F88 0 CODE 0 text7 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext8 6C8 0 CODE 0 text8 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__ptext9 1700 0 CODE 0 text9 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_RX1DTPPS 1ECB 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+sendSensorInfo@idx 36 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR4_InterruptHandler 64 0 BANK0 1 nvBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___aldiv@dividend 24 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+_I2C1_SetDataCompleteCallback 1386 0 CODE 0 text52 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+wr1RegCompleteHandler@ptr 27 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_EUSART1_Read 156E 0 CODE 0 text3 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_T4CONbits 294 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_DO_RESET 1242 0 CODE 0 text23 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_CMP1_GetOutputStatus 124E 0 CODE 0 text115 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_DO_SEND_RESTART 11D8 0 CODE 0 text28 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__Hstringtext1 0 0 ABS 0 stringtext1 -
+main@packet DF 0 BANK1 1 cstackBANK1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_receiveData 188A 0 CODE 0 text2 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_MasterClose 117C 0 CODE 0 text60 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_SetCallback 17F6 0 CODE 0 text53 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_SetCallback@cb 20 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_SLRCONA 1F3B 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_SLRCONC 1F51 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___heap_hi 0 0 ABS 0 - C:\Users\gaston\AppData\Local\Temp\xcAsg58.o
+___heap_lo 0 0 ABS 0 - C:\Users\gaston\AppData\Local\Temp\xcAsg58.o
+__end_of_I2C1_MasterStart 1182 0 CODE 0 text57 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_MasterWrite 1210 0 CODE 0 text13 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TMR0_Reload 12A2 0 CODE 0 text74 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_DO_SEND_ADR_READ 12F0 0 CODE 0 text35 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of__initialization 114 0 CODE 0 cinit dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TxDeviceDisable 116A 0 CODE 0 text67 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+stringlen@idx 21 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+stringlen@str 20 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+_getINA220Data 6C8 0 CODE 0 text8 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+sendSensorData@sensor_data 34 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pidataBANK0 1408 0 CODE 0 idataBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pidataBANK1 1696 0 CODE 0 idataBANK1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pidataBANK2 1E9A 0 CODE 0 idataBANK2 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pidataBANK3 1E24 0 CODE 0 idataBANK3 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pidataBANK4 1DAE 0 CODE 0 idataBANK4 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_SetBuffer@buffer 21 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TMR2_DefaultInterruptHandler 113A 0 CODE 0 text107 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_SP1BRGH 11C 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_SP1BRGL 11B 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+_SSP1CON1bits 190 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_SSP1CON2bits 191 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_SetRxInterruptHandler 1266 0 CODE 0 text97 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_fsmStateTable 2000 0 STRCODE 0 stringtext1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_DO_SEND_RESTART_WRITE 11D0 0 CODE 0 text29 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+int16ToString@i 2E 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_eusart1RxBuffer 2A0 0 BANK5 1 bssBANK5 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR4_DefaultInterruptHandler 113A 0 CODE 0 text105 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_DO_SEND_ADR_READ 12E0 0 CODE 0 text35 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+sendSensorData@F11032 D0 0 BANK1 1 dataBANK1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_Initialize 1304 0 CODE 0 text95 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_SSP1ADD 18D 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_SSP1BUF 18C 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Hend_init 64 0 CODE 0 end_init -
+__end_of_I2C1_Close 1630 0 CODE 0 text58 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_DO_RX F9A 0 CODE 0 text32 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_DO_TX F0C 0 CODE 0 text33 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___aldiv@counter 28 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_SetFramingErrorHandler 125A 0 CODE 0 text99 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_CMP1_ISR 13CE 0 CODE 0 text114 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_EUSART1_SetOverrunErrorHandler 121A 0 CODE 0 text98 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_main 6C8 0 CODE 0 maintext dist/default/production\ENERGY_LIGHT_V3.X.production.o
+initRxBuffer@i 29 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+rd2RegCompleteHandler@ptr 27 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+readINA220@pRxbuffer 39 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_EUSART1_is_tx_ready 1356 0 CODE 0 text68 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+?_readINA220 35 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+getMax@aux 28 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_SetBuffer 1426 0 CODE 0 text54 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_OSCEN 891 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_T2CON 28E 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_T2HLT 28F 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_T2RST 291 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_T2TMR 28C 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_T4CON 294 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_T4HLT 295 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_T4RST 297 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_T4TMR 292 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR0H 59D 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR0L 59C 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TRISA 12 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TRISC 14 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_I2C1_DO_ADDRESS_NACK 1A80 0 CODE 0 text22 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR2_InterruptHandler 66 0 BANK0 1 nvBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_panel 1A0 0 BANK3 1 dataBANK3 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR4_SetInterruptHandler 128A 0 CODE 0 text87 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_CMP1_ISR 13EA 0 CODE 0 text114 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_DO_SEND_RESTART_READ 11C8 0 CODE 0 text30 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_eusart1RxCount 6C 0 BANK0 1 bssBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pintentry 8 0 CODE 0 intentry dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_MasterClearIrq 1176 0 CODE 0 text61 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__HdataBANK1 0 0 ABS 0 dataBANK1 -
+__HdataBANK2 0 0 ABS 0 dataBANK2 -
+__HdataBANK3 0 0 ABS 0 dataBANK3 -
+__HdataBANK4 0 0 ABS 0 dataBANK4 -
+receiveData@c 24 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_EUSART1_Initialize 1B3A 0 CODE 0 text96 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_OSCILLATOR_Initialize 1318 0 CODE 0 text94 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+?_stringCompare 20 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+getMed@aux 3D 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__initialization 64 0 CODE 0 cinit dist/default/production\ENERGY_LIGHT_V3.X.production.o
+I2C1_SetAddressNackCallback@cb 23 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pbssBANK0 6A 0 BANK0 1 bssBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pbssBANK5 2A0 0 BANK5 1 bssBANK5 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__pbssBANK6 320 0 BANK6 1 bssBANK6 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_T4CLKCON 296 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_T2CONbits 28E 0 ABS 0 - dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_I2C1_DO_TX_EMPTY 1B3A 0 CODE 0 text37 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_SetAddressNackCallback 13CE 0 CODE 0 text12 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+___wmul@product 74 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_eusart1RxStatusBuffer 320 0 BANK6 1 bssBANK6 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+writeINA220@address 37 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_TMR4_Start 115E 0 CODE 0 text82 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+getHis@i 44 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+getMin@aux 28 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+getMax@i 27 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+getMed@i 3C 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+getMin@i 27 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_I2C1_MasterSendAck 11C0 0 CODE 0 text41 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+EUSART1_SetOverrunErrorHandler@interruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/production\ENERGY_LIGHT_V3.X.production.o
+_OSCILLATOR_Initialize 1304 0 CODE 0 text94 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+__end_of_TMR2_Initialize 159C 0 CODE 0 text88 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+sendPacket@str 2C 0 BANK0 1 cstackBANK0 dist/default/production\ENERGY_LIGHT_V3.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text2 0 C1F 183E 26 2
+text3 0 AA2 1544 15 2
+text6 0 B65 16CA 1B 2
+text7 0 FC4 1F88 3C 2
+text9 0 B80 1700 1D 2
+text10 0 F88 1F10 3C 2
+text11 0 BD9 17B2 22 2
+text12 0 9DB 13B6 C 2
+text13 0 904 1208 4 2
+text14 0 B31 1662 1A 2
+text15 0 E9C 1D38 3B 2
+text16 0 9CF 139E C 2
+text17 0 900 1200 4 2
+text18 0 BBB 1776 1E 2
+text19 0 996 132C A 2
+text20 0 8FC 11F8 4 2
+text21 0 CBC 1978 2A 2
+text22 0 D40 1A80 2E 2
+text23 0 91C 1238 5 2
+text24 0 8F8 11F0 4 2
+text25 0 8F4 11E8 4 2
+text26 0 8F0 11E0 4 2
+text27 0 8EC 11D8 4 2
+text28 0 8E8 11D0 4 2
+text29 0 8E4 11C8 4 2
+text30 0 8E0 11C0 4 2
+text31 0 957 12AE 6 2
+text34 0 969 12D2 7 2
+text35 0 970 12E0 8 2
+text36 0 917 122E 5 2
+text37 0 D9D 1B3A 2F 2
+text38 0 8CD 119A 3 2
+text39 0 951 12A2 6 2
+text40 0 912 1224 5 2
+text41 0 8DC 11B8 4 2
+text42 0 8CA 1194 3 2
+text43 0 8D8 11B0 4 2
+text44 0 8C7 118E 3 2
+text46 0 8A7 114E 2 2
+text47 0 B18 1630 19 2
+text48 0 A7B 14F6 12 2
+text49 0 A69 14D2 12 2
+text50 0 A57 14AE 12 2
+text51 0 A45 148A 12 2
+text52 0 9C3 1386 C 2
+text53 0 BFB 17F6 24 2
+text54 0 A13 1426 10 2
+text55 0 8C4 1188 3 2
+text56 0 8C1 1182 3 2
+text57 0 8BE 117C 3 2
+text58 0 AFF 15FE 19 2
+text59 0 8A5 114A 2 2
+text60 0 8BB 1176 3 2
+text61 0 8B8 1170 3 2
+text62 0 D12 1A24 2E 2
+text63 0 DCC 1B98 30 2
+text64 0 AE6 15CC 19 2
+text66 0 8A3 1146 2 2
+text67 0 8B5 116A 3 2
+text68 0 9A0 1340 B 2
+text69 0 8D4 11A8 4 2
+text70 0 98C 1318 A 2
+text72 0 CE6 19CC 2C 2
+text73 0 DFC 1BF8 34 2
+text74 0 94B 1296 6 2
+text75 0 C94 1928 28 2
+text76 0 E66 1CCC 36 2
+text81 0 8B2 1164 3 2
+text82 0 8AF 115E 3 2
+text83 0 8A1 1142 2 2
+text84 0 89F 113E 2 2
+text85 0 B9D 173A 1E 2
+text86 0 A8D 151A 15 2
+text87 0 945 128A 6 2
+text88 0 AB7 156E 17 2
+text89 0 93F 127E 6 2
+text90 0 ACE 159C 18 2
+text91 0 939 1272 6 2
+text92 0 A34 1468 11 2
+text93 0 C6C 18D8 28 2
+text94 0 982 1304 A 2
+text95 0 978 12F0 A 2
+text96 0 D6E 1ADC 2F 2
+text97 0 933 1266 6 2
+text98 0 90D 121A 5 2
+text99 0 92D 125A 6 2
+cstackCOMMON 1 70 70 A 1
+cstackBANK0 1 20 20 4D 1
+inittext 0 963 12C6 6 2
+stringtext1 0 1000 2000 20 2
+intentry 0 4 8 7FC 2
+reset_vec 0 0 0 4 2
+bssBANK1 1 A0 A0 50 1
+bssBANK5 1 2A0 2A0 40 1
+bssBANK6 1 320 320 40 1
+idataBANK0 0 A04 1408 F 2
+idataBANK1 0 B4B 1696 1A 2
+idataBANK2 0 F4D 1E9A 3B 2
+idataBANK3 0 F12 1E24 3B 2
+idataBANK4 0 ED7 1DAE 3B 2
+dataBANK2 1 120 120 3B 1
+dataBANK3 1 1A0 1A0 3B 1
+dataBANK4 1 220 220 3B 1
+clrtext 0 95D 12BA 6 2
+text100 0 908 1210 5 2
+text101 0 927 124E 6 2
+text102 0 9F5 13EA F 2
+text104 0 9B7 136E C 2
+text105 0 89D 113A 2 2
+text106 0 9AB 1356 C 2
+text107 0 89B 1136 2 2
+text108 0 A23 1446 11 2
+text109 0 8AC 1158 3 2
+text110 0 C45 188A 27 2
+text111 0 8D0 11A0 4 2
+text112 0 8A9 1152 3 2
+text113 0 E30 1C60 36 2
+text114 0 9E7 13CE E 2
+text115 0 921 1242 6 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
