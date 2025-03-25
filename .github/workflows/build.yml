@@ -1,4 +1,4 @@
-name: Compilar MPLAB X con XC8
+name: Compilar Proyecto con XC8
 
 on:
   push:
@@ -15,30 +15,23 @@ jobs:
       - name: Checkout del código
         uses: actions/checkout@v3
 
-      - name: Restaurar caché de XC8
-        uses: actions/cache@v3
-        with:
-          path: /opt/microchip/xc8
-          key: xc8-v2.50
-
-      - name: Descargar XC8 desde Google Drive usando gdown
+      - name: Descargar e instalar XC8
         run: |
           pip install gdown
           gdown "https://drive.google.com/uc?id=1ug878Xi-GHbd2yhdZv0Taw3xv8tfTDqX" -O /tmp/xc8-installer.run
-          ls -l /tmp # Lista los archivos descargados para verificar el nombre
           chmod +x /tmp/xc8-installer.run
           sudo /tmp/xc8-installer.run --mode unattended --unattendedmodeui none --netservername localhost --LicenseType FreeMode --prefix /opt/microchip/xc8
-          ls -l /tmp/
-          ls -l /opt/microchip
-      - name: Verificar instalación de MPLAB X
+          ls -l /opt/microchip/xc8
+
+      - name: Verificar instalación de XC8
         run: |
-          ls /opt/mplabx/mplab_platform/bin/
-          
-      - name: Compilar proyecto con MPLAB X y XC8
+          /opt/microchip/xc8/bin/xc8 --version
+
+      - name: Compilar proyecto con XC8
         run: |
-          /opt/mplabx/mplab_platform/bin/prjMakefilesGenerator.sh firmware/ENERGY_LIGHT_V3.X@default
-          make -C firmware/ENERGY_LIGHT_V3.X CONF=default build
-      
+          /opt/microchip/xc8/bin/xc8 --chip=16F877A --opt=none firmware/ENERGY_LIGHT_V3.X/main.c
+          # Si tienes más archivos, compílalos con su respectiva opción
+
       - name: Subir artefacto compilado
         uses: actions/upload-artifact@v4
         with:
