@@ -15,11 +15,24 @@ jobs:
       - name: Checkout del código
         uses: actions/checkout@v3
 
-      - name: Compilar proyecto con MPLAB X y XC8
-        uses: ./
+      - name: Restaurar caché de XC8
+        uses: actions/cache@v3
         with:
-          project: firmware/ENERGY_LIGHT_V3.X  # Ajusta la ruta según tu repositorio
-          configuration: default
+          path: /opt/microchip/xc8
+          key: xc8-v2.50
+
+      - name: Descargar e instalar XC8 si no está en caché
+        run: |
+          if [ ! -d "/opt/microchip/xc8" ]; then
+            wget --content-disposition "https://www.microchip.com/mplabxc8linux"
+            chmod +x xc8-*.run
+            ./xc8-*.run --mode unattended --unattendedmodeui none --netservername localhost --LicenseType FreeMode --prefix /opt/microchip/xc8
+          fi
+
+      - name: Compilar proyecto con MPLAB X y XC8
+        run: |
+          /opt/mplabx/mplab_platform/bin/prjMakefilesGenerator.sh firmware/ENERGY_LIGHT_V3.X@default
+          make -C firmware/MiProyecto.X CONF=default build
 
       - name: Subir artefacto compilado
         uses: actions/upload-artifact@v4
