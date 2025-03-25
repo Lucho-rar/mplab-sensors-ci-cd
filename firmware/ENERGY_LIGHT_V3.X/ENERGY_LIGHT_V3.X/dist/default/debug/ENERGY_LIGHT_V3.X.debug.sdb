@@ -1,0 +1,1660 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18425 ]
+[d frameptr 6 ]
+"67 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+[e E358 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"68
+[e E363 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+"146 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+[e E10930 . `uc
+I2C1_IDLE 0
+I2C1_SEND_ADR_READ 1
+I2C1_SEND_ADR_WRITE 2
+I2C1_TX 3
+I2C1_RX 4
+I2C1_RCEN 5
+I2C1_TX_EMPTY 6
+I2C1_SEND_RESTART_READ 7
+I2C1_SEND_RESTART_WRITE 8
+I2C1_SEND_RESTART 9
+I2C1_SEND_STOP 10
+I2C1_RX_ACK 11
+I2C1_RX_NACK_STOP 12
+I2C1_RX_NACK_RESTART 13
+I2C1_RESET 14
+I2C1_ADDRESS_NACK 15
+]
+"165
+[e E363 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+[e E358 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"191
+[e E10948 . `uc
+I2C1_DATA_COMPLETE 0
+I2C1_WRITE_COLLISION 1
+I2C1_ADDR_NACK 2
+I2C1_DATA_NACK 3
+I2C1_TIMEOUT 4
+I2C1_NULL 5
+]
+"97 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+[e E10537 . `uc
+TMR2_ROP_STARTS_TMRON 0
+TMR2_ROP_STARTS_TMRON_ERSHIGH 1
+TMR2_ROP_STARTS_TMRON_ERSLOW 2
+TMR2_ROP_RESETS_ERSBOTHEDGE 3
+TMR2_ROP_RESETS_ERSRISINGEDGE 4
+TMR2_ROP_RESETS_ERSFALLINGEDGE 5
+TMR2_ROP_RESETS_ERSLOW 6
+TMR2_ROP_RESETS_ERSHIGH 7
+TMR2_OS_STARTS_TMRON 8
+TMR2_OS_STARTS_ERSRISINGEDGE 9
+TMR2_OS_STARTS_ERSFALLINGEDGE 10
+TMR2_OS_STARTS_ERSBOTHEDGE 11
+TMR2_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR2_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR2_OS_STARTS_ERSRISINGEDGEDETECT 14
+]
+"103
+[e E10554 . `uc
+TMR2_T2INPPS 0
+TMR2_RESERVED 1
+TMR2_T4POSTSCALED 2
+TMR2_T6POSTSCALED 3
+TMR2_CCP1_OUT 4
+TMR2_CCP2_OUT 5
+TMR2_CCP3_OUT 6
+TMR2_CCP4_OUT 7
+TMR2_PWM6_OUT 8
+TMR2_PWM7_OUT 9
+TMR2_CMP1_OUT 10
+TMR2_CMP2_OUT 11
+TMR2_ZCD_OUTPUT 12
+TMR2_CLC1_OUT 13
+TMR2_CLC2_OUT 14
+TMR2_CLC3_OUT 15
+TMR2_CLC4_OUT 16
+TMR2_RESERVED_2 17
+]
+"97 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+[e E10537 . `uc
+TMR4_ROP_STARTS_TMRON 0
+TMR4_ROP_STARTS_TMRON_ERSHIGH 1
+TMR4_ROP_STARTS_TMRON_ERSLOW 2
+TMR4_ROP_RESETS_ERSBOTHEDGE 3
+TMR4_ROP_RESETS_ERSRISINGEDGE 4
+TMR4_ROP_RESETS_ERSFALLINGEDGE 5
+TMR4_ROP_RESETS_ERSLOW 6
+TMR4_ROP_RESETS_ERSHIGH 7
+TMR4_OS_STARTS_TMRON 8
+TMR4_OS_STARTS_ERSRISINGEDGE 9
+TMR4_OS_STARTS_ERSFALLINGEDGE 10
+TMR4_OS_STARTS_ERSBOTHEDGE 11
+TMR4_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR4_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR4_OS_STARTS_ERSRISINGEDGEDETECT 14
+]
+"103
+[e E10554 . `uc
+TMR4_T4INPPS 0
+TMR4_T2POSTSCALED 1
+TMR4_RESERVED 2
+TMR4_T6POSTSCALED 3
+TMR4_CCP1_OUT 4
+TMR4_CCP2_OUT 5
+TMR4_CCP3_OUT 6
+TMR4_CCP4_OUT 7
+TMR4_PWM6_OUT 8
+TMR4_PWM7_OUT 9
+TMR4_CMP1_OUT 10
+TMR4_CMP2_OUT 11
+TMR4_ZCD_OUTPUT 12
+TMR4_CLC1_OUT 13
+TMR4_CLC2_OUT 14
+TMR4_CLC3_OUT 15
+TMR4_CLC4_OUT 16
+TMR4_RESERVED_2 17
+]
+"5 /opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 /opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 /opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 /opt/microchip/xc8/v3.00/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 /opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 /opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v3.00/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"8 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+[v _initRxBuffer initRxBuffer `(v  1 e 1 0 ]
+"20
+[v _sendPacket sendPacket `(v  1 e 1 0 ]
+"49
+[v _receiveData receiveData `(uc  1 e 1 0 ]
+"67
+[v _TxDeviceEnable TxDeviceEnable `(v  1 e 1 0 ]
+"72
+[v _TxDeviceDisable TxDeviceDisable `(v  1 e 1 0 ]
+"8 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+[v _sendSensorInfo sendSensorInfo `(v  1 e 1 0 ]
+"29
+[v _sendSensorData sendSensorData `(v  1 e 1 0 ]
+"47
+[v _stringCompare stringCompare `(i  1 e 2 0 ]
+"69
+[v _stringlen stringlen `(uc  1 e 1 0 ]
+"88
+[v _int16ToString int16ToString `(v  1 e 1 0 ]
+"201
+[v _stringToInt16 stringToInt16 `(s  1 e 2 0 ]
+"99 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"61 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+[v _CMP1_Initialize CMP1_Initialize `(v  1 e 1 0 ]
+"89
+[v _CMP1_GetOutputStatus CMP1_GetOutputStatus `(a  1 e 1 0 ]
+"94
+[v _CMP1_ISR CMP1_ISR `(v  1 e 1 0 ]
+"58 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/dac1.c
+[v _DAC1_Initialize DAC1_Initialize `(v  1 e 1 0 ]
+"81 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"119
+[v _EUSART1_is_tx_ready EUSART1_is_tx_ready `(a  1 e 1 0 ]
+"129
+[v _EUSART1_is_tx_done EUSART1_is_tx_done `(a  1 e 1 0 ]
+"139
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"159
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"171
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+"195
+[v _EUSART1_RxDataHandler EUSART1_RxDataHandler `(v  1 e 1 0 ]
+"215
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"217
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"225
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"229
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"233
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"237
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+"242
+[v _EUSART1_SetRxInterruptHandler EUSART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+"111 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_WriteNBytes I2C1_WriteNBytes `(v  1 e 1 0 ]
+"120
+[v _I2C1_ReadNBytes I2C1_ReadNBytes `(v  1 e 1 0 ]
+"142
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E363  1 s 1 rd1RegCompleteHandler ]
+"149
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E363  1 s 1 rd2RegCompleteHandler ]
+"156
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E363  1 s 1 wr1RegCompleteHandler ]
+"163
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E363  1 s 1 wr2RegCompleteHandler ]
+"170
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E363  1 s 1 rdBlkRegCompleteHandler ]
+"167 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"176
+[v _I2C1_Open I2C1_Open `(E358  1 e 1 0 ]
+"209
+[v _I2C1_Close I2C1_Close `(E358  1 e 1 0 ]
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E358  1 e 1 0 ]
+"246
+[v _I2C1_MasterRead I2C1_MasterRead `(E358  1 e 1 0 ]
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E358  1 e 1 0 ]
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+"273
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+"283
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E10930  1 s 1 I2C1_DO_IDLE ]
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E10930  1 s 1 I2C1_DO_SEND_ADR_READ ]
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E10930  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E10930  1 s 1 I2C1_DO_TX ]
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E10930  1 s 1 I2C1_DO_RX ]
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E10930  1 s 1 I2C1_DO_RCEN ]
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E10930  1 s 1 I2C1_DO_TX_EMPTY ]
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E10930  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E10930  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E10930  1 s 1 I2C1_DO_SEND_RESTART ]
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E10930  1 s 1 I2C1_DO_SEND_STOP ]
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E10930  1 s 1 I2C1_DO_RX_ACK ]
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E10930  1 s 1 I2C1_DO_RX_NACK_STOP ]
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E10930  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E10930  1 s 1 I2C1_DO_RESET ]
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E10930  1 s 1 I2C1_DO_ADDRESS_NACK ]
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E363  1 e 1 0 ]
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E363  1 e 1 0 ]
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+"578
+[v _I2C1_MasterDisableRestart I2C1_MasterDisableRestart `T(v  1 s 1 I2C1_MasterDisableRestart ]
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+"615
+[v _I2C1_MasterClearBusCollision I2C1_MasterClearBusCollision `T(v  1 s 1 I2C1_MasterClearBusCollision ]
+"625
+[v _I2C1_MasterEnableIrq I2C1_MasterEnableIrq `T(v  1 s 1 I2C1_MasterEnableIrq ]
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+"52 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"64
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"80
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"66 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"127
+[v _TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
+"134
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"151
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"155
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"65 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"109
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+"120
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+"131
+[v _TMR2_Counter8BitGet TMR2_Counter8BitGet `(uc  1 e 1 0 ]
+"145
+[v _TMR2_Counter8BitSet TMR2_Counter8BitSet `(v  1 e 1 0 ]
+"156
+[v _TMR2_Period8BitSet TMR2_Period8BitSet `(v  1 e 1 0 ]
+"166
+[v _TMR2_ISR TMR2_ISR `(v  1 e 1 0 ]
+"179
+[v _TMR2_SetInterruptHandler TMR2_SetInterruptHandler `(v  1 e 1 0 ]
+"183
+[v _TMR2_DefaultInterruptHandler TMR2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"65 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+[v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
+"109
+[v _TMR4_Start TMR4_Start `(v  1 e 1 0 ]
+"120
+[v _TMR4_Stop TMR4_Stop `(v  1 e 1 0 ]
+"131
+[v _TMR4_Counter8BitGet TMR4_Counter8BitGet `(uc  1 e 1 0 ]
+"145
+[v _TMR4_Counter8BitSet TMR4_Counter8BitSet `(v  1 e 1 0 ]
+"156
+[v _TMR4_Period8BitSet TMR4_Period8BitSet `(v  1 e 1 0 ]
+"166
+[v _TMR4_ISR TMR4_ISR `(v  1 e 1 0 ]
+"179
+[v _TMR4_SetInterruptHandler TMR4_SetInterruptHandler `(v  1 e 1 0 ]
+"183
+[v _TMR4_DefaultInterruptHandler TMR4_DefaultInterruptHandler `(v  1 e 1 0 ]
+"19 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+[v _readINA220 readINA220 `(us  1 e 2 0 ]
+"35
+[v _writeINA220 writeINA220 `(v  1 e 1 0 ]
+"58
+[v _getINA220Data getINA220Data `(v  1 e 1 0 ]
+"100
+[v _getMetrics getMetrics `(v  1 e 1 0 ]
+"110
+[v _getMax getMax `(v  1 e 1 0 ]
+"130
+[v _getMin getMin `(v  1 e 1 0 ]
+"150
+[v _getMed getMed `(v  1 e 1 0 ]
+"167
+[v _getHis getHis `(v  1 e 1 0 ]
+"182
+[v _processCommand processCommand `(v  1 e 1 0 ]
+"56 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.h
+[v _timer0ReloadVal16bit timer0ReloadVal16bit `VEus  1 e 2 0 ]
+"57
+[v _measureTime measureTime `a  1 e 1 0 ]
+[s S1272 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"368 /opt/microchip/mplabx/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410/xc8/pic/include/proc/pic16f18425.h
+[u S1277 . 1 `S1272 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES1277  1 e 1 @11 ]
+"488
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"538
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+"588
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+[s S1727 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"603
+[u S1734 . 1 `S1727 1 . 1 0 ]
+[v _LATAbits LATAbits `VES1734  1 e 1 @24 ]
+"633
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+[s S266 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+]
+"648
+[u S273 . 1 `S266 1 . 1 0 ]
+[v _LATCbits LATCbits `VES273  1 e 1 @26 ]
+"4654
+[v _RC1REG RC1REG `VEuc  1 e 1 @281 ]
+"4708
+[v _TX1REG TX1REG `VEuc  1 e 1 @282 ]
+"4774
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @283 ]
+"4828
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @284 ]
+"4882
+[v _RC1STA RC1STA `VEuc  1 e 1 @285 ]
+[s S284 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4908
+[u S293 . 1 `S284 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES293  1 e 1 @285 ]
+"5062
+[v _TX1STA TX1STA `VEuc  1 e 1 @286 ]
+[s S245 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5088
+[u S254 . 1 `S245 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES254  1 e 1 @286 ]
+"5242
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @287 ]
+"5488
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @396 ]
+"5508
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @397 ]
+"5698
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @399 ]
+"6062
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @400 ]
+[s S597 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"6092
+[s S603 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S608 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S617 . 1 `S597 1 . 1 0 `S603 1 . 1 0 `S608 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES617  1 e 1 @400 ]
+"6182
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @401 ]
+[s S781 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"6229
+[s S790 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK 1 0 :5:1 
+]
+[s S793 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S800 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S809 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S816 . 1 `S781 1 . 1 0 `S790 1 . 1 0 `S793 1 . 1 0 `S800 1 . 1 0 `S809 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES816  1 e 1 @401 ]
+"10837
+[v _T2TMR T2TMR `VEuc  1 e 1 @652 ]
+"10891
+[v _T2PR T2PR `VEuc  1 e 1 @653 ]
+"10945
+[v _T2CON T2CON `VEuc  1 e 1 @654 ]
+[s S1666 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 CKPS 1 0 :3:4 
+`uc 1 ON 1 0 :1:7 
+]
+"10981
+[s S1670 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+]
+[s S1678 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+`uc 1 T2CKPS 1 0 :3:4 
+`uc 1 T2ON 1 0 :1:7 
+]
+[s S1682 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+`uc 1 T2OUTPS1 1 0 :1:1 
+`uc 1 T2OUTPS2 1 0 :1:2 
+`uc 1 T2OUTPS3 1 0 :1:3 
+`uc 1 T2CKPS0 1 0 :1:4 
+`uc 1 T2CKPS1 1 0 :1:5 
+`uc 1 T2CKPS2 1 0 :1:6 
+`uc 1 TMR2ON 1 0 :1:7 
+]
+[u S1691 . 1 `S1666 1 . 1 0 `S1670 1 . 1 0 `S1678 1 . 1 0 `S1682 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES1691  1 e 1 @654 ]
+"11091
+[v _T2HLT T2HLT `VEuc  1 e 1 @655 ]
+"11219
+[v _T2CLKCON T2CLKCON `VEuc  1 e 1 @656 ]
+"11299
+[v _T2RST T2RST `VEuc  1 e 1 @657 ]
+"11391
+[v _T4TMR T4TMR `VEuc  1 e 1 @658 ]
+"11445
+[v _T4PR T4PR `VEuc  1 e 1 @659 ]
+"11499
+[v _T4CON T4CON `VEuc  1 e 1 @660 ]
+"11535
+[s S1966 . 1 `uc 1 T4OUTPS 1 0 :4:0 
+`uc 1 T4CKPS 1 0 :3:4 
+`uc 1 T4ON 1 0 :1:7 
+]
+[s S1970 . 1 `uc 1 T4OUTPS0 1 0 :1:0 
+`uc 1 T4OUTPS1 1 0 :1:1 
+`uc 1 T4OUTPS2 1 0 :1:2 
+`uc 1 T4OUTPS3 1 0 :1:3 
+`uc 1 T4CKPS0 1 0 :1:4 
+`uc 1 T4CKPS1 1 0 :1:5 
+`uc 1 T4CKPS2 1 0 :1:6 
+`uc 1 TMR4ON 1 0 :1:7 
+]
+[u S1979 . 1 `S1666 1 . 1 0 `S1670 1 . 1 0 `S1966 1 . 1 0 `S1970 1 . 1 0 ]
+[v _T4CONbits T4CONbits `VES1979  1 e 1 @660 ]
+"11645
+[v _T4HLT T4HLT `VEuc  1 e 1 @661 ]
+"11773
+[v _T4CLKCON T4CLKCON `VEuc  1 e 1 @662 ]
+"11853
+[v _T4RST T4RST `VEuc  1 e 1 @663 ]
+"17067
+[v _TMR0L TMR0L `VEuc  1 e 1 @1436 ]
+"17205
+[v _TMR0H TMR0H `VEuc  1 e 1 @1437 ]
+"17459
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @1438 ]
+"17583
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @1439 ]
+[s S1255 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"19376
+[u S1260 . 1 `S1255 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES1260  1 e 1 @1804 ]
+[s S1298 . 1 `uc 1 C1IF 1 0 :1:0 
+`uc 1 C2IF 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 ZCDIF 1 0 :1:6 
+]
+"19448
+[u S1303 . 1 `S1298 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES1303  1 e 1 @1806 ]
+[s S228 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+"19483
+[u S235 . 1 `S228 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES235  1 e 1 @1807 ]
+[s S1332 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR3IF 1 0 :1:2 
+`uc 1 TMR4IF 1 0 :1:3 
+`uc 1 TMR5IF 1 0 :1:4 
+`uc 1 TMR6IF 1 0 :1:5 
+]
+"19533
+[u S1339 . 1 `S1332 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES1339  1 e 1 @1808 ]
+[s S1242 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"19747
+[u S1247 . 1 `S1242 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES1247  1 e 1 @1814 ]
+[s S1285 . 1 `uc 1 C1IE 1 0 :1:0 
+`uc 1 C2IE 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 ZCDIE 1 0 :1:6 
+]
+"19819
+[u S1290 . 1 `S1285 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES1290  1 e 1 @1816 ]
+[s S166 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+"19854
+[u S173 . 1 `S166 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES173  1 e 1 @1817 ]
+[s S1315 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 TMR3IE 1 0 :1:2 
+`uc 1 TMR4IE 1 0 :1:3 
+`uc 1 TMR5IE 1 0 :1:4 
+`uc 1 TMR6IE 1 0 :1:5 
+]
+"19904
+[u S1322 . 1 `S1315 1 . 1 0 ]
+[v _PIE4bits PIE4bits `VES1322  1 e 1 @1818 ]
+"20114
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"20159
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"20215
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"20236
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"20281
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"20332
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"20359
+[v _PMD6 PMD6 `VEuc  1 e 1 @1948 ]
+"20392
+[v _PMD7 PMD7 `VEuc  1 e 1 @1949 ]
+"21400
+[v _CPUDOZE CPUDOZE `VEuc  1 e 1 @2188 ]
+"21465
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"21605
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"21702
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"21753
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"21811
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"22424
+[v _DAC1CON0 DAC1CON0 `VEuc  1 e 1 @2318 ]
+"22515
+[v _DAC1CON1 DAC1CON1 `VEuc  1 e 1 @2319 ]
+"22691
+[v _CM1CON0 CM1CON0 `VEuc  1 e 1 @2448 ]
+[s S1439 . 1 `uc 1 SYNC 1 0 :1:0 
+`uc 1 HYS 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 POL 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 OUT 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"22716
+[s S1447 . 1 `uc 1 C1SYNC 1 0 :1:0 
+`uc 1 C1HYS 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 C1POL 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 C1OUT 1 0 :1:6 
+`uc 1 C1EN 1 0 :1:7 
+]
+[u S1455 . 1 `S1439 1 . 1 0 `S1447 1 . 1 0 ]
+[v _CM1CON0bits CM1CON0bits `VES1455  1 e 1 @2448 ]
+"22771
+[v _CM1CON1 CM1CON1 `VEuc  1 e 1 @2449 ]
+"22811
+[v _CM1NCH CM1NCH `VEuc  1 e 1 @2450 ]
+"22871
+[v _CM1PCH CM1PCH `VEuc  1 e 1 @2451 ]
+"28873
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @7877 ]
+"28925
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @7878 ]
+"29185
+[v _RX1PPS RX1PPS `VEuc  1 e 1 @7883 ]
+"29579
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @7968 ]
+"29637
+[v _RC1PPS RC1PPS `VEuc  1 e 1 @7969 ]
+"29811
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @7972 ]
+"29927
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"29972
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"30022
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"30067
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"30112
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"30312
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"30362
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"30412
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"30462
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"30512
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+[s S2178 . 8 `[5]uc 1 codename 5 0 `[3]uc 1 address 3 5 ]
+"50 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+[s S2181 . 5 `uc 1 addressI2C 1 0 `us 1 config 2 1 `us 1 calib 2 3 ]
+[s S2185 . 23 `[8]s 1 hist 16 0 `s 1 max 2 16 `s 1 min 2 18 `s 1 med 2 20 `uc 1 pWrite 1 22 ]
+[s S2191 . 46 `S2185 1 voltage 23 0 `S2185 1 current 23 23 ]
+[s S2194 . 59 `S2178 1 sensor_info 8 0 `S2181 1 sensor_config 5 8 `S2191 1 sensor_data 46 13 ]
+[v _panel panel `S2194  1 e 59 0 ]
+"60
+[v _battery battery `S2194  1 e 59 0 ]
+"70
+[v _cons cons `S2194  1 e 59 0 ]
+[s S1475 . 7 `us 1 voltage_chrg_on 2 0 `s 1 curr_tail 2 2 `a 1 beacon 1 4 `a 1 chrg 1 5 `a 1 uvp 1 6 ]
+"80
+[v _status_prev status_prev `S1475  1 e 7 0 ]
+"88
+[v _status status `S1475  1 e 7 0 ]
+"60 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+[v _eusart1RxHead eusart1RxHead `VEuc  1 e 1 0 ]
+"61
+[v _eusart1RxTail eusart1RxTail `VEuc  1 e 1 0 ]
+"62
+[v _eusart1RxBuffer eusart1RxBuffer `VE[64]uc  1 e 64 0 ]
+[s S154 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"63
+[u S159 . 1 `S154 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxStatusBuffer eusart1RxStatusBuffer `VE[64]S159  1 e 64 0 ]
+"64
+[v _eusart1RxCount eusart1RxCount `VEuc  1 e 1 0 ]
+"65
+[v _eusart1PacketFinish eusart1PacketFinish `VEuc  1 e 1 0 ]
+"66
+[v _eusart1RxLastError eusart1RxLastError `VES159  1 e 1 0 ]
+"71
+[v _EUSART1_RxDefaultInterruptHandler EUSART1_RxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
+"73
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"74
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"75
+[v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.37(v  1 e 2 0 ]
+"146 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+[v _fsmStateTable fsmStateTable `DC[16]*.37(E10930  1 e 32 0 ]
+[s S571 . 30 `[6]*.37(E363 1 callbackTable 12 0 `[6]*.30v 1 callbackPayload 6 12 `us 1 time_out 2 18 `us 1 time_out_value 2 20 `uc 1 address 1 22 `*.39uc 1 data_ptr 2 23 `ui 1 data_length 2 25 `E10930 1 state 1 27 `E358 1 error 1 28 `uc 1 addressNackCheck 1 29 :1:0 
+`uc 1 busy 1 29 :1:1 
+`uc 1 inUse 1 29 :1:2 
+`uc 1 bufferFree 1 29 :1:3 
+]
+"165
+[v _I2C1_Status I2C1_Status `S571  1 e 30 0 ]
+"64 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"59 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+[v _TMR2_InterruptHandler TMR2_InterruptHandler `*.37(v  1 e 2 0 ]
+"59 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+[v _TMR4_InterruptHandler TMR4_InterruptHandler `*.37(v  1 e 2 0 ]
+"99 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+[s S2204 . 11 `[2]uc 1 start 2 0 `[3]uc 1 address 3 2 `uc 1 command 1 5 `[5]uc 1 data 5 6 ]
+"101
+[u S2209 . 11 `[11]uc 1 cmd_packet 11 0 `S2204 1 cmd_packet_fields 11 0 ]
+[v main@packet packet `S2209  1 a 11 0 ]
+"100
+[v main@F11276 F11276 `S2209  1 s 11 F11276 ]
+"210
+} 0
+"47 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+[v _stringCompare stringCompare `(i  1 e 2 0 ]
+{
+"49
+[v stringCompare@idx idx `i  1 a 2 6 ]
+"47
+[v stringCompare@str str `*.39DCuc  1 p 2 0 ]
+[v stringCompare@buf buf `*.39DCuc  1 p 2 2 ]
+[v stringCompare@byte_count byte_count `i  1 p 2 4 ]
+"62
+} 0
+"49 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+[v _receiveData receiveData `(uc  1 e 1 0 ]
+{
+"51
+[v receiveData@charCount charCount `uc  1 a 1 4 ]
+"52
+[v receiveData@c c `uc  1 a 1 3 ]
+"49
+[v receiveData@data data `*.39uc  1 p 2 0 ]
+[v receiveData@maxdata maxdata `uc  1 p 1 2 ]
+"65
+} 0
+"139 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+{
+"141
+[v EUSART1_Read@readValue readValue `uc  1 a 1 4 ]
+"157
+} 0
+"182 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+[v _processCommand processCommand `(v  1 e 1 0 ]
+{
+[v processCommand@command command `uc  1 p 1 wreg ]
+[v processCommand@command command `uc  1 p 1 wreg ]
+[v processCommand@data data `*.39uc  1 p 2 38 ]
+[v processCommand@sensor sensor `*.39S2194  1 p 2 40 ]
+[v processCommand@command command `uc  1 p 1 46 ]
+"250
+} 0
+"201 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+[v _stringToInt16 stringToInt16 `(s  1 e 2 0 ]
+{
+"203
+[v stringToInt16@result result `s  1 a 2 10 ]
+"204
+[v stringToInt16@multiple multiple `s  1 a 2 8 ]
+"205
+[v stringToInt16@sign sign `c  1 a 1 7 ]
+"201
+[v stringToInt16@string string `*.39uc  1 p 2 4 ]
+[v stringToInt16@strlen strlen `uc  1 p 1 6 ]
+"224
+} 0
+"15 /opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"8 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+[v _sendSensorInfo sendSensorInfo `(v  1 e 1 0 ]
+{
+"15
+[v sendSensorInfo@idx idx `i  1 a 2 26 ]
+[s S2511 . 7 `[2]uc 1 preamble 2 0 `[5]uc 1 codename 5 2 ]
+"11
+[v sendSensorInfo@packet packet `S2511  1 a 7 19 ]
+[s S2178 . 8 `[5]uc 1 codename 5 0 `[3]uc 1 address 3 5 ]
+"8
+[v sendSensorInfo@sensor_info sensor_info `*.39S2178  1 p 2 13 ]
+"9
+[v sendSensorInfo@F11239 F11239 `S2511  1 s 7 F11239 ]
+"20
+} 0
+"58 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+[v _getINA220Data getINA220Data `(v  1 e 1 0 ]
+{
+"60
+[v getINA220Data@buff buff `s  1 a 2 35 ]
+[s S2178 . 8 `[5]uc 1 codename 5 0 `[3]uc 1 address 3 5 ]
+"58
+[s S2181 . 5 `uc 1 addressI2C 1 0 `us 1 config 2 1 `us 1 calib 2 3 ]
+[s S2185 . 23 `[8]s 1 hist 16 0 `s 1 max 2 16 `s 1 min 2 18 `s 1 med 2 20 `uc 1 pWrite 1 22 ]
+[s S2191 . 46 `S2185 1 voltage 23 0 `S2185 1 current 23 23 ]
+[s S2194 . 59 `S2178 1 sensor_info 8 0 `S2181 1 sensor_config 5 8 `S2191 1 sensor_data 46 13 ]
+[v getINA220Data@device device `*.39S2194  1 p 2 29 ]
+"98
+} 0
+"35
+[v _writeINA220 writeINA220 `(v  1 e 1 0 ]
+{
+[v writeINA220@regadd regadd `uc  1 p 1 wreg ]
+"37
+[v writeINA220@Txbuffer Txbuffer `[3]uc  1 a 3 23 ]
+"38
+[v writeINA220@pTxbuffer pTxbuffer `*.4uc  1 a 1 22 ]
+"35
+[v writeINA220@regadd regadd `uc  1 p 1 wreg ]
+[v writeINA220@regdata regdata `us  1 p 2 18 ]
+[v writeINA220@address address `uc  1 p 1 20 ]
+"40
+[v writeINA220@regadd regadd `uc  1 p 1 21 ]
+"45
+} 0
+"19
+[v _readINA220 readINA220 `(us  1 e 2 0 ]
+{
+[v readINA220@regadd regadd `uc  1 p 1 wreg ]
+"21
+[v readINA220@buff buff `[2]uc  1 a 2 24 ]
+"22
+[v readINA220@ret ret `us  1 a 2 27 ]
+"24
+[v readINA220@pTxbuffer pTxbuffer `*.4uc  1 a 1 23 ]
+"23
+[v readINA220@pRxbuffer pRxbuffer `*.4uc  1 a 1 22 ]
+"19
+[v readINA220@regadd regadd `uc  1 p 1 wreg ]
+[v readINA220@address address `uc  1 p 1 18 ]
+"25
+[v readINA220@regadd regadd `uc  1 p 1 26 ]
+"33
+} 0
+"111 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_WriteNBytes I2C1_WriteNBytes `(v  1 e 1 0 ]
+{
+[v I2C1_WriteNBytes@address address `uc  1 p 1 wreg ]
+[v I2C1_WriteNBytes@address address `uc  1 p 1 wreg ]
+[v I2C1_WriteNBytes@data data `*.4uc  1 p 1 14 ]
+[v I2C1_WriteNBytes@len len `ui  1 p 2 15 ]
+[v I2C1_WriteNBytes@address address `uc  1 p 1 17 ]
+"118
+} 0
+"283 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetAddressNackCallback@cb cb `*.37(E363  1 p 2 4 ]
+[v I2C1_SetAddressNackCallback@ptr ptr `*.2v  1 p 2 6 ]
+"286
+} 0
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E358  1 e 1 0 ]
+{
+"254
+} 0
+"120 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_ReadNBytes I2C1_ReadNBytes `(v  1 e 1 0 ]
+{
+[v I2C1_ReadNBytes@address address `uc  1 p 1 wreg ]
+[v I2C1_ReadNBytes@address address `uc  1 p 1 wreg ]
+[v I2C1_ReadNBytes@data data `*.4uc  1 p 1 14 ]
+[v I2C1_ReadNBytes@len len `ui  1 p 2 15 ]
+[v I2C1_ReadNBytes@address address `uc  1 p 1 17 ]
+"126
+} 0
+"176 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_Open I2C1_Open `(E358  1 e 1 0 ]
+{
+[v I2C1_Open@address address `uc  1 p 1 wreg ]
+"178
+[v I2C1_Open@returnValue returnValue `E358  1 a 1 5 ]
+"176
+[v I2C1_Open@address address `uc  1 p 1 wreg ]
+"178
+[v I2C1_Open@address address `uc  1 p 1 4 ]
+"207
+} 0
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+{
+"555
+} 0
+"246
+[v _I2C1_MasterRead I2C1_MasterRead `(E358  1 e 1 0 ]
+{
+"249
+} 0
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E358  1 e 1 0 ]
+{
+[v I2C1_MasterOperation@read read `a  1 p 1 wreg ]
+"226
+[v I2C1_MasterOperation@returnValue returnValue `E358  1 a 1 13 ]
+"224
+[v I2C1_MasterOperation@read read `a  1 p 1 wreg ]
+"226
+[v I2C1_MasterOperation@read read `a  1 p 1 12 ]
+"244
+} 0
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+{
+"319
+} 0
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+{
+"659
+} 0
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+{
+"330
+} 0
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E10930  1 s 1 I2C1_DO_ADDRESS_NACK ]
+{
+"512
+} 0
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E10930  1 s 1 I2C1_DO_RESET ]
+{
+"499
+} 0
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E10930  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+{
+"492
+} 0
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E10930  1 s 1 I2C1_DO_RX_NACK_STOP ]
+{
+"486
+} 0
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E10930  1 s 1 I2C1_DO_RX_ACK ]
+{
+"479
+} 0
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E10930  1 s 1 I2C1_DO_SEND_STOP ]
+{
+"473
+} 0
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E10930  1 s 1 I2C1_DO_SEND_RESTART ]
+{
+"467
+} 0
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E10930  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+{
+"460
+} 0
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E10930  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+{
+"454
+} 0
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E10930  1 s 1 I2C1_DO_RCEN ]
+{
+"407
+} 0
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E10930  1 s 1 I2C1_DO_RX ]
+{
+"400
+} 0
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E10930  1 s 1 I2C1_DO_TX ]
+{
+"376
+} 0
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E10930  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+{
+"352
+} 0
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E10930  1 s 1 I2C1_DO_SEND_ADR_READ ]
+{
+"345
+} 0
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E10930  1 s 1 I2C1_DO_IDLE ]
+{
+"338
+} 0
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E10930  1 s 1 I2C1_DO_TX_EMPTY ]
+{
+"424
+} 0
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+{
+"648
+} 0
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+{
+"601
+} 0
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+{
+[v I2C1_MasterSendTxData@data data `uc  1 p 1 wreg ]
+[v I2C1_MasterSendTxData@data data `uc  1 p 1 wreg ]
+"570
+[v I2C1_MasterSendTxData@data data `uc  1 p 1 4 ]
+"571
+} 0
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+{
+"607
+} 0
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+{
+"566
+} 0
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+{
+"613
+} 0
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+{
+"586
+} 0
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E363  1 e 1 0 ]
+{
+[v I2C1_CallbackReturnReset@funPtr funPtr `*.30v  1 p 1 7 ]
+"528
+} 0
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E363  1 e 1 0 ]
+{
+"523
+} 0
+"170 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E363  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@ptr ptr `*.30v  1 p 1 7 ]
+"175
+} 0
+"156
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E363  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@ptr ptr `*.30v  1 p 1 7 ]
+"161
+} 0
+"149
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E363  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@ptr ptr `*.30v  1 p 1 7 ]
+"154
+} 0
+"142
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E363  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@ptr ptr `*.30v  1 p 1 7 ]
+"147
+} 0
+"163
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E363  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@ptr ptr `*.30v  1 p 1 7 ]
+"168
+} 0
+"273 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetDataCompleteCallback@cb cb `*.37(E363  1 p 2 4 ]
+[v I2C1_SetDataCompleteCallback@ptr ptr `*.30v  1 p 1 6 ]
+"276
+} 0
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+{
+[v I2C1_SetCallback@idx idx `E10948  1 p 1 wreg ]
+[v I2C1_SetCallback@idx idx `E10948  1 p 1 wreg ]
+[v I2C1_SetCallback@cb cb `*.37(E363  1 p 2 0 ]
+[v I2C1_SetCallback@ptr ptr `*.30v  1 p 1 2 ]
+"300
+[v I2C1_SetCallback@idx idx `E10948  1 p 1 3 ]
+"310
+} 0
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+{
+[v I2C1_SetBuffer@buffer buffer `*.39v  1 p 2 0 ]
+[v I2C1_SetBuffer@bufferSize bufferSize `ui  1 p 2 2 ]
+"271
+} 0
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+{
+"596
+} 0
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+{
+"576
+} 0
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+{
+"591
+} 0
+"209
+[v _I2C1_Close I2C1_Close `(E358  1 e 1 0 ]
+{
+"211
+[v I2C1_Close@returnValue returnValue `E358  1 a 1 4 ]
+"222
+} 0
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+{
+"638
+} 0
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+{
+"561
+} 0
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+{
+"643
+} 0
+"167 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+[v _getHis getHis `(v  1 e 1 0 ]
+{
+"171
+[v getHis@i i `uc  1 a 1 36 ]
+"169
+[v getHis@aux aux `uc  1 a 1 37 ]
+[s S2185 . 23 `[8]s 1 hist 16 0 `s 1 max 2 16 `s 1 min 2 18 `s 1 med 2 20 `uc 1 pWrite 1 22 ]
+"167
+[v getHis@data data `*.39S2185  1 p 2 32 ]
+"180
+} 0
+"29 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+[v _sendSensorData sendSensorData `(v  1 e 1 0 ]
+{
+[s S2515 . 8 `[2]uc 1 preamble 2 0 `[6]uc 1 value 6 2 ]
+"31
+[v sendSensorData@packet packet `S2515  1 a 8 24 ]
+"29
+[v sendSensorData@sensor_data sensor_data `s  1 p 2 20 ]
+"30
+[v sendSensorData@F11244 F11244 `S2515  1 s 8 F11244 ]
+"36
+} 0
+"69
+[v _stringlen stringlen `(uc  1 e 1 0 ]
+{
+"71
+[v stringlen@idx idx `uc  1 a 1 0 ]
+"69
+[v stringlen@str str `*.39DCuc  1 p 2 4 ]
+"80
+} 0
+"20 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+[v _sendPacket sendPacket `(v  1 e 1 0 ]
+{
+"24
+[v sendPacket@i i `i  1 a 2 11 ]
+"20
+[v sendPacket@str str `*.39DCuc  1 p 2 1 ]
+[v sendPacket@byteCount byteCount `ul  1 p 4 3 ]
+"42
+} 0
+"67
+[v _TxDeviceEnable TxDeviceEnable `(v  1 e 1 0 ]
+{
+"70
+} 0
+"72
+[v _TxDeviceDisable TxDeviceDisable `(v  1 e 1 0 ]
+{
+"75
+} 0
+"119 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+[v _EUSART1_is_tx_ready EUSART1_is_tx_ready `(a  1 e 1 0 ]
+{
+"122
+} 0
+"129
+[v _EUSART1_is_tx_done EUSART1_is_tx_done `(a  1 e 1 0 ]
+{
+"132
+} 0
+"159
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 p 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 p 1 wreg ]
+"161
+[v EUSART1_Write@txData txData `uc  1 p 1 4 ]
+"167
+} 0
+"88 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+[v _int16ToString int16ToString `(v  1 e 1 0 ]
+{
+"106
+[v int16ToString@i i `i  1 a 2 14 ]
+"90
+[v int16ToString@divisor divisor `us  1 a 2 18 ]
+"91
+[v int16ToString@dividend dividend `s  1 a 2 16 ]
+"92
+[v int16ToString@result result `s  1 a 2 12 ]
+"93
+[v int16ToString@flag_0 flag_0 `a  1 a 1 11 ]
+"88
+[v int16ToString@value value `s  1 p 2 7 ]
+[v int16ToString@data data `*.39uc  1 p 2 9 ]
+"119
+} 0
+"5 /opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"25
+} 0
+"5 /opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"127 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+[v _TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
+{
+"132
+} 0
+"8 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+[v _initRxBuffer initRxBuffer `(v  1 e 1 0 ]
+{
+"10
+[v initRxBuffer@i i `i  1 a 2 4 ]
+"8
+[v initRxBuffer@buf buf `*.39uc  1 p 2 0 ]
+[v initRxBuffer@size size `ul  1 p 4 2 ]
+"14
+} 0
+"100 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+[v _getMetrics getMetrics `(v  1 e 1 0 ]
+{
+[s S2178 . 8 `[5]uc 1 codename 5 0 `[3]uc 1 address 3 5 ]
+[s S2181 . 5 `uc 1 addressI2C 1 0 `us 1 config 2 1 `us 1 calib 2 3 ]
+[s S2185 . 23 `[8]s 1 hist 16 0 `s 1 max 2 16 `s 1 min 2 18 `s 1 med 2 20 `uc 1 pWrite 1 22 ]
+[s S2191 . 46 `S2185 1 voltage 23 0 `S2185 1 current 23 23 ]
+[s S2194 . 59 `S2178 1 sensor_info 8 0 `S2181 1 sensor_config 5 8 `S2191 1 sensor_data 46 13 ]
+[v getMetrics@device device `*.39S2194  1 p 2 30 ]
+"108
+} 0
+"130
+[v _getMin getMin `(v  1 e 1 0 ]
+{
+"135
+[v getMin@i i `uc  1 a 1 7 ]
+"132
+[v getMin@aux aux `uc  1 a 1 8 ]
+[s S2185 . 23 `[8]s 1 hist 16 0 `s 1 max 2 16 `s 1 min 2 18 `s 1 med 2 20 `uc 1 pWrite 1 22 ]
+"130
+[v getMin@data data `*.39S2185  1 p 2 4 ]
+"148
+} 0
+"150
+[v _getMed getMed `(v  1 e 1 0 ]
+{
+"155
+[v getMed@i i `uc  1 a 1 28 ]
+"152
+[v getMed@buff buff `l  1 a 4 24 ]
+"153
+[v getMed@aux aux `uc  1 a 1 29 ]
+[s S2185 . 23 `[8]s 1 hist 16 0 `s 1 max 2 16 `s 1 min 2 18 `s 1 med 2 20 `uc 1 pWrite 1 22 ]
+"150
+[v getMed@data data `*.39S2185  1 p 2 14 ]
+"165
+} 0
+"5 /opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 10 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 9 ]
+[v ___aldiv@counter counter `uc  1 a 1 8 ]
+"5
+[v ___aldiv@divisor divisor `l  1 p 4 0 ]
+[v ___aldiv@dividend dividend `l  1 p 4 4 ]
+"41
+} 0
+"110 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+[v _getMax getMax `(v  1 e 1 0 ]
+{
+"115
+[v getMax@i i `uc  1 a 1 7 ]
+"112
+[v getMax@aux aux `uc  1 a 1 8 ]
+[s S2185 . 23 `[8]s 1 hist 16 0 `s 1 max 2 16 `s 1 min 2 18 `s 1 med 2 20 `uc 1 pWrite 1 22 ]
+"110
+[v getMax@data data `*.39S2185  1 p 2 4 ]
+"128
+} 0
+"120 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+[v _TMR4_Stop TMR4_Stop `(v  1 e 1 0 ]
+{
+"124
+} 0
+"109
+[v _TMR4_Start TMR4_Start `(v  1 e 1 0 ]
+{
+"113
+} 0
+"120 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+{
+"124
+} 0
+"109
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+{
+"113
+} 0
+"50 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"62
+} 0
+"65 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+[v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
+{
+"95
+} 0
+"179
+[v _TMR4_SetInterruptHandler TMR4_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR4_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
+"181
+} 0
+"65 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"95
+} 0
+"179
+[v _TMR2_SetInterruptHandler TMR2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
+"181
+} 0
+"66 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"93
+} 0
+"151
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
+"153
+} 0
+"80 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"98
+} 0
+"55 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"112
+} 0
+"64 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"167 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"174
+} 0
+"81 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"117
+} 0
+"242
+[v _EUSART1_SetRxInterruptHandler EUSART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetRxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"244
+} 0
+"233
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"235
+} 0
+"229
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"231
+} 0
+"237
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"239
+} 0
+"58 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/dac1.c
+[v _DAC1_Initialize DAC1_Initialize `(v  1 e 1 0 ]
+{
+"64
+} 0
+"61 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+[v _CMP1_Initialize CMP1_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"52 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"86
+} 0
+"166 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+[v _TMR4_ISR TMR4_ISR `(v  1 e 1 0 ]
+{
+"176
+} 0
+"183
+[v _TMR4_DefaultInterruptHandler TMR4_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"187
+} 0
+"166 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+[v _TMR2_ISR TMR2_ISR `(v  1 e 1 0 ]
+{
+"176
+} 0
+"183
+[v _TMR2_DefaultInterruptHandler TMR2_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"187
+} 0
+"134 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"148
+} 0
+"155
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"159
+} 0
+"171 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+{
+"193
+} 0
+"217
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+{
+"223
+} 0
+"225
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+{
+"227
+} 0
+"195
+[v _EUSART1_RxDataHandler EUSART1_RxDataHandler `(v  1 e 1 0 ]
+{
+"197
+[v EUSART1_RxDataHandler@t t `i  1 a 2 2 ]
+"213
+} 0
+"94 /home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+[v _CMP1_ISR CMP1_ISR `(v  1 e 1 0 ]
+{
+"105
+} 0
+"89
+[v _CMP1_GetOutputStatus CMP1_GetOutputStatus `(a  1 e 1 0 ]
+{
+"92
+} 0

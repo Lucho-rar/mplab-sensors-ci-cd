@@ -1,0 +1,2550 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+cinit CODE 0 32 32 5E 2 1
+idloc IDLOC 5 8000 8000 4 2 1
+text1 CODE 0 E03 E03 33 2 1
+text2 CODE 0 BBF BBF 1F 2 1
+text3 CODE 0 A23 A23 11 2 1
+text4 CODE 0 21D 21D 176 2 1
+text5 CODE 0 58E 58E 6B 2 1
+text6 CODE 0 B4C B4C 1B 2 1
+text7 CODE 0 791 791 48 2 1
+text8 CODE 0 393 393 F7 2 1
+text9 CODE 0 A34 A34 13 2 1
+text10 CODE 0 E36 E36 34 2 1
+text11 CODE 0 C9A C9A 28 2 1
+text12 CODE 0 9BC 9BC A 2 1
+text13 CODE 0 90C 90C 4 2 1
+text14 CODE 0 BA1 BA1 1E 2 1
+text15 CODE 0 DD0 DD0 33 2 1
+text16 CODE 0 9E9 9E9 C 2 1
+text17 CODE 0 908 908 4 2 1
+text18 CODE 0 B17 B17 1A 2 1
+text19 CODE 0 9B2 9B2 A 2 1
+text20 CODE 0 904 904 4 2 1
+text21 CODE 0 BFF BFF 25 2 1
+text22 CODE 0 CC2 CC2 29 2 1
+text23 CODE 0 924 924 5 2 1
+text24 CODE 0 900 900 4 2 1
+text25 CODE 0 8FC 8FC 4 2 1
+text26 CODE 0 8F8 8F8 4 2 1
+text27 CODE 0 8F4 8F4 4 2 1
+text28 CODE 0 8F0 8F0 4 2 1
+text29 CODE 0 8EC 8EC 4 2 1
+text30 CODE 0 8E8 8E8 4 2 1
+text31 CODE 0 959 959 6 2 1
+text32 CODE 0 FBE FBE 42 2 1
+text33 CODE 0 743 743 4E 2 1
+text34 CODE 0 96B 96B 7 2 1
+text35 CODE 0 97A 97A 8 2 1
+text36 CODE 0 91F 91F 5 2 1
+text37 CODE 0 D15 D15 2D 2 1
+text38 CODE 0 8D5 8D5 3 2 1
+text39 CODE 0 953 953 6 2 1
+text40 CODE 0 91A 91A 5 2 1
+text41 CODE 0 8E4 8E4 4 2 1
+text42 CODE 0 8D2 8D2 3 2 1
+text43 CODE 0 8E0 8E0 4 2 1
+text44 CODE 0 8CF 8CF 3 2 1
+text45 CODE 0 2 2 2 2 1
+text46 CODE 0 8AF 8AF 2 2 1
+text47 CODE 0 B67 B67 1C 2 1
+text48 CODE 0 A97 A97 14 2 1
+text49 CODE 0 A83 A83 14 2 1
+text50 CODE 0 A6F A6F 14 2 1
+text51 CODE 0 A5B A5B 14 2 1
+text52 CODE 0 9A8 9A8 A 2 1
+text53 CODE 0 EA0 EA0 36 2 1
+text54 CODE 0 AD5 AD5 15 2 1
+text55 CODE 0 8CC 8CC 3 2 1
+text56 CODE 0 8C9 8C9 3 2 1
+text57 CODE 0 8C6 8C6 3 2 1
+text58 CODE 0 AC0 AC0 15 2 1
+text59 CODE 0 8AD 8AD 2 2 1
+text60 CODE 0 8C3 8C3 3 2 1
+text61 CODE 0 8C0 8C0 3 2 1
+text62 CODE 0 7D9 7D9 27 2 1
+text63 CODE 0 ED6 ED6 37 2 1
+text64 CODE 0 AEA AEA 16 2 1
+text65 CODE 0 651 651 54 2 1
+text66 CODE 0 8AB 8AB 2 2 1
+text67 CODE 0 8BD 8BD 3 2 1
+text68 CODE 0 9C6 9C6 B 2 1
+text69 CODE 0 8DC 8DC 4 2 1
+text70 CODE 0 99E 99E A 2 1
+text71 CODE 0 48A 48A 87 2 1
+text72 CODE 0 CEB CEB 2A 2 1
+text73 CODE 0 D9E D9E 32 2 1
+text74 CODE 0 972 972 8 2 1
+text75 CODE 0 C4B C4B 27 2 1
+text76 CODE 0 E6A E6A 36 2 1
+text77 CODE 0 6A5 6A5 4F 2 1
+text78 CODE 0 5F9 5F9 58 2 1
+text79 CODE 0 511 511 7D 2 1
+text80 CODE 0 6F4 6F4 4F 2 1
+text81 CODE 0 8BA 8BA 3 2 1
+text82 CODE 0 8B7 8B7 3 2 1
+text83 CODE 0 8A9 8A9 2 2 1
+text84 CODE 0 8A7 8A7 2 2 1
+text85 CODE 0 B83 B83 1E 2 1
+text86 CODE 0 AAB AAB 15 2 1
+text87 CODE 0 94D 94D 6 2 1
+text88 CODE 0 B00 B00 17 2 1
+text89 CODE 0 947 947 6 2 1
+text90 CODE 0 B31 B31 1B 2 1
+text91 CODE 0 941 941 6 2 1
+text92 CODE 0 A12 A12 11 2 1
+text93 CODE 0 C72 C72 28 2 1
+text94 CODE 0 994 994 A 2 1
+text95 CODE 0 98A 98A A 2 1
+text96 CODE 0 D70 D70 2E 2 1
+text97 CODE 0 93B 93B 6 2 1
+text98 CODE 0 915 915 5 2 1
+text99 CODE 0 935 935 6 2 1
+nvBANK0 BANK0 1 5E 5E 6 1 1
+nvBANK1 BANK1 1 E7 E7 8 1 1
+maintext CODE 0 90 90 18D 2 1
+cstackCOMMON COMMON 1 70 70 6 1 1
+cstackBANK0 BANK0 1 20 20 36 1 1
+cstackBANK2 BANK2 1 15B 15B B 1 1
+inittext CODE 0 965 965 6 2 1
+stringtext1 STRCODE 0 1000 1000 20 2 1
+intentry CODE 0 4 4 2C 2 1
+bssBANK0 BANK0 1 64 64 3 1 1
+bssBANK1 BANK1 1 A0 A0 26 1 1
+bssBANK5 BANK5 1 2A0 2A0 40 1 1
+bssBANK6 BANK6 1 320 320 40 1 1
+idataBANK0 CODE 0 982 982 8 2 1
+idataBANK1 CODE 0 BDE BDE 21 2 1
+idataBANK2 CODE 0 F83 F83 3B 2 1
+idataBANK3 CODE 0 F48 F48 3B 2 1
+idataBANK4 CODE 0 F0D F0D 3B 2 1
+dataBANK0 BANK0 1 56 56 8 1 1
+dataBANK1 BANK1 1 C6 C6 21 1 1
+dataBANK2 BANK2 1 120 120 3B 1 1
+dataBANK3 BANK3 1 1A0 1A0 3B 1 1
+dataBANK4 BANK4 1 220 220 3B 1 1
+clrtext CODE 0 95F 95F 6 2 1
+text100 CODE 0 910 910 5 2 1
+text101 CODE 0 92F 92F 6 2 1
+text102 CODE 0 A03 A03 F 2 1
+text104 CODE 0 9DD 9DD C 2 1
+text105 CODE 0 8A5 8A5 2 2 1
+text106 CODE 0 9D1 9D1 C 2 1
+text107 CODE 0 8A3 8A3 2 2 1
+text108 CODE 0 A47 A47 14 2 1
+text109 CODE 0 8B4 8B4 3 2 1
+text110 CODE 0 C24 C24 27 2 1
+text111 CODE 0 8D8 8D8 4 2 1
+text112 CODE 0 8B1 8B1 3 2 1
+text113 CODE 0 D42 D42 2E 2 1
+text114 CODE 0 9F5 9F5 E 2 1
+text115 CODE 0 929 929 6 2 1
+bssCOMMON COMMON 1 76 76 4 1 1
+config CONFIG 4 8007 8007 5 2 1
+$/tmp/xcXCJamOo/driver_tmp_15.o
+idloc IDLOC 5 8000 8000 4 2 1
+reset_vec CODE 0 0 0 2 2 1
+end_init CODE 0 30 30 2 2 1
+config CONFIG 4 8007 8007 5 2 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 67-6F 1
+RAM EF-EF 1
+RAM 166-16F 1
+RAM 1DB-1EF 1
+RAM 25B-26F 1
+RAM 2E0-2EF 1
+RAM 360-36F 1
+RAM 3A0-3EF 1
+RAM 420-46F 1
+RAM 4A0-4EF 1
+RAM 520-56F 1
+RAM 5A0-5EF 1
+RAM 620-64F 1
+BANK0 67-6F 1
+BANK1 EF-EF 1
+BANK2 166-16F 1
+BANK3 1DB-1EF 1
+BANK4 25B-26F 1
+BANK5 2E0-2EF 1
+BANK6 360-36F 1
+BANK7 3A0-3EF 1
+BANK8 420-46F 1
+BANK9 4A0-4EF 1
+CONST 800-8A2 2
+CONST 1020-1FFF 2
+ENTRY 800-8A2 2
+ENTRY 1020-1FFF 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-6EF 1
+SFR14 700-76F 1
+SFR15 780-7EF 1
+SFR16 800-86F 1
+SFR17 880-8EF 1
+SFR18 900-96F 1
+SFR19 980-9EF 1
+SFR20 A00-A6F 1
+SFR21 A80-AEF 1
+SFR22 B00-B6F 1
+SFR23 B80-BEF 1
+SFR24 C00-C6F 1
+SFR25 C80-CEF 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+SFR32 1000-106F 1
+SFR33 1080-10EF 1
+SFR34 1100-116F 1
+SFR35 1180-11EF 1
+SFR36 1200-126F 1
+SFR37 1280-12EF 1
+SFR38 1300-136F 1
+SFR39 1380-13EF 1
+SFR40 1400-146F 1
+SFR41 1480-14EF 1
+SFR42 1500-156F 1
+SFR43 1580-15EF 1
+SFR44 1600-166F 1
+SFR45 1680-16EF 1
+SFR46 1700-176F 1
+SFR47 1780-17EF 1
+SFR48 1800-186F 1
+SFR49 1880-18EF 1
+SFR50 1900-196F 1
+SFR51 1980-19EF 1
+SFR52 1A00-1A6F 1
+SFR53 1A80-1AEF 1
+SFR54 1B00-1B6F 1
+SFR55 1B80-1BEF 1
+SFR56 1C00-1C6F 1
+SFR57 1C80-1CEF 1
+SFR58 1D00-1D6F 1
+SFR59 1D80-1DEF 1
+SFR60 1E00-1E6F 1
+SFR61 1E80-1EEF 1
+SFR62 1F00-1F6F 1
+SFR63 1F80-1FEF 1
+CODE 800-8A2 2
+CODE 1020-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BANK10 520-56F 1
+BANK11 5A0-5EF 1
+BANK12 620-64F 1
+BIGRAM 2000-23EF 1
+COMMON 7A-7D 1
+EEDATA F000-F0FF 2
+STRCODE 800-8A2 2
+STRCODE 1020-1FFF 2
+STRING 800-8A2 2
+STRING 1020-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+32 cinit CODE >14118:/tmp/xcXCJamOo/driver_tmp_1.s
+32 cinit CODE >14121:/tmp/xcXCJamOo/driver_tmp_1.s
+32 cinit CODE >14246:/tmp/xcXCJamOo/driver_tmp_1.s
+33 cinit CODE >14247:/tmp/xcXCJamOo/driver_tmp_1.s
+34 cinit CODE >14248:/tmp/xcXCJamOo/driver_tmp_1.s
+35 cinit CODE >14249:/tmp/xcXCJamOo/driver_tmp_1.s
+36 cinit CODE >14250:/tmp/xcXCJamOo/driver_tmp_1.s
+37 cinit CODE >14251:/tmp/xcXCJamOo/driver_tmp_1.s
+38 cinit CODE >14252:/tmp/xcXCJamOo/driver_tmp_1.s
+39 cinit CODE >14253:/tmp/xcXCJamOo/driver_tmp_1.s
+3A cinit CODE >14254:/tmp/xcXCJamOo/driver_tmp_1.s
+3B cinit CODE >14255:/tmp/xcXCJamOo/driver_tmp_1.s
+3E cinit CODE >14259:/tmp/xcXCJamOo/driver_tmp_1.s
+3F cinit CODE >14260:/tmp/xcXCJamOo/driver_tmp_1.s
+40 cinit CODE >14261:/tmp/xcXCJamOo/driver_tmp_1.s
+41 cinit CODE >14262:/tmp/xcXCJamOo/driver_tmp_1.s
+42 cinit CODE >14263:/tmp/xcXCJamOo/driver_tmp_1.s
+43 cinit CODE >14264:/tmp/xcXCJamOo/driver_tmp_1.s
+44 cinit CODE >14265:/tmp/xcXCJamOo/driver_tmp_1.s
+45 cinit CODE >14266:/tmp/xcXCJamOo/driver_tmp_1.s
+46 cinit CODE >14267:/tmp/xcXCJamOo/driver_tmp_1.s
+47 cinit CODE >14268:/tmp/xcXCJamOo/driver_tmp_1.s
+4A cinit CODE >14272:/tmp/xcXCJamOo/driver_tmp_1.s
+4B cinit CODE >14273:/tmp/xcXCJamOo/driver_tmp_1.s
+4C cinit CODE >14274:/tmp/xcXCJamOo/driver_tmp_1.s
+4D cinit CODE >14275:/tmp/xcXCJamOo/driver_tmp_1.s
+4E cinit CODE >14276:/tmp/xcXCJamOo/driver_tmp_1.s
+4F cinit CODE >14277:/tmp/xcXCJamOo/driver_tmp_1.s
+50 cinit CODE >14278:/tmp/xcXCJamOo/driver_tmp_1.s
+51 cinit CODE >14279:/tmp/xcXCJamOo/driver_tmp_1.s
+52 cinit CODE >14280:/tmp/xcXCJamOo/driver_tmp_1.s
+53 cinit CODE >14281:/tmp/xcXCJamOo/driver_tmp_1.s
+56 cinit CODE >14285:/tmp/xcXCJamOo/driver_tmp_1.s
+57 cinit CODE >14286:/tmp/xcXCJamOo/driver_tmp_1.s
+58 cinit CODE >14287:/tmp/xcXCJamOo/driver_tmp_1.s
+59 cinit CODE >14288:/tmp/xcXCJamOo/driver_tmp_1.s
+5A cinit CODE >14289:/tmp/xcXCJamOo/driver_tmp_1.s
+5B cinit CODE >14290:/tmp/xcXCJamOo/driver_tmp_1.s
+5C cinit CODE >14291:/tmp/xcXCJamOo/driver_tmp_1.s
+5D cinit CODE >14292:/tmp/xcXCJamOo/driver_tmp_1.s
+5E cinit CODE >14293:/tmp/xcXCJamOo/driver_tmp_1.s
+5F cinit CODE >14294:/tmp/xcXCJamOo/driver_tmp_1.s
+62 cinit CODE >14298:/tmp/xcXCJamOo/driver_tmp_1.s
+63 cinit CODE >14299:/tmp/xcXCJamOo/driver_tmp_1.s
+64 cinit CODE >14300:/tmp/xcXCJamOo/driver_tmp_1.s
+65 cinit CODE >14301:/tmp/xcXCJamOo/driver_tmp_1.s
+66 cinit CODE >14302:/tmp/xcXCJamOo/driver_tmp_1.s
+67 cinit CODE >14303:/tmp/xcXCJamOo/driver_tmp_1.s
+68 cinit CODE >14304:/tmp/xcXCJamOo/driver_tmp_1.s
+69 cinit CODE >14305:/tmp/xcXCJamOo/driver_tmp_1.s
+6A cinit CODE >14306:/tmp/xcXCJamOo/driver_tmp_1.s
+6B cinit CODE >14307:/tmp/xcXCJamOo/driver_tmp_1.s
+6E cinit CODE >14324:/tmp/xcXCJamOo/driver_tmp_1.s
+6F cinit CODE >14325:/tmp/xcXCJamOo/driver_tmp_1.s
+70 cinit CODE >14326:/tmp/xcXCJamOo/driver_tmp_1.s
+71 cinit CODE >14327:/tmp/xcXCJamOo/driver_tmp_1.s
+72 cinit CODE >14331:/tmp/xcXCJamOo/driver_tmp_1.s
+73 cinit CODE >14332:/tmp/xcXCJamOo/driver_tmp_1.s
+74 cinit CODE >14333:/tmp/xcXCJamOo/driver_tmp_1.s
+75 cinit CODE >14337:/tmp/xcXCJamOo/driver_tmp_1.s
+76 cinit CODE >14338:/tmp/xcXCJamOo/driver_tmp_1.s
+77 cinit CODE >14339:/tmp/xcXCJamOo/driver_tmp_1.s
+78 cinit CODE >14340:/tmp/xcXCJamOo/driver_tmp_1.s
+79 cinit CODE >14341:/tmp/xcXCJamOo/driver_tmp_1.s
+7A cinit CODE >14342:/tmp/xcXCJamOo/driver_tmp_1.s
+7D cinit CODE >14346:/tmp/xcXCJamOo/driver_tmp_1.s
+7E cinit CODE >14347:/tmp/xcXCJamOo/driver_tmp_1.s
+7F cinit CODE >14348:/tmp/xcXCJamOo/driver_tmp_1.s
+80 cinit CODE >14349:/tmp/xcXCJamOo/driver_tmp_1.s
+81 cinit CODE >14350:/tmp/xcXCJamOo/driver_tmp_1.s
+82 cinit CODE >14351:/tmp/xcXCJamOo/driver_tmp_1.s
+85 cinit CODE >14355:/tmp/xcXCJamOo/driver_tmp_1.s
+86 cinit CODE >14356:/tmp/xcXCJamOo/driver_tmp_1.s
+87 cinit CODE >14357:/tmp/xcXCJamOo/driver_tmp_1.s
+88 cinit CODE >14358:/tmp/xcXCJamOo/driver_tmp_1.s
+89 cinit CODE >14359:/tmp/xcXCJamOo/driver_tmp_1.s
+8A cinit CODE >14360:/tmp/xcXCJamOo/driver_tmp_1.s
+8C cinit CODE >14366:/tmp/xcXCJamOo/driver_tmp_1.s
+8C cinit CODE >14368:/tmp/xcXCJamOo/driver_tmp_1.s
+8D cinit CODE >14369:/tmp/xcXCJamOo/driver_tmp_1.s
+8E cinit CODE >14370:/tmp/xcXCJamOo/driver_tmp_1.s
+4 intentry CODE >52:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+6 intentry CODE >55:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+A intentry CODE >57:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+D intentry CODE >58:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+E intentry CODE >59:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+10 intentry CODE >61:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+13 intentry CODE >63:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+16 intentry CODE >64:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+17 intentry CODE >65:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+1A intentry CODE >67:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+1D intentry CODE >68:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+1E intentry CODE >69:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+21 intentry CODE >71:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+24 intentry CODE >72:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+25 intentry CODE >73:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+28 intentry CODE >75:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+2E intentry CODE >86:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/interrupt_manager.c
+929 text115 CODE >89:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+929 text115 CODE >91:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+92E text115 CODE >92:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+9F5 text114 CODE >94:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+9F5 text114 CODE >97:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+9F6 text114 CODE >98:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+9FA text114 CODE >98:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+9FC text114 CODE >100:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+9FF text114 CODE >101:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+A00 text114 CODE >103:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+A02 text114 CODE >105:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+D42 text113 CODE >195:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D42 text113 CODE >198:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D4A text113 CODE >199:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D52 text113 CODE >201:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D5B text113 CODE >203:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D5E text113 CODE >205:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D65 text113 CODE >206:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D69 text113 CODE >207:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D6B text113 CODE >207:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D6D text113 CODE >209:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D6F text113 CODE >213:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+8B1 text112 CODE >225:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+8B1 text112 CODE >226:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+8B3 text112 CODE >227:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+8D8 text111 CODE >217:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+8D8 text111 CODE >220:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+8DA text111 CODE >221:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+8DB text111 CODE >223:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+C24 text110 CODE >171:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+C24 text110 CODE >174:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+C2A text110 CODE >181:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+C2D text110 CODE >182:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+C33 text110 CODE >183:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+C39 text110 CODE >186:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+C41 text110 CODE >187:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+C47 text110 CODE >188:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+C48 text110 CODE >189:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+C4A text110 CODE >193:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+8B4 text109 CODE >155:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+8B4 text109 CODE >158:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+8B6 text109 CODE >159:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+A47 text108 CODE >134:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+A47 text108 CODE >137:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+A48 text108 CODE >139:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+A4C text108 CODE >140:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+A50 text108 CODE >142:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+A55 text108 CODE >144:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+A5A text108 CODE >148:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+8A3 text107 CODE >183:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+8A3 text107 CODE >186:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+8A4 text107 CODE >187:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+9D1 text106 CODE >166:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+9D1 text106 CODE >170:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+9D2 text106 CODE >172:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+9D7 text106 CODE >174:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+9DC text106 CODE >176:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+8A5 text105 CODE >183:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+8A5 text105 CODE >186:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+8A6 text105 CODE >187:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+9DD text104 CODE >166:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+9DD text104 CODE >170:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+9DE text104 CODE >172:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+9E3 text104 CODE >174:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+9E8 text104 CODE >176:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+A03 text102 CODE >61:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+A03 text102 CODE >68:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+A05 text102 CODE >71:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+A08 text102 CODE >74:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+A0A text102 CODE >77:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+A0C text102 CODE >80:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+A0E text102 CODE >83:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+A10 text102 CODE >86:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+A11 text102 CODE >87:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/cmp1.c
+92F text101 CODE >58:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/dac1.c
+92F text101 CODE >61:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/dac1.c
+932 text101 CODE >63:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/dac1.c
+934 text101 CODE >64:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/dac1.c
+910 text100 CODE >237:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+910 text100 CODE >238:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+914 text100 CODE >239:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+935 text99 CODE >229:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+935 text99 CODE >230:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+93A text99 CODE >231:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+915 text98 CODE >233:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+915 text98 CODE >234:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+919 text98 CODE >235:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+93B text97 CODE >242:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+93B text97 CODE >243:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+940 text97 CODE >244:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D70 text96 CODE >81:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D70 text96 CODE >84:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D72 text96 CODE >85:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D79 text96 CODE >89:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D7C text96 CODE >92:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D7E text96 CODE >95:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D80 text96 CODE >98:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D82 text96 CODE >101:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D83 text96 CODE >104:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D8A text96 CODE >105:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D91 text96 CODE >106:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D97 text96 CODE >108:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D98 text96 CODE >111:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D99 text96 CODE >112:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D9A text96 CODE >113:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D9B text96 CODE >116:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+D9D text96 CODE >117:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+98A text95 CODE >167:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+98A text95 CODE >169:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+98D text95 CODE >170:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+98F text95 CODE >171:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+990 text95 CODE >172:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+992 text95 CODE >173:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+993 text95 CODE >174:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+994 text94 CODE >64:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+994 text94 CODE >67:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+997 text94 CODE >69:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+998 text94 CODE >71:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+999 text94 CODE >73:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+99A text94 CODE >75:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+99B text94 CODE >77:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+99D text94 CODE >78:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+C72 text93 CODE >55:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C72 text93 CODE >60:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C74 text93 CODE >61:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C75 text93 CODE >66:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C77 text93 CODE >67:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C79 text93 CODE >72:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C7C text93 CODE >73:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C7E text93 CODE >78:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C7F text93 CODE >79:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C80 text93 CODE >84:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C81 text93 CODE >85:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C82 text93 CODE >90:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C84 text93 CODE >91:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C86 text93 CODE >96:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C88 text93 CODE >97:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C8A text93 CODE >106:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C8C text93 CODE >107:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C8F text93 CODE >108:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C92 text93 CODE >109:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C94 text93 CODE >110:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C97 text93 CODE >111:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+C99 text93 CODE >112:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/pin_manager.c
+A12 text92 CODE >80:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+A12 text92 CODE >83:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+A15 text92 CODE >85:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+A17 text92 CODE >87:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+A19 text92 CODE >89:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+A1B text92 CODE >91:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+A1D text92 CODE >93:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+A1F text92 CODE >95:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+A20 text92 CODE >97:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+A22 text92 CODE >98:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+941 text91 CODE >151:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+941 text91 CODE >152:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+946 text91 CODE >153:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+B31 text90 CODE >66:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+B31 text90 CODE >71:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+B34 text90 CODE >74:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+B36 text90 CODE >77:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+B38 text90 CODE >80:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+B3F text90 CODE >83:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+B41 text90 CODE >86:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+B42 text90 CODE >89:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+B48 text90 CODE >92:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+B4B text90 CODE >93:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+947 text89 CODE >179:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+947 text89 CODE >180:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+94C text89 CODE >181:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+B00 text88 CODE >65:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+B00 text88 CODE >70:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+B03 text88 CODE >73:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+B05 text88 CODE >76:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+B07 text88 CODE >79:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+B09 text88 CODE >82:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+B0A text88 CODE >85:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+B0C text88 CODE >88:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+B0D text88 CODE >91:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+B13 text88 CODE >94:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+B16 text88 CODE >95:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+94D text87 CODE >179:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+94D text87 CODE >180:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+952 text87 CODE >181:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+AAB text86 CODE >65:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+AAB text86 CODE >70:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+AAE text86 CODE >73:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+AAF text86 CODE >76:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+AB0 text86 CODE >79:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+AB2 text86 CODE >82:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+AB3 text86 CODE >85:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+AB5 text86 CODE >88:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+AB6 text86 CODE >91:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+ABC text86 CODE >94:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+ABF text86 CODE >95:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+B83 text85 CODE >50:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+B83 text85 CODE >52:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+B86 text85 CODE >53:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+B89 text85 CODE >54:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+B8C text85 CODE >55:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+B8F text85 CODE >56:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+B92 text85 CODE >57:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+B95 text85 CODE >58:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+B98 text85 CODE >59:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+B9B text85 CODE >60:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+B9E text85 CODE >61:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+BA0 text85 CODE >62:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/mcc.c
+8A7 text84 CODE >109:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+8A7 text84 CODE >112:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+8A8 text84 CODE >113:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+8A9 text83 CODE >120:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+8A9 text83 CODE >123:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+8AA text83 CODE >124:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr2.c
+8B7 text82 CODE >109:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+8B7 text82 CODE >112:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+8B9 text82 CODE >113:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+8BA text81 CODE >120:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+8BA text81 CODE >123:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+8BC text81 CODE >124:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr4.c
+6F4 text80 CODE >110:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6F4 text80 CODE >113:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6FB text80 CODE >115:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6FC text80 CODE >117:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+71A text80 CODE >117:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+71E text80 CODE >117:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+720 text80 CODE >119:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+735 text80 CODE >121:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+737 text80 CODE >123:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+738 text80 CODE >121:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+739 text80 CODE >123:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+73A text80 CODE >125:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+73C text80 CODE >126:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+740 text80 CODE >126:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+511 text79 CODE >5:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+511 text79 CODE >13:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+512 text79 CODE >14:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+514 text79 CODE >15:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+519 text79 CODE >15:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+51B text79 CODE >15:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+51D text79 CODE >15:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+51F text79 CODE >16:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+521 text79 CODE >17:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+521 text79 CODE >18:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+523 text79 CODE >19:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+528 text79 CODE >19:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+52A text79 CODE >19:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+52C text79 CODE >19:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+52E text79 CODE >20:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+530 text79 CODE >22:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+538 text79 CODE >23:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+53C text79 CODE >23:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+53E text79 CODE >24:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+540 text79 CODE >25:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+542 text79 CODE >26:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+549 text79 CODE >27:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+54B text79 CODE >25:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+54C text79 CODE >30:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+553 text79 CODE >31:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+555 text79 CODE >31:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+559 text79 CODE >31:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+55D text79 CODE >31:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+561 text79 CODE >31:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+563 text79 CODE >32:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+56B text79 CODE >33:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+56C text79 CODE >35:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+573 text79 CODE >36:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+577 text79 CODE >38:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+57A text79 CODE >39:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+57F text79 CODE >39:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+581 text79 CODE >39:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+583 text79 CODE >39:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+585 text79 CODE >40:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+58D text79 CODE >41:/opt/microchip/xc8/v3.00/pic/sources/c99/common/aldiv.c
+5F9 text78 CODE >150:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+5F9 text78 CODE >152:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+601 text78 CODE >154:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+608 text78 CODE >155:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+609 text78 CODE >157:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+629 text78 CODE >158:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+62A text78 CODE >160:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+62B text78 CODE >158:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+62C text78 CODE >160:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+62D text78 CODE >162:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+62F text78 CODE >163:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+633 text78 CODE >163:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+635 text78 CODE >164:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+650 text78 CODE >165:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6A5 text77 CODE >130:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6A5 text77 CODE >133:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6AC text77 CODE >135:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6AD text77 CODE >137:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6CB text77 CODE >137:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6CF text77 CODE >137:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6D1 text77 CODE >139:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6E6 text77 CODE >141:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6E8 text77 CODE >143:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6E9 text77 CODE >141:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6EA text77 CODE >143:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6EB text77 CODE >145:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6ED text77 CODE >146:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+6F1 text77 CODE >146:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E6A text76 CODE >100:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E6A text76 CODE >102:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E73 text76 CODE >103:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E7C text76 CODE >104:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E85 text76 CODE >105:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E8E text76 CODE >106:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E97 text76 CODE >107:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E9F text76 CODE >108:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+C4B text75 CODE >8:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+C4B text75 CODE >10:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+C4D text75 CODE >13:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+C58 text75 CODE >13:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+C5C text75 CODE >13:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+C60 text75 CODE >13:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+C64 text75 CODE >13:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+C66 text75 CODE >12:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+C6D text75 CODE >13:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+972 text74 CODE >127:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+972 text74 CODE >130:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+975 text74 CODE >131:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+979 text74 CODE >132:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/tmr0.c
+D9E text73 CODE >5:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+D9E text73 CODE >13:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+DA0 text73 CODE >14:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+DA4 text73 CODE >15:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+DA6 text73 CODE >16:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+DA8 text73 CODE >17:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+DAD text73 CODE >18:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+DAF text73 CODE >16:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+DB0 text73 CODE >21:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+DB5 text73 CODE >22:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+DB7 text73 CODE >22:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+DBB text73 CODE >22:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+DBD text73 CODE >23:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+DC1 text73 CODE >24:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+DC2 text73 CODE >26:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+DC7 text73 CODE >27:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+DCB text73 CODE >29:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+DCF text73 CODE >30:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+CEB text72 CODE >5:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+CEB text72 CODE >12:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+CEF text72 CODE >13:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+CF1 text72 CODE >14:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+CF3 text72 CODE >15:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+CF8 text72 CODE >16:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+CFA text72 CODE >14:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+CFB text72 CODE >19:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+CFD text72 CODE >19:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+D01 text72 CODE >19:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+D03 text72 CODE >20:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+D07 text72 CODE >21:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+D0C text72 CODE >22:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+D10 text72 CODE >24:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+D14 text72 CODE >25:/opt/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+48A text71 CODE >88:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+48A text71 CODE >90:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+48E text71 CODE >91:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+492 text71 CODE >93:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+493 text71 CODE >94:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+498 text71 CODE >94:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+49D text71 CODE >96:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+4A3 text71 CODE >97:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+4A4 text71 CODE >98:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+4A4 text71 CODE >100:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+4A6 text71 CODE >102:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+4AC text71 CODE >103:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+4B0 text71 CODE >104:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+4B4 text71 CODE >106:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+4B6 text71 CODE >108:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+4C6 text71 CODE >109:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+4CB text71 CODE >109:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+4CF text71 CODE >109:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+4D5 text71 CODE >111:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+4DD text71 CODE >112:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+4E1 text71 CODE >113:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+4E3 text71 CODE >115:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+4F2 text71 CODE >116:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+501 text71 CODE >117:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+50A text71 CODE >117:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+50E text71 CODE >117:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+99E text70 CODE >159:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+99F text70 CODE >161:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+9A1 text70 CODE >162:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+9A1 text70 CODE >164:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+9A4 text70 CODE >166:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+9A7 text70 CODE >167:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+8DC text69 CODE >129:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+8DC text69 CODE >131:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+8DF text69 CODE >132:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+9C6 text68 CODE >119:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+9C6 text68 CODE >121:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+9D0 text68 CODE >122:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+8BD text67 CODE >72:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+8BD text67 CODE >74:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+8BF text67 CODE >75:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+8AB text66 CODE >67:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+8AB text66 CODE >69:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+8AC text66 CODE >70:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+651 text65 CODE >20:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+651 text65 CODE >22:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+654 text65 CODE >24:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+656 text65 CODE >34:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+661 text65 CODE >34:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+665 text65 CODE >34:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+669 text65 CODE >34:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+66D text65 CODE >34:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+66F text65 CODE >26:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+673 text65 CODE >26:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+675 text65 CODE >29:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+67E text65 CODE >30:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+682 text65 CODE >30:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+684 text65 CODE >31:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+686 text65 CODE >32:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+68A text65 CODE >33:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+68A text65 CODE >34:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+690 text65 CODE >35:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+694 text65 CODE >35:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+696 text65 CODE >37:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+69A text65 CODE >38:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+69E text65 CODE >38:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+6A0 text65 CODE >39:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+6A2 text65 CODE >41:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+6A4 text65 CODE >42:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+AEA text64 CODE >69:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+AEA text64 CODE >71:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+AEB text64 CODE >73:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+AEC text64 CODE >75:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+AF3 text64 CODE >76:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+AF5 text64 CODE >77:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+AF9 text64 CODE >78:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+AFE text64 CODE >79:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+AFF text64 CODE >80:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+ED6 text63 CODE >29:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+ED6 text63 CODE >31:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+EE4 text63 CODE >32:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+EEF text63 CODE >34:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+EFE text63 CODE >34:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+F0C text63 CODE >36:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+7D9 text62 CODE >167:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+7D9 text62 CODE >170:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+7E0 text62 CODE >171:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+7E1 text62 CODE >173:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+7F3 text62 CODE >174:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+7F4 text62 CODE >176:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+7F5 text62 CODE >174:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+7F6 text62 CODE >176:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+7F7 text62 CODE >178:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+7F9 text62 CODE >179:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+7FD text62 CODE >179:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+8C0 text61 CODE >640:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8C0 text61 CODE >642:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8C2 text61 CODE >643:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8C3 text60 CODE >557:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8C3 text60 CODE >560:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8C5 text60 CODE >561:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8AD text59 CODE >635:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8AD text59 CODE >637:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8AE text59 CODE >638:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+AC0 text58 CODE >209:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+AC0 text58 CODE >211:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+AC2 text58 CODE >212:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+AC5 text58 CODE >214:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+AC6 text58 CODE >215:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+AC8 text58 CODE >216:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+ACB text58 CODE >217:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+ACE text58 CODE >218:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+AD0 text58 CODE >219:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+AD3 text58 CODE >221:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+AD4 text58 CODE >222:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8C6 text57 CODE >588:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8C6 text57 CODE >590:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8C8 text57 CODE >591:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8C9 text56 CODE >573:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8C9 text56 CODE >575:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8CB text56 CODE >576:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8CC text55 CODE >593:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8CC text55 CODE >595:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8CE text55 CODE >596:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+AD5 text54 CODE >263:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+AD5 text54 CODE >265:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+AD8 text54 CODE >267:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+AE0 text54 CODE >268:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+AE8 text54 CODE >269:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+AE9 text54 CODE >271:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+EA0 text53 CODE >298:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+EA1 text53 CODE >300:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+EA5 text53 CODE >302:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+EB1 text53 CODE >303:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+EBD text53 CODE >304:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+EBE text53 CODE >307:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+ECA text53 CODE >308:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+ED5 text53 CODE >310:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9A8 text52 CODE >273:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9A8 text52 CODE >275:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9B1 text52 CODE >276:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+A5B text51 CODE >163:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+A5B text51 CODE >165:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+A66 text51 CODE >166:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+A6D text51 CODE >167:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+A6E text51 CODE >168:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+A6F text50 CODE >142:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+A6F text50 CODE >144:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+A7A text50 CODE >145:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+A81 text50 CODE >146:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+A82 text50 CODE >147:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+A83 text49 CODE >149:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+A83 text49 CODE >151:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+A8E text49 CODE >152:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+A95 text49 CODE >153:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+A96 text49 CODE >154:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+A97 text48 CODE >156:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+A97 text48 CODE >158:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+AA2 text48 CODE >159:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+AA9 text48 CODE >160:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+AAA text48 CODE >161:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+B67 text47 CODE >170:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+B67 text47 CODE >172:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+B7A text47 CODE >173:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+B81 text47 CODE >174:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+B82 text47 CODE >175:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+8AF text46 CODE >520:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8AF text46 CODE >522:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8B0 text46 CODE >523:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+2 text45 CODE >525:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+2 text45 CODE >527:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+3 text45 CODE >528:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8CF text44 CODE >583:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8CF text44 CODE >585:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8D1 text44 CODE >586:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8E0 text43 CODE >609:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8E0 text43 CODE >611:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8E2 text43 CODE >612:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8E3 text43 CODE >613:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8D2 text42 CODE >563:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8D2 text42 CODE >565:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8D4 text42 CODE >566:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8E4 text41 CODE >603:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8E4 text41 CODE >605:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8E6 text41 CODE >606:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8E7 text41 CODE >607:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+91A text40 CODE >568:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+91B text40 CODE >570:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+91E text40 CODE >571:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+953 text39 CODE >598:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+953 text39 CODE >600:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+958 text39 CODE >601:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8D5 text38 CODE >645:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8D5 text38 CODE >647:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8D7 text38 CODE >648:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+D15 text37 CODE >409:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+D15 text37 CODE >411:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+D17 text37 CODE >412:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+D18 text37 CODE >416:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+D1B text37 CODE >418:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+D1D text37 CODE >419:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+D1F text37 CODE >422:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+D22 text37 CODE >423:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+D30 text37 CODE >423:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+D35 text37 CODE >423:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+D38 text37 CODE >423:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+D3B text37 CODE >423:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+D3E text37 CODE >423:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+D41 text37 CODE >424:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+91F text36 CODE >333:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+91F text36 CODE >335:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+921 text36 CODE >336:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+922 text36 CODE >337:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+923 text36 CODE >338:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+97A text35 CODE >340:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+97A text35 CODE >342:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+97C text35 CODE >343:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+980 text35 CODE >344:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+981 text35 CODE >345:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+96B text34 CODE >347:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+96B text34 CODE >349:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+96D text34 CODE >350:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+970 text34 CODE >351:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+971 text34 CODE >352:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+743 text33 CODE >354:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+743 text33 CODE >356:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+747 text33 CODE >356:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+74A text33 CODE >361:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+74D text33 CODE >363:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+750 text33 CODE >367:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+753 text33 CODE >368:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+766 text33 CODE >368:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+76B text33 CODE >368:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+76E text33 CODE >368:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+771 text33 CODE >368:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+774 text33 CODE >368:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+777 text33 CODE >370:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+777 text33 CODE >372:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+779 text33 CODE >373:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+77E text33 CODE >373:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+784 text33 CODE >374:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+790 text33 CODE >376:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FBE text32 CODE >378:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FBE text32 CODE >380:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FCC text32 CODE >381:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FD4 text32 CODE >383:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FD6 text32 CODE >384:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FD8 text32 CODE >386:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FD8 text32 CODE >388:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FD9 text32 CODE >389:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FDA text32 CODE >393:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FDD text32 CODE >397:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FE0 text32 CODE >398:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FEE text32 CODE >398:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FF3 text32 CODE >398:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FF6 text32 CODE >398:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FF9 text32 CODE >398:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FFC text32 CODE >398:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+FFF text32 CODE >400:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+959 text31 CODE >402:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+959 text31 CODE >404:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+95B text31 CODE >405:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+95D text31 CODE >406:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+95E text31 CODE >407:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8E8 text30 CODE >450:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8E8 text30 CODE >452:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8EA text30 CODE >453:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8EB text30 CODE >454:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8EC text29 CODE >456:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8EC text29 CODE >458:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8EE text29 CODE >459:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8EF text29 CODE >460:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8F0 text28 CODE >463:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8F0 text28 CODE >465:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8F2 text28 CODE >466:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8F3 text28 CODE >467:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8F4 text27 CODE >469:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8F4 text27 CODE >471:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8F6 text27 CODE >472:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8F7 text27 CODE >473:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8F8 text26 CODE >475:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8F8 text26 CODE >477:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8FA text26 CODE >478:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8FB text26 CODE >479:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8FC text25 CODE >482:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8FC text25 CODE >484:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8FE text25 CODE >485:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+8FF text25 CODE >486:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+900 text24 CODE >488:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+900 text24 CODE >490:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+902 text24 CODE >491:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+903 text24 CODE >492:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+924 text23 CODE >494:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+924 text23 CODE >496:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+926 text23 CODE >497:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+927 text23 CODE >498:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+928 text23 CODE >499:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+CC2 text22 CODE >500:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+CC2 text22 CODE >502:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+CC4 text22 CODE >503:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+CC6 text22 CODE >504:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+CC7 text22 CODE >508:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+CCA text22 CODE >510:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+CCD text22 CODE >511:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+CDF text22 CODE >511:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+CE4 text22 CODE >511:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+CE7 text22 CODE >511:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+CEA text22 CODE >512:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+BFF text21 CODE >321:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+BFF text21 CODE >323:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+C02 text21 CODE >325:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+C09 text21 CODE >325:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+C0B text21 CODE >327:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+C0E text21 CODE >329:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+C23 text21 CODE >330:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+904 text20 CODE >650:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+904 text20 CODE >652:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+904 text20 CODE >654:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9B2 text19 CODE >312:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9B2 text19 CODE >314:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9B5 text19 CODE >316:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9B8 text19 CODE >317:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9BB text19 CODE >314:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+B17 text18 CODE >224:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+B19 text18 CODE >226:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+B1B text18 CODE >227:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+B1E text18 CODE >229:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+B1F text18 CODE >230:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+B21 text18 CODE >232:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+B24 text18 CODE >234:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+B26 text18 CODE >236:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+B26 text18 CODE >238:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+B29 text18 CODE >240:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+B2C text18 CODE >241:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+B2E text18 CODE >243:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+B30 text18 CODE >244:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+908 text17 CODE >246:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+908 text17 CODE >248:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+90B text17 CODE >249:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9E9 text16 CODE >543:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9E9 text16 CODE >545:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9EC text16 CODE >547:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9EE text16 CODE >548:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9F0 text16 CODE >549:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9F1 text16 CODE >550:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9F3 text16 CODE >551:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9F4 text16 CODE >555:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DD0 text15 CODE >176:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DD1 text15 CODE >178:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DD3 text15 CODE >180:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DD6 text15 CODE >182:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DD8 text15 CODE >183:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DD9 text15 CODE >184:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DDA text15 CODE >185:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DDB text15 CODE >186:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DDD text15 CODE >187:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DE1 text15 CODE >188:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DE2 text15 CODE >191:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DE6 text15 CODE >192:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DE7 text15 CODE >193:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DEB text15 CODE >194:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DEC text15 CODE >195:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DF0 text15 CODE >196:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DF1 text15 CODE >197:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DF5 text15 CODE >198:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DF6 text15 CODE >199:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DFA text15 CODE >200:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DFB text15 CODE >202:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+DFE text15 CODE >203:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+E00 text15 CODE >204:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+E01 text15 CODE >206:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+E02 text15 CODE >207:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+BA1 text14 CODE >120:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+BA2 text14 CODE >122:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+BA8 text14 CODE >122:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+BAA text14 CODE >123:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+BB5 text14 CODE >124:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+BB8 text14 CODE >125:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+BBC text14 CODE >125:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+90C text13 CODE >251:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+90C text13 CODE >253:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+90F text13 CODE >254:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9BC text12 CODE >283:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9BC text12 CODE >285:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+9C5 text12 CODE >286:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/i2c1_master.c
+C9A text11 CODE >111:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+C9B text11 CODE >113:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+CA1 text11 CODE >113:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+CA3 text11 CODE >114:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+CAE text11 CODE >115:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+CB8 text11 CODE >116:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+CBB text11 CODE >117:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+CBF text11 CODE >117:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/examples/i2c1_master_example.c
+E36 text10 CODE >19:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E37 text10 CODE >25:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E39 text10 CODE >26:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E3B text10 CODE >27:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E45 text10 CODE >28:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E4F text10 CODE >29:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E57 text10 CODE >30:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E5E text10 CODE >31:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E62 text10 CODE >31:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E65 text10 CODE >32:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+E69 text10 CODE >33:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+A34 text9 CODE >35:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+A35 text9 CODE >40:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+A37 text9 CODE >41:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+A39 text9 CODE >42:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+A3B text9 CODE >43:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+A3D text9 CODE >44:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+A46 text9 CODE >45:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+393 text8 CODE >58:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+393 text8 CODE >62:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+394 text8 CODE >63:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+39D text8 CODE >65:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+3B2 text8 CODE >66:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+3C7 text8 CODE >68:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+3D7 text8 CODE >69:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+3E8 text8 CODE >70:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+3EC text8 CODE >72:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+3F4 text8 CODE >74:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+3FE text8 CODE >76:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+405 text8 CODE >77:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+40E text8 CODE >78:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+417 text8 CODE >79:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+417 text8 CODE >81:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+431 text8 CODE >83:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+440 text8 CODE >85:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+448 text8 CODE >87:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+452 text8 CODE >89:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+459 text8 CODE >90:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+463 text8 CODE >91:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+46D text8 CODE >92:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+46D text8 CODE >94:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+488 text8 CODE >96:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+489 text8 CODE >98:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+791 text7 CODE >8:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+791 text7 CODE >11:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+79F text7 CODE >15:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+7A1 text7 CODE >16:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+7C3 text7 CODE >16:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+7C7 text7 CODE >16:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+7C9 text7 CODE >19:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+7D8 text7 CODE >20:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+B4C text6 CODE >15:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul16.c
+B4C text6 CODE >43:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul16.c
+B4E text6 CODE >45:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul16.c
+B50 text6 CODE >46:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul16.c
+B54 text6 CODE >47:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul16.c
+B59 text6 CODE >48:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul16.c
+B5E text6 CODE >49:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul16.c
+B62 text6 CODE >52:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul16.c
+B66 text6 CODE >53:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul16.c
+58E text5 CODE >201:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+58E text5 CODE >203:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+590 text5 CODE >204:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+594 text5 CODE >205:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+596 text5 CODE >207:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+59E text5 CODE >209:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+5A0 text5 CODE >211:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+5A6 text5 CODE >212:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+5A9 text5 CODE >214:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+5AD text5 CODE >215:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+5AF text5 CODE >216:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+5B5 text5 CODE >216:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+5BD text5 CODE >216:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+5BF text5 CODE >218:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+5C7 text5 CODE >218:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+5D5 text5 CODE >219:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+5E4 text5 CODE >212:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+5E5 text5 CODE >222:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+5F4 text5 CODE >223:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+5F8 text5 CODE >224:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+21D text4 CODE >182:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+21F text4 CODE >184:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+220 text4 CODE >187:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+226 text4 CODE >188:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+227 text4 CODE >190:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+22D text4 CODE >191:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+22E text4 CODE >193:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+24B text4 CODE >194:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+268 text4 CODE >195:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+269 text4 CODE >197:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+272 text4 CODE >198:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+27B text4 CODE >199:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+287 text4 CODE >200:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+293 text4 CODE >201:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+294 text4 CODE >203:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+29D text4 CODE >204:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+2A6 text4 CODE >205:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+2B2 text4 CODE >206:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+2BE text4 CODE >207:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+2BF text4 CODE >209:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+2C8 text4 CODE >210:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+2D1 text4 CODE >211:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+2DE text4 CODE >212:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+2EA text4 CODE >213:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+2EB text4 CODE >215:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+2F4 text4 CODE >216:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+2FC text4 CODE >217:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+2FD text4 CODE >219:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+310 text4 CODE >220:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+312 text4 CODE >221:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+313 text4 CODE >226:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+314 text4 CODE >227:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+315 text4 CODE >228:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+315 text4 CODE >229:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+317 text4 CODE >230:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+318 text4 CODE >233:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+31E text4 CODE >233:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+321 text4 CODE >233:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+324 text4 CODE >236:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+336 text4 CODE >237:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+337 text4 CODE >239:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+349 text4 CODE >240:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+34A text4 CODE >242:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+351 text4 CODE >243:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+358 text4 CODE >244:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+362 text4 CODE >245:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+36B text4 CODE >246:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+36C text4 CODE >249:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+36E text4 CODE >249:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+371 text4 CODE >249:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+374 text4 CODE >249:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+377 text4 CODE >249:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+37A text4 CODE >249:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+37D text4 CODE >249:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+380 text4 CODE >249:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+383 text4 CODE >249:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+386 text4 CODE >249:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+389 text4 CODE >249:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+38C text4 CODE >249:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+38F text4 CODE >249:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+392 text4 CODE >250:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/sensor.c
+A23 text3 CODE >139:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+A23 text3 CODE >148:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+A25 text3 CODE >148:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+A27 text3 CODE >150:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+A2E text3 CODE >151:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+A32 text3 CODE >156:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+A33 text3 CODE >157:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/mcc_generated_files/eusart1.c
+BBF text2 CODE >49:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+BBF text2 CODE >51:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+BC0 text2 CODE >56:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+BC4 text2 CODE >57:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+BC6 text2 CODE >57:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+BC8 text2 CODE >59:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+BD2 text2 CODE >61:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+BD6 text2 CODE >63:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+BDD text2 CODE >65:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/communication.c
+E03 text1 CODE >47:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+E03 text1 CODE >49:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+E05 text1 CODE >51:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+E07 text1 CODE >60:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+E0D text1 CODE >60:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+E11 text1 CODE >60:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+E13 text1 CODE >53:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+E1E text1 CODE >53:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+E20 text1 CODE >54:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+E25 text1 CODE >57:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+E29 text1 CODE >58:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+E2D text1 CODE >60:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+E32 text1 CODE >61:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+E35 text1 CODE >62:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/device.c
+90 maintext CODE >99:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+90 maintext CODE >101:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+9E maintext CODE >106:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+A1 maintext CODE >107:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+A4 maintext CODE >109:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+A5 maintext CODE >110:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+A6 maintext CODE >111:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+A7 maintext CODE >113:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+A8 maintext CODE >114:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+A9 maintext CODE >117:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+A9 maintext CODE >119:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+AA maintext CODE >120:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+AE maintext CODE >122:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+B0 maintext CODE >123:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+BF maintext CODE >124:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+C8 maintext CODE >126:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+DB maintext CODE >128:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+E8 maintext CODE >129:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+E8 maintext CODE >130:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+FC maintext CODE >132:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+109 maintext CODE >133:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+109 maintext CODE >134:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+11D maintext CODE >136:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+12A maintext CODE >139:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+12E maintext CODE >141:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+135 maintext CODE >142:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+13C maintext CODE >143:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+143 maintext CODE >144:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+14A maintext CODE >145:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+151 maintext CODE >146:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+158 maintext CODE >147:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+159 maintext CODE >150:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+15C maintext CODE >150:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+15E maintext CODE >152:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+162 maintext CODE >154:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+164 maintext CODE >157:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+165 maintext CODE >159:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+168 maintext CODE >160:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+168 maintext CODE >162:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+16C maintext CODE >162:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+16E maintext CODE >164:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+172 maintext CODE >166:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+174 maintext CODE >169:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+175 maintext CODE >171:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+178 maintext CODE >172:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+178 maintext CODE >174:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+17C maintext CODE >174:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+17E maintext CODE >175:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+182 maintext CODE >177:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+185 maintext CODE >178:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+188 maintext CODE >179:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+189 maintext CODE >181:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+18C maintext CODE >182:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+18F maintext CODE >183:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+191 maintext CODE >185:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+195 maintext CODE >188:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+19C maintext CODE >188:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+1A1 maintext CODE >188:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+1A3 maintext CODE >190:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+1BE maintext CODE >190:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+1C2 maintext CODE >190:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+1C4 maintext CODE >192:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+1C7 maintext CODE >195:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+1CB maintext CODE >195:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+1D1 maintext CODE >195:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+1D3 maintext CODE >197:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+1D6 maintext CODE >200:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+1F0 maintext CODE >200:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+1F4 maintext CODE >200:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+1F6 maintext CODE >202:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+1F8 maintext CODE >203:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+1F9 maintext CODE >204:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+213 maintext CODE >204:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+217 maintext CODE >204:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+219 maintext CODE >206:/home/fabio/Documentos/test-mplab-main/firmware/ENERGY_LIGHT_V3.X/main.c
+95F clrtext CODE >14313:/tmp/xcXCJamOo/driver_tmp_1.s
+95F clrtext CODE >14314:/tmp/xcXCJamOo/driver_tmp_1.s
+960 clrtext CODE >14315:/tmp/xcXCJamOo/driver_tmp_1.s
+960 clrtext CODE >14316:/tmp/xcXCJamOo/driver_tmp_1.s
+961 clrtext CODE >14317:/tmp/xcXCJamOo/driver_tmp_1.s
+962 clrtext CODE >14318:/tmp/xcXCJamOo/driver_tmp_1.s
+963 clrtext CODE >14319:/tmp/xcXCJamOo/driver_tmp_1.s
+964 clrtext CODE >14320:/tmp/xcXCJamOo/driver_tmp_1.s
+965 inittext CODE >14235:/tmp/xcXCJamOo/driver_tmp_1.s
+965 inittext CODE >14236:/tmp/xcXCJamOo/driver_tmp_1.s
+966 inittext CODE >14237:/tmp/xcXCJamOo/driver_tmp_1.s
+966 inittext CODE >14238:/tmp/xcXCJamOo/driver_tmp_1.s
+967 inittext CODE >14239:/tmp/xcXCJamOo/driver_tmp_1.s
+968 inittext CODE >14240:/tmp/xcXCJamOo/driver_tmp_1.s
+969 inittext CODE >14241:/tmp/xcXCJamOo/driver_tmp_1.s
+96A inittext CODE >14242:/tmp/xcXCJamOo/driver_tmp_1.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_SetCallback 1DAC 0 CODE 0 text53 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___lwmod@counter 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+__LdataBANK1 0 0 ABS 0 dataBANK1 -
+__LdataBANK2 0 0 ABS 0 dataBANK2 -
+__LdataBANK3 0 0 ABS 0 dataBANK3 -
+__LdataBANK4 0 0 ABS 0 dataBANK4 -
+getINA220Data@buff 43 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_Initialize 1314 0 CODE 0 text95 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+processCommand@sensor 48 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Hspace_0 1020 0 ABS 0 - -
+__Hspace_1 360 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 10013 0 ABS 0 - -
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+__HidataBANK1 0 0 ABS 0 idataBANK1 -
+__HidataBANK2 0 0 ABS 0 idataBANK2 -
+__HidataBANK3 0 0 ABS 0 idataBANK3 -
+__HidataBANK4 0 0 ABS 0 idataBANK4 -
+_CM1CON0 990 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_CM1CON1 991 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+EUSART1_SetErrorHandler@interruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_Initialize 1AE0 0 CODE 0 text96 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__end_of_I2C1_SetBuffer 15D4 0 CODE 0 text54 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+getHis@data 40 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_SetDataCompleteCallback@ptr 26 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PMD_Initialize 1424 0 CODE 0 text92 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_MasterDisableIrq 115E 0 CODE 0 text59 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__L__absolute__ 0 0 ABS 0 __absolute__ -
+?_stringToInt16 24 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_EUSART1_DefaultErrorHandler 1168 0 CODE 0 text112 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Hstrings 0 0 ABS 0 strings -
+stringToInt16@sign 27 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_CPUDOZE 88C 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_LATA 18 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_LATC 1A 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PMD0 796 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PMD1 797 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PMD2 798 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PMD3 799 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PMD4 79A 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PMD5 79B 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PMD6 79C 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PMD7 79D 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_T2PR 28D 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_T4PR 293 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_WPUA 1F39 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_WPUC 1F4F 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___sp 0 0 STACK 2 stack /tmp/xcXCJamOo/driver_tmp_15.o
+_cons 220 0 BANK4 1 dataBANK4 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_main 120 0 CODE 0 maintext dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+btemp 7E 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___stack_hi 0 0 STACK 2 stack /tmp/xcXCJamOo/driver_tmp_15.o
+___stack_lo 0 0 STACK 2 stack /tmp/xcXCJamOo/driver_tmp_15.o
+start 60 0 CODE 0 init /tmp/xcXCJamOo/driver_tmp_15.o
+_TMR0_InterruptHandler 5E 0 BANK0 1 nvBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_Close@returnValue 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+__end_of_TMR0_SetInterruptHandler 128E 0 CODE 0 text91 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterSendAck 11C8 0 CODE 0 text41 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TMR2_Stop 1156 0 CODE 0 text83 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+getMetrics@device 3E 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+stringToInt16@result 2A 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+?___wmul 20 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_int16ToString 914 0 CODE 0 text71 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+readINA220@address 32 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TMR4_Stop 117A 0 CODE 0 text81 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+writeINA220@regdata 32 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+stringToInt16@string 24 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+stringToInt16@strlen 26 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_initRxBuffer 1896 0 CODE 0 text75 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterDisableIrq 115A 0 CODE 0 text59 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+writeINA220@Txbuffer 37 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_DAC1CON0 90E 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_DAC1CON1 90F 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__LidataBANK1 0 0 ABS 0 idataBANK1 -
+__LidataBANK2 0 0 ABS 0 idataBANK2 -
+__LidataBANK3 0 0 ABS 0 idataBANK3 -
+__LidataBANK4 0 0 ABS 0 idataBANK4 -
+__end_of_wr2RegCompleteHandler 14DE 0 CODE 0 text51 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Hpowerup 0 0 CODE 0 powerup -
+_I2C1_DO_IDLE 123E 0 CODE 0 text36 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_DO_RCEN 12B2 0 CODE 0 text31 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TMR4_Start 1174 0 CODE 0 text82 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_CallbackReturnReset 4 0 CODE 0 text45 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_SetDataCompleteCallback 1364 0 CODE 0 text52 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR2_Initialize 1600 0 CODE 0 text88 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+sendPacket@i 2B 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_MasterStartRx 11A4 0 CODE 0 text44 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_getINA220Data 914 0 CODE 0 text8 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+TMR0_SetInterruptHandler@InterruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+rd1RegCompleteHandler@ptr 27 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_is_tx_ready$357 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR2_Stop 1152 0 CODE 0 text83 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+intlevel0 0 0 ENTRY 0 functab /tmp/xcXCJamOo/driver_tmp_15.o
+intlevel1 0 0 ENTRY 0 functab /tmp/xcXCJamOo/driver_tmp_15.o
+intlevel2 0 0 ENTRY 0 functab /tmp/xcXCJamOo/driver_tmp_15.o
+intlevel3 0 0 ENTRY 0 functab /tmp/xcXCJamOo/driver_tmp_15.o
+intlevel4 0 0 ENTRY 0 functab /tmp/xcXCJamOo/driver_tmp_15.o
+intlevel5 0 0 ENTRY 0 functab /tmp/xcXCJamOo/driver_tmp_15.o
+__ptext100 1220 0 CODE 0 text100 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext101 125E 0 CODE 0 text101 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext102 1406 0 CODE 0 text102 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext104 13BA 0 CODE 0 text104 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext105 114A 0 CODE 0 text105 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext106 13A2 0 CODE 0 text106 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext107 1146 0 CODE 0 text107 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext108 148E 0 CODE 0 text108 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext109 1168 0 CODE 0 text109 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext110 1848 0 CODE 0 text110 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext111 11B0 0 CODE 0 text111 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext112 1162 0 CODE 0 text112 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext113 1A84 0 CODE 0 text113 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext114 13EA 0 CODE 0 text114 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext115 1252 0 CODE 0 text115 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+__end_of_I2C1_DO_TX_EMPTY 1A84 0 CODE 0 text37 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___aldiv@divisor 20 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_fsmStateTable 2040 0 STRCODE 0 stringtext1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+wtemp0 7E 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterGetRxData 11A4 0 CODE 0 text42 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR4_Stop 1174 0 CODE 0 text81 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Hfunctab 0 0 ENTRY 0 functab -
+_RC1STAbits 11D 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_getMetrics 1CD4 0 CODE 0 text76 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_wr2RegCompleteHandler 14B6 0 CODE 0 text51 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_PMD_Initialize 1446 0 CODE 0 text92 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+processCommand@data 46 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___aldiv@sign 29 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+EUSART1_Write@txData 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+writeINA220@pTxbuffer 36 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Hclrtext 0 0 ABS 0 clrtext -
+__end_of_DAC1_Initialize 126A 0 CODE 0 text101 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_eusart1PacketFinish 66 0 BANK0 1 bssBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_Receive_ISR 1848 0 CODE 0 text110 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___wmul@multiplicand 22 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_timer0ReloadVal16bit 64 0 BANK0 1 bssBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+getINA220Data@device 3D 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_writeINA220 1468 0 CODE 0 text9 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_rdBlkRegCompleteHandler 16CE 0 CODE 0 text47 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_ANSELA 1F38 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_ANSELC 1F4E 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_ReadNBytes@len 2F 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR0_DefaultInterruptHandler 1168 0 CODE 0 text109 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_DO_RX_NACK_STOP 1200 0 CODE 0 text25 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterEnableRestart 1192 0 CODE 0 text56 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+int16ToString@value 27 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+stringCompare@byte_count 24 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TMR4_DefaultInterruptHandler 114E 0 CODE 0 text105 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_rdBlkRegCompleteHandler 1706 0 CODE 0 text47 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterStartRx 119E 0 CODE 0 text44 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+receiveData@data 20 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_INTERRUPT_InterruptManager 60 0 CODE 0 intentry dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_CM1NCH 992 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_CM1PCH 993 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_stringCompare 1C06 0 CODE 0 text1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of___wmul 16CE 0 CODE 0 text6 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+int16ToString@divisor 32 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_EUSART1_SetRxInterruptHandler 1282 0 CODE 0 text97 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_WriteNBytes@address 31 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_MasterOpen 13EA 0 CODE 0 text16 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_MasterRead 1218 0 CODE 0 text17 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_MasterStop 119E 0 CODE 0 text55 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_CMP1_GetOutputStatus 1252 0 CODE 0 text115 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_DO_SEND_RESTART 11E0 0 CODE 0 text28 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_CM1CON0bits 990 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Lmaintext 0 0 ABS 0 maintext -
+__LnvBANK0 0 0 ABS 0 nvBANK0 -
+__LnvBANK1 0 0 ABS 0 nvBANK1 -
+_I2C1_DO_SEND_RESTART_WRITE 11D8 0 CODE 0 text29 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+readINA220@regadd 3A 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_WriteNBytes 1934 0 CODE 0 text11 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___lwmod@divisor 20 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+sendSensorInfo@F11239 D9 0 BANK1 1 dataBANK1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of___aldiv B1C 0 CODE 0 text79 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+EUSART1_SetFramingErrorHandler@interruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_initRxBuffer 18E4 0 CODE 0 text75 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of___lwdiv 1BA0 0 CODE 0 text73 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of___lwmod 1A2A 0 CODE 0 text72 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_DO_IDLE 1248 0 CODE 0 text36 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_DO_RCEN 12BE 0 CODE 0 text31 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_INLVLA 1F3C 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_INLVLC 1F52 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_MasterSendTxData@data 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___stackhi 0 0 ABS 0 - /tmp/xcXCJamOo/driver_tmp_15.o
+___stacklo 0 0 ABS 0 - /tmp/xcXCJamOo/driver_tmp_15.o
+__end_of_getMetrics 1D40 0 CODE 0 text76 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+sendSensorData@packet 38 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_MasterOperation 1662 0 CODE 0 text18 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___lwdiv@quotient 25 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_DAC1_Initialize 125E 0 CODE 0 text101 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_getHis 1000 0 CODE 0 text62 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_getMax E86 0 CODE 0 text80 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_getMed CA2 0 CODE 0 text78 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_getMin DE8 0 CODE 0 text77 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR2_SetInterruptHandler 128E 0 CODE 0 text89 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+getMax@data 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_stringlen 1600 0 CODE 0 text64 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___lwmod@dividend 22 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_DO_SEND_RESTART_READ 11D0 0 CODE 0 text30 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PIN_MANAGER_Initialize 18E4 0 CODE 0 text93 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+getMed@buff 38 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+getMed@data 2E 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+start_initialization 64 0 CODE 0 cinit dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_stringToInt16 B1C 0 CODE 0 text5 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_eusart1RxLastError 76 0 COMMON 1 bssCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_ODCONA 1F3A 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_ODCONC 1F50 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_OSCFRQ 893 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+initRxBuffer@size 22 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___aldiv@quotient 2A 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_DO_SEND_ADR_WRITE 12D6 0 CODE 0 text34 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TMR4_SetInterruptHandler 12A6 0 CODE 0 text87 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_WriteNBytes@len 2F 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_CMP1_Initialize 1424 0 CODE 0 text102 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_RC0PPS 1F20 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_RC1PPS 1F21 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_RC1REG 119 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_RC1STA 11D 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_RC4PPS 1F24 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+rdBlkRegCompleteHandler@ptr 27 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+receiveData@maxdata 22 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+readINA220@buff 38 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_SYSTEM_Initialize 1742 0 CODE 0 text85 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_RX1PPS 1ECB 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterOpen 13D2 0 CODE 0 text16 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterRead 1210 0 CODE 0 text17 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterStop 1198 0 CODE 0 text55 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_rd2RegCompleteHandler 152E 0 CODE 0 text49 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_CallbackReturnReset@funPtr 27 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_stringlen 15D4 0 CODE 0 text64 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+clear_ram0 12BE 0 CODE 0 clrtext dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pcstackBANK2 15B 0 BANK2 1 cstackBANK2 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_T0CON0 59E 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_T0CON1 59F 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_T2CLKCON 290 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_int16ToString A22 0 CODE 0 text71 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_Poller 1364 0 CODE 0 text19 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+writeINA220@regadd 35 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_SetCallback@idx 23 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_SetCallback@ptr 22 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_MasterIsNack 12B2 0 CODE 0 text39 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TX1REG 11A 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TX1STA 11E 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR2_Start 114E 0 CODE 0 text84 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_WriteNBytes@data 2E 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_ReadNBytes@address 31 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_DefaultFramingErrorHandler 0 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TMR4_Initialize 1580 0 CODE 0 text86 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_DefaultOverrunErrorHandler 11B0 0 CODE 0 text111 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+TMR2_SetInterruptHandler@InterruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_EUSART1_Receive_ISR 1896 0 CODE 0 text110 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_Status A0 0 BANK1 1 bssBANK1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___int_sp 0 0 STACK 2 stack /tmp/xcXCJamOo/driver_tmp_15.o
+receiveData@charCount 24 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+sendPacket@byteCount 23 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+initRxBuffer@buf 20 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_Write 133C 0 CODE 0 text70 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_measureTime 5D 0 BANK0 1 dataBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_rd2RegCompleteHandler 1506 0 CODE 0 text49 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Hcinit 120 0 CODE 0 cinit -
+__Hidloc 10008 0 IDLOC 5 idloc -
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hsfr32 0 0 ABS 0 sfr32 -
+__Hsfr33 0 0 ABS 0 sfr33 -
+__Hsfr34 0 0 ABS 0 sfr34 -
+__Hsfr35 0 0 ABS 0 sfr35 -
+__Hsfr36 0 0 ABS 0 sfr36 -
+__Hsfr37 0 0 ABS 0 sfr37 -
+__Hsfr38 0 0 ABS 0 sfr38 -
+__Hsfr39 0 0 ABS 0 sfr39 -
+__Hsfr40 0 0 ABS 0 sfr40 -
+__Hsfr41 0 0 ABS 0 sfr41 -
+__Hsfr42 0 0 ABS 0 sfr42 -
+__Hsfr43 0 0 ABS 0 sfr43 -
+__Hsfr44 0 0 ABS 0 sfr44 -
+__Hsfr45 0 0 ABS 0 sfr45 -
+__Hsfr46 0 0 ABS 0 sfr46 -
+__Hsfr47 0 0 ABS 0 sfr47 -
+__Hsfr48 0 0 ABS 0 sfr48 -
+__Hsfr49 0 0 ABS 0 sfr49 -
+__Hsfr50 0 0 ABS 0 sfr50 -
+__Hsfr51 0 0 ABS 0 sfr51 -
+__Hsfr52 0 0 ABS 0 sfr52 -
+__Hsfr53 0 0 ABS 0 sfr53 -
+__Hsfr54 0 0 ABS 0 sfr54 -
+__Hsfr55 0 0 ABS 0 sfr55 -
+__Hsfr56 0 0 ABS 0 sfr56 -
+__Hsfr57 0 0 ABS 0 sfr57 -
+__Hsfr58 0 0 ABS 0 sfr58 -
+__Hsfr59 0 0 ABS 0 sfr59 -
+__Hsfr60 0 0 ABS 0 sfr60 -
+__Hsfr61 0 0 ABS 0 sfr61 -
+__Hsfr62 0 0 ABS 0 sfr62 -
+__Hsfr63 0 0 ABS 0 sfr63 -
+__end_of_wr1RegCompleteHandler 1556 0 CODE 0 text48 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Hstack 0 0 STACK 2 stack -
+_I2C1_SetAddressNackCallback 1378 0 CODE 0 text12 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___lwdiv@counter 24 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__Hbank15 0 0 BANK15 1 bank15 -
+__Hbank16 0 0 BANK16 1 bank16 -
+__Hbank17 0 0 BANK17 1 bank17 -
+__Hbank18 0 0 BANK18 1 bank18 -
+__Hbank19 0 0 BANK19 1 bank19 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Hbank25 0 0 BANK25 1 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbank32 0 0 BANK32 1 bank32 -
+__Hbank33 0 0 BANK33 1 bank33 -
+__Hbank34 0 0 BANK34 1 bank34 -
+__Hbank35 0 0 BANK35 1 bank35 -
+__Hbank36 0 0 BANK36 1 bank36 -
+__Hbank37 0 0 BANK37 1 bank37 -
+__Hbank38 0 0 BANK38 1 bank38 -
+__Hbank39 0 0 BANK39 1 bank39 -
+__Hbank40 0 0 BANK40 1 bank40 -
+__Hbank41 0 0 BANK41 1 bank41 -
+__Hbank42 0 0 BANK42 1 bank42 -
+__Hbank43 0 0 BANK43 1 bank43 -
+__Hbank44 0 0 BANK44 1 bank44 -
+__Hbank45 0 0 BANK45 1 bank45 -
+__Hbank46 0 0 BANK46 1 bank46 -
+__Hbank47 0 0 BANK47 1 bank47 -
+__Hbank48 0 0 BANK48 1 bank48 -
+__Hbank49 0 0 BANK49 1 bank49 -
+__Hbank50 0 0 BANK50 1 bank50 -
+__Hbank51 0 0 BANK51 1 bank51 -
+__Hbank52 0 0 BANK52 1 bank52 -
+__Hbank53 0 0 BANK53 1 bank53 -
+__Hbank54 0 0 BANK54 1 bank54 -
+__Hbank55 0 0 BANK55 1 bank55 -
+__Hbank56 0 0 BANK56 1 bank56 -
+__Hbank57 0 0 BANK57 1 bank57 -
+__Hbank58 0 0 BANK58 1 bank58 -
+__Hbank59 0 0 BANK59 1 bank59 -
+__Hbank60 0 0 BANK60 1 bank60 -
+__Hbank61 0 0 BANK61 1 bank61 -
+__Hbank62 0 0 BANK62 1 bank62 -
+__Hbank63 0 0 BANK63 1 bank63 -
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+_BAUD1CON 11F 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+main@F11276 C6 0 BANK1 1 dataBANK1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_WriteNBytes 1984 0 CODE 0 text11 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_receiveData 177E 0 CODE 0 text2 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10018 0 CONFIG 4 config -
+_TMR0_Reload 12E4 0 CODE 0 text74 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_MasterOperation@read 2C 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_readINA220 1C6C 0 CODE 0 text10 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__Lcinit 64 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 5 idloc -
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lsfr32 0 0 ABS 0 sfr32 -
+__Lsfr33 0 0 ABS 0 sfr33 -
+__Lsfr34 0 0 ABS 0 sfr34 -
+__Lsfr35 0 0 ABS 0 sfr35 -
+__Lsfr36 0 0 ABS 0 sfr36 -
+__Lsfr37 0 0 ABS 0 sfr37 -
+__Lsfr38 0 0 ABS 0 sfr38 -
+__Lsfr39 0 0 ABS 0 sfr39 -
+__Lsfr40 0 0 ABS 0 sfr40 -
+__Lsfr41 0 0 ABS 0 sfr41 -
+__Lsfr42 0 0 ABS 0 sfr42 -
+__Lsfr43 0 0 ABS 0 sfr43 -
+__Lsfr44 0 0 ABS 0 sfr44 -
+__Lsfr45 0 0 ABS 0 sfr45 -
+__Lsfr46 0 0 ABS 0 sfr46 -
+__Lsfr47 0 0 ABS 0 sfr47 -
+__Lsfr48 0 0 ABS 0 sfr48 -
+__Lsfr49 0 0 ABS 0 sfr49 -
+__Lsfr50 0 0 ABS 0 sfr50 -
+__Lsfr51 0 0 ABS 0 sfr51 -
+__Lsfr52 0 0 ABS 0 sfr52 -
+__Lsfr53 0 0 ABS 0 sfr53 -
+__Lsfr54 0 0 ABS 0 sfr54 -
+__Lsfr55 0 0 ABS 0 sfr55 -
+__Lsfr56 0 0 ABS 0 sfr56 -
+__Lsfr57 0 0 ABS 0 sfr57 -
+__Lsfr58 0 0 ABS 0 sfr58 -
+__Lsfr59 0 0 ABS 0 sfr59 -
+__Lsfr60 0 0 ABS 0 sfr60 -
+__Lsfr61 0 0 ABS 0 sfr61 -
+__Lsfr62 0 0 ABS 0 sfr62 -
+__Lsfr63 0 0 ABS 0 sfr63 -
+__Lstack 0 0 STACK 2 stack -
+_EUSART1_FramingErrorHandler EB 0 BANK1 1 nvBANK1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_ReadNBytes@data 2E 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_OverrunErrorHandler E9 0 BANK1 1 nvBANK1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+init_ram 12CA 0 CODE 0 inittext dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+int16ToString@dividend 30 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_MasterSetIrq 11B0 0 CODE 0 text38 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Linittext 0 0 ABS 0 inittext -
+_CMP1_Initialize 1406 0 CODE 0 text102 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_wr1RegCompleteHandler 152E 0 CODE 0 text48 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_INTCONbits B 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hheap 0 0 HEAP 7 heap -
+__Hinit 60 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Hsivt 60 0 CODE 0 sivt -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Lheap 0 0 HEAP 7 heap -
+__Linit 60 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Lsivt 60 0 CODE 0 sivt -
+__Ltext 0 0 ABS 0 text -
+__pstringtext1 2000 0 STRCODE 0 stringtext1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pnvBANK0 5E 0 BANK0 1 nvBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pnvBANK1 E7 0 BANK1 1 nvBANK1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_SSP1CON1 190 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_SSP1CON2 191 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_SSP1STAT 18F 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___wmul 1698 0 CODE 0 text6 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK2 0 0 ABS 0 cstackBANK2 -
+int$flags 7E 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+int16ToString@flag_0 2B 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+sendSensorInfo@sensor_info 2D 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_I2C1_MasterSendNack 11C0 0 CODE 0 text43 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_RxDefaultInterruptHandler ED 0 BANK1 1 nvBANK1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+getHis@aux 45 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__S0 1020 0 ABS 0 - -
+__S1 360 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+_TxDeviceEnable 1156 0 CODE 0 text66 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_ReadNBytes 177E 0 CODE 0 text14 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_stringCompare 1C6C 0 CODE 0 text1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_DefaultErrorHandler 1162 0 CODE 0 text112 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR4_Initialize 1556 0 CODE 0 text86 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_processCommand 43A 0 CODE 0 text4 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_DO_ADDRESS_NACK 19D6 0 CODE 0 text22 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TMR2_Start 1152 0 CODE 0 text84 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TMR0_DefaultInterruptHandler 116E 0 CODE 0 text109 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_CallbackReturnStop 115E 0 CODE 0 text46 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_CallbackReturnReset 8 0 CODE 0 text45 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_Open@address 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_sendPacket CA2 0 CODE 0 text65 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+readINA220@ret 3B 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_DO_SEND_STOP 11F0 0 CODE 0 text27 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_CallbackReturnStop 1162 0 CODE 0 text46 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_DO_RESET 1248 0 CODE 0 text23 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_SYSTEM_Initialize 1706 0 CODE 0 text85 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_battery 120 0 BANK2 1 dataBANK2 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR2_DefaultInterruptHandler 1146 0 CODE 0 text107 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_getHis FB2 0 CODE 0 text62 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_getMax DE8 0 CODE 0 text80 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_getMed BF2 0 CODE 0 text78 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_getMin D4A 0 CODE 0 text77 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterIsNack 12A6 0 CODE 0 text39 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+int16ToString@data 29 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__HnvBANK0 0 0 ABS 0 nvBANK0 -
+__HnvBANK1 0 0 ABS 0 nvBANK1 -
+__Lintentry 8 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec /tmp/xcXCJamOo/driver_tmp_15.o
+__pdataBANK0 56 0 BANK0 1 dataBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pdataBANK1 C6 0 BANK1 1 dataBANK1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pdataBANK2 120 0 BANK2 1 dataBANK2 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pdataBANK3 1A0 0 BANK3 1 dataBANK3 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pdataBANK4 220 0 BANK4 1 dataBANK4 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+processCommand@command 4E 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_readINA220 1CD4 0 CODE 0 text10 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__LbssBANK5 0 0 ABS 0 bssBANK5 -
+__LbssBANK6 0 0 ABS 0 bssBANK6 -
+__Lstringtext1 0 0 ABS 0 stringtext1 -
+wr2RegCompleteHandler@ptr 27 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+int16ToString@result 2C 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_INTERRUPT_InterruptManager 8 0 CODE 0 intentry dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_writeINA220 148E 0 CODE 0 text9 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_stringToInt16 BF2 0 CODE 0 text5 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PIE0bits 716 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PIE2bits 718 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PIE3bits 719 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PIE4bits 71A 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_eusart1RxHead 79 0 COMMON 1 bssCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_eusart1RxTail 78 0 COMMON 1 bssCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_ReadNBytes 1742 0 CODE 0 text14 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_SetDataCompleteCallback@cb 24 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TxDeviceEnable 115A 0 CODE 0 text66 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR0_ISR 148E 0 CODE 0 text108 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+getMin@data 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR2_ISR 13A2 0 CODE 0 text106 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext10 1C6C 0 CODE 0 text10 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext11 1934 0 CODE 0 text11 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext12 1378 0 CODE 0 text12 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext13 1218 0 CODE 0 text13 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext14 1742 0 CODE 0 text14 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext15 1BA0 0 CODE 0 text15 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext16 13D2 0 CODE 0 text16 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext17 1210 0 CODE 0 text17 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext18 162E 0 CODE 0 text18 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext19 1364 0 CODE 0 text19 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext20 1208 0 CODE 0 text20 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext21 17FE 0 CODE 0 text21 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext22 1984 0 CODE 0 text22 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext23 1248 0 CODE 0 text23 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext24 1200 0 CODE 0 text24 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext25 11F8 0 CODE 0 text25 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext26 11F0 0 CODE 0 text26 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext27 11E8 0 CODE 0 text27 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext28 11E0 0 CODE 0 text28 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext29 11D8 0 CODE 0 text29 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext30 11D0 0 CODE 0 text30 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext31 12B2 0 CODE 0 text31 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext32 1F7C 0 CODE 0 text32 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext33 E86 0 CODE 0 text33 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext34 12D6 0 CODE 0 text34 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext35 12F4 0 CODE 0 text35 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext36 123E 0 CODE 0 text36 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext37 1A2A 0 CODE 0 text37 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext38 11AA 0 CODE 0 text38 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext39 12A6 0 CODE 0 text39 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext40 1234 0 CODE 0 text40 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext41 11C8 0 CODE 0 text41 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext42 11A4 0 CODE 0 text42 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext43 11C0 0 CODE 0 text43 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext44 119E 0 CODE 0 text44 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext45 4 0 CODE 0 text45 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext46 115E 0 CODE 0 text46 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext47 16CE 0 CODE 0 text47 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext48 152E 0 CODE 0 text48 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext49 1506 0 CODE 0 text49 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext50 14DE 0 CODE 0 text50 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext51 14B6 0 CODE 0 text51 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext52 1350 0 CODE 0 text52 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext53 1D40 0 CODE 0 text53 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext54 15AA 0 CODE 0 text54 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext55 1198 0 CODE 0 text55 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext56 1192 0 CODE 0 text56 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext57 118C 0 CODE 0 text57 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext58 1580 0 CODE 0 text58 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext59 115A 0 CODE 0 text59 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext60 1186 0 CODE 0 text60 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext61 1180 0 CODE 0 text61 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext62 FB2 0 CODE 0 text62 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext63 1DAC 0 CODE 0 text63 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext64 15D4 0 CODE 0 text64 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext65 CA2 0 CODE 0 text65 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext66 1156 0 CODE 0 text66 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext67 117A 0 CODE 0 text67 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext68 138C 0 CODE 0 text68 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext69 11B8 0 CODE 0 text69 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext70 133C 0 CODE 0 text70 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext71 914 0 CODE 0 text71 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext72 19D6 0 CODE 0 text72 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext73 1B3C 0 CODE 0 text73 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext74 12E4 0 CODE 0 text74 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext75 1896 0 CODE 0 text75 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext76 1CD4 0 CODE 0 text76 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext77 D4A 0 CODE 0 text77 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext78 BF2 0 CODE 0 text78 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext79 A22 0 CODE 0 text79 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext80 DE8 0 CODE 0 text80 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext81 1174 0 CODE 0 text81 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext82 116E 0 CODE 0 text82 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext83 1152 0 CODE 0 text83 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext84 114E 0 CODE 0 text84 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext85 1706 0 CODE 0 text85 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext86 1556 0 CODE 0 text86 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext87 129A 0 CODE 0 text87 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext88 1600 0 CODE 0 text88 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext89 128E 0 CODE 0 text89 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext90 1662 0 CODE 0 text90 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext91 1282 0 CODE 0 text91 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext92 1424 0 CODE 0 text92 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext93 18E4 0 CODE 0 text93 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext94 1328 0 CODE 0 text94 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext95 1314 0 CODE 0 text95 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext96 1AE0 0 CODE 0 text96 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext97 1276 0 CODE 0 text97 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext98 122A 0 CODE 0 text98 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext99 126A 0 CODE 0 text99 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR4_ISR 13BA 0 CODE 0 text104 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_EUSART1_DefaultOverrunErrorHandler 11B8 0 CODE 0 text111 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_DO_RX_ACK 11F0 0 CODE 0 text26 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_MasterEnableRestart 1198 0 CODE 0 text56 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_PIN_MANAGER_Initialize 1934 0 CODE 0 text93 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_processCommand 726 0 CODE 0 text4 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___aldiv A22 0 CODE 0 text79 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TMR0_Initialize 1698 0 CODE 0 text90 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_ErrorHandler E7 0 BANK1 1 nvBANK1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___lwdiv 1B3C 0 CODE 0 text73 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___lwmod 19D6 0 CODE 0 text72 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__Lbank14 0 0 BANK14 1 bank14 -
+__Lbank15 0 0 BANK15 1 bank15 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__Lbank18 0 0 BANK18 1 bank18 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__Lbank32 0 0 BANK32 1 bank32 -
+__Lbank33 0 0 BANK33 1 bank33 -
+__Lbank34 0 0 BANK34 1 bank34 -
+__Lbank35 0 0 BANK35 1 bank35 -
+__Lbank36 0 0 BANK36 1 bank36 -
+__Lbank37 0 0 BANK37 1 bank37 -
+__Lbank38 0 0 BANK38 1 bank38 -
+__Lbank39 0 0 BANK39 1 bank39 -
+__Lbank40 0 0 BANK40 1 bank40 -
+__Lbank41 0 0 BANK41 1 bank41 -
+__Lbank42 0 0 BANK42 1 bank42 -
+__Lbank43 0 0 BANK43 1 bank43 -
+__Lbank44 0 0 BANK44 1 bank44 -
+__Lbank45 0 0 BANK45 1 bank45 -
+__Lbank46 0 0 BANK46 1 bank46 -
+__Lbank47 0 0 BANK47 1 bank47 -
+__Lbank48 0 0 BANK48 1 bank48 -
+__Lbank49 0 0 BANK49 1 bank49 -
+__Lbank50 0 0 BANK50 1 bank50 -
+__Lbank51 0 0 BANK51 1 bank51 -
+__Lbank52 0 0 BANK52 1 bank52 -
+__Lbank53 0 0 BANK53 1 bank53 -
+__Lbank54 0 0 BANK54 1 bank54 -
+__Lbank55 0 0 BANK55 1 bank55 -
+__Lbank56 0 0 BANK56 1 bank56 -
+__Lbank57 0 0 BANK57 1 bank57 -
+__Lbank58 0 0 BANK58 1 bank58 -
+__Lbank59 0 0 BANK59 1 bank59 -
+__Lbank60 0 0 BANK60 1 bank60 -
+__Lbank61 0 0 BANK61 1 bank61 -
+__Lbank62 0 0 BANK62 1 bank62 -
+__Lbank63 0 0 BANK63 1 bank63 -
+__pmaintext 120 0 CODE 0 maintext dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Lbigram 0 0 ABS 0 bigram -
+__end_of_I2C1_MasterSendTxData 123E 0 CODE 0 text40 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_SetBuffer@bufferSize 22 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_DO_RX_NACK_STOP 11F8 0 CODE 0 text25 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+stringCompare@buf 22 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+stringCompare@idx 26 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+stringCompare@str 20 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+__end_of_I2C1_Open 1C06 0 CODE 0 text15 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_EUSART1_is_tx_done 11C0 0 CODE 0 text69 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterWaitForEvent 1208 0 CODE 0 text20 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TMR0_ISR 14B6 0 CODE 0 text108 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TMR2_ISR 13BA 0 CODE 0 text106 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterSetIrq 11AA 0 CODE 0 text38 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TMR4_ISR 13D2 0 CODE 0 text104 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Hinittext 0 0 ABS 0 inittext -
+___wmul@multiplier 20 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_LATAbits 18 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_LATCbits 1A 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+TMR4_SetInterruptHandler@InterruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_SetErrorHandler 1220 0 CODE 0 text100 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_DO_SEND_ADR_WRITE 12E4 0 CODE 0 text34 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterFsm 17FE 0 CODE 0 text21 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_SetAddressNackCallback@ptr 26 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+sendSensorInfo@packet 33 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_Read 1446 0 CODE 0 text3 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_MasterOperation@returnValue 2D 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_MasterWaitForEvent 1210 0 CODE 0 text20 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterClose 1186 0 CODE 0 text60 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_EUSART1_SetErrorHandler 122A 0 CODE 0 text100 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterStart 118C 0 CODE 0 text57 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_sendSensorData 1DAC 0 CODE 0 text63 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_sendSensorInfo F22 0 CODE 0 text7 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterWrite 1218 0 CODE 0 text13 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_sendPacket D4A 0 CODE 0 text65 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___lwdiv@divisor 20 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+stringToInt16@multiple 28 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_status 56 0 BANK0 1 dataBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR0_SetInterruptHandler 1282 0 CODE 0 text91 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_rd1RegCompleteHandler 1506 0 CODE 0 text50 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterSendTxData 1234 0 CODE 0 text40 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_EUSART1_SetFramingErrorHandler 1276 0 CODE 0 text99 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_Open@returnValue 75 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_EUSART1_SetOverrunErrorHandler 1234 0 CODE 0 text98 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_EUSART1_Write 1350 0 CODE 0 text70 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_MasterSendNack 11C8 0 CODE 0 text43 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_SSP1CLKPPS 1EC5 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_OSCCON1 88D 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_OSCCON3 88F 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_OSCTUNE 892 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_SSP1DATPPS 1EC6 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_Open 1BA0 0 CODE 0 text15 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_status_prev E0 0 BANK1 1 dataBANK1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_DO_RX_NACK_RESTART 1200 0 CODE 0 text24 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__pbssCOMMON 76 0 COMMON 1 bssCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TMR2_SetInterruptHandler 129A 0 CODE 0 text89 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_EUSART1_RxDataHandler 1AE0 0 CODE 0 text113 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackBANK2 0 0 ABS 0 cstackBANK2 -
+__end_of_I2C1_DO_RX_NACK_RESTART 1208 0 CODE 0 text24 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_DO_SEND_STOP 11E8 0 CODE 0 text27 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_rd1RegCompleteHandler 14DE 0 CODE 0 text50 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PIR0bits 70C 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_is_tx_ready 138C 0 CODE 0 text68 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PIR2bits 70E 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PIR3bits 70F 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_MasterOperation 162E 0 CODE 0 text18 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_PIR4bits 710 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Lend_init 60 0 CODE 0 end_init -
+EUSART1_RxDataHandler@t 72 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_is_tx_done 11B8 0 CODE 0 text69 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__end_of_I2C1_MasterGetRxData 11AA 0 CODE 0 text42 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TxDeviceDisable 1180 0 CODE 0 text67 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+end_of_initialization 118 0 CODE 0 cinit dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_DO_RX_ACK 11F8 0 CODE 0 text26 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+EUSART1_Read@readValue 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR0_Initialize 1662 0 CODE 0 text90 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Hintentry 60 0 CODE 0 intentry -
+_I2C1_MasterClearIrq 1180 0 CODE 0 text61 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TX1STAbits 11E 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Lstrings 0 0 ABS 0 strings -
+?___aldiv 20 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___lwdiv@dividend 22 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+?___lwdiv 20 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+?___lwmod 20 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Hreset_vec 4 0 CODE 0 reset_vec -
+readINA220@pTxbuffer 37 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+EUSART1_SetRxInterruptHandler@interruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+__HbssBANK5 0 0 ABS 0 bssBANK5 -
+__HbssBANK6 0 0 ABS 0 bssBANK6 -
+_EUSART1_RxDataHandler 1A84 0 CODE 0 text113 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_Poller 1378 0 CODE 0 text19 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_MasterFsm 1848 0 CODE 0 text21 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_Close 1580 0 CODE 0 text58 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_DO_RX 1F7C 0 CODE 0 text32 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_DO_TX E86 0 CODE 0 text33 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_sendSensorData 1E1A 0 CODE 0 text63 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_sendSensorInfo FB2 0 CODE 0 text7 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext1 1C06 0 CODE 0 text1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext2 177E 0 CODE 0 text2 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext3 1446 0 CODE 0 text3 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext4 43A 0 CODE 0 text4 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext5 B1C 0 CODE 0 text5 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext6 1698 0 CODE 0 text6 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext7 F22 0 CODE 0 text7 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext8 726 0 CODE 0 text8 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__ptext9 1468 0 CODE 0 text9 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+sendSensorInfo@idx 3A 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR4_InterruptHandler 60 0 BANK0 1 nvBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___aldiv@dividend 24 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+_I2C1_SetDataCompleteCallback 1350 0 CODE 0 text52 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+wr1RegCompleteHandler@ptr 27 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__H__absolute__ 0 0 ABS 0 __absolute__ -
+__end_of_EUSART1_Read 1468 0 CODE 0 text3 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_T4CONbits 294 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_DO_RESET 1252 0 CODE 0 text23 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_CMP1_GetOutputStatus 125E 0 CODE 0 text115 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_DO_SEND_RESTART 11E8 0 CODE 0 text28 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__Hstringtext1 0 0 ABS 0 stringtext1 -
+main@packet 15B 0 BANK2 1 cstackBANK2 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_receiveData 17BC 0 CODE 0 text2 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_MasterClose 118C 0 CODE 0 text60 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_SetCallback 1D40 0 CODE 0 text53 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_SetCallback@cb 20 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_SLRCONA 1F3B 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_SLRCONC 1F51 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___heap_hi 0 0 ABS 0 - /tmp/xcXCJamOo/driver_tmp_15.o
+___heap_lo 0 0 ABS 0 - /tmp/xcXCJamOo/driver_tmp_15.o
+__end_of_I2C1_MasterStart 1192 0 CODE 0 text57 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_MasterWrite 1220 0 CODE 0 text13 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TMR0_Reload 12F4 0 CODE 0 text74 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_DO_SEND_ADR_READ 1304 0 CODE 0 text35 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of__initialization 118 0 CODE 0 cinit dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TxDeviceDisable 117A 0 CODE 0 text67 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+stringlen@idx 20 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+stringlen@str 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Lfunctab 0 0 ENTRY 0 functab -
+_getINA220Data 726 0 CODE 0 text8 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+sendSensorData@sensor_data 34 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pidataBANK0 1304 0 CODE 0 idataBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pidataBANK1 17BC 0 CODE 0 idataBANK1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pidataBANK2 1F06 0 CODE 0 idataBANK2 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pidataBANK3 1E90 0 CODE 0 idataBANK3 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pidataBANK4 1E1A 0 CODE 0 idataBANK4 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_SetBuffer@buffer 20 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TMR2_DefaultInterruptHandler 114A 0 CODE 0 text107 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_SP1BRGH 11C 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_SP1BRGL 11B 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Lclrtext 0 0 ABS 0 clrtext -
+_SSP1CON1bits 190 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_SSP1CON2bits 191 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_SetRxInterruptHandler 1276 0 CODE 0 text97 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_fsmStateTable 2000 0 STRCODE 0 stringtext1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_DO_SEND_RESTART_WRITE 11E0 0 CODE 0 text29 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+int16ToString@i 2E 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_eusart1RxBuffer 2A0 0 BANK5 1 bssBANK5 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR4_DefaultInterruptHandler 114A 0 CODE 0 text105 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_DO_SEND_ADR_READ 12F4 0 CODE 0 text35 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+sendSensorData@F11244 D1 0 BANK1 1 dataBANK1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_Initialize 1328 0 CODE 0 text95 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_SSP1ADD 18D 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_SSP1BUF 18C 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Hend_init 64 0 CODE 0 end_init -
+__end_of_I2C1_Close 15AA 0 CODE 0 text58 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_DO_RX 2000 0 CODE 0 text32 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_DO_TX F22 0 CODE 0 text33 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___aldiv@counter 28 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_SetFramingErrorHandler 126A 0 CODE 0 text99 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_CMP1_ISR 13EA 0 CODE 0 text114 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_EUSART1_SetOverrunErrorHandler 122A 0 CODE 0 text98 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_main 43A 0 CODE 0 maintext dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+initRxBuffer@i 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+rd2RegCompleteHandler@ptr 27 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+readINA220@pRxbuffer 36 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_EUSART1_is_tx_ready 13A2 0 CODE 0 text68 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+?_readINA220 32 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+getMax@aux 28 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_SetBuffer 15AA 0 CODE 0 text54 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_OSCEN 891 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_T2CON 28E 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_T2HLT 28F 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_T2RST 291 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_T2TMR 28C 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_T4CON 294 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_T4HLT 295 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_T4RST 297 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_T4TMR 292 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR0H 59D 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR0L 59C 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TRISA 12 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TRISC 14 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_I2C1_DO_ADDRESS_NACK 1984 0 CODE 0 text22 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR2_InterruptHandler 62 0 BANK0 1 nvBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_panel 1A0 0 BANK3 1 dataBANK3 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR4_SetInterruptHandler 129A 0 CODE 0 text87 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_CMP1_ISR 1406 0 CODE 0 text114 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_DO_SEND_RESTART_READ 11D8 0 CODE 0 text30 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_eusart1RxCount 77 0 COMMON 1 bssCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pintentry 8 0 CODE 0 intentry dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_MasterClearIrq 1186 0 CODE 0 text61 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__HdataBANK1 0 0 ABS 0 dataBANK1 -
+__HdataBANK2 0 0 ABS 0 dataBANK2 -
+__HdataBANK3 0 0 ABS 0 dataBANK3 -
+__HdataBANK4 0 0 ABS 0 dataBANK4 -
+receiveData@c 23 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_EUSART1_Initialize 1B3C 0 CODE 0 text96 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_OSCILLATOR_Initialize 133C 0 CODE 0 text94 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+?_stringCompare 20 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+getMed@aux 3D 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__initialization 64 0 CODE 0 cinit dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+I2C1_SetAddressNackCallback@cb 24 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pbssBANK0 64 0 BANK0 1 bssBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pbssBANK5 2A0 0 BANK5 1 bssBANK5 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__pbssBANK6 320 0 BANK6 1 bssBANK6 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_T4CLKCON 296 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_T2CONbits 28E 0 ABS 0 - dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_I2C1_DO_TX_EMPTY 1A2A 0 CODE 0 text37 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_SetAddressNackCallback 138C 0 CODE 0 text12 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___wmul@product 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_eusart1RxStatusBuffer 320 0 BANK6 1 bssBANK6 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+writeINA220@address 34 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+_TMR4_Start 116E 0 CODE 0 text82 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+getHis@i 44 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+getMin@aux 28 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+getMax@i 27 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+getMed@i 3C 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+getMin@i 27 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_I2C1_MasterSendAck 11D0 0 CODE 0 text41 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+EUSART1_SetOverrunErrorHandler@interruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+___int_stack_hi 0 0 STACK 2 stack /tmp/xcXCJamOo/driver_tmp_15.o
+___int_stack_lo 0 0 STACK 2 stack /tmp/xcXCJamOo/driver_tmp_15.o
+_OSCILLATOR_Initialize 1328 0 CODE 0 text94 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+__end_of_TMR2_Initialize 162E 0 CODE 0 text88 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+sendPacket@str 21 0 BANK0 1 cstackBANK0 dist/default/debug/ENERGY_LIGHT_V3.X.debug.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text1 0 E03 1C06 33 2
+text2 0 BBF 177E 1F 2
+text3 0 A23 1446 11 2
+text6 0 B4C 1698 1B 2
+text9 0 A34 1468 13 2
+text10 0 E36 1C6C 34 2
+text11 0 C9A 1934 28 2
+text12 0 9BC 1378 A 2
+text13 0 90C 1218 4 2
+text14 0 BA1 1742 1E 2
+text15 0 DD0 1BA0 33 2
+text16 0 9E9 13D2 C 2
+text17 0 908 1210 4 2
+text18 0 B17 162E 1A 2
+text19 0 9B2 1364 A 2
+text20 0 904 1208 4 2
+text21 0 BFF 17FE 25 2
+text22 0 CC2 1984 29 2
+text23 0 924 1248 5 2
+text24 0 900 1200 4 2
+text25 0 8FC 11F8 4 2
+text26 0 8F8 11F0 4 2
+text27 0 8F4 11E8 4 2
+text28 0 8F0 11E0 4 2
+text29 0 8EC 11D8 4 2
+text30 0 8E8 11D0 4 2
+text31 0 959 12B2 6 2
+text32 0 FBE 1F7C 42 2
+text34 0 96B 12D6 7 2
+text35 0 97A 12F4 8 2
+text36 0 91F 123E 5 2
+text37 0 D15 1A2A 2D 2
+text38 0 8D5 11AA 3 2
+text39 0 953 12A6 6 2
+text40 0 91A 1234 5 2
+text41 0 8E4 11C8 4 2
+text42 0 8D2 11A4 3 2
+text43 0 8E0 11C0 4 2
+text44 0 8CF 119E 3 2
+text46 0 8AF 115E 2 2
+text47 0 B67 16CE 1C 2
+text48 0 A97 152E 14 2
+text49 0 A83 1506 14 2
+text50 0 A6F 14DE 14 2
+text51 0 A5B 14B6 14 2
+text52 0 9A8 1350 A 2
+text53 0 EA0 1D40 36 2
+text54 0 AD5 15AA 15 2
+text55 0 8CC 1198 3 2
+text56 0 8C9 1192 3 2
+text57 0 8C6 118C 3 2
+text58 0 AC0 1580 15 2
+text59 0 8AD 115A 2 2
+text60 0 8C3 1186 3 2
+text61 0 8C0 1180 3 2
+text63 0 ED6 1DAC 37 2
+text64 0 AEA 15D4 16 2
+text66 0 8AB 1156 2 2
+text67 0 8BD 117A 3 2
+text68 0 9C6 138C B 2
+text69 0 8DC 11B8 4 2
+text70 0 99E 133C A 2
+text72 0 CEB 19D6 2A 2
+text73 0 D9E 1B3C 32 2
+text74 0 972 12E4 8 2
+text75 0 C4B 1896 27 2
+text76 0 E6A 1CD4 36 2
+text81 0 8BA 1174 3 2
+text82 0 8B7 116E 3 2
+text83 0 8A9 1152 2 2
+text84 0 8A7 114E 2 2
+text85 0 B83 1706 1E 2
+text86 0 AAB 1556 15 2
+text87 0 94D 129A 6 2
+text88 0 B00 1600 17 2
+text89 0 947 128E 6 2
+text90 0 B31 1662 1B 2
+text91 0 941 1282 6 2
+text92 0 A12 1424 11 2
+text93 0 C72 18E4 28 2
+text94 0 994 1328 A 2
+text95 0 98A 1314 A 2
+text96 0 D70 1AE0 2E 2
+text97 0 93B 1276 6 2
+text98 0 915 122A 5 2
+text99 0 935 126A 6 2
+cstackCOMMON 1 70 70 A 1
+cstackBANK0 1 20 20 47 1
+inittext 0 965 12CA 6 2
+stringtext1 0 1000 2000 20 2
+intentry 0 4 8 7FC 2
+reset_vec 0 0 0 4 2
+bssBANK1 1 A0 A0 4F 1
+bssBANK5 1 2A0 2A0 40 1
+bssBANK6 1 320 320 40 1
+idataBANK0 0 982 1304 8 2
+idataBANK1 0 BDE 17BC 21 2
+idataBANK2 0 F83 1F06 3B 2
+idataBANK3 0 F48 1E90 3B 2
+idataBANK4 0 F0D 1E1A 3B 2
+dataBANK2 1 120 120 46 1
+dataBANK3 1 1A0 1A0 3B 1
+dataBANK4 1 220 220 3B 1
+clrtext 0 95F 12BE 6 2
+text100 0 910 1220 5 2
+text101 0 92F 125E 6 2
+text102 0 A03 1406 F 2
+text104 0 9DD 13BA C 2
+text105 0 8A5 114A 2 2
+text106 0 9D1 13A2 C 2
+text107 0 8A3 1146 2 2
+text108 0 A47 148E 14 2
+text109 0 8B4 1168 3 2
+text110 0 C24 1848 27 2
+text111 0 8D8 11B0 4 2
+text112 0 8B1 1162 3 2
+text113 0 D42 1A84 2E 2
+text114 0 9F5 13EA E 2
+text115 0 929 1252 6 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
