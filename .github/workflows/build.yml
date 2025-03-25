@@ -32,7 +32,6 @@ jobs:
 
       - name: Verificar instalación de MPLAB X
         run: |
-          sudo find / -name mplabx
           ls /opt/mplabx/mplab_platform/bin/
           
       - name: Compilar proyecto con MPLAB X y XC8
