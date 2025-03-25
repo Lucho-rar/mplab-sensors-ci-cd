@@ -23,7 +23,6 @@ jobs:
           sudo /tmp/xc8-installer.run --mode unattended --unattendedmodeui none --netservername localhost --LicenseType FreeMode --prefix /opt/microchip/xc8
           sudo chmod -R 755 /opt/microchip/xc8
           sudo ls -l /opt/microchip/xc8
-          sudo ls -l /opt/microchip/xc8/bin
           
       - name: Descargar e instalar MPLAB X
         run: |
@@ -39,6 +38,7 @@ jobs:
         run: |
           PROJECT_DIR="firmware/ENERGY_LIGHT_V3.X"
           CONFIG="default" 
+          export PATH=/opt/microchip/xc8/bin:$PATH
           make -C $PROJECT_DIR 
             
       - name: Generar Makefiles y compilar proyecto
