@@ -29,15 +29,15 @@ jobs:
           chmod +x /tmp/xc8-installer.run
           sudo /tmp/xc8-installer.run --mode unattended --unattendedmodeui none --netservername localhost --LicenseType FreeMode --prefix /opt/microchip/xc8
 
+      - name: Verificar instalación de MPLAB X
+        run: |
+          ls /opt/mplabx/mplab_platform/bin/
+          
       - name: Compilar proyecto con MPLAB X y XC8
         run: |
           /opt/mplabx/mplab_platform/bin/prjMakefilesGenerator.sh firmware/ENERGY_LIGHT_V3.X@default
           make -C firmware/ENERGY_LIGHT_V3.X CONF=default build
       
-      - name: Verificar instalación de MPLAB X
-        run: |
-          ls /opt/mplabx/mplab_platform/bin/
-          
       - name: Subir artefacto compilado
         uses: actions/upload-artifact@v4
         with:
