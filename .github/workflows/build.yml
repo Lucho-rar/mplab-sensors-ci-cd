@@ -18,7 +18,7 @@ jobs:
       - name: Descargar e instalar XC8
         run: |
           pip install gdown
-          gdown "https://drive.google.com/uc?id=1ug878Xi-GHbd2yhdZv0Taw3xv8tfTDqX" -O /tmp/xc8-installer.run
+          gdown "https://drive.google.com/uc?id=1Dx4oikTP1t-stbjv9HHKJaf_qIhtrJiL" -O /tmp/xc8-installer.run
           chmod +x /tmp/xc8-installer.run
           sudo /tmp/xc8-installer.run --mode unattended --unattendedmodeui none --netservername localhost --LicenseType FreeMode --prefix /opt/microchip/xc8
           ls -l /opt/microchip/xc8
