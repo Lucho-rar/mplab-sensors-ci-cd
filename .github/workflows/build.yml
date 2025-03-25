@@ -21,13 +21,13 @@ jobs:
           path: /opt/microchip/xc8
           key: xc8-v2.50
 
-      - name: Descargar e instalar XC8 si no está en caché
+      - name: Descargar XC8 desde Google Drive
         run: |
-          if [ ! -d "/opt/microchip/xc8" ]; then
-            wget --content-disposition "https://www.microchip.com/mplabxc8linux"
-            chmod +x xc8-*.run
-            ./xc8-*.run --mode unattended --unattendedmodeui none --netservername localhost --LicenseType FreeMode --prefix /opt/microchip/xc8
-          fi
+          file_id="1ug878Xi-GHbd2yhdZv0Taw3xv8tfTDqX"
+          wget --no-check-certificate "https://drive.google.com/uc?export=download&id=${file_id}" -O /tmp/xc8.run
+          chmod +x /tmp/xc8.run
+          /tmp/xc8.run --mode unattended --unattendedmodeui none --netservername localhost --LicenseType FreeMode --prefix /opt/microchip/xc8
+      
 
       - name: Compilar proyecto con MPLAB X y XC8
         run: |
