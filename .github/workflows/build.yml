@@ -35,7 +35,7 @@ jobs:
       - name: Generar Makefiles y compilar proyecto
         run: |
           PROJECT_DIR="firmware/ENERGY_LIGHT_V3.X"
-          CONFIG="build" 
+          CONFIG="default" 
           export JAVA_TOOL_OPTIONS="-Djava.awt.headless=true"  
           /opt/mplabx/mplab_platform/bin/prjMakefilesGenerator.sh $PROJECT_DIR@$CONFIG || exit 1
           make -C $PROJECT_DIR CONF=$CONFIG build || exit 2
