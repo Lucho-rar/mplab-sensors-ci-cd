@@ -4,6 +4,9 @@ RUN dpkg --add-architecture i386 && apt-get update && \
   apt-get install -y libc6:i386 libx11-6:i386 libxext6:i386 libstdc++6:i386 libexpat1:i386 wget sudo make && \
   rm -rf /var/lib/apt/lists/*
 
+
+RUN pip install gdown
+
 # Instalar el compilador XC8
 RUN wget -nv -O /tmp/xc8.run http://ww1.microchip.com/downloads/en/DeviceDoc/xc8-v2.50-full-install-linux-installer.run && \
   chmod +x /tmp/xc8.run &&  \

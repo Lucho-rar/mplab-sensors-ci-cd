@@ -21,14 +21,13 @@ jobs:
           path: /opt/microchip/xc8
           key: xc8-v2.50
 
-      - name: Descargar XC8 desde Google Drive
+      - name: Descargar XC8 desde Google Drive usando gdown
         run: |
-          file_id="1ug878Xi-GHbd2yhdZv0Taw3xv8tfTDqX"
-          confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate "https://drive.google.com/uc?export=download&id=${file_id}" -O- | sed 's/.*confirm=\(.*\)&.*/\1/')
-          wget --load-cookies /tmp/cookies.txt "https://drive.google.com/uc?export=download&confirm=${confirm}&id=${file_id}" -O /tmp/xc8.run
+          pip install gdown
+          gdown "https://drive.google.com/uc?id=1ug878Xi-GHbd2yhdZv0Taw3xv8tfTDqX"
           chmod +x /tmp/xc8.run
           /tmp/xc8.run --mode unattended --unattendedmodeui none --netservername localhost --LicenseType FreeMode --prefix /opt/microchip/xc8
-    
+      
 
       - name: Compilar proyecto con MPLAB X y XC8
         run: |
