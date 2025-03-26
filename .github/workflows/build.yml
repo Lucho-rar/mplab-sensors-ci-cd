@@ -51,6 +51,15 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libncurses6 libncursesw6
 
+      - name: Agregar fixDeps al PATH
+        run: |
+          export PATH=$(find /opt/microchip -name "fixDeps" -exec dirname {} \;):$PATH
+          echo "Nuevo PATH: $PATH"
+
+      - name: Verificar fixDeps en el PATH
+        run: which fixDeps || echo "fixDeps sigue sin estar en el PATH"
+     
+
       - name: Generar Makefiles y compilar proyecto
         run: |
           export PATH=/opt/microchip/xc8/bin:/opt/mplabx/mplab_platform/bin:$PATH
