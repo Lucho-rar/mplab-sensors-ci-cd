@@ -53,9 +53,12 @@ jobs:
 
       - name: Agregar fixDeps al PATH
         run: |
+          echo "Buscando fixDeps..."
+          find /opt/microchip -name "fixDeps" -exec dirname {} \; || echo "fixDeps no encontrado"
           export PATH=$(find /opt/microchip -name "fixDeps" -exec dirname {} \;):$PATH
           echo "Nuevo PATH: $PATH"
-
+          which fixDeps || echo "fixDeps sigue sin estar en el PATH"
+        
       - name: Verificar fixDeps en el PATH
         run: which fixDeps || echo "fixDeps sigue sin estar en el PATH"
      
