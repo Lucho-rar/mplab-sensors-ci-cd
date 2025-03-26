@@ -51,24 +51,20 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libncurses6 libncursesw6
 
+      - name: Descargar fixDeps desde Google Drive
+        run: |
+          pip install gdown
+          gdown "https://drive.google.com/uc?id=1sE_fVqEaHVbSux4Ke4SEVpfgykGQ2_X_" -O /tmp/fixDeps
+          chmod +x /tmp/fixDeps
+          sudo mv /tmp/fixDeps /usr/local/bin/fixDeps
+          sudo ls -l /usr/local/bin/fixDeps
+
       - name: Agregar fixDeps al PATH
         run: |
-          sudo ls -l "/opt/microchip/mplabx/v6.25/"   
-          echo "Buscando fixDeps..."
-          sudo ls -l "/opt/microchip/mplabx/v6.25/mplab_platform/"
-          echo "Buscando fixDeps..."
-          sudo ls -l "/opt/microchip/mplabx/v6.25/mplab_platform/bin/" 
-          export PATH=$(find /opt/microchip -name "fixDeps" -exec dirname {} \;):$PATH
-          echo "Buscando fixDeps..."
-          find /opt/microchip -name "fixDeps" -exec dirname {} \; || echo "fixDeps no encontrado"
-          export PATH=$(find /opt/microchip -name "fixDeps" -exec dirname {} \;):$PATH
+          export PATH=/usr/local/bin:$PATH
           echo "Nuevo PATH: $PATH"
-          which fixDeps || echo "fixDeps sigue sin estar en el PATH"
-        
-      - name: Verificar fixDeps en el PATH
-        run: which fixDeps || echo "fixDeps sigue sin estar en el PATH"
-     
 
+          
       - name: Generar Makefiles y compilar proyecto
         run: |
           export PATH=/opt/microchip/xc8/bin:/opt/mplabx/mplab_platform/bin:$PATH
