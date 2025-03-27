@@ -15,12 +15,21 @@ jobs:
       - name: Checkout del código
         uses: actions/checkout@v3
 
-      - name: Descargar e instalar XC8
+      - name: Descargar e instalar XC8 2.45
         run: |
           pip install gdown
           gdown "https://drive.google.com/uc?id=1Dx4oikTP1t-stbjv9HHKJaf_qIhtrJiL" -O /tmp/xc8-installer.run
           chmod +x /tmp/xc8-installer.run
           sudo /tmp/xc8-installer.run --mode unattended --unattendedmodeui none --netservername localhost --LicenseType FreeMode --prefix /opt/microchip/xc8
+          sudo chmod -R 755 /opt/microchip/xc8
+          sudo ls -l /opt/microchip/xc8
+
+      - name: Descargar e instalar XC8 2.36
+        run: |
+          pip install gdown
+          gdown "https://drive.google.com/uc?id=13tdi_JvjdnBvUe1n_NnJRZOpbCXHbJuk" -O /tmp/xc8-installer-236.run
+          chmod +x /tmp/xc8-installer-236.run
+          sudo /tmp/xc8-installer-236.run --mode unattended --unattendedmodeui none --netservername localhost --LicenseType FreeMode --prefix /opt/microchip/xc8
           sudo chmod -R 755 /opt/microchip/xc8
           sudo ls -l /opt/microchip/xc8
 
