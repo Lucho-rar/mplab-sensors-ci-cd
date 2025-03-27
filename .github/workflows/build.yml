@@ -73,6 +73,15 @@ jobs:
           export PATH=/opt/microchip/xc8/bin:$PATH
           sudo make -C $PROJECT_DIR 
 
+      - name: Generar Makefiles y compilar proyecto
+        run: |
+          export PATH=/opt/microchip/xc8/bin:/opt/mplabx/mplab_platform/bin:$PATH
+          PROJECT_DIR="firmware/WD03WS04_MB.X"
+          CONFIG="default" 
+          export PATH=/opt/microchip/xc8/bin:$PATH
+          sudo make -C $PROJECT_DIR 
+      
+
       - name: Subir artefacto compilado
         uses: actions/upload-artifact@v4
         with:
