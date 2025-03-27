@@ -1,0 +1,218 @@
+make -f nbproject/Makefile-Config_1.mk SUBPROJECTS= .clean-conf
+make[1]: Entering directory 'D:/LDS/Programas Pic/CODIGOS/V2/TermistorRevH_modbus.X'
+rm -f  -r .ca/build/Config_1/production
+rm -f  -r .ca/dist/Config_1/production
+make[1]: Leaving directory 'D:/LDS/Programas Pic/CODIGOS/V2/TermistorRevH_modbus.X'
+[32mCLEAN SUCCESSFUL (total time: 244ms)[0m
+make -f nbproject/Makefile-Config_1.mk SUBPROJECTS= .build-conf
+make[1]: Entering directory 'D:/LDS/Programas Pic/CODIGOS/V2/TermistorRevH_modbus.X'
+make  -f nbproject/Makefile-Config_1.mk .ca/dist/Config_1/production/TermistorRevH_modbus.X.production.hex
+make[2]: Entering directory 'D:/LDS/Programas Pic/CODIGOS/V2/TermistorRevH_modbus.X'
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=16F18424 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/mcc_generated_files/adcc.p1 mcc_generated_files/adcc.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=16F18424 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/mcc_generated_files/eusart1.p1 mcc_generated_files/eusart1.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=16F18424 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/mcc_generated_files/device_config.p1 mcc_generated_files/device_config.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=16F18424 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/mcc_generated_files/mcc.p1 mcc_generated_files/mcc.c 
+mcc_generated_files/eusart1.c:208:25: warning: implicit conversion loses integer precision: 'int' to 'uint8_t' (aka 'unsigned char') [-Wconversion]
+        eusart1RxHead = t;
+                      ~ ^
+1 warning generated.
+mcc_generated_files/adcc.c:185:14: warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'unsigned char' [-Wconversion]
+    ADACQL = acquisitionValue;  
+           ~ ^~~~~~~~~~~~~~~~
+mcc_generated_files/adcc.c:192:14: warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'unsigned char' [-Wconversion]
+    ADPREL = prechargeTime;
+           ~ ^~~~~~~~~~~~~
+mcc_generated_files/adcc.c:241:15: warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'unsigned char' [-Wconversion]
+    ADSTPTL = setPoint;
+            ~ ^~~~~~~~
+mcc_generated_files/adcc.c:248:14: warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'unsigned char' [-Wconversion]
+    ADUTHL = upperThreshold;
+           ~ ^~~~~~~~~~~~~~
+mcc_generated_files/adcc.c:255:14: warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'unsigned char' [-Wconversion]
+    ADLTHL = lowerThreshold;
+           ~ ^~~~~~~~~~~~~~
+5 warnings generated.
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=16F18424 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/mcc_generated_files/pin_manager.p1 mcc_generated_files/pin_manager.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=16F18424 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/mcc_generated_files/fvr.p1 mcc_generated_files/fvr.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=16F18424 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/mcc_generated_files/interrupt_manager.p1 mcc_generated_files/interrupt_manager.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=16F18424 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/main.p1 main.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=16F18424 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/communication.p1 communication.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=16F18424 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/device.p1 device.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=16F18424 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/sensor.p1 sensor.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=16F18424 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/modbus_imp.p1 modbus_imp.c 
+communication.c:89:34: warning: implicit conversion loses integer precision: 'int' to 'uint8_t' (aka 'unsigned char') [-Wconversion]
+        uint8_t crc = (uint8_t)i << 4;
+                ~~~   ~~~~~~~~~~~^~~~
+communication.c:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+device.c:43:24: warning: incompatible pointer types passing 'char (*)[5]' to parameter of type 'uint8_t *' (aka 'unsigned char *') [-Wincompatible-pointer-types]
+    packet.crc8 = crc8(&packet.value,DATA_LENGTH);
+                       ^~~~~~~~~~~~~
+./communication.h:27:23: note: passing argument to parameter 'data' here
+uint8_t crc8(uint8_t* data, uint8_t length);
+                      ^
+device.c:91:24: warning: implicit conversion loses integer precision: 'unsigned int' to 'char' [-Wconversion]
+            *data = '0'+result;
+                  ~ ~~~^~~~~~~
+2 warnings generated.
+2 warnings generated.
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=16F18424 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/nanomodbus.p1 nanomodbus.c 
+modbus_imp.c:66:62: warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    bool value = nmbs_bitfield_read(*server_coils, address + i);
+                                                           ~ ^
+./nanomodbus.h:95:50: note: expanded from macro 'nmbs_bitfield_read'
+#define nmbs_bitfield_read(bf, b) ((bool) ((bf)[(b) / 8] & (0x1 << ((b) % 8))))
+                                                 ^
+modbus_imp.c:66:62: warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    bool value = nmbs_bitfield_read(*server_coils, address + i);
+                                                           ~ ^
+./nanomodbus.h:95:70: note: expanded from macro 'nmbs_bitfield_read'
+#define nmbs_bitfield_read(bf, b) ((bool) ((bf)[(b) / 8] & (0x1 << ((b) % 8))))
+                                                                     ^
+modbus_imp.c:67:5: warning: implicit conversion loses integer precision: 'int' to 'uint8_t' (aka 'unsigned char') [-Wconversion]
+    nmbs_bitfield_write(coils_out, i, value);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./nanomodbus.h:101:48: note: expanded from macro 'nmbs_bitfield_write'
+    (((bf)[(b) / 8]) = ((v) ? (((bf)[(b) / 8]) | (0x1 << ((b) % 8))) : (((bf)[(b) / 8]) & ~(0x1 << ((b) % 8)))))
+                     ~         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+modbus_imp.c:81:50: warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    nmbs_bitfield_write(*server_coils, address + i, nmbs_bitfield_read(coils, i));
+                                               ~ ^
+./nanomodbus.h:101:13: note: expanded from macro 'nmbs_bitfield_write'
+    (((bf)[(b) / 8]) = ((v) ? (((bf)[(b) / 8]) | (0x1 << ((b) % 8))) : (((bf)[(b) / 8]) & ~(0x1 << ((b) % 8)))))
+            ^
+modbus_imp.c:81:50: warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    nmbs_bitfield_write(*server_coils, address + i, nmbs_bitfield_read(coils, i));
+                                               ~ ^
+./nanomodbus.h:101:39: note: expanded from macro 'nmbs_bitfield_write'
+    (((bf)[(b) / 8]) = ((v) ? (((bf)[(b) / 8]) | (0x1 << ((b) % 8))) : (((bf)[(b) / 8]) & ~(0x1 << ((b) % 8)))))
+                                      ^
+modbus_imp.c:81:50: warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    nmbs_bitfield_write(*server_coils, address + i, nmbs_bitfield_read(coils, i));
+                                               ~ ^
+./nanomodbus.h:101:60: note: expanded from macro 'nmbs_bitfield_write'
+    (((bf)[(b) / 8]) = ((v) ? (((bf)[(b) / 8]) | (0x1 << ((b) % 8))) : (((bf)[(b) / 8]) & ~(0x1 << ((b) % 8)))))
+                                                           ^
+modbus_imp.c:81:5: warning: implicit conversion loses integer precision: 'int' to 'uint8_t' (aka 'unsigned char') [-Wconversion]
+    nmbs_bitfield_write(*server_coils, address + i, nmbs_bitfield_read(coils, i));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./nanomodbus.h:101:48: note: expanded from macro 'nmbs_bitfield_write'
+    (((bf)[(b) / 8]) = ((v) ? (((bf)[(b) / 8]) | (0x1 << ((b) % 8))) : (((bf)[(b) / 8]) & ~(0x1 << ((b) % 8)))))
+                     ~         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+modbus_imp.c:81:50: warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    nmbs_bitfield_write(*server_coils, address + i, nmbs_bitfield_read(coils, i));
+                                               ~ ^
+./nanomodbus.h:101:80: note: expanded from macro 'nmbs_bitfield_write'
+    (((bf)[(b) / 8]) = ((v) ? (((bf)[(b) / 8]) | (0x1 << ((b) % 8))) : (((bf)[(b) / 8]) & ~(0x1 << ((b) % 8)))))
+                                                                               ^
+modbus_imp.c:81:50: warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    nmbs_bitfield_write(*server_coils, address + i, nmbs_bitfield_read(coils, i));
+                                               ~ ^
+./nanomodbus.h:101:102: note: expanded from macro 'nmbs_bitfield_write'
+    (((bf)[(b) / 8]) = ((v) ? (((bf)[(b) / 8]) | (0x1 << ((b) % 8))) : (((bf)[(b) / 8]) & ~(0x1 << ((b) % 8)))))
+                                                                                                     ^
+modbus_imp.c:94:51: warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    registers_out[i] = server_registers[address + i];
+                                                ~ ^
+modbus_imp.c:106:51: warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    registers_out[i] = server_registers[address + i];
+                                                ~ ^
+modbus_imp.c:120:32: warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    server_registers[address + i] = registers[i];
+                             ~ ^
+nanomodbus.c:752:53: warning: implicit conversion changes signedness: 'nmbs_error' (aka 'enum nmbs_error') to 'uint8_t' (aka 'unsigned char') [-Wsign-conversion]
+                    return send_exception_msg(nmbs, err);
+                           ~~~~~~~~~~~~~~~~~~       ^~~
+nanomodbus.c:758:57: warning: implicit conversion loses integer precision: 'unsigned int' to 'uint8_t' (aka 'unsigned char') [-Wconversion]
+                uint8_t discrete_bytes = (quantity + 7) / 8;
+                        ~~~~~~~~~~~~~~   ~~~~~~~~~~~~~~~^~~
+nanomodbus.c:817:53: warning: implicit conversion changes signedness: 'nmbs_error' (aka 'enum nmbs_error') to 'uint8_t' (aka 'unsigned char') [-Wsign-conversion]
+                    return send_exception_msg(nmbs, err);
+                           ~~~~~~~~~~~~~~~~~~       ^~~
+nanomodbus.c:823:47: warning: implicit conversion loses integer precision: 'unsigned int' to 'uint8_t' (aka 'unsigned char') [-Wconversion]
+                uint8_t regs_bytes = quantity * 2;
+                        ~~~~~~~~~~   ~~~~~~~~~^~~
+nanomodbus.c:906:53: warning: implicit conversion changes signedness: 'nmbs_error' (aka 'enum nmbs_error') to 'uint8_t' (aka 'unsigned char') [-Wsign-conversion]
+                    return send_exception_msg(nmbs, err);
+                           ~~~~~~~~~~~~~~~~~~       ^~~
+nanomodbus.c:956:53: warning: implicit conversion changes signedness: 'nmbs_error' (aka 'enum nmbs_error') to 'uint8_t' (aka 'unsigned char') [-Wsign-conversion]
+                    return send_exception_msg(nmbs, err);
+                           ~~~~~~~~~~~~~~~~~~       ^~~
+nanomodbus.c:1029:53: warning: implicit conversion changes signedness: 'nmbs_error' (aka 'enum nmbs_error') to 'uint8_t' (aka 'unsigned char') [-Wsign-conversion]
+                    return send_exception_msg(nmbs, err);
+                           ~~~~~~~~~~~~~~~~~~       ^~~
+nanomodbus.c:1103:53: warning: implicit conversion changes signedness: 'nmbs_error' (aka 'enum nmbs_error') to 'uint8_t' (aka 'unsigned char') [-Wsign-conversion]
+                    return send_exception_msg(nmbs, err);
+                           ~~~~~~~~~~~~~~~~~~       ^~~
+nanomodbus.c:1402:49: warning: implicit conversion changes signedness: 'nmbs_error' (aka 'enum nmbs_error') to 'uint8_t' (aka 'unsigned char') [-Wsign-conversion]
+                return send_exception_msg(nmbs, err);
+                       ~~~~~~~~~~~~~~~~~~       ^~~
+nanomodbus.c:1417:53: warning: implicit conversion changes signedness: 'nmbs_error' (aka 'enum nmbs_error') to 'uint8_t' (aka 'unsigned char') [-Wsign-conversion]
+                    return send_exception_msg(nmbs, err);
+                           ~~~~~~~~~~~~~~~~~~       ^~~
+nanomodbus.c:1422:48: warning: implicit conversion loses integer precision: 'unsigned int' to 'uint8_t' (aka 'unsigned char') [-Wconversion]
+            uint8_t regs_bytes = read_quantity * 2;
+                    ~~~~~~~~~~   ~~~~~~~~~~~~~~^~~
+12 warnings generated.
+11 warnings generated.
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=16F18424 -Wl,-Map=.ca/dist/Config_1/production/TermistorRevH_modbus.X.production.map  -DXPRJ_Config_1=Config_1  -Wl,--defsym=__MPLAB_BUILD=1   -mdfp="C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto      -Wl,--memorysummary,.ca/dist/Config_1/production/memoryfile.xml -o .ca/dist/Config_1/production/TermistorRevH_modbus.X.production.elf  .ca/build/Config_1/production/mcc_generated_files/adcc.p1 .ca/build/Config_1/production/mcc_generated_files/eusart1.p1 .ca/build/Config_1/production/mcc_generated_files/device_config.p1 .ca/build/Config_1/production/mcc_generated_files/mcc.p1 .ca/build/Config_1/production/mcc_generated_files/pin_manager.p1 .ca/build/Config_1/production/mcc_generated_files/fvr.p1 .ca/build/Config_1/production/mcc_generated_files/interrupt_manager.p1 .ca/build/Config_1/production/main.p1 .ca/build/Config_1/production/communication.p1 .ca/build/Config_1/production/device.p1 .ca/build/Config_1/production/sensor.p1 .ca/build/Config_1/production/modbus_imp.p1 .ca/build/Config_1/production/nanomodbus.p1     
+mcc_generated_files/adcc.c:114:: warning: (520) function "_ADCC_StartConversion" is never called
+mcc_generated_files/adcc.c:126:: warning: (520) function "_ADCC_IsConversionDone" is never called
+mcc_generated_files/adcc.c:132:: warning: (520) function "_ADCC_GetConversionResult" is never called
+mcc_generated_files/adcc.c:163:: warning: (520) function "_ADCC_StopConversion" is never called
+mcc_generated_files/adcc.c:169:: warning: (520) function "_ADCC_SetStopOnInterrupt" is never called
+mcc_generated_files/adcc.c:175:: warning: (520) function "_ADCC_DischargeSampleCapacitor" is never called
+mcc_generated_files/adcc.c:181:: warning: (520) function "_ADCC_LoadAcquisitionRegister" is never called
+mcc_generated_files/adcc.c:188:: warning: (520) function "_ADCC_SetPrechargeTime" is never called
+mcc_generated_files/adcc.c:195:: warning: (520) function "_ADCC_SetRepeatCount" is never called
+mcc_generated_files/adcc.c:201:: warning: (520) function "_ADCC_GetCurrentCountofConversions" is never called
+mcc_generated_files/adcc.c:207:: warning: (520) function "_ADCC_ClearAccumulator" is never called
+mcc_generated_files/adcc.c:213:: warning: (520) function "_ADCC_GetAccumulatorValue" is never called
+mcc_generated_files/adcc.c:219:: warning: (520) function "_ADCC_HasAccumulatorOverflowed" is never called
+mcc_generated_files/adcc.c:225:: warning: (520) function "_ADCC_GetFilterValue" is never called
+mcc_generated_files/adcc.c:231:: warning: (520) function "_ADCC_GetPreviousResult" is never called
+mcc_generated_files/adcc.c:237:: warning: (520) function "_ADCC_DefineSetPoint" is never called
+mcc_generated_files/adcc.c:244:: warning: (520) function "_ADCC_SetUpperThreshold" is never called
+mcc_generated_files/adcc.c:251:: warning: (520) function "_ADCC_SetLowerThreshold" is never called
+mcc_generated_files/adcc.c:258:: warning: (520) function "_ADCC_GetErrorCalculation" is never called
+mcc_generated_files/adcc.c:264:: warning: (520) function "_ADCC_EnableDoubleSampling" is never called
+mcc_generated_files/adcc.c:270:: warning: (520) function "_ADCC_EnableContinuousConversion" is never called
+mcc_generated_files/adcc.c:276:: warning: (520) function "_ADCC_DisableContinuousConversion" is never called
+mcc_generated_files/adcc.c:282:: warning: (520) function "_ADCC_HasErrorCrossedUpperThreshold" is never called
+mcc_generated_files/adcc.c:288:: warning: (520) function "_ADCC_HasErrorCrossedLowerThreshold" is never called
+mcc_generated_files/adcc.c:294:: warning: (520) function "_ADCC_GetConversionStageStatus" is never called
+mcc_generated_files/eusart1.c:124:: warning: (520) function "_EUSART1_is_rx_ready" is never called
+mcc_generated_files/eusart1.c:134:: warning: (520) function "_EUSART1_get_last_status" is never called
+mcc_generated_files/pin_manager.c:110:: warning: (520) function "_PIN_MANAGER_IOC" is never called
+communication.c:8:: warning: (520) function "_initRxBuffer" is never called
+communication.c:20:: warning: (520) function "_sendPacket" is never called
+communication.c:42:: warning: (520) function "_receiveData" is never called
+communication.c:73:: warning: (520) function "_crc8_init" is never called
+communication.c:103:: warning: (520) function "_crc8" is never called
+device.c:16:: warning: (520) function "_sendSensorInfo" is never called
+device.c:37:: warning: (520) function "_sendSensorData" is never called
+device.c:57:: warning: (520) function "_stringCompare" is never called
+device.c:79:: warning: (520) function "_int16ToString" is never called
+modbus_imp.c:125:: warning: (520) function "_default_values_register" is never called
+nanomodbus.c:58:: warning: (520) function "_discard_n" is never called
+nanomodbus.c:78:: warning: (520) function "_get_n" is never called
+nanomodbus.c:85:: warning: (520) function "_get_regs" is never called
+nanomodbus.c:95:: warning: (520) function "_put_regs" is never called
+nanomodbus.c:104:: warning: (520) function "_swap_regs" is never called
+nanomodbus.c:177:: warning: (520) function "_nmbs_set_destination_rtu_address" is never called
+nanomodbus.c:182:: warning: (520) function "_nmbs_set_platform_arg" is never called
+nanomodbus.c:634:: warning: (520) function "_recv_read_file_record_res" is never called
+nanomodbus.c:672:: warning: (520) function "_recv_write_file_record_res" is never called
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\atexit.c:14:: warning: (1471) indirect function call via a NULL pointer ignored
+mcc_generated_files/eusart1.c:63:: error: (1250) could not find space (64 bytes) for variable _eusart1RxStatusBuffer
+(908) exit status = 1
+nbproject/Makefile-Config_1.mk:324: recipe for target '.ca/dist/Config_1/production/TermistorRevH_modbus.X.production.hex' failed
+make[2]: Leaving directory 'D:/LDS/Programas Pic/CODIGOS/V2/TermistorRevH_modbus.X'
+nbproject/Makefile-Config_1.mk:85: recipe for target '.build-conf' failed
+make[1]: Leaving directory 'D:/LDS/Programas Pic/CODIGOS/V2/TermistorRevH_modbus.X'
+nbproject/Makefile-impl.mk:39: recipe for target '.build-impl' failed
+[31mmake[2]: *** [.ca/dist/Config_1/production/TermistorRevH_modbus.X.production.hex] Error 1
+make[1]: *** [.build-conf] Error 2
+make: *** [.build-impl] Error 2[0m
+[31mBUILD FAILED (exit value 2, total time: 8s)[0m

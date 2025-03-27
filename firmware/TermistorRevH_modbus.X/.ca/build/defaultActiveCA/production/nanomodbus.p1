@@ -1,0 +1,3637 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"213 ./nanomodbus.h
+[; ;./nanomodbus.h: 213:     struct {
+[s S5 `uc -> 32 `i `us 1 `uc 1 `uc 1 `us 1 `a 1 `a 1 ]
+[n S5 . buf buf_idx unit_id fc transaction_id broadcast ignored ]
+"40 nanomodbus.c
+[; ;nanomodbus.c: 40: static uint8_t get_1(nmbs_t* nmbs) {
+[c E204 -7 -6 -5 -4 -3 -2 -1 0 1 2 3 4 .. ]
+[n E204 nmbs_error NMBS_ERROR_INVALID_UNIT_ID NMBS_ERROR_INVALID_TCP_MBAP NMBS_ERROR_CRC NMBS_ERROR_TRANSPORT NMBS_ERROR_TIMEOUT NMBS_ERROR_INVALID_RESPONSE NMBS_ERROR_INVALID_ARGUMENT NMBS_ERROR_NONE NMBS_EXCEPTION_ILLEGAL_FUNCTION NMBS_EXCEPTION_ILLEGAL_DATA_ADDRESS NMBS_EXCEPTION_ILLEGAL_DATA_VALUE NMBS_EXCEPTION_SERVER_DEVICE_FAILURE  ]
+[v F241 `(E204 ~T0 @X0 0 tf5`us`us`*uc`uc`*v ]
+[v F248 `(E204 ~T0 @X0 0 tf5`us`us`*us`uc`*v ]
+[v F255 `(E204 ~T0 @X0 0 tf5`us`us`*us`uc`*v ]
+[v F262 `(E204 ~T0 @X0 0 tf4`us`a`uc`*v ]
+[v F268 `(E204 ~T0 @X0 0 tf4`us`us`uc`*v ]
+[v F274 `(E204 ~T0 @X0 0 tf5`us`us`*Cuc`uc`*v ]
+[v F281 `(E204 ~T0 @X0 0 tf5`us`us`*Cus`uc`*v ]
+"155 ./nanomodbus.h
+[; ;./nanomodbus.h: 155: typedef struct nmbs_callbacks {
+[s S3 `*F241 1 `*F248 1 `*F255 1 `*F262 1 `*F268 1 `*F274 1 `*F281 1 `uc 1 ]
+[n S3 nmbs_callbacks read_coils read_holding_registers read_input_registers write_single_coil write_single_register write_multiple_coils write_multiple_registers _nonempty ]
+"40 nanomodbus.c
+[; ;nanomodbus.c: 40: static uint8_t get_1(nmbs_t* nmbs) {
+[c E219 1 2 .. ]
+[n E219 nmbs_transport NMBS_TRANSPORT_RTU NMBS_TRANSPORT_TCP  ]
+[v F226 `(l ~T0 @X0 0 tf4`*uc`us`l`*v ]
+[v F232 `(l ~T0 @X0 0 tf4`*Cuc`us`l`*v ]
+"137 ./nanomodbus.h
+[; ;./nanomodbus.h: 137: typedef struct nmbs_platform_conf {
+[s S2 `E219 1 `*F226 1 `*F232 1 `*v 1 ]
+[n S2 nmbs_platform_conf transport read write arg ]
+"212
+[; ;./nanomodbus.h: 212: typedef struct nmbs_t {
+[s S4 `S5 1 `S3 1 `l 1 `l 1 `S2 1 `uc 1 `uc 1 `us 1 ]
+[n S4 nmbs_t msg callbacks byte_timeout_ms read_timeout_ms platform address_rtu dest_address_rtu current_tid ]
+"29 C:\Program Files\Microchip\xc8\v2.41\pic\include\c99\string.h
+[; ;C:\Program Files\Microchip\xc8\v2.41\pic\include\c99\string.h: 29: void *memset (void *, int, size_t);
+[v _memset `(*v ~T0 @X0 0 ef3`*v`i`ui ]
+[v F379 `(l ~T0 @X0 0 tf4`*uc`us`l`*v ]
+[v F396 `(l ~T0 @X0 0 tf4`*Cuc`us`l`*v ]
+"27
+[; ;C:\Program Files\Microchip\xc8\v2.41\pic\include\c99\string.h: 27: void *memcpy (void *restrict, const void *restrict, size_t);
+[v _memcpy `(*v ~T0 @X0 0 ef3`*v`*Cv`ui ]
+"30
+[; ;C:\Program Files\Microchip\xc8\v2.41\pic\include\c99\string.h: 30: int memcmp (const void *, const void *, size_t);
+[v _memcmp `(i ~T0 @X0 0 ef3`*Cv`*Cv`ui ]
+[v F542 `(E204 ~T0 @X0 0 tf5`us`us`*uc`uc`*v ]
+[v F550 `(E204 ~T0 @X0 0 tf5`us`us`*uc`uc`*v ]
+[v F559 `(E204 ~T0 @X0 0 tf5`us`us`*uc`uc`*v ]
+[v F570 `(E204 ~T0 @X0 0 tf5`us`us`*us`uc`*v ]
+[v F578 `(E204 ~T0 @X0 0 tf5`us`us`*us`uc`*v ]
+[v F587 `(E204 ~T0 @X0 0 tf5`us`us`*us`uc`*v ]
+[v F636 `(E204 ~T0 @X0 0 tf4`us`a`uc`*v ]
+[v F661 `(E204 ~T0 @X0 0 tf4`us`us`uc`*v ]
+[v F692 `(E204 ~T0 @X0 0 tf5`us`us`*Cuc`uc`*v ]
+[v F724 `(E204 ~T0 @X0 0 tf5`us`us`*Cus`uc`*v ]
+[v F758 `(E204 ~T0 @X0 0 tf5`us`us`*Cus`uc`*v ]
+[v F776 `(E204 ~T0 @X0 0 tf5`us`us`*us`uc`*v ]
+"239 ./nanomodbus.h
+[; ;./nanomodbus.h: 239: static const uint8_t NMBS_BROADCAST_ADDRESS = 0;
+[v _NMBS_BROADCAST_ADDRESS `Cuc ~T0 @X0 1 s ]
+[i _NMBS_BROADCAST_ADDRESS
+-> -> 0 `i `uc
+]
+"40 nanomodbus.c
+[; ;nanomodbus.c: 40: static uint8_t get_1(nmbs_t* nmbs) {
+[v _get_1 `(uc ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _get_1 ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"41
+[; ;nanomodbus.c: 41:     uint8_t result = nmbs->msg.buf[nmbs->msg.buf_idx];
+[v _result `uc ~T0 @X0 1 a ]
+[e = _result *U + &U . . *U _nmbs 0 0 * -> . . *U _nmbs 0 1 `ux -> -> # *U &U . . *U _nmbs 0 0 `ui `ux ]
+"42
+[; ;nanomodbus.c: 42:     nmbs->msg.buf_idx++;
+[e ++ . . *U _nmbs 0 1 -> -> 1 `i `us ]
+"43
+[; ;nanomodbus.c: 43:     return result;
+[e ) _result ]
+[e $UE 6  ]
+"44
+[; ;nanomodbus.c: 44: }
+[e :UE 6 ]
+}
+"47
+[; ;nanomodbus.c: 47: static void put_1(nmbs_t* nmbs, uint8_t data) {
+[v _put_1 `(v ~T0 @X0 1 sf2`*S4`uc ]
+{
+[e :U _put_1 ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _data `uc ~T0 @X0 1 r2 ]
+[f ]
+"48
+[; ;nanomodbus.c: 48:     nmbs->msg.buf[nmbs->msg.buf_idx] = data;
+[e = *U + &U . . *U _nmbs 0 0 * -> . . *U _nmbs 0 1 `ux -> -> # *U &U . . *U _nmbs 0 0 `ui `ux _data ]
+"49
+[; ;nanomodbus.c: 49:     nmbs->msg.buf_idx++;
+[e ++ . . *U _nmbs 0 1 -> -> 1 `i `us ]
+"50
+[; ;nanomodbus.c: 50: }
+[e :UE 7 ]
+}
+"53
+[; ;nanomodbus.c: 53: static void discard_1(nmbs_t* nmbs) {
+[v _discard_1 `(v ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _discard_1 ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"54
+[; ;nanomodbus.c: 54:     nmbs->msg.buf_idx++;
+[e ++ . . *U _nmbs 0 1 -> -> 1 `i `us ]
+"55
+[; ;nanomodbus.c: 55: }
+[e :UE 8 ]
+}
+"58
+[; ;nanomodbus.c: 58: static void discard_n(nmbs_t* nmbs, uint16_t n) {
+[v _discard_n `(v ~T0 @X0 1 sf2`*S4`us ]
+{
+[e :U _discard_n ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _n `us ~T0 @X0 1 r2 ]
+[f ]
+"59
+[; ;nanomodbus.c: 59:     nmbs->msg.buf_idx += n;
+[e =+ . . *U _nmbs 0 1 -> _n `us ]
+"60
+[; ;nanomodbus.c: 60: }
+[e :UE 9 ]
+}
+"63
+[; ;nanomodbus.c: 63: static uint16_t get_2(nmbs_t* nmbs) {
+[v _get_2 `(us ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _get_2 ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"64
+[; ;nanomodbus.c: 64:     uint16_t result =
+[v _result `us ~T0 @X0 1 a ]
+[e = _result -> | << -> -> *U + &U . . *U _nmbs 0 0 * -> . . *U _nmbs 0 1 `ux -> -> # *U &U . . *U _nmbs 0 0 `ui `ux `us `ui -> 8 `i -> -> *U + &U . . *U _nmbs 0 0 * -> + -> . . *U _nmbs 0 1 `ui -> -> 1 `i `ui `ux -> -> # *U &U . . *U _nmbs 0 0 `ui `ux `us `ui `us ]
+"66
+[; ;nanomodbus.c: 66:     nmbs->msg.buf_idx += 2;
+[e =+ . . *U _nmbs 0 1 -> -> 2 `i `us ]
+"67
+[; ;nanomodbus.c: 67:     return result;
+[e ) _result ]
+[e $UE 10  ]
+"68
+[; ;nanomodbus.c: 68: }
+[e :UE 10 ]
+}
+"71
+[; ;nanomodbus.c: 71: static void put_2(nmbs_t* nmbs, uint16_t data) {
+[v _put_2 `(v ~T0 @X0 1 sf2`*S4`us ]
+{
+[e :U _put_2 ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _data `us ~T0 @X0 1 r2 ]
+[f ]
+"72
+[; ;nanomodbus.c: 72:     nmbs->msg.buf[nmbs->msg.buf_idx] = (uint8_t) ((data >> 8) & 0xFFU);
+[e = *U + &U . . *U _nmbs 0 0 * -> . . *U _nmbs 0 1 `ux -> -> # *U &U . . *U _nmbs 0 0 `ui `ux -> & >> -> _data `ui -> 8 `i -> 255 `ui `uc ]
+"73
+[; ;nanomodbus.c: 73:     nmbs->msg.buf[nmbs->msg.buf_idx + 1] = (uint8_t) data;
+[e = *U + &U . . *U _nmbs 0 0 * -> + -> . . *U _nmbs 0 1 `ui -> -> 1 `i `ui `ux -> -> # *U &U . . *U _nmbs 0 0 `ui `ux -> _data `uc ]
+"74
+[; ;nanomodbus.c: 74:     nmbs->msg.buf_idx += 2;
+[e =+ . . *U _nmbs 0 1 -> -> 2 `i `us ]
+"75
+[; ;nanomodbus.c: 75: }
+[e :UE 11 ]
+}
+"78
+[; ;nanomodbus.c: 78: static uint8_t* get_n(nmbs_t* nmbs, uint16_t n) {
+[v _get_n `(*uc ~T0 @X0 1 sf2`*S4`us ]
+{
+[e :U _get_n ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _n `us ~T0 @X0 1 r2 ]
+[f ]
+"79
+[; ;nanomodbus.c: 79:     uint8_t* msg_buf_ptr = nmbs->msg.buf + nmbs->msg.buf_idx;
+[v _msg_buf_ptr `*uc ~T0 @X0 1 a ]
+[e = _msg_buf_ptr + &U . . *U _nmbs 0 0 * -> -> . . *U _nmbs 0 1 `ui `ux -> -> # *U &U . . *U _nmbs 0 0 `ui `ux ]
+"80
+[; ;nanomodbus.c: 80:     nmbs->msg.buf_idx += n;
+[e =+ . . *U _nmbs 0 1 -> _n `us ]
+"81
+[; ;nanomodbus.c: 81:     return msg_buf_ptr;
+[e ) _msg_buf_ptr ]
+[e $UE 12  ]
+"82
+[; ;nanomodbus.c: 82: }
+[e :UE 12 ]
+}
+"85
+[; ;nanomodbus.c: 85: static uint16_t* get_regs(nmbs_t* nmbs, uint16_t n) {
+[v _get_regs `(*us ~T0 @X0 1 sf2`*S4`us ]
+{
+[e :U _get_regs ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _n `us ~T0 @X0 1 r2 ]
+[f ]
+"86
+[; ;nanomodbus.c: 86:     uint16_t* msg_buf_ptr = (uint16_t*) (nmbs->msg.buf + nmbs->msg.buf_idx);
+[v _msg_buf_ptr `*us ~T0 @X0 1 a ]
+[e = _msg_buf_ptr -> + &U . . *U _nmbs 0 0 * -> -> . . *U _nmbs 0 1 `ui `ux -> -> # *U &U . . *U _nmbs 0 0 `ui `ux `*us ]
+"87
+[; ;nanomodbus.c: 87:     nmbs->msg.buf_idx += n * 2;
+[e =+ . . *U _nmbs 0 1 -> * -> _n `ui -> -> 2 `i `ui `us ]
+"88
+[; ;nanomodbus.c: 88:     while (n--) {
+[e $U 14  ]
+[e :U 15 ]
+{
+"89
+[; ;nanomodbus.c: 89:         msg_buf_ptr[n] = (msg_buf_ptr[n] << 8) | ((msg_buf_ptr[n] >> 8) & 0xFF);
+[e = *U + _msg_buf_ptr * -> _n `ux -> -> # *U _msg_buf_ptr `ui `ux -> | << -> *U + _msg_buf_ptr * -> _n `ux -> -> # *U _msg_buf_ptr `ui `ux `ui -> 8 `i & >> -> *U + _msg_buf_ptr * -> _n `ux -> -> # *U _msg_buf_ptr `ui `ux `ui -> 8 `i -> -> 255 `i `ui `us ]
+"90
+[; ;nanomodbus.c: 90:     }
+}
+[e :U 14 ]
+"88
+[; ;nanomodbus.c: 88:     while (n--) {
+[e $ != -> -- _n -> -> 1 `i `us `ui -> -> 0 `i `ui 15  ]
+[e :U 16 ]
+"91
+[; ;nanomodbus.c: 91:     return msg_buf_ptr;
+[e ) _msg_buf_ptr ]
+[e $UE 13  ]
+"92
+[; ;nanomodbus.c: 92: }
+[e :UE 13 ]
+}
+"95
+[; ;nanomodbus.c: 95: static void put_regs(nmbs_t* nmbs, const uint16_t* data, uint16_t n) {
+[v _put_regs `(v ~T0 @X0 1 sf3`*S4`*Cus`us ]
+{
+[e :U _put_regs ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _data `*Cus ~T0 @X0 1 r2 ]
+[v _n `us ~T0 @X0 1 r3 ]
+[f ]
+"96
+[; ;nanomodbus.c: 96:     uint16_t* msg_buf_ptr = (uint16_t*) (nmbs->msg.buf + nmbs->msg.buf_idx);
+[v _msg_buf_ptr `*us ~T0 @X0 1 a ]
+[e = _msg_buf_ptr -> + &U . . *U _nmbs 0 0 * -> -> . . *U _nmbs 0 1 `ui `ux -> -> # *U &U . . *U _nmbs 0 0 `ui `ux `*us ]
+"97
+[; ;nanomodbus.c: 97:     nmbs->msg.buf_idx += n * 2;
+[e =+ . . *U _nmbs 0 1 -> * -> _n `ui -> -> 2 `i `ui `us ]
+"98
+[; ;nanomodbus.c: 98:     while (n--) {
+[e $U 18  ]
+[e :U 19 ]
+{
+"99
+[; ;nanomodbus.c: 99:         msg_buf_ptr[n] = (data[n] << 8) | ((data[n] >> 8) & 0xFF);
+[e = *U + _msg_buf_ptr * -> _n `ux -> -> # *U _msg_buf_ptr `ui `ux -> | << -> *U + _data * -> _n `ux -> -> # *U _data `ui `ux `ui -> 8 `i & >> -> *U + _data * -> _n `ux -> -> # *U _data `ui `ux `ui -> 8 `i -> -> 255 `i `ui `us ]
+"100
+[; ;nanomodbus.c: 100:     }
+}
+[e :U 18 ]
+"98
+[; ;nanomodbus.c: 98:     while (n--) {
+[e $ != -> -- _n -> -> 1 `i `us `ui -> -> 0 `i `ui 19  ]
+[e :U 20 ]
+"101
+[; ;nanomodbus.c: 101: }
+[e :UE 17 ]
+}
+"104
+[; ;nanomodbus.c: 104: static void swap_regs(uint16_t* data, uint16_t n) {
+[v _swap_regs `(v ~T0 @X0 1 sf2`*us`us ]
+{
+[e :U _swap_regs ]
+[v _data `*us ~T0 @X0 1 r1 ]
+[v _n `us ~T0 @X0 1 r2 ]
+[f ]
+"105
+[; ;nanomodbus.c: 105:     while (n--) {
+[e $U 22  ]
+[e :U 23 ]
+{
+"106
+[; ;nanomodbus.c: 106:         data[n] = (data[n] << 8) | ((data[n] >> 8) & 0xFF);
+[e = *U + _data * -> _n `ux -> -> # *U _data `ui `ux -> | << -> *U + _data * -> _n `ux -> -> # *U _data `ui `ux `ui -> 8 `i & >> -> *U + _data * -> _n `ux -> -> # *U _data `ui `ux `ui -> 8 `i -> -> 255 `i `ui `us ]
+"107
+[; ;nanomodbus.c: 107:     }
+}
+[e :U 22 ]
+"105
+[; ;nanomodbus.c: 105:     while (n--) {
+[e $ != -> -- _n -> -> 1 `i `us `ui -> -> 0 `i `ui 23  ]
+[e :U 24 ]
+"108
+[; ;nanomodbus.c: 108: }
+[e :UE 21 ]
+}
+"111
+[; ;nanomodbus.c: 111: static void msg_buf_reset(nmbs_t* nmbs) {
+[v _msg_buf_reset `(v ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _msg_buf_reset ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"112
+[; ;nanomodbus.c: 112:     nmbs->msg.buf_idx = 0;
+[e = . . *U _nmbs 0 1 -> -> 0 `i `us ]
+"113
+[; ;nanomodbus.c: 113: }
+[e :UE 25 ]
+}
+"116
+[; ;nanomodbus.c: 116: static void msg_state_reset(nmbs_t* nmbs) {
+[v _msg_state_reset `(v ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _msg_state_reset ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"117
+[; ;nanomodbus.c: 117:     msg_buf_reset(nmbs);
+[e ( _msg_buf_reset (1 _nmbs ]
+"118
+[; ;nanomodbus.c: 118:     nmbs->msg.unit_id = 0;
+[e = . . *U _nmbs 0 2 -> -> 0 `i `uc ]
+"119
+[; ;nanomodbus.c: 119:     nmbs->msg.fc = 0;
+[e = . . *U _nmbs 0 3 -> -> 0 `i `uc ]
+"120
+[; ;nanomodbus.c: 120:     nmbs->msg.transaction_id = 0;
+[e = . . *U _nmbs 0 4 -> -> 0 `i `us ]
+"121
+[; ;nanomodbus.c: 121:     nmbs->msg.broadcast = 0;
+[e = . . *U _nmbs 0 5 -> -> 0 `i `a ]
+"122
+[; ;nanomodbus.c: 122:     nmbs->msg.ignored = 0;
+[e = . . *U _nmbs 0 6 -> -> 0 `i `a ]
+"123
+[; ;nanomodbus.c: 123: }
+[e :UE 26 ]
+}
+"143
+[; ;nanomodbus.c: 143: nmbs_error nmbs_create(nmbs_t* nmbs, const nmbs_platform_conf* platform_conf) {
+[v _nmbs_create `(E204 ~T0 @X0 1 ef2`*S4`*CS2 ]
+{
+[e :U _nmbs_create ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _platform_conf `*CS2 ~T0 @X0 1 r2 ]
+[f ]
+"144
+[; ;nanomodbus.c: 144:     if (!nmbs)
+[e $ ! ! != _nmbs -> -> 0 `i `*S4 28  ]
+"145
+[; ;nanomodbus.c: 145:         return NMBS_ERROR_INVALID_ARGUMENT;
+[e ) . `E204 6 ]
+[e $UE 27  ]
+[e :U 28 ]
+"147
+[; ;nanomodbus.c: 147:     memset(nmbs, 0, sizeof(nmbs_t));
+[e ( _memset (3 , , -> _nmbs `*v -> 0 `i -> # `S4 `ui ]
+"149
+[; ;nanomodbus.c: 149:     nmbs->byte_timeout_ms = -1;
+[e = . *U _nmbs 2 -> -U -> 1 `i `l ]
+"150
+[; ;nanomodbus.c: 150:     nmbs->read_timeout_ms = -1;
+[e = . *U _nmbs 3 -> -U -> 1 `i `l ]
+"152
+[; ;nanomodbus.c: 152:     if (!platform_conf)
+[e $ ! ! != _platform_conf -> -> 0 `i `*CS2 29  ]
+"153
+[; ;nanomodbus.c: 153:         return NMBS_ERROR_INVALID_ARGUMENT;
+[e ) . `E204 6 ]
+[e $UE 27  ]
+[e :U 29 ]
+"155
+[; ;nanomodbus.c: 155:     if (platform_conf->transport != NMBS_TRANSPORT_RTU && platform_conf->transport != NMBS_TRANSPORT_TCP)
+[e $ ! && != -> . *U _platform_conf 0 `ui -> . `E219 0 `ui != -> . *U _platform_conf 0 `ui -> . `E219 1 `ui 30  ]
+"156
+[; ;nanomodbus.c: 156:         return NMBS_ERROR_INVALID_ARGUMENT;
+[e ) . `E204 6 ]
+[e $UE 27  ]
+[e :U 30 ]
+"158
+[; ;nanomodbus.c: 158:     if (!platform_conf->read || !platform_conf->write)
+[e $ ! || ! != . *U _platform_conf 1 -> -> 0 `i `*F379 ! != . *U _platform_conf 2 -> -> 0 `i `*F396 31  ]
+"159
+[; ;nanomodbus.c: 159:         return NMBS_ERROR_INVALID_ARGUMENT;
+[e ) . `E204 6 ]
+[e $UE 27  ]
+[e :U 31 ]
+"161
+[; ;nanomodbus.c: 161:     nmbs->platform = *platform_conf;
+[e = . *U _nmbs 4 *U _platform_conf ]
+"163
+[; ;nanomodbus.c: 163:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 27  ]
+"164
+[; ;nanomodbus.c: 164: }
+[e :UE 27 ]
+}
+"167
+[; ;nanomodbus.c: 167: void nmbs_set_read_timeout(nmbs_t* nmbs, int32_t timeout_ms) {
+[v _nmbs_set_read_timeout `(v ~T0 @X0 1 ef2`*S4`l ]
+{
+[e :U _nmbs_set_read_timeout ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _timeout_ms `l ~T0 @X0 1 r2 ]
+[f ]
+"168
+[; ;nanomodbus.c: 168:     nmbs->read_timeout_ms = timeout_ms;
+[e = . *U _nmbs 3 _timeout_ms ]
+"169
+[; ;nanomodbus.c: 169: }
+[e :UE 32 ]
+}
+"172
+[; ;nanomodbus.c: 172: void nmbs_set_byte_timeout(nmbs_t* nmbs, int32_t timeout_ms) {
+[v _nmbs_set_byte_timeout `(v ~T0 @X0 1 ef2`*S4`l ]
+{
+[e :U _nmbs_set_byte_timeout ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _timeout_ms `l ~T0 @X0 1 r2 ]
+[f ]
+"173
+[; ;nanomodbus.c: 173:     nmbs->byte_timeout_ms = timeout_ms;
+[e = . *U _nmbs 2 _timeout_ms ]
+"174
+[; ;nanomodbus.c: 174: }
+[e :UE 33 ]
+}
+"177
+[; ;nanomodbus.c: 177: void nmbs_set_destination_rtu_address(nmbs_t* nmbs, uint8_t address) {
+[v _nmbs_set_destination_rtu_address `(v ~T0 @X0 1 ef2`*S4`uc ]
+{
+[e :U _nmbs_set_destination_rtu_address ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _address `uc ~T0 @X0 1 r2 ]
+[f ]
+"178
+[; ;nanomodbus.c: 178:     nmbs->dest_address_rtu = address;
+[e = . *U _nmbs 6 _address ]
+"179
+[; ;nanomodbus.c: 179: }
+[e :UE 34 ]
+}
+"182
+[; ;nanomodbus.c: 182: void nmbs_set_platform_arg(nmbs_t* nmbs, void* arg) {
+[v _nmbs_set_platform_arg `(v ~T0 @X0 1 ef2`*S4`*v ]
+{
+[e :U _nmbs_set_platform_arg ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _arg `*v ~T0 @X0 1 r2 ]
+[f ]
+"183
+[; ;nanomodbus.c: 183:     nmbs->platform.arg = arg;
+[e = . . *U _nmbs 4 3 _arg ]
+"184
+[; ;nanomodbus.c: 184: }
+[e :UE 35 ]
+}
+"187
+[; ;nanomodbus.c: 187: uint16_t nmbs_crc_calc(const uint8_t* data, uint32_t length) {
+[v _nmbs_crc_calc `(us ~T0 @X0 1 ef2`*Cuc`ul ]
+{
+[e :U _nmbs_crc_calc ]
+[v _data `*Cuc ~T0 @X0 1 r1 ]
+[v _length `ul ~T0 @X0 1 r2 ]
+[f ]
+"188
+[; ;nanomodbus.c: 188:     uint16_t crc = 0xFFFF;
+[v _crc `us ~T0 @X0 1 a ]
+[e = _crc -> -> 65535 `ui `us ]
+"189
+[; ;nanomodbus.c: 189:     for (uint32_t i = 0; i < length; i++) {
+{
+[v _i `ul ~T0 @X0 1 a ]
+[e = _i -> -> -> 0 `i `l `ul ]
+[e $U 40  ]
+[e :U 37 ]
+{
+"190
+[; ;nanomodbus.c: 190:         crc ^= (uint16_t) data[i];
+[e =^ _crc -> -> *U + _data * -> _i `ux -> -> # *U _data `ui `ux `us `us ]
+"191
+[; ;nanomodbus.c: 191:         for (int j = 8; j != 0; j--) {
+{
+[v _j `i ~T0 @X0 1 a ]
+[e = _j -> 8 `i ]
+[e $ != _j -> 0 `i 41  ]
+[e $U 42  ]
+[e :U 41 ]
+{
+"192
+[; ;nanomodbus.c: 192:             if ((crc & 0x0001) != 0) {
+[e $ ! != & -> _crc `ui -> -> 1 `i `ui -> -> 0 `i `ui 44  ]
+{
+"193
+[; ;nanomodbus.c: 193:                 crc >>= 1;
+[e =>> _crc -> -> 1 `i `us ]
+"194
+[; ;nanomodbus.c: 194:                 crc ^= 0xA001;
+[e =^ _crc -> -> 40961 `ui `us ]
+"195
+[; ;nanomodbus.c: 195:             }
+}
+[e $U 45  ]
+"196
+[; ;nanomodbus.c: 196:             else
+[e :U 44 ]
+"197
+[; ;nanomodbus.c: 197:                 crc >>= 1;
+[e =>> _crc -> -> 1 `i `us ]
+[e :U 45 ]
+"198
+[; ;nanomodbus.c: 198:         }
+}
+[e -- _j -> 1 `i ]
+[e $ != _j -> 0 `i 41  ]
+[e :U 42 ]
+}
+"199
+[; ;nanomodbus.c: 199:     }
+}
+[e ++ _i -> -> -> 1 `i `l `ul ]
+[e :U 40 ]
+[e $ < _i _length 37  ]
+[e :U 38 ]
+}
+"201
+[; ;nanomodbus.c: 201:     return (uint16_t) (crc << 8) | (uint16_t) (crc >> 8);
+[e ) -> | -> -> << -> _crc `ui -> 8 `i `us `ui -> -> >> -> _crc `ui -> 8 `i `us `ui `us ]
+[e $UE 36  ]
+"202
+[; ;nanomodbus.c: 202: }
+[e :UE 36 ]
+}
+"205
+[; ;nanomodbus.c: 205: static nmbs_error recv(nmbs_t* nmbs, uint16_t count) {
+[v _recv `(E204 ~T0 @X0 1 sf2`*S4`us ]
+{
+[e :U _recv ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _count `us ~T0 @X0 1 r2 ]
+[f ]
+"206
+[; ;nanomodbus.c: 206:     int32_t ret =
+[v _ret `l ~T0 @X0 1 a ]
+[e = _ret ( *U . . *U _nmbs 4 1 (4 , , , + &U . . *U _nmbs 0 0 * -> -> . . *U _nmbs 0 1 `ui `ux -> -> # *U &U . . *U _nmbs 0 0 `ui `ux _count . *U _nmbs 2 . . *U _nmbs 4 3 ]
+"209
+[; ;nanomodbus.c: 209:     if (ret == count)
+[e $ ! == _ret -> _count `l 47  ]
+"210
+[; ;nanomodbus.c: 210:         return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 46  ]
+[e :U 47 ]
+"212
+[; ;nanomodbus.c: 212:     if (ret < count) {
+[e $ ! < _ret -> _count `l 48  ]
+{
+"213
+[; ;nanomodbus.c: 213:         if (ret < 0)
+[e $ ! < _ret -> -> 0 `i `l 49  ]
+"214
+[; ;nanomodbus.c: 214:             return NMBS_ERROR_TRANSPORT;
+[e ) . `E204 3 ]
+[e $UE 46  ]
+[e :U 49 ]
+"216
+[; ;nanomodbus.c: 216:         return NMBS_ERROR_TIMEOUT;
+[e ) . `E204 4 ]
+[e $UE 46  ]
+"217
+[; ;nanomodbus.c: 217:     }
+}
+[e :U 48 ]
+"219
+[; ;nanomodbus.c: 219:     return NMBS_ERROR_TRANSPORT;
+[e ) . `E204 3 ]
+[e $UE 46  ]
+"220
+[; ;nanomodbus.c: 220: }
+[e :UE 46 ]
+}
+"223
+[; ;nanomodbus.c: 223: static nmbs_error send(nmbs_t* nmbs, uint16_t count) {
+[v _send `(E204 ~T0 @X0 1 sf2`*S4`us ]
+{
+[e :U _send ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _count `us ~T0 @X0 1 r2 ]
+[f ]
+"224
+[; ;nanomodbus.c: 224:     int32_t ret = nmbs->platform.write(nmbs->msg.buf, count, nmbs->byte_timeout_ms, nmbs->platform.arg);
+[v _ret `l ~T0 @X0 1 a ]
+[e = _ret ( *U . . *U _nmbs 4 2 (4 , , , -> &U . . *U _nmbs 0 0 `*Cuc _count . *U _nmbs 2 . . *U _nmbs 4 3 ]
+"226
+[; ;nanomodbus.c: 226:     if (ret == count)
+[e $ ! == _ret -> _count `l 51  ]
+"227
+[; ;nanomodbus.c: 227:         return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 50  ]
+[e :U 51 ]
+"229
+[; ;nanomodbus.c: 229:     if (ret < count) {
+[e $ ! < _ret -> _count `l 52  ]
+{
+"230
+[; ;nanomodbus.c: 230:         if (ret < 0)
+[e $ ! < _ret -> -> 0 `i `l 53  ]
+"231
+[; ;nanomodbus.c: 231:             return NMBS_ERROR_TRANSPORT;
+[e ) . `E204 3 ]
+[e $UE 50  ]
+[e :U 53 ]
+"233
+[; ;nanomodbus.c: 233:         return NMBS_ERROR_TIMEOUT;
+[e ) . `E204 4 ]
+[e $UE 50  ]
+"234
+[; ;nanomodbus.c: 234:     }
+}
+[e :U 52 ]
+"236
+[; ;nanomodbus.c: 236:     return NMBS_ERROR_TRANSPORT;
+[e ) . `E204 3 ]
+[e $UE 50  ]
+"237
+[; ;nanomodbus.c: 237: }
+[e :UE 50 ]
+}
+"240
+[; ;nanomodbus.c: 240: static nmbs_error recv_msg_footer(nmbs_t* nmbs) {
+[v _recv_msg_footer `(E204 ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _recv_msg_footer ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"241
+[; ;nanomodbus.c: 241:     (void) (0);
+[e -> 0 `i ]
+"243
+[; ;nanomodbus.c: 243:     if (nmbs->platform.transport == NMBS_TRANSPORT_RTU) {
+[e $ ! == -> . . *U _nmbs 4 0 `ui -> . `E219 0 `ui 55  ]
+{
+"244
+[; ;nanomodbus.c: 244:         uint16_t crc = nmbs_crc_calc(nmbs->msg.buf, nmbs->msg.buf_idx);
+[v _crc `us ~T0 @X0 1 a ]
+[e = _crc ( _nmbs_crc_calc (2 , -> &U . . *U _nmbs 0 0 `*Cuc -> . . *U _nmbs 0 1 `ul ]
+"246
+[; ;nanomodbus.c: 246:         nmbs_error err = recv(nmbs, 2);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv (2 , _nmbs -> -> 2 `i `us ]
+"247
+[; ;nanomodbus.c: 247:         if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 56  ]
+"248
+[; ;nanomodbus.c: 248:             return err;
+[e ) _err ]
+[e $UE 54  ]
+[e :U 56 ]
+"250
+[; ;nanomodbus.c: 250:         uint16_t recv_crc = get_2(nmbs);
+[v _recv_crc `us ~T0 @X0 1 a ]
+[e = _recv_crc ( _get_2 (1 _nmbs ]
+"252
+[; ;nanomodbus.c: 252:         if (recv_crc != crc)
+[e $ ! != -> _recv_crc `ui -> _crc `ui 57  ]
+"253
+[; ;nanomodbus.c: 253:             return NMBS_ERROR_CRC;
+[e ) . `E204 2 ]
+[e $UE 54  ]
+[e :U 57 ]
+"254
+[; ;nanomodbus.c: 254:     }
+}
+[e :U 55 ]
+"256
+[; ;nanomodbus.c: 256:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 54  ]
+"257
+[; ;nanomodbus.c: 257: }
+[e :UE 54 ]
+}
+"260
+[; ;nanomodbus.c: 260: static nmbs_error recv_msg_header(nmbs_t* nmbs, _Bool* first_byte_received) {
+[v _recv_msg_header `(E204 ~T0 @X0 1 sf2`*S4`*a ]
+{
+[e :U _recv_msg_header ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _first_byte_received `*a ~T0 @X0 1 r2 ]
+[f ]
+"262
+[; ;nanomodbus.c: 262:     int32_t old_byte_timeout = nmbs->byte_timeout_ms;
+[v _old_byte_timeout `l ~T0 @X0 1 a ]
+[e = _old_byte_timeout . *U _nmbs 2 ]
+"263
+[; ;nanomodbus.c: 263:     nmbs->byte_timeout_ms = nmbs->read_timeout_ms;
+[e = . *U _nmbs 2 . *U _nmbs 3 ]
+"265
+[; ;nanomodbus.c: 265:     msg_state_reset(nmbs);
+[e ( _msg_state_reset (1 _nmbs ]
+"267
+[; ;nanomodbus.c: 267:     *first_byte_received = 0;
+[e = *U _first_byte_received -> -> 0 `i `a ]
+"269
+[; ;nanomodbus.c: 269:     if (nmbs->platform.transport == NMBS_TRANSPORT_RTU) {
+[e $ ! == -> . . *U _nmbs 4 0 `ui -> . `E219 0 `ui 59  ]
+{
+"270
+[; ;nanomodbus.c: 270:         nmbs_error err = recv(nmbs, 1);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv (2 , _nmbs -> -> 1 `i `us ]
+"272
+[; ;nanomodbus.c: 272:         nmbs->byte_timeout_ms = old_byte_timeout;
+[e = . *U _nmbs 2 _old_byte_timeout ]
+"274
+[; ;nanomodbus.c: 274:         if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 60  ]
+"275
+[; ;nanomodbus.c: 275:             return err;
+[e ) _err ]
+[e $UE 58  ]
+[e :U 60 ]
+"277
+[; ;nanomodbus.c: 277:         *first_byte_received = 1;
+[e = *U _first_byte_received -> -> 1 `i `a ]
+"279
+[; ;nanomodbus.c: 279:         nmbs->msg.unit_id = get_1(nmbs);
+[e = . . *U _nmbs 0 2 ( _get_1 (1 _nmbs ]
+"281
+[; ;nanomodbus.c: 281:         err = recv(nmbs, 1);
+[e = _err ( _recv (2 , _nmbs -> -> 1 `i `us ]
+"282
+[; ;nanomodbus.c: 282:         if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 61  ]
+"283
+[; ;nanomodbus.c: 283:             return err;
+[e ) _err ]
+[e $UE 58  ]
+[e :U 61 ]
+"285
+[; ;nanomodbus.c: 285:         nmbs->msg.fc = get_1(nmbs);
+[e = . . *U _nmbs 0 3 ( _get_1 (1 _nmbs ]
+"286
+[; ;nanomodbus.c: 286:     }
+}
+[e $U 62  ]
+"287
+[; ;nanomodbus.c: 287:     else if (nmbs->platform.transport == NMBS_TRANSPORT_TCP) {
+[e :U 59 ]
+[e $ ! == -> . . *U _nmbs 4 0 `ui -> . `E219 1 `ui 63  ]
+{
+"288
+[; ;nanomodbus.c: 288:         nmbs_error err = recv(nmbs, 1);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv (2 , _nmbs -> -> 1 `i `us ]
+"290
+[; ;nanomodbus.c: 290:         nmbs->byte_timeout_ms = old_byte_timeout;
+[e = . *U _nmbs 2 _old_byte_timeout ]
+"292
+[; ;nanomodbus.c: 292:         if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 64  ]
+"293
+[; ;nanomodbus.c: 293:             return err;
+[e ) _err ]
+[e $UE 58  ]
+[e :U 64 ]
+"295
+[; ;nanomodbus.c: 295:         *first_byte_received = 1;
+[e = *U _first_byte_received -> -> 1 `i `a ]
+"298
+[; ;nanomodbus.c: 298:         discard_1(nmbs);
+[e ( _discard_1 (1 _nmbs ]
+"300
+[; ;nanomodbus.c: 300:         err = recv(nmbs, 7);
+[e = _err ( _recv (2 , _nmbs -> -> 7 `i `us ]
+"301
+[; ;nanomodbus.c: 301:         if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 65  ]
+"302
+[; ;nanomodbus.c: 302:             return err;
+[e ) _err ]
+[e $UE 58  ]
+[e :U 65 ]
+"305
+[; ;nanomodbus.c: 305:         msg_buf_reset(nmbs);
+[e ( _msg_buf_reset (1 _nmbs ]
+"307
+[; ;nanomodbus.c: 307:         nmbs->msg.transaction_id = get_2(nmbs);
+[e = . . *U _nmbs 0 4 ( _get_2 (1 _nmbs ]
+"308
+[; ;nanomodbus.c: 308:         uint16_t protocol_id = get_2(nmbs);
+[v _protocol_id `us ~T0 @X0 1 a ]
+[e = _protocol_id ( _get_2 (1 _nmbs ]
+"309
+[; ;nanomodbus.c: 309:         uint16_t length = get_2(nmbs);
+[v _length `us ~T0 @X0 1 a ]
+[e = _length ( _get_2 (1 _nmbs ]
+"310
+[; ;nanomodbus.c: 310:         nmbs->msg.unit_id = get_1(nmbs);
+[e = . . *U _nmbs 0 2 ( _get_1 (1 _nmbs ]
+"311
+[; ;nanomodbus.c: 311:         nmbs->msg.fc = get_1(nmbs);
+[e = . . *U _nmbs 0 3 ( _get_1 (1 _nmbs ]
+"313
+[; ;nanomodbus.c: 313:         if (protocol_id != 0)
+[e $ ! != -> _protocol_id `ui -> -> 0 `i `ui 66  ]
+"314
+[; ;nanomodbus.c: 314:             return NMBS_ERROR_INVALID_TCP_MBAP;
+[e ) . `E204 1 ]
+[e $UE 58  ]
+[e :U 66 ]
+"316
+[; ;nanomodbus.c: 316:         if (length > 255)
+[e $ ! > -> _length `ui -> -> 255 `i `ui 67  ]
+"317
+[; ;nanomodbus.c: 317:             return NMBS_ERROR_INVALID_TCP_MBAP;
+[e ) . `E204 1 ]
+[e $UE 58  ]
+[e :U 67 ]
+"318
+[; ;nanomodbus.c: 318:     }
+}
+[e :U 63 ]
+[e :U 62 ]
+"320
+[; ;nanomodbus.c: 320:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 58  ]
+"321
+[; ;nanomodbus.c: 321: }
+[e :UE 58 ]
+}
+"324
+[; ;nanomodbus.c: 324: static void put_msg_header(nmbs_t* nmbs, uint16_t data_length) {
+[v _put_msg_header `(v ~T0 @X0 1 sf2`*S4`us ]
+{
+[e :U _put_msg_header ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _data_length `us ~T0 @X0 1 r2 ]
+[f ]
+"325
+[; ;nanomodbus.c: 325:     msg_buf_reset(nmbs);
+[e ( _msg_buf_reset (1 _nmbs ]
+"327
+[; ;nanomodbus.c: 327:     if (nmbs->platform.transport == NMBS_TRANSPORT_RTU) {
+[e $ ! == -> . . *U _nmbs 4 0 `ui -> . `E219 0 `ui 69  ]
+{
+"328
+[; ;nanomodbus.c: 328:         put_1(nmbs, nmbs->msg.unit_id);
+[e ( _put_1 (2 , _nmbs . . *U _nmbs 0 2 ]
+"329
+[; ;nanomodbus.c: 329:     }
+}
+[e $U 70  ]
+"330
+[; ;nanomodbus.c: 330:     else if (nmbs->platform.transport == NMBS_TRANSPORT_TCP) {
+[e :U 69 ]
+[e $ ! == -> . . *U _nmbs 4 0 `ui -> . `E219 1 `ui 71  ]
+{
+"331
+[; ;nanomodbus.c: 331:         put_2(nmbs, nmbs->msg.transaction_id);
+[e ( _put_2 (2 , _nmbs . . *U _nmbs 0 4 ]
+"332
+[; ;nanomodbus.c: 332:         put_2(nmbs, 0);
+[e ( _put_2 (2 , _nmbs -> -> 0 `i `us ]
+"333
+[; ;nanomodbus.c: 333:         put_2(nmbs, (uint16_t) (1 + 1 + data_length));
+[e ( _put_2 (2 , _nmbs -> + -> + -> 1 `i -> 1 `i `ui -> _data_length `ui `us ]
+"334
+[; ;nanomodbus.c: 334:         put_1(nmbs, nmbs->msg.unit_id);
+[e ( _put_1 (2 , _nmbs . . *U _nmbs 0 2 ]
+"335
+[; ;nanomodbus.c: 335:     }
+}
+[e :U 71 ]
+[e :U 70 ]
+"337
+[; ;nanomodbus.c: 337:     put_1(nmbs, nmbs->msg.fc);
+[e ( _put_1 (2 , _nmbs . . *U _nmbs 0 3 ]
+"338
+[; ;nanomodbus.c: 338: }
+[e :UE 68 ]
+}
+"341
+[; ;nanomodbus.c: 341: static nmbs_error send_msg(nmbs_t* nmbs) {
+[v _send_msg `(E204 ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _send_msg ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"342
+[; ;nanomodbus.c: 342:     (void) (0);
+[e -> 0 `i ]
+"344
+[; ;nanomodbus.c: 344:     if (nmbs->platform.transport == NMBS_TRANSPORT_RTU) {
+[e $ ! == -> . . *U _nmbs 4 0 `ui -> . `E219 0 `ui 73  ]
+{
+"345
+[; ;nanomodbus.c: 345:         uint16_t crc = nmbs_crc_calc(nmbs->msg.buf, nmbs->msg.buf_idx);
+[v _crc `us ~T0 @X0 1 a ]
+[e = _crc ( _nmbs_crc_calc (2 , -> &U . . *U _nmbs 0 0 `*Cuc -> . . *U _nmbs 0 1 `ul ]
+"346
+[; ;nanomodbus.c: 346:         put_2(nmbs, crc);
+[e ( _put_2 (2 , _nmbs _crc ]
+"347
+[; ;nanomodbus.c: 347:     }
+}
+[e :U 73 ]
+"349
+[; ;nanomodbus.c: 349:     nmbs_error err = send(nmbs, nmbs->msg.buf_idx);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _send (2 , _nmbs . . *U _nmbs 0 1 ]
+"351
+[; ;nanomodbus.c: 351:     return err;
+[e ) _err ]
+[e $UE 72  ]
+"352
+[; ;nanomodbus.c: 352: }
+[e :UE 72 ]
+}
+"356
+[; ;nanomodbus.c: 356: static nmbs_error recv_req_header(nmbs_t* nmbs, _Bool* first_byte_received) {
+[v _recv_req_header `(E204 ~T0 @X0 1 sf2`*S4`*a ]
+{
+[e :U _recv_req_header ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _first_byte_received `*a ~T0 @X0 1 r2 ]
+[f ]
+"357
+[; ;nanomodbus.c: 357:     nmbs_error err = recv_msg_header(nmbs, first_byte_received);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv_msg_header (2 , _nmbs _first_byte_received ]
+"358
+[; ;nanomodbus.c: 358:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 75  ]
+"359
+[; ;nanomodbus.c: 359:         return err;
+[e ) _err ]
+[e $UE 74  ]
+[e :U 75 ]
+"361
+[; ;nanomodbus.c: 361:     if (nmbs->platform.transport == NMBS_TRANSPORT_RTU) {
+[e $ ! == -> . . *U _nmbs 4 0 `ui -> . `E219 0 `ui 76  ]
+{
+"363
+[; ;nanomodbus.c: 363:         if (nmbs->msg.unit_id == NMBS_BROADCAST_ADDRESS)
+[e $ ! == -> . . *U _nmbs 0 2 `i -> _NMBS_BROADCAST_ADDRESS `i 77  ]
+"364
+[; ;nanomodbus.c: 364:             nmbs->msg.broadcast = 1;
+[e = . . *U _nmbs 0 5 -> -> 1 `i `a ]
+[e $U 78  ]
+"365
+[; ;nanomodbus.c: 365:         else if (nmbs->msg.unit_id != nmbs->address_rtu)
+[e :U 77 ]
+[e $ ! != -> . . *U _nmbs 0 2 `i -> . *U _nmbs 5 `i 79  ]
+"366
+[; ;nanomodbus.c: 366:             nmbs->msg.ignored = 1;
+[e = . . *U _nmbs 0 6 -> -> 1 `i `a ]
+[e $U 80  ]
+"367
+[; ;nanomodbus.c: 367:         else
+[e :U 79 ]
+"368
+[; ;nanomodbus.c: 368:             nmbs->msg.ignored = 0;
+[e = . . *U _nmbs 0 6 -> -> 0 `i `a ]
+[e :U 80 ]
+[e :U 78 ]
+"369
+[; ;nanomodbus.c: 369:     }
+}
+[e :U 76 ]
+"371
+[; ;nanomodbus.c: 371:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 74  ]
+"372
+[; ;nanomodbus.c: 372: }
+[e :UE 74 ]
+}
+"375
+[; ;nanomodbus.c: 375: static void put_res_header(nmbs_t* nmbs, uint16_t data_length) {
+[v _put_res_header `(v ~T0 @X0 1 sf2`*S4`us ]
+{
+[e :U _put_res_header ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _data_length `us ~T0 @X0 1 r2 ]
+[f ]
+"376
+[; ;nanomodbus.c: 376:     put_msg_header(nmbs, data_length);
+[e ( _put_msg_header (2 , _nmbs _data_length ]
+"377
+[; ;nanomodbus.c: 377:     (void) (0);
+[e -> 0 `i ]
+"378
+[; ;nanomodbus.c: 378: }
+[e :UE 81 ]
+}
+"381
+[; ;nanomodbus.c: 381: static nmbs_error send_exception_msg(nmbs_t* nmbs, uint8_t exception) {
+[v _send_exception_msg `(E204 ~T0 @X0 1 sf2`*S4`uc ]
+{
+[e :U _send_exception_msg ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _exception `uc ~T0 @X0 1 r2 ]
+[f ]
+"382
+[; ;nanomodbus.c: 382:     nmbs->msg.fc += 0x80;
+[e =+ . . *U _nmbs 0 3 -> -> 128 `i `uc ]
+"383
+[; ;nanomodbus.c: 383:     put_msg_header(nmbs, 1);
+[e ( _put_msg_header (2 , _nmbs -> -> 1 `i `us ]
+"384
+[; ;nanomodbus.c: 384:     put_1(nmbs, exception);
+[e ( _put_1 (2 , _nmbs _exception ]
+"386
+[; ;nanomodbus.c: 386:     (void) (0);
+[e -> 0 `i ]
+"388
+[; ;nanomodbus.c: 388:     return send_msg(nmbs);
+[e ) ( _send_msg (1 _nmbs ]
+[e $UE 82  ]
+"389
+[; ;nanomodbus.c: 389: }
+[e :UE 82 ]
+}
+"393
+[; ;nanomodbus.c: 393: static nmbs_error recv_res_header(nmbs_t* nmbs) {
+[v _recv_res_header `(E204 ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _recv_res_header ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"394
+[; ;nanomodbus.c: 394:     uint16_t req_transaction_id = nmbs->msg.transaction_id;
+[v _req_transaction_id `us ~T0 @X0 1 a ]
+[e = _req_transaction_id . . *U _nmbs 0 4 ]
+"395
+[; ;nanomodbus.c: 395:     uint8_t req_unit_id = nmbs->msg.unit_id;
+[v _req_unit_id `uc ~T0 @X0 1 a ]
+[e = _req_unit_id . . *U _nmbs 0 2 ]
+"396
+[; ;nanomodbus.c: 396:     uint8_t req_fc = nmbs->msg.fc;
+[v _req_fc `uc ~T0 @X0 1 a ]
+[e = _req_fc . . *U _nmbs 0 3 ]
+"398
+[; ;nanomodbus.c: 398:     _Bool first_byte_received;
+[v _first_byte_received `a ~T0 @X0 1 a ]
+"399
+[; ;nanomodbus.c: 399:     nmbs_error err = recv_msg_header(nmbs, &first_byte_received);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv_msg_header (2 , _nmbs &U _first_byte_received ]
+"400
+[; ;nanomodbus.c: 400:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 84  ]
+"401
+[; ;nanomodbus.c: 401:         return err;
+[e ) _err ]
+[e $UE 83  ]
+[e :U 84 ]
+"403
+[; ;nanomodbus.c: 403:     if (nmbs->platform.transport == NMBS_TRANSPORT_TCP) {
+[e $ ! == -> . . *U _nmbs 4 0 `ui -> . `E219 1 `ui 85  ]
+{
+"404
+[; ;nanomodbus.c: 404:         if (nmbs->msg.transaction_id != req_transaction_id)
+[e $ ! != -> . . *U _nmbs 0 4 `ui -> _req_transaction_id `ui 86  ]
+"405
+[; ;nanomodbus.c: 405:             return NMBS_ERROR_INVALID_TCP_MBAP;
+[e ) . `E204 1 ]
+[e $UE 83  ]
+[e :U 86 ]
+"406
+[; ;nanomodbus.c: 406:     }
+}
+[e :U 85 ]
+"408
+[; ;nanomodbus.c: 408:     if (nmbs->platform.transport == NMBS_TRANSPORT_RTU && nmbs->msg.unit_id != req_unit_id)
+[e $ ! && == -> . . *U _nmbs 4 0 `ui -> . `E219 0 `ui != -> . . *U _nmbs 0 2 `i -> _req_unit_id `i 87  ]
+"409
+[; ;nanomodbus.c: 409:         return NMBS_ERROR_INVALID_UNIT_ID;
+[e ) . `E204 0 ]
+[e $UE 83  ]
+[e :U 87 ]
+"411
+[; ;nanomodbus.c: 411:     if (nmbs->msg.fc != req_fc) {
+[e $ ! != -> . . *U _nmbs 0 3 `i -> _req_fc `i 88  ]
+{
+"412
+[; ;nanomodbus.c: 412:         if (nmbs->msg.fc - 0x80 == req_fc) {
+[e $ ! == - -> . . *U _nmbs 0 3 `i -> 128 `i -> _req_fc `i 89  ]
+{
+"413
+[; ;nanomodbus.c: 413:             err = recv(nmbs, 1);
+[e = _err ( _recv (2 , _nmbs -> -> 1 `i `us ]
+"414
+[; ;nanomodbus.c: 414:             if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 90  ]
+"415
+[; ;nanomodbus.c: 415:                 return err;
+[e ) _err ]
+[e $UE 83  ]
+[e :U 90 ]
+"417
+[; ;nanomodbus.c: 417:             uint8_t exception = get_1(nmbs);
+[v _exception `uc ~T0 @X0 1 a ]
+[e = _exception ( _get_1 (1 _nmbs ]
+"418
+[; ;nanomodbus.c: 418:             err = recv_msg_footer(nmbs);
+[e = _err ( _recv_msg_footer (1 _nmbs ]
+"419
+[; ;nanomodbus.c: 419:             if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 91  ]
+"420
+[; ;nanomodbus.c: 420:                 return err;
+[e ) _err ]
+[e $UE 83  ]
+[e :U 91 ]
+"422
+[; ;nanomodbus.c: 422:             if (exception < 1 || exception > 4)
+[e $ ! || < -> _exception `i -> 1 `i > -> _exception `i -> 4 `i 92  ]
+"423
+[; ;nanomodbus.c: 423:                 return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 83  ]
+[e :U 92 ]
+"425
+[; ;nanomodbus.c: 425:             (void) (0);
+[e -> 0 `i ]
+"427
+[; ;nanomodbus.c: 427:             return (nmbs_error) exception;
+[e ) -> _exception `E204 ]
+[e $UE 83  ]
+"428
+[; ;nanomodbus.c: 428:         }
+}
+[e :U 89 ]
+"430
+[; ;nanomodbus.c: 430:         return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 83  ]
+"431
+[; ;nanomodbus.c: 431:     }
+}
+[e :U 88 ]
+"433
+[; ;nanomodbus.c: 433:     (void) (0);
+[e -> 0 `i ]
+"435
+[; ;nanomodbus.c: 435:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 83  ]
+"436
+[; ;nanomodbus.c: 436: }
+[e :UE 83 ]
+}
+"458
+[; ;nanomodbus.c: 458: static nmbs_error recv_read_discrete_res(nmbs_t* nmbs, nmbs_bitfield values) {
+[v _recv_read_discrete_res `(E204 ~T0 @X0 1 sf2`*S4`*uc ]
+{
+[e :U _recv_read_discrete_res ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _values `*uc ~T0 @X0 1 r2 ]
+[f ]
+"459
+[; ;nanomodbus.c: 459:     nmbs_error err = recv_res_header(nmbs);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv_res_header (1 _nmbs ]
+"460
+[; ;nanomodbus.c: 460:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 94  ]
+"461
+[; ;nanomodbus.c: 461:         return err;
+[e ) _err ]
+[e $UE 93  ]
+[e :U 94 ]
+"463
+[; ;nanomodbus.c: 463:     err = recv(nmbs, 1);
+[e = _err ( _recv (2 , _nmbs -> -> 1 `i `us ]
+"464
+[; ;nanomodbus.c: 464:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 95  ]
+"465
+[; ;nanomodbus.c: 465:         return err;
+[e ) _err ]
+[e $UE 93  ]
+[e :U 95 ]
+"467
+[; ;nanomodbus.c: 467:     uint8_t coils_bytes = get_1(nmbs);
+[v _coils_bytes `uc ~T0 @X0 1 a ]
+[e = _coils_bytes ( _get_1 (1 _nmbs ]
+"468
+[; ;nanomodbus.c: 468:     (void) (0);
+[e -> 0 `i ]
+"470
+[; ;nanomodbus.c: 470:     err = recv(nmbs, coils_bytes);
+[e = _err ( _recv (2 , _nmbs -> _coils_bytes `us ]
+"471
+[; ;nanomodbus.c: 471:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 96  ]
+"472
+[; ;nanomodbus.c: 472:         return err;
+[e ) _err ]
+[e $UE 93  ]
+[e :U 96 ]
+"474
+[; ;nanomodbus.c: 474:     (void) (0);
+[e -> 0 `i ]
+"475
+[; ;nanomodbus.c: 475:     for (int i = 0; i < coils_bytes; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $U 100  ]
+[e :U 97 ]
+{
+"476
+[; ;nanomodbus.c: 476:         uint8_t coil = get_1(nmbs);
+[v _coil `uc ~T0 @X0 1 a ]
+[e = _coil ( _get_1 (1 _nmbs ]
+"477
+[; ;nanomodbus.c: 477:         if (values)
+[e $ ! != _values -> -> 0 `i `*uc 101  ]
+"478
+[; ;nanomodbus.c: 478:             values[i] = coil;
+[e = *U + _values * -> _i `x -> -> # *U _values `i `x _coil ]
+[e :U 101 ]
+"479
+[; ;nanomodbus.c: 479:         (void) (0);
+[e -> 0 `i ]
+"480
+[; ;nanomodbus.c: 480:     }
+}
+[e ++ _i -> 1 `i ]
+[e :U 100 ]
+[e $ < _i -> _coils_bytes `i 97  ]
+[e :U 98 ]
+}
+"482
+[; ;nanomodbus.c: 482:     err = recv_msg_footer(nmbs);
+[e = _err ( _recv_msg_footer (1 _nmbs ]
+"483
+[; ;nanomodbus.c: 483:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 102  ]
+"484
+[; ;nanomodbus.c: 484:         return err;
+[e ) _err ]
+[e $UE 93  ]
+[e :U 102 ]
+"486
+[; ;nanomodbus.c: 486:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 93  ]
+"487
+[; ;nanomodbus.c: 487: }
+[e :UE 93 ]
+}
+"490
+[; ;nanomodbus.c: 490: static nmbs_error recv_read_registers_res(nmbs_t* nmbs, uint16_t quantity, uint16_t* registers) {
+[v _recv_read_registers_res `(E204 ~T0 @X0 1 sf3`*S4`us`*us ]
+{
+[e :U _recv_read_registers_res ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _quantity `us ~T0 @X0 1 r2 ]
+[v _registers `*us ~T0 @X0 1 r3 ]
+[f ]
+"491
+[; ;nanomodbus.c: 491:     nmbs_error err = recv_res_header(nmbs);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv_res_header (1 _nmbs ]
+"492
+[; ;nanomodbus.c: 492:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 104  ]
+"493
+[; ;nanomodbus.c: 493:         return err;
+[e ) _err ]
+[e $UE 103  ]
+[e :U 104 ]
+"495
+[; ;nanomodbus.c: 495:     err = recv(nmbs, 1);
+[e = _err ( _recv (2 , _nmbs -> -> 1 `i `us ]
+"496
+[; ;nanomodbus.c: 496:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 105  ]
+"497
+[; ;nanomodbus.c: 497:         return err;
+[e ) _err ]
+[e $UE 103  ]
+[e :U 105 ]
+"499
+[; ;nanomodbus.c: 499:     uint8_t registers_bytes = get_1(nmbs);
+[v _registers_bytes `uc ~T0 @X0 1 a ]
+[e = _registers_bytes ( _get_1 (1 _nmbs ]
+"500
+[; ;nanomodbus.c: 500:     (void) (0);
+[e -> 0 `i ]
+"502
+[; ;nanomodbus.c: 502:     err = recv(nmbs, registers_bytes);
+[e = _err ( _recv (2 , _nmbs -> _registers_bytes `us ]
+"503
+[; ;nanomodbus.c: 503:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 106  ]
+"504
+[; ;nanomodbus.c: 504:         return err;
+[e ) _err ]
+[e $UE 103  ]
+[e :U 106 ]
+"506
+[; ;nanomodbus.c: 506:     (void) (0);
+[e -> 0 `i ]
+"507
+[; ;nanomodbus.c: 507:     for (int i = 0; i < registers_bytes / 2; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $U 110  ]
+[e :U 107 ]
+{
+"508
+[; ;nanomodbus.c: 508:         uint16_t reg = get_2(nmbs);
+[v _reg `us ~T0 @X0 1 a ]
+[e = _reg ( _get_2 (1 _nmbs ]
+"509
+[; ;nanomodbus.c: 509:         if (registers)
+[e $ ! != _registers -> -> 0 `i `*us 111  ]
+"510
+[; ;nanomodbus.c: 510:             registers[i] = reg;
+[e = *U + _registers * -> _i `x -> -> # *U _registers `i `x _reg ]
+[e :U 111 ]
+"511
+[; ;nanomodbus.c: 511:         (void) (0);
+[e -> 0 `i ]
+"512
+[; ;nanomodbus.c: 512:     }
+}
+[e ++ _i -> 1 `i ]
+[e :U 110 ]
+[e $ < _i / -> _registers_bytes `i -> 2 `i 107  ]
+[e :U 108 ]
+}
+"514
+[; ;nanomodbus.c: 514:     err = recv_msg_footer(nmbs);
+[e = _err ( _recv_msg_footer (1 _nmbs ]
+"515
+[; ;nanomodbus.c: 515:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 112  ]
+"516
+[; ;nanomodbus.c: 516:         return err;
+[e ) _err ]
+[e $UE 103  ]
+[e :U 112 ]
+"518
+[; ;nanomodbus.c: 518:     if (registers_bytes != quantity * 2)
+[e $ ! != -> _registers_bytes `ui * -> _quantity `ui -> -> 2 `i `ui 113  ]
+"519
+[; ;nanomodbus.c: 519:         return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 103  ]
+[e :U 113 ]
+"521
+[; ;nanomodbus.c: 521:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 103  ]
+"522
+[; ;nanomodbus.c: 522: }
+[e :UE 103 ]
+}
+"525
+[; ;nanomodbus.c: 525: nmbs_error recv_write_single_coil_res(nmbs_t* nmbs, uint16_t address, uint16_t value_req) {
+[v _recv_write_single_coil_res `(E204 ~T0 @X0 1 ef3`*S4`us`us ]
+{
+[e :U _recv_write_single_coil_res ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _address `us ~T0 @X0 1 r2 ]
+[v _value_req `us ~T0 @X0 1 r3 ]
+[f ]
+"526
+[; ;nanomodbus.c: 526:     nmbs_error err = recv_res_header(nmbs);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv_res_header (1 _nmbs ]
+"527
+[; ;nanomodbus.c: 527:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 115  ]
+"528
+[; ;nanomodbus.c: 528:         return err;
+[e ) _err ]
+[e $UE 114  ]
+[e :U 115 ]
+"530
+[; ;nanomodbus.c: 530:     err = recv(nmbs, 4);
+[e = _err ( _recv (2 , _nmbs -> -> 4 `i `us ]
+"531
+[; ;nanomodbus.c: 531:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 116  ]
+"532
+[; ;nanomodbus.c: 532:         return err;
+[e ) _err ]
+[e $UE 114  ]
+[e :U 116 ]
+"534
+[; ;nanomodbus.c: 534:     uint16_t address_res = get_2(nmbs);
+[v _address_res `us ~T0 @X0 1 a ]
+[e = _address_res ( _get_2 (1 _nmbs ]
+"535
+[; ;nanomodbus.c: 535:     uint16_t value_res = get_2(nmbs);
+[v _value_res `us ~T0 @X0 1 a ]
+[e = _value_res ( _get_2 (1 _nmbs ]
+"537
+[; ;nanomodbus.c: 537:     (void) (0);
+[e -> 0 `i ]
+"539
+[; ;nanomodbus.c: 539:     err = recv_msg_footer(nmbs);
+[e = _err ( _recv_msg_footer (1 _nmbs ]
+"540
+[; ;nanomodbus.c: 540:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 117  ]
+"541
+[; ;nanomodbus.c: 541:         return err;
+[e ) _err ]
+[e $UE 114  ]
+[e :U 117 ]
+"543
+[; ;nanomodbus.c: 543:     if (address_res != address)
+[e $ ! != -> _address_res `ui -> _address `ui 118  ]
+"544
+[; ;nanomodbus.c: 544:         return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 114  ]
+[e :U 118 ]
+"546
+[; ;nanomodbus.c: 546:     if (value_res != value_req)
+[e $ ! != -> _value_res `ui -> _value_req `ui 119  ]
+"547
+[; ;nanomodbus.c: 547:         return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 114  ]
+[e :U 119 ]
+"549
+[; ;nanomodbus.c: 549:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 114  ]
+"550
+[; ;nanomodbus.c: 550: }
+[e :UE 114 ]
+}
+"553
+[; ;nanomodbus.c: 553: nmbs_error recv_write_single_register_res(nmbs_t* nmbs, uint16_t address, uint16_t value_req) {
+[v _recv_write_single_register_res `(E204 ~T0 @X0 1 ef3`*S4`us`us ]
+{
+[e :U _recv_write_single_register_res ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _address `us ~T0 @X0 1 r2 ]
+[v _value_req `us ~T0 @X0 1 r3 ]
+[f ]
+"554
+[; ;nanomodbus.c: 554:     nmbs_error err = recv_res_header(nmbs);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv_res_header (1 _nmbs ]
+"555
+[; ;nanomodbus.c: 555:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 121  ]
+"556
+[; ;nanomodbus.c: 556:         return err;
+[e ) _err ]
+[e $UE 120  ]
+[e :U 121 ]
+"558
+[; ;nanomodbus.c: 558:     err = recv(nmbs, 4);
+[e = _err ( _recv (2 , _nmbs -> -> 4 `i `us ]
+"559
+[; ;nanomodbus.c: 559:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 122  ]
+"560
+[; ;nanomodbus.c: 560:         return err;
+[e ) _err ]
+[e $UE 120  ]
+[e :U 122 ]
+"562
+[; ;nanomodbus.c: 562:     uint16_t address_res = get_2(nmbs);
+[v _address_res `us ~T0 @X0 1 a ]
+[e = _address_res ( _get_2 (1 _nmbs ]
+"563
+[; ;nanomodbus.c: 563:     uint16_t value_res = get_2(nmbs);
+[v _value_res `us ~T0 @X0 1 a ]
+[e = _value_res ( _get_2 (1 _nmbs ]
+"564
+[; ;nanomodbus.c: 564:     (void) (0);
+[e -> 0 `i ]
+"566
+[; ;nanomodbus.c: 566:     err = recv_msg_footer(nmbs);
+[e = _err ( _recv_msg_footer (1 _nmbs ]
+"567
+[; ;nanomodbus.c: 567:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 123  ]
+"568
+[; ;nanomodbus.c: 568:         return err;
+[e ) _err ]
+[e $UE 120  ]
+[e :U 123 ]
+"570
+[; ;nanomodbus.c: 570:     if (address_res != address)
+[e $ ! != -> _address_res `ui -> _address `ui 124  ]
+"571
+[; ;nanomodbus.c: 571:         return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 120  ]
+[e :U 124 ]
+"573
+[; ;nanomodbus.c: 573:     if (value_res != value_req)
+[e $ ! != -> _value_res `ui -> _value_req `ui 125  ]
+"574
+[; ;nanomodbus.c: 574:         return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 120  ]
+[e :U 125 ]
+"576
+[; ;nanomodbus.c: 576:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 120  ]
+"577
+[; ;nanomodbus.c: 577: }
+[e :UE 120 ]
+}
+"580
+[; ;nanomodbus.c: 580: nmbs_error recv_write_multiple_coils_res(nmbs_t* nmbs, uint16_t address, uint16_t quantity) {
+[v _recv_write_multiple_coils_res `(E204 ~T0 @X0 1 ef3`*S4`us`us ]
+{
+[e :U _recv_write_multiple_coils_res ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _address `us ~T0 @X0 1 r2 ]
+[v _quantity `us ~T0 @X0 1 r3 ]
+[f ]
+"581
+[; ;nanomodbus.c: 581:     nmbs_error err = recv_res_header(nmbs);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv_res_header (1 _nmbs ]
+"582
+[; ;nanomodbus.c: 582:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 127  ]
+"583
+[; ;nanomodbus.c: 583:         return err;
+[e ) _err ]
+[e $UE 126  ]
+[e :U 127 ]
+"585
+[; ;nanomodbus.c: 585:     err = recv(nmbs, 4);
+[e = _err ( _recv (2 , _nmbs -> -> 4 `i `us ]
+"586
+[; ;nanomodbus.c: 586:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 128  ]
+"587
+[; ;nanomodbus.c: 587:         return err;
+[e ) _err ]
+[e $UE 126  ]
+[e :U 128 ]
+"589
+[; ;nanomodbus.c: 589:     uint16_t address_res = get_2(nmbs);
+[v _address_res `us ~T0 @X0 1 a ]
+[e = _address_res ( _get_2 (1 _nmbs ]
+"590
+[; ;nanomodbus.c: 590:     uint16_t quantity_res = get_2(nmbs);
+[v _quantity_res `us ~T0 @X0 1 a ]
+[e = _quantity_res ( _get_2 (1 _nmbs ]
+"591
+[; ;nanomodbus.c: 591:     (void) (0);
+[e -> 0 `i ]
+"593
+[; ;nanomodbus.c: 593:     err = recv_msg_footer(nmbs);
+[e = _err ( _recv_msg_footer (1 _nmbs ]
+"594
+[; ;nanomodbus.c: 594:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 129  ]
+"595
+[; ;nanomodbus.c: 595:         return err;
+[e ) _err ]
+[e $UE 126  ]
+[e :U 129 ]
+"597
+[; ;nanomodbus.c: 597:     if (address_res != address)
+[e $ ! != -> _address_res `ui -> _address `ui 130  ]
+"598
+[; ;nanomodbus.c: 598:         return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 126  ]
+[e :U 130 ]
+"600
+[; ;nanomodbus.c: 600:     if (quantity_res != quantity)
+[e $ ! != -> _quantity_res `ui -> _quantity `ui 131  ]
+"601
+[; ;nanomodbus.c: 601:         return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 126  ]
+[e :U 131 ]
+"603
+[; ;nanomodbus.c: 603:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 126  ]
+"604
+[; ;nanomodbus.c: 604: }
+[e :UE 126 ]
+}
+"607
+[; ;nanomodbus.c: 607: nmbs_error recv_write_multiple_registers_res(nmbs_t* nmbs, uint16_t address, uint16_t quantity) {
+[v _recv_write_multiple_registers_res `(E204 ~T0 @X0 1 ef3`*S4`us`us ]
+{
+[e :U _recv_write_multiple_registers_res ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _address `us ~T0 @X0 1 r2 ]
+[v _quantity `us ~T0 @X0 1 r3 ]
+[f ]
+"608
+[; ;nanomodbus.c: 608:     nmbs_error err = recv_res_header(nmbs);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv_res_header (1 _nmbs ]
+"609
+[; ;nanomodbus.c: 609:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 133  ]
+"610
+[; ;nanomodbus.c: 610:         return err;
+[e ) _err ]
+[e $UE 132  ]
+[e :U 133 ]
+"612
+[; ;nanomodbus.c: 612:     err = recv(nmbs, 4);
+[e = _err ( _recv (2 , _nmbs -> -> 4 `i `us ]
+"613
+[; ;nanomodbus.c: 613:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 134  ]
+"614
+[; ;nanomodbus.c: 614:         return err;
+[e ) _err ]
+[e $UE 132  ]
+[e :U 134 ]
+"616
+[; ;nanomodbus.c: 616:     uint16_t address_res = get_2(nmbs);
+[v _address_res `us ~T0 @X0 1 a ]
+[e = _address_res ( _get_2 (1 _nmbs ]
+"617
+[; ;nanomodbus.c: 617:     uint16_t quantity_res = get_2(nmbs);
+[v _quantity_res `us ~T0 @X0 1 a ]
+[e = _quantity_res ( _get_2 (1 _nmbs ]
+"618
+[; ;nanomodbus.c: 618:     (void) (0);
+[e -> 0 `i ]
+"620
+[; ;nanomodbus.c: 620:     err = recv_msg_footer(nmbs);
+[e = _err ( _recv_msg_footer (1 _nmbs ]
+"621
+[; ;nanomodbus.c: 621:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 135  ]
+"622
+[; ;nanomodbus.c: 622:         return err;
+[e ) _err ]
+[e $UE 132  ]
+[e :U 135 ]
+"624
+[; ;nanomodbus.c: 624:     if (address_res != address)
+[e $ ! != -> _address_res `ui -> _address `ui 136  ]
+"625
+[; ;nanomodbus.c: 625:         return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 132  ]
+[e :U 136 ]
+"627
+[; ;nanomodbus.c: 627:     if (quantity_res != quantity)
+[e $ ! != -> _quantity_res `ui -> _quantity `ui 137  ]
+"628
+[; ;nanomodbus.c: 628:         return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 132  ]
+[e :U 137 ]
+"630
+[; ;nanomodbus.c: 630:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 132  ]
+"631
+[; ;nanomodbus.c: 631: }
+[e :UE 132 ]
+}
+"634
+[; ;nanomodbus.c: 634: nmbs_error recv_read_file_record_res(nmbs_t* nmbs, uint16_t* registers, uint16_t count) {
+[v _recv_read_file_record_res `(E204 ~T0 @X0 1 ef3`*S4`*us`us ]
+{
+[e :U _recv_read_file_record_res ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _registers `*us ~T0 @X0 1 r2 ]
+[v _count `us ~T0 @X0 1 r3 ]
+[f ]
+"635
+[; ;nanomodbus.c: 635:     nmbs_error err = recv_res_header(nmbs);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv_res_header (1 _nmbs ]
+"636
+[; ;nanomodbus.c: 636:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 139  ]
+"637
+[; ;nanomodbus.c: 637:         return err;
+[e ) _err ]
+[e $UE 138  ]
+[e :U 139 ]
+"639
+[; ;nanomodbus.c: 639:     err = recv(nmbs, 1);
+[e = _err ( _recv (2 , _nmbs -> -> 1 `i `us ]
+"640
+[; ;nanomodbus.c: 640:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 140  ]
+"641
+[; ;nanomodbus.c: 641:         return err;
+[e ) _err ]
+[e $UE 138  ]
+[e :U 140 ]
+"643
+[; ;nanomodbus.c: 643:     uint8_t response_size = get_1(nmbs);
+[v _response_size `uc ~T0 @X0 1 a ]
+[e = _response_size ( _get_1 (1 _nmbs ]
+"645
+[; ;nanomodbus.c: 645:     err = recv(nmbs, response_size);
+[e = _err ( _recv (2 , _nmbs -> _response_size `us ]
+"646
+[; ;nanomodbus.c: 646:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 141  ]
+"647
+[; ;nanomodbus.c: 647:         return err;
+[e ) _err ]
+[e $UE 138  ]
+[e :U 141 ]
+"649
+[; ;nanomodbus.c: 649:     uint8_t subreq_data_size = get_1(nmbs) - 1;
+[v _subreq_data_size `uc ~T0 @X0 1 a ]
+[e = _subreq_data_size -> - -> ( _get_1 (1 _nmbs `i -> 1 `i `uc ]
+"650
+[; ;nanomodbus.c: 650:     uint8_t subreq_reference_type = get_1(nmbs);
+[v _subreq_reference_type `uc ~T0 @X0 1 a ]
+[e = _subreq_reference_type ( _get_1 (1 _nmbs ]
+"651
+[; ;nanomodbus.c: 651:     uint16_t* subreq_record_data = (uint16_t*) get_n(nmbs, subreq_data_size);
+[v _subreq_record_data `*us ~T0 @X0 1 a ]
+[e = _subreq_record_data -> ( _get_n (2 , _nmbs -> _subreq_data_size `us `*us ]
+"653
+[; ;nanomodbus.c: 653:     err = recv_msg_footer(nmbs);
+[e = _err ( _recv_msg_footer (1 _nmbs ]
+"654
+[; ;nanomodbus.c: 654:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 142  ]
+"655
+[; ;nanomodbus.c: 655:         return err;
+[e ) _err ]
+[e $UE 138  ]
+[e :U 142 ]
+"657
+[; ;nanomodbus.c: 657:     if (registers) {
+[e $ ! != _registers -> -> 0 `i `*us 143  ]
+{
+"658
+[; ;nanomodbus.c: 658:         if (subreq_reference_type != 6)
+[e $ ! != -> _subreq_reference_type `i -> 6 `i 144  ]
+"659
+[; ;nanomodbus.c: 659:             return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 138  ]
+[e :U 144 ]
+"661
+[; ;nanomodbus.c: 661:         if (count != (subreq_data_size / 2))
+[e $ ! != -> _count `ui -> / -> _subreq_data_size `i -> 2 `i `ui 145  ]
+"662
+[; ;nanomodbus.c: 662:             return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 138  ]
+[e :U 145 ]
+"664
+[; ;nanomodbus.c: 664:         swap_regs(subreq_record_data, subreq_data_size / 2);
+[e ( _swap_regs (2 , _subreq_record_data -> / -> _subreq_data_size `i -> 2 `i `us ]
+"665
+[; ;nanomodbus.c: 665:         memcpy(registers, subreq_record_data, subreq_data_size);
+[e ( _memcpy (3 , , -> _registers `*v -> _subreq_record_data `*Cv -> _subreq_data_size `ui ]
+"666
+[; ;nanomodbus.c: 666:     }
+}
+[e :U 143 ]
+"668
+[; ;nanomodbus.c: 668:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 138  ]
+"669
+[; ;nanomodbus.c: 669: }
+[e :UE 138 ]
+}
+"672
+[; ;nanomodbus.c: 672: nmbs_error recv_write_file_record_res(nmbs_t* nmbs, uint16_t file_number, uint16_t record_number,
+[v _recv_write_file_record_res `(E204 ~T0 @X0 1 ef5`*S4`us`us`*Cus`us ]
+"673
+[; ;nanomodbus.c: 673:                                       const uint16_t* registers, uint16_t count) {
+{
+[e :U _recv_write_file_record_res ]
+"672
+[; ;nanomodbus.c: 672: nmbs_error recv_write_file_record_res(nmbs_t* nmbs, uint16_t file_number, uint16_t record_number,
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _file_number `us ~T0 @X0 1 r2 ]
+[v _record_number `us ~T0 @X0 1 r3 ]
+"673
+[; ;nanomodbus.c: 673:                                       const uint16_t* registers, uint16_t count) {
+[v _registers `*Cus ~T0 @X0 1 r4 ]
+[v _count `us ~T0 @X0 1 r5 ]
+[f ]
+"674
+[; ;nanomodbus.c: 674:     nmbs_error err = recv_res_header(nmbs);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv_res_header (1 _nmbs ]
+"675
+[; ;nanomodbus.c: 675:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 147  ]
+"676
+[; ;nanomodbus.c: 676:         return err;
+[e ) _err ]
+[e $UE 146  ]
+[e :U 147 ]
+"678
+[; ;nanomodbus.c: 678:     err = recv(nmbs, 1);
+[e = _err ( _recv (2 , _nmbs -> -> 1 `i `us ]
+"679
+[; ;nanomodbus.c: 679:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 148  ]
+"680
+[; ;nanomodbus.c: 680:         return err;
+[e ) _err ]
+[e $UE 146  ]
+[e :U 148 ]
+"682
+[; ;nanomodbus.c: 682:     uint8_t response_size = get_1(nmbs);
+[v _response_size `uc ~T0 @X0 1 a ]
+[e = _response_size ( _get_1 (1 _nmbs ]
+"684
+[; ;nanomodbus.c: 684:     err = recv(nmbs, response_size);
+[e = _err ( _recv (2 , _nmbs -> _response_size `us ]
+"685
+[; ;nanomodbus.c: 685:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 149  ]
+"686
+[; ;nanomodbus.c: 686:         return err;
+[e ) _err ]
+[e $UE 146  ]
+[e :U 149 ]
+"688
+[; ;nanomodbus.c: 688:     uint8_t subreq_reference_type = get_1(nmbs);
+[v _subreq_reference_type `uc ~T0 @X0 1 a ]
+[e = _subreq_reference_type ( _get_1 (1 _nmbs ]
+"689
+[; ;nanomodbus.c: 689:     uint16_t subreq_file_number = get_2(nmbs);
+[v _subreq_file_number `us ~T0 @X0 1 a ]
+[e = _subreq_file_number ( _get_2 (1 _nmbs ]
+"690
+[; ;nanomodbus.c: 690:     uint16_t subreq_record_number = get_2(nmbs);
+[v _subreq_record_number `us ~T0 @X0 1 a ]
+[e = _subreq_record_number ( _get_2 (1 _nmbs ]
+"691
+[; ;nanomodbus.c: 691:     uint16_t subreq_record_length = get_2(nmbs);
+[v _subreq_record_length `us ~T0 @X0 1 a ]
+[e = _subreq_record_length ( _get_2 (1 _nmbs ]
+"692
+[; ;nanomodbus.c: 692:     (void) (0);
+[e -> 0 `i ]
+"694
+[; ;nanomodbus.c: 694:     uint16_t subreq_data_size = subreq_record_length * 2;
+[v _subreq_data_size `us ~T0 @X0 1 a ]
+[e = _subreq_data_size -> * -> _subreq_record_length `ui -> -> 2 `i `ui `us ]
+"695
+[; ;nanomodbus.c: 695:     uint16_t* subreq_record_data = (uint16_t*) get_n(nmbs, subreq_data_size);
+[v _subreq_record_data `*us ~T0 @X0 1 a ]
+[e = _subreq_record_data -> ( _get_n (2 , _nmbs _subreq_data_size `*us ]
+"697
+[; ;nanomodbus.c: 697:     err = recv_msg_footer(nmbs);
+[e = _err ( _recv_msg_footer (1 _nmbs ]
+"698
+[; ;nanomodbus.c: 698:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 150  ]
+"699
+[; ;nanomodbus.c: 699:         return err;
+[e ) _err ]
+[e $UE 146  ]
+[e :U 150 ]
+"701
+[; ;nanomodbus.c: 701:     if (registers) {
+[e $ ! != _registers -> -> 0 `i `*Cus 151  ]
+{
+"702
+[; ;nanomodbus.c: 702:         if (subreq_reference_type != 6)
+[e $ ! != -> _subreq_reference_type `i -> 6 `i 152  ]
+"703
+[; ;nanomodbus.c: 703:             return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 146  ]
+[e :U 152 ]
+"705
+[; ;nanomodbus.c: 705:         if (subreq_file_number != file_number)
+[e $ ! != -> _subreq_file_number `ui -> _file_number `ui 153  ]
+"706
+[; ;nanomodbus.c: 706:             return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 146  ]
+[e :U 153 ]
+"708
+[; ;nanomodbus.c: 708:         if (subreq_record_number != record_number)
+[e $ ! != -> _subreq_record_number `ui -> _record_number `ui 154  ]
+"709
+[; ;nanomodbus.c: 709:             return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 146  ]
+[e :U 154 ]
+"711
+[; ;nanomodbus.c: 711:         if (subreq_record_length != count)
+[e $ ! != -> _subreq_record_length `ui -> _count `ui 155  ]
+"712
+[; ;nanomodbus.c: 712:             return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 146  ]
+[e :U 155 ]
+"714
+[; ;nanomodbus.c: 714:         swap_regs(subreq_record_data, subreq_record_length);
+[e ( _swap_regs (2 , _subreq_record_data _subreq_record_length ]
+"715
+[; ;nanomodbus.c: 715:         if (memcmp(registers, subreq_record_data, subreq_data_size) != 0)
+[e $ ! != ( _memcmp (3 , , -> _registers `*Cv -> _subreq_record_data `*Cv -> _subreq_data_size `ui -> 0 `i 156  ]
+"716
+[; ;nanomodbus.c: 716:             return NMBS_ERROR_INVALID_RESPONSE;
+[e ) . `E204 5 ]
+[e $UE 146  ]
+[e :U 156 ]
+"717
+[; ;nanomodbus.c: 717:     }
+}
+[e :U 151 ]
+"719
+[; ;nanomodbus.c: 719:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 146  ]
+"720
+[; ;nanomodbus.c: 720: }
+[e :UE 146 ]
+}
+"725
+[; ;nanomodbus.c: 725: static nmbs_error handle_read_discrete(nmbs_t* nmbs,
+[v _handle_read_discrete `(E204 ~T0 @X0 1 sf2`*S4`*F542 ]
+"726
+[; ;nanomodbus.c: 726:                                        nmbs_error (*callback)(uint16_t, uint16_t, nmbs_bitfield, uint8_t, void*)) {
+{
+[e :U _handle_read_discrete ]
+"725
+[; ;nanomodbus.c: 725: static nmbs_error handle_read_discrete(nmbs_t* nmbs,
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+"726
+[; ;nanomodbus.c: 726:                                        nmbs_error (*callback)(uint16_t, uint16_t, nmbs_bitfield, uint8_t, void*)) {
+[v _callback `*F550 ~T0 @X0 1 r2 ]
+[f ]
+"727
+[; ;nanomodbus.c: 727:     nmbs_error err = recv(nmbs, 4);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv (2 , _nmbs -> -> 4 `i `us ]
+"728
+[; ;nanomodbus.c: 728:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 158  ]
+"729
+[; ;nanomodbus.c: 729:         return err;
+[e ) _err ]
+[e $UE 157  ]
+[e :U 158 ]
+"731
+[; ;nanomodbus.c: 731:     uint16_t address = get_2(nmbs);
+[v _address `us ~T0 @X0 1 a ]
+[e = _address ( _get_2 (1 _nmbs ]
+"732
+[; ;nanomodbus.c: 732:     uint16_t quantity = get_2(nmbs);
+[v _quantity `us ~T0 @X0 1 a ]
+[e = _quantity ( _get_2 (1 _nmbs ]
+"734
+[; ;nanomodbus.c: 734:     (void) (0);
+[e -> 0 `i ]
+"736
+[; ;nanomodbus.c: 736:     err = recv_msg_footer(nmbs);
+[e = _err ( _recv_msg_footer (1 _nmbs ]
+"737
+[; ;nanomodbus.c: 737:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 159  ]
+"738
+[; ;nanomodbus.c: 738:         return err;
+[e ) _err ]
+[e $UE 157  ]
+[e :U 159 ]
+"740
+[; ;nanomodbus.c: 740:     if (!nmbs->msg.ignored) {
+[e $ ! ! != -> . . *U _nmbs 0 6 `i -> 0 `i 160  ]
+{
+"741
+[; ;nanomodbus.c: 741:         if (quantity < 1 || quantity > 2000)
+[e $ ! || < -> _quantity `ui -> -> 1 `i `ui > -> _quantity `ui -> -> 2000 `i `ui 161  ]
+"742
+[; ;nanomodbus.c: 742:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_VALUE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 10 `uc ]
+[e $UE 157  ]
+[e :U 161 ]
+"744
+[; ;nanomodbus.c: 744:         if ((uint32_t) address + (uint32_t) quantity > ((uint32_t) 0xFFFF) + 1)
+[e $ ! > + -> _address `ul -> _quantity `ul + -> -> 65535 `ui `ul -> -> -> 1 `i `l `ul 162  ]
+"745
+[; ;nanomodbus.c: 745:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_ADDRESS);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 9 `uc ]
+[e $UE 157  ]
+[e :U 162 ]
+"747
+[; ;nanomodbus.c: 747:         if (callback) {
+[e $ ! != _callback -> -> 0 `i `*F559 163  ]
+{
+[v F565 `uc ~T0 @X0 -> -> 1 `i `ux s ]
+[i F565
+:U ..
+"748
+[; ;nanomodbus.c: 748:             nmbs_bitfield bitfield = {0};
+-> -> 0 `i `uc
+..
+]
+[v _bitfield `uc ~T0 @X0 -> -> 1 `i `ux a ]
+[e = _bitfield F565 ]
+"749
+[; ;nanomodbus.c: 749:             err = callback(address, quantity, bitfield, nmbs->msg.unit_id, nmbs->platform.arg);
+[e = _err ( *U _callback (4 , , , , _address _quantity &U _bitfield . . *U _nmbs 0 2 . . *U _nmbs 4 3 ]
+"750
+[; ;nanomodbus.c: 750:             if (err != NMBS_ERROR_NONE) {
+[e $ ! != -> _err `i -> . `E204 7 `i 164  ]
+{
+"751
+[; ;nanomodbus.c: 751:                 if (((err) > 0 && (err) < 5))
+[e $ ! && > -> _err `i -> 0 `i < -> _err `i -> 5 `i 165  ]
+"752
+[; ;nanomodbus.c: 752:                     return send_exception_msg(nmbs, err);
+[e ) ( _send_exception_msg (2 , _nmbs -> _err `uc ]
+[e $UE 157  ]
+[e :U 165 ]
+"754
+[; ;nanomodbus.c: 754:                 return send_exception_msg(nmbs, NMBS_EXCEPTION_SERVER_DEVICE_FAILURE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 11 `uc ]
+[e $UE 157  ]
+"755
+[; ;nanomodbus.c: 755:             }
+}
+[e :U 164 ]
+"757
+[; ;nanomodbus.c: 757:             if (!nmbs->msg.broadcast) {
+[e $ ! ! != -> . . *U _nmbs 0 5 `i -> 0 `i 166  ]
+{
+"758
+[; ;nanomodbus.c: 758:                 uint8_t discrete_bytes = (quantity + 7) / 8;
+[v _discrete_bytes `uc ~T0 @X0 1 a ]
+[e = _discrete_bytes -> / + -> _quantity `ui -> -> 7 `i `ui -> -> 8 `i `ui `uc ]
+"759
+[; ;nanomodbus.c: 759:                 put_res_header(nmbs, 1 + discrete_bytes);
+[e ( _put_res_header (2 , _nmbs -> + -> 1 `i -> _discrete_bytes `i `us ]
+"761
+[; ;nanomodbus.c: 761:                 put_1(nmbs, discrete_bytes);
+[e ( _put_1 (2 , _nmbs _discrete_bytes ]
+"763
+[; ;nanomodbus.c: 763:                 (void) (0);
+[e -> 0 `i ]
+"765
+[; ;nanomodbus.c: 765:                 (void) (0);
+[e -> 0 `i ]
+"766
+[; ;nanomodbus.c: 766:                 for (int i = 0; i < discrete_bytes; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $U 170  ]
+[e :U 167 ]
+{
+"767
+[; ;nanomodbus.c: 767:                     put_1(nmbs, bitfield[i]);
+[e ( _put_1 (2 , _nmbs *U + &U _bitfield * -> -> _i `ui `ux -> -> # *U &U _bitfield `ui `ux ]
+"768
+[; ;nanomodbus.c: 768:                     (void) (0);
+[e -> 0 `i ]
+"769
+[; ;nanomodbus.c: 769:                 }
+}
+[e ++ _i -> 1 `i ]
+[e :U 170 ]
+[e $ < _i -> _discrete_bytes `i 167  ]
+[e :U 168 ]
+}
+"771
+[; ;nanomodbus.c: 771:                 err = send_msg(nmbs);
+[e = _err ( _send_msg (1 _nmbs ]
+"772
+[; ;nanomodbus.c: 772:                 if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 171  ]
+"773
+[; ;nanomodbus.c: 773:                     return err;
+[e ) _err ]
+[e $UE 157  ]
+[e :U 171 ]
+"774
+[; ;nanomodbus.c: 774:             }
+}
+[e :U 166 ]
+"775
+[; ;nanomodbus.c: 775:         }
+}
+[e $U 172  ]
+"776
+[; ;nanomodbus.c: 776:         else {
+[e :U 163 ]
+{
+"777
+[; ;nanomodbus.c: 777:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_FUNCTION);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 8 `uc ]
+[e $UE 157  ]
+"778
+[; ;nanomodbus.c: 778:         }
+}
+[e :U 172 ]
+"779
+[; ;nanomodbus.c: 779:     }
+}
+[e $U 173  ]
+"780
+[; ;nanomodbus.c: 780:     else {
+[e :U 160 ]
+{
+"781
+[; ;nanomodbus.c: 781:         return recv_read_discrete_res(nmbs, ((void*)0));
+[e ) ( _recv_read_discrete_res (2 , _nmbs -> -> -> 0 `i `*v `*uc ]
+[e $UE 157  ]
+"782
+[; ;nanomodbus.c: 782:     }
+}
+[e :U 173 ]
+"784
+[; ;nanomodbus.c: 784:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 157  ]
+"785
+[; ;nanomodbus.c: 785: }
+[e :UE 157 ]
+}
+"790
+[; ;nanomodbus.c: 790: static nmbs_error handle_read_registers(nmbs_t* nmbs,
+[v _handle_read_registers `(E204 ~T0 @X0 1 sf2`*S4`*F570 ]
+"791
+[; ;nanomodbus.c: 791:                                         nmbs_error (*callback)(uint16_t, uint16_t, uint16_t*, uint8_t, void*)) {
+{
+[e :U _handle_read_registers ]
+"790
+[; ;nanomodbus.c: 790: static nmbs_error handle_read_registers(nmbs_t* nmbs,
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+"791
+[; ;nanomodbus.c: 791:                                         nmbs_error (*callback)(uint16_t, uint16_t, uint16_t*, uint8_t, void*)) {
+[v _callback `*F578 ~T0 @X0 1 r2 ]
+[f ]
+"792
+[; ;nanomodbus.c: 792:     nmbs_error err = recv(nmbs, 4);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv (2 , _nmbs -> -> 4 `i `us ]
+"793
+[; ;nanomodbus.c: 793:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 175  ]
+"794
+[; ;nanomodbus.c: 794:         return err;
+[e ) _err ]
+[e $UE 174  ]
+[e :U 175 ]
+"796
+[; ;nanomodbus.c: 796:     uint16_t address = get_2(nmbs);
+[v _address `us ~T0 @X0 1 a ]
+[e = _address ( _get_2 (1 _nmbs ]
+"797
+[; ;nanomodbus.c: 797:     uint16_t quantity = get_2(nmbs);
+[v _quantity `us ~T0 @X0 1 a ]
+[e = _quantity ( _get_2 (1 _nmbs ]
+"799
+[; ;nanomodbus.c: 799:     (void) (0);
+[e -> 0 `i ]
+"801
+[; ;nanomodbus.c: 801:     err = recv_msg_footer(nmbs);
+[e = _err ( _recv_msg_footer (1 _nmbs ]
+"802
+[; ;nanomodbus.c: 802:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 176  ]
+"803
+[; ;nanomodbus.c: 803:         return err;
+[e ) _err ]
+[e $UE 174  ]
+[e :U 176 ]
+"805
+[; ;nanomodbus.c: 805:     if (!nmbs->msg.ignored) {
+[e $ ! ! != -> . . *U _nmbs 0 6 `i -> 0 `i 177  ]
+{
+"806
+[; ;nanomodbus.c: 806:         if (quantity < 1 || quantity > 125)
+[e $ ! || < -> _quantity `ui -> -> 1 `i `ui > -> _quantity `ui -> -> 125 `i `ui 178  ]
+"807
+[; ;nanomodbus.c: 807:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_VALUE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 10 `uc ]
+[e $UE 174  ]
+[e :U 178 ]
+"809
+[; ;nanomodbus.c: 809:         if ((uint32_t) address + (uint32_t) quantity > ((uint32_t) 0xFFFF) + 1)
+[e $ ! > + -> _address `ul -> _quantity `ul + -> -> 65535 `ui `ul -> -> -> 1 `i `l `ul 179  ]
+"810
+[; ;nanomodbus.c: 810:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_ADDRESS);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 9 `uc ]
+[e $UE 174  ]
+[e :U 179 ]
+"812
+[; ;nanomodbus.c: 812:         if (callback) {
+[e $ ! != _callback -> -> 0 `i `*F587 180  ]
+{
+[v F593 `us ~T0 @X0 -> 32 `i s ]
+[i F593
+:U ..
+"813
+[; ;nanomodbus.c: 813:             uint16_t regs[32] = {0};
+-> -> 0 `i `us
+..
+]
+[v _regs `us ~T0 @X0 -> 32 `i a ]
+[e = _regs F593 ]
+"814
+[; ;nanomodbus.c: 814:             err = callback(address, quantity, regs, nmbs->msg.unit_id, nmbs->platform.arg);
+[e = _err ( *U _callback (4 , , , , _address _quantity &U _regs . . *U _nmbs 0 2 . . *U _nmbs 4 3 ]
+"815
+[; ;nanomodbus.c: 815:             if (err != NMBS_ERROR_NONE) {
+[e $ ! != -> _err `i -> . `E204 7 `i 181  ]
+{
+"816
+[; ;nanomodbus.c: 816:                 if (((err) > 0 && (err) < 5))
+[e $ ! && > -> _err `i -> 0 `i < -> _err `i -> 5 `i 182  ]
+"817
+[; ;nanomodbus.c: 817:                     return send_exception_msg(nmbs, err);
+[e ) ( _send_exception_msg (2 , _nmbs -> _err `uc ]
+[e $UE 174  ]
+[e :U 182 ]
+"819
+[; ;nanomodbus.c: 819:                 return send_exception_msg(nmbs, NMBS_EXCEPTION_SERVER_DEVICE_FAILURE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 11 `uc ]
+[e $UE 174  ]
+"820
+[; ;nanomodbus.c: 820:             }
+}
+[e :U 181 ]
+"822
+[; ;nanomodbus.c: 822:             if (!nmbs->msg.broadcast) {
+[e $ ! ! != -> . . *U _nmbs 0 5 `i -> 0 `i 183  ]
+{
+"823
+[; ;nanomodbus.c: 823:                 uint8_t regs_bytes = quantity * 2;
+[v _regs_bytes `uc ~T0 @X0 1 a ]
+[e = _regs_bytes -> * -> _quantity `ui -> -> 2 `i `ui `uc ]
+"824
+[; ;nanomodbus.c: 824:                 put_res_header(nmbs, 1 + regs_bytes);
+[e ( _put_res_header (2 , _nmbs -> + -> 1 `i -> _regs_bytes `i `us ]
+"826
+[; ;nanomodbus.c: 826:                 put_1(nmbs, regs_bytes);
+[e ( _put_1 (2 , _nmbs _regs_bytes ]
+"828
+[; ;nanomodbus.c: 828:                 (void) (0);
+[e -> 0 `i ]
+"830
+[; ;nanomodbus.c: 830:                 (void) (0);
+[e -> 0 `i ]
+"831
+[; ;nanomodbus.c: 831:                 for (int i = 0; i < quantity; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $U 187  ]
+[e :U 184 ]
+{
+"832
+[; ;nanomodbus.c: 832:                     put_2(nmbs, regs[i]);
+[e ( _put_2 (2 , _nmbs *U + &U _regs * -> -> _i `ui `ux -> -> # *U &U _regs `ui `ux ]
+"833
+[; ;nanomodbus.c: 833:                     (void) (0);
+[e -> 0 `i ]
+"834
+[; ;nanomodbus.c: 834:                 }
+}
+[e ++ _i -> 1 `i ]
+[e :U 187 ]
+[e $ < -> _i `ui -> _quantity `ui 184  ]
+[e :U 185 ]
+}
+"836
+[; ;nanomodbus.c: 836:                 err = send_msg(nmbs);
+[e = _err ( _send_msg (1 _nmbs ]
+"837
+[; ;nanomodbus.c: 837:                 if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 188  ]
+"838
+[; ;nanomodbus.c: 838:                     return err;
+[e ) _err ]
+[e $UE 174  ]
+[e :U 188 ]
+"839
+[; ;nanomodbus.c: 839:             }
+}
+[e :U 183 ]
+"840
+[; ;nanomodbus.c: 840:         }
+}
+[e $U 189  ]
+"841
+[; ;nanomodbus.c: 841:         else {
+[e :U 180 ]
+{
+"842
+[; ;nanomodbus.c: 842:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_FUNCTION);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 8 `uc ]
+[e $UE 174  ]
+"843
+[; ;nanomodbus.c: 843:         }
+}
+[e :U 189 ]
+"844
+[; ;nanomodbus.c: 844:     }
+}
+[e $U 190  ]
+"845
+[; ;nanomodbus.c: 845:     else {
+[e :U 177 ]
+{
+"846
+[; ;nanomodbus.c: 846:         return recv_read_registers_res(nmbs, quantity, ((void*)0));
+[e ) ( _recv_read_registers_res (3 , , _nmbs _quantity -> -> -> 0 `i `*v `*us ]
+[e $UE 174  ]
+"847
+[; ;nanomodbus.c: 847:     }
+}
+[e :U 190 ]
+"849
+[; ;nanomodbus.c: 849:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 174  ]
+"850
+[; ;nanomodbus.c: 850: }
+[e :UE 174 ]
+}
+"855
+[; ;nanomodbus.c: 855: static nmbs_error handle_read_coils(nmbs_t* nmbs) {
+[v _handle_read_coils `(E204 ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _handle_read_coils ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"856
+[; ;nanomodbus.c: 856:     return handle_read_discrete(nmbs, nmbs->callbacks.read_coils);
+[e ) ( _handle_read_discrete (2 , _nmbs . . *U _nmbs 1 0 ]
+[e $UE 191  ]
+"857
+[; ;nanomodbus.c: 857: }
+[e :UE 191 ]
+}
+"869
+[; ;nanomodbus.c: 869: static nmbs_error handle_read_holding_registers(nmbs_t* nmbs) {
+[v _handle_read_holding_registers `(E204 ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _handle_read_holding_registers ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"870
+[; ;nanomodbus.c: 870:     return handle_read_registers(nmbs, nmbs->callbacks.read_holding_registers);
+[e ) ( _handle_read_registers (2 , _nmbs . . *U _nmbs 1 1 ]
+[e $UE 192  ]
+"871
+[; ;nanomodbus.c: 871: }
+[e :UE 192 ]
+}
+"876
+[; ;nanomodbus.c: 876: static nmbs_error handle_read_input_registers(nmbs_t* nmbs) {
+[v _handle_read_input_registers `(E204 ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _handle_read_input_registers ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"877
+[; ;nanomodbus.c: 877:     return handle_read_registers(nmbs, nmbs->callbacks.read_input_registers);
+[e ) ( _handle_read_registers (2 , _nmbs . . *U _nmbs 1 2 ]
+[e $UE 193  ]
+"878
+[; ;nanomodbus.c: 878: }
+[e :UE 193 ]
+}
+"883
+[; ;nanomodbus.c: 883: static nmbs_error handle_write_single_coil(nmbs_t* nmbs) {
+[v _handle_write_single_coil `(E204 ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _handle_write_single_coil ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"884
+[; ;nanomodbus.c: 884:     nmbs_error err = recv(nmbs, 4);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv (2 , _nmbs -> -> 4 `i `us ]
+"885
+[; ;nanomodbus.c: 885:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 195  ]
+"886
+[; ;nanomodbus.c: 886:         return err;
+[e ) _err ]
+[e $UE 194  ]
+[e :U 195 ]
+"888
+[; ;nanomodbus.c: 888:     uint16_t address = get_2(nmbs);
+[v _address `us ~T0 @X0 1 a ]
+[e = _address ( _get_2 (1 _nmbs ]
+"889
+[; ;nanomodbus.c: 889:     uint16_t value = get_2(nmbs);
+[v _value `us ~T0 @X0 1 a ]
+[e = _value ( _get_2 (1 _nmbs ]
+"891
+[; ;nanomodbus.c: 891:     (void) (0);
+[e -> 0 `i ]
+"893
+[; ;nanomodbus.c: 893:     err = recv_msg_footer(nmbs);
+[e = _err ( _recv_msg_footer (1 _nmbs ]
+"894
+[; ;nanomodbus.c: 894:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 196  ]
+"895
+[; ;nanomodbus.c: 895:         return err;
+[e ) _err ]
+[e $UE 194  ]
+[e :U 196 ]
+"897
+[; ;nanomodbus.c: 897:     if (!nmbs->msg.ignored) {
+[e $ ! ! != -> . . *U _nmbs 0 6 `i -> 0 `i 197  ]
+{
+"898
+[; ;nanomodbus.c: 898:         if (nmbs->callbacks.write_single_coil) {
+[e $ ! != . . *U _nmbs 1 3 -> -> 0 `i `*F636 198  ]
+{
+"899
+[; ;nanomodbus.c: 899:             if (value != 0 && value != 0xFF00)
+[e $ ! && != -> _value `ui -> -> 0 `i `ui != -> _value `ui -> 65280 `ui 199  ]
+"900
+[; ;nanomodbus.c: 900:                 return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_VALUE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 10 `uc ]
+[e $UE 194  ]
+[e :U 199 ]
+"902
+[; ;nanomodbus.c: 902:             err = nmbs->callbacks.write_single_coil(address, value == 0 ? 0 : 1, nmbs->msg.unit_id,
+[e = _err ( *U . . *U _nmbs 1 3 (4 , , , _address -> ? == -> _value `ui -> -> 0 `i `ui : -> 0 `i -> 1 `i `a . . *U _nmbs 0 2 . . *U _nmbs 4 3 ]
+"904
+[; ;nanomodbus.c: 904:             if (err != NMBS_ERROR_NONE) {
+[e $ ! != -> _err `i -> . `E204 7 `i 200  ]
+{
+"905
+[; ;nanomodbus.c: 905:                 if (((err) > 0 && (err) < 5))
+[e $ ! && > -> _err `i -> 0 `i < -> _err `i -> 5 `i 201  ]
+"906
+[; ;nanomodbus.c: 906:                     return send_exception_msg(nmbs, err);
+[e ) ( _send_exception_msg (2 , _nmbs -> _err `uc ]
+[e $UE 194  ]
+[e :U 201 ]
+"908
+[; ;nanomodbus.c: 908:                 return send_exception_msg(nmbs, NMBS_EXCEPTION_SERVER_DEVICE_FAILURE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 11 `uc ]
+[e $UE 194  ]
+"909
+[; ;nanomodbus.c: 909:             }
+}
+[e :U 200 ]
+"911
+[; ;nanomodbus.c: 911:             if (!nmbs->msg.broadcast) {
+[e $ ! ! != -> . . *U _nmbs 0 5 `i -> 0 `i 202  ]
+{
+"912
+[; ;nanomodbus.c: 912:                 put_res_header(nmbs, 4);
+[e ( _put_res_header (2 , _nmbs -> -> 4 `i `us ]
+"914
+[; ;nanomodbus.c: 914:                 put_2(nmbs, address);
+[e ( _put_2 (2 , _nmbs _address ]
+"915
+[; ;nanomodbus.c: 915:                 put_2(nmbs, value);
+[e ( _put_2 (2 , _nmbs _value ]
+"916
+[; ;nanomodbus.c: 916:                 (void) (0);
+[e -> 0 `i ]
+"918
+[; ;nanomodbus.c: 918:                 err = send_msg(nmbs);
+[e = _err ( _send_msg (1 _nmbs ]
+"919
+[; ;nanomodbus.c: 919:                 if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 203  ]
+"920
+[; ;nanomodbus.c: 920:                     return err;
+[e ) _err ]
+[e $UE 194  ]
+[e :U 203 ]
+"921
+[; ;nanomodbus.c: 921:             }
+}
+[e :U 202 ]
+"922
+[; ;nanomodbus.c: 922:         }
+}
+[e $U 204  ]
+"923
+[; ;nanomodbus.c: 923:         else {
+[e :U 198 ]
+{
+"924
+[; ;nanomodbus.c: 924:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_FUNCTION);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 8 `uc ]
+[e $UE 194  ]
+"925
+[; ;nanomodbus.c: 925:         }
+}
+[e :U 204 ]
+"926
+[; ;nanomodbus.c: 926:     }
+}
+[e $U 205  ]
+"927
+[; ;nanomodbus.c: 927:     else {
+[e :U 197 ]
+{
+"928
+[; ;nanomodbus.c: 928:         return recv_write_single_coil_res(nmbs, address, value);
+[e ) ( _recv_write_single_coil_res (3 , , _nmbs _address _value ]
+[e $UE 194  ]
+"929
+[; ;nanomodbus.c: 929:     }
+}
+[e :U 205 ]
+"931
+[; ;nanomodbus.c: 931:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 194  ]
+"932
+[; ;nanomodbus.c: 932: }
+[e :UE 194 ]
+}
+"937
+[; ;nanomodbus.c: 937: static nmbs_error handle_write_single_register(nmbs_t* nmbs) {
+[v _handle_write_single_register `(E204 ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _handle_write_single_register ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"938
+[; ;nanomodbus.c: 938:     nmbs_error err = recv(nmbs, 4);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv (2 , _nmbs -> -> 4 `i `us ]
+"939
+[; ;nanomodbus.c: 939:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 207  ]
+"940
+[; ;nanomodbus.c: 940:         return err;
+[e ) _err ]
+[e $UE 206  ]
+[e :U 207 ]
+"942
+[; ;nanomodbus.c: 942:     uint16_t address = get_2(nmbs);
+[v _address `us ~T0 @X0 1 a ]
+[e = _address ( _get_2 (1 _nmbs ]
+"943
+[; ;nanomodbus.c: 943:     uint16_t value = get_2(nmbs);
+[v _value `us ~T0 @X0 1 a ]
+[e = _value ( _get_2 (1 _nmbs ]
+"945
+[; ;nanomodbus.c: 945:     (void) (0);
+[e -> 0 `i ]
+"947
+[; ;nanomodbus.c: 947:     err = recv_msg_footer(nmbs);
+[e = _err ( _recv_msg_footer (1 _nmbs ]
+"948
+[; ;nanomodbus.c: 948:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 208  ]
+"949
+[; ;nanomodbus.c: 949:         return err;
+[e ) _err ]
+[e $UE 206  ]
+[e :U 208 ]
+"951
+[; ;nanomodbus.c: 951:     if (!nmbs->msg.ignored) {
+[e $ ! ! != -> . . *U _nmbs 0 6 `i -> 0 `i 209  ]
+{
+"952
+[; ;nanomodbus.c: 952:         if (nmbs->callbacks.write_single_register) {
+[e $ ! != . . *U _nmbs 1 4 -> -> 0 `i `*F661 210  ]
+{
+"953
+[; ;nanomodbus.c: 953:             err = nmbs->callbacks.write_single_register(address, value, nmbs->msg.unit_id, nmbs->platform.arg);
+[e = _err ( *U . . *U _nmbs 1 4 (4 , , , _address _value . . *U _nmbs 0 2 . . *U _nmbs 4 3 ]
+"954
+[; ;nanomodbus.c: 954:             if (err != NMBS_ERROR_NONE) {
+[e $ ! != -> _err `i -> . `E204 7 `i 211  ]
+{
+"955
+[; ;nanomodbus.c: 955:                 if (((err) > 0 && (err) < 5))
+[e $ ! && > -> _err `i -> 0 `i < -> _err `i -> 5 `i 212  ]
+"956
+[; ;nanomodbus.c: 956:                     return send_exception_msg(nmbs, err);
+[e ) ( _send_exception_msg (2 , _nmbs -> _err `uc ]
+[e $UE 206  ]
+[e :U 212 ]
+"958
+[; ;nanomodbus.c: 958:                 return send_exception_msg(nmbs, NMBS_EXCEPTION_SERVER_DEVICE_FAILURE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 11 `uc ]
+[e $UE 206  ]
+"959
+[; ;nanomodbus.c: 959:             }
+}
+[e :U 211 ]
+"961
+[; ;nanomodbus.c: 961:             if (!nmbs->msg.broadcast) {
+[e $ ! ! != -> . . *U _nmbs 0 5 `i -> 0 `i 213  ]
+{
+"962
+[; ;nanomodbus.c: 962:                 put_res_header(nmbs, 4);
+[e ( _put_res_header (2 , _nmbs -> -> 4 `i `us ]
+"964
+[; ;nanomodbus.c: 964:                 put_2(nmbs, address);
+[e ( _put_2 (2 , _nmbs _address ]
+"965
+[; ;nanomodbus.c: 965:                 put_2(nmbs, value);
+[e ( _put_2 (2 , _nmbs _value ]
+"966
+[; ;nanomodbus.c: 966:                 (void) (0);
+[e -> 0 `i ]
+"968
+[; ;nanomodbus.c: 968:                 err = send_msg(nmbs);
+[e = _err ( _send_msg (1 _nmbs ]
+"969
+[; ;nanomodbus.c: 969:                 if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 214  ]
+"970
+[; ;nanomodbus.c: 970:                     return err;
+[e ) _err ]
+[e $UE 206  ]
+[e :U 214 ]
+"971
+[; ;nanomodbus.c: 971:             }
+}
+[e :U 213 ]
+"972
+[; ;nanomodbus.c: 972:         }
+}
+[e $U 215  ]
+"973
+[; ;nanomodbus.c: 973:         else {
+[e :U 210 ]
+{
+"974
+[; ;nanomodbus.c: 974:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_FUNCTION);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 8 `uc ]
+[e $UE 206  ]
+"975
+[; ;nanomodbus.c: 975:         }
+}
+[e :U 215 ]
+"976
+[; ;nanomodbus.c: 976:     }
+}
+[e $U 216  ]
+"977
+[; ;nanomodbus.c: 977:     else {
+[e :U 209 ]
+{
+"978
+[; ;nanomodbus.c: 978:         return recv_write_single_register_res(nmbs, address, value);
+[e ) ( _recv_write_single_register_res (3 , , _nmbs _address _value ]
+[e $UE 206  ]
+"979
+[; ;nanomodbus.c: 979:     }
+}
+[e :U 216 ]
+"981
+[; ;nanomodbus.c: 981:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 206  ]
+"982
+[; ;nanomodbus.c: 982: }
+[e :UE 206 ]
+}
+"987
+[; ;nanomodbus.c: 987: static nmbs_error handle_write_multiple_coils(nmbs_t* nmbs) {
+[v _handle_write_multiple_coils `(E204 ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _handle_write_multiple_coils ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"988
+[; ;nanomodbus.c: 988:     nmbs_error err = recv(nmbs, 5);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv (2 , _nmbs -> -> 5 `i `us ]
+"989
+[; ;nanomodbus.c: 989:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 218  ]
+"990
+[; ;nanomodbus.c: 990:         return err;
+[e ) _err ]
+[e $UE 217  ]
+[e :U 218 ]
+"992
+[; ;nanomodbus.c: 992:     uint16_t address = get_2(nmbs);
+[v _address `us ~T0 @X0 1 a ]
+[e = _address ( _get_2 (1 _nmbs ]
+"993
+[; ;nanomodbus.c: 993:     uint16_t quantity = get_2(nmbs);
+[v _quantity `us ~T0 @X0 1 a ]
+[e = _quantity ( _get_2 (1 _nmbs ]
+"994
+[; ;nanomodbus.c: 994:     uint8_t coils_bytes = get_1(nmbs);
+[v _coils_bytes `uc ~T0 @X0 1 a ]
+[e = _coils_bytes ( _get_1 (1 _nmbs ]
+"996
+[; ;nanomodbus.c: 996:     (void) (0);
+[e -> 0 `i ]
+"998
+[; ;nanomodbus.c: 998:     err = recv(nmbs, coils_bytes);
+[e = _err ( _recv (2 , _nmbs -> _coils_bytes `us ]
+"999
+[; ;nanomodbus.c: 999:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 219  ]
+"1000
+[; ;nanomodbus.c: 1000:         return err;
+[e ) _err ]
+[e $UE 217  ]
+[e :U 219 ]
+[v F677 `uc ~T0 @X0 -> -> 1 `i `ux s ]
+[i F677
+:U ..
+"1002
+[; ;nanomodbus.c: 1002:     nmbs_bitfield coils = {0};
+-> -> 0 `i `uc
+..
+]
+[v _coils `uc ~T0 @X0 -> -> 1 `i `ux a ]
+[e = _coils F677 ]
+"1003
+[; ;nanomodbus.c: 1003:     for (int i = 0; i < coils_bytes; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $U 223  ]
+[e :U 220 ]
+{
+"1004
+[; ;nanomodbus.c: 1004:         coils[i] = get_1(nmbs);
+[e = *U + &U _coils * -> -> _i `ui `ux -> -> # *U &U _coils `ui `ux ( _get_1 (1 _nmbs ]
+"1005
+[; ;nanomodbus.c: 1005:         (void) (0);
+[e -> 0 `i ]
+"1006
+[; ;nanomodbus.c: 1006:     }
+}
+[e ++ _i -> 1 `i ]
+[e :U 223 ]
+[e $ < _i -> _coils_bytes `i 220  ]
+[e :U 221 ]
+}
+"1008
+[; ;nanomodbus.c: 1008:     err = recv_msg_footer(nmbs);
+[e = _err ( _recv_msg_footer (1 _nmbs ]
+"1009
+[; ;nanomodbus.c: 1009:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 224  ]
+"1010
+[; ;nanomodbus.c: 1010:         return err;
+[e ) _err ]
+[e $UE 217  ]
+[e :U 224 ]
+"1012
+[; ;nanomodbus.c: 1012:     if (!nmbs->msg.ignored) {
+[e $ ! ! != -> . . *U _nmbs 0 6 `i -> 0 `i 225  ]
+{
+"1013
+[; ;nanomodbus.c: 1013:         if (quantity < 1 || quantity > 0x07B0)
+[e $ ! || < -> _quantity `ui -> -> 1 `i `ui > -> _quantity `ui -> -> 1968 `i `ui 226  ]
+"1014
+[; ;nanomodbus.c: 1014:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_VALUE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 10 `uc ]
+[e $UE 217  ]
+[e :U 226 ]
+"1016
+[; ;nanomodbus.c: 1016:         if ((uint32_t) address + (uint32_t) quantity > ((uint32_t) 0xFFFF) + 1)
+[e $ ! > + -> _address `ul -> _quantity `ul + -> -> 65535 `ui `ul -> -> -> 1 `i `l `ul 227  ]
+"1017
+[; ;nanomodbus.c: 1017:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_ADDRESS);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 9 `uc ]
+[e $UE 217  ]
+[e :U 227 ]
+"1019
+[; ;nanomodbus.c: 1019:         if (coils_bytes == 0)
+[e $ ! == -> _coils_bytes `i -> 0 `i 228  ]
+"1020
+[; ;nanomodbus.c: 1020:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_VALUE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 10 `uc ]
+[e $UE 217  ]
+[e :U 228 ]
+"1022
+[; ;nanomodbus.c: 1022:         if ((quantity + 7) / 8 != coils_bytes)
+[e $ ! != / + -> _quantity `ui -> -> 7 `i `ui -> -> 8 `i `ui -> _coils_bytes `ui 229  ]
+"1023
+[; ;nanomodbus.c: 1023:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_VALUE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 10 `uc ]
+[e $UE 217  ]
+[e :U 229 ]
+"1025
+[; ;nanomodbus.c: 1025:         if (nmbs->callbacks.write_multiple_coils) {
+[e $ ! != . . *U _nmbs 1 5 -> -> 0 `i `*F692 230  ]
+{
+"1026
+[; ;nanomodbus.c: 1026:             err = nmbs->callbacks.write_multiple_coils(address, quantity, coils, nmbs->msg.unit_id, nmbs->platform.arg);
+[e = _err ( *U . . *U _nmbs 1 5 (4 , , , , _address _quantity -> &U _coils `*Cuc . . *U _nmbs 0 2 . . *U _nmbs 4 3 ]
+"1027
+[; ;nanomodbus.c: 1027:             if (err != NMBS_ERROR_NONE) {
+[e $ ! != -> _err `i -> . `E204 7 `i 231  ]
+{
+"1028
+[; ;nanomodbus.c: 1028:                 if (((err) > 0 && (err) < 5))
+[e $ ! && > -> _err `i -> 0 `i < -> _err `i -> 5 `i 232  ]
+"1029
+[; ;nanomodbus.c: 1029:                     return send_exception_msg(nmbs, err);
+[e ) ( _send_exception_msg (2 , _nmbs -> _err `uc ]
+[e $UE 217  ]
+[e :U 232 ]
+"1031
+[; ;nanomodbus.c: 1031:                 return send_exception_msg(nmbs, NMBS_EXCEPTION_SERVER_DEVICE_FAILURE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 11 `uc ]
+[e $UE 217  ]
+"1032
+[; ;nanomodbus.c: 1032:             }
+}
+[e :U 231 ]
+"1034
+[; ;nanomodbus.c: 1034:             if (!nmbs->msg.broadcast) {
+[e $ ! ! != -> . . *U _nmbs 0 5 `i -> 0 `i 233  ]
+{
+"1035
+[; ;nanomodbus.c: 1035:                 put_res_header(nmbs, 4);
+[e ( _put_res_header (2 , _nmbs -> -> 4 `i `us ]
+"1037
+[; ;nanomodbus.c: 1037:                 put_2(nmbs, address);
+[e ( _put_2 (2 , _nmbs _address ]
+"1038
+[; ;nanomodbus.c: 1038:                 put_2(nmbs, quantity);
+[e ( _put_2 (2 , _nmbs _quantity ]
+"1039
+[; ;nanomodbus.c: 1039:                 (void) (0);
+[e -> 0 `i ]
+"1041
+[; ;nanomodbus.c: 1041:                 err = send_msg(nmbs);
+[e = _err ( _send_msg (1 _nmbs ]
+"1042
+[; ;nanomodbus.c: 1042:                 if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 234  ]
+"1043
+[; ;nanomodbus.c: 1043:                     return err;
+[e ) _err ]
+[e $UE 217  ]
+[e :U 234 ]
+"1044
+[; ;nanomodbus.c: 1044:             }
+}
+[e :U 233 ]
+"1045
+[; ;nanomodbus.c: 1045:         }
+}
+[e $U 235  ]
+"1046
+[; ;nanomodbus.c: 1046:         else {
+[e :U 230 ]
+{
+"1047
+[; ;nanomodbus.c: 1047:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_FUNCTION);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 8 `uc ]
+[e $UE 217  ]
+"1048
+[; ;nanomodbus.c: 1048:         }
+}
+[e :U 235 ]
+"1049
+[; ;nanomodbus.c: 1049:     }
+}
+[e $U 236  ]
+"1050
+[; ;nanomodbus.c: 1050:     else {
+[e :U 225 ]
+{
+"1051
+[; ;nanomodbus.c: 1051:         return recv_write_multiple_coils_res(nmbs, address, quantity);
+[e ) ( _recv_write_multiple_coils_res (3 , , _nmbs _address _quantity ]
+[e $UE 217  ]
+"1052
+[; ;nanomodbus.c: 1052:     }
+}
+[e :U 236 ]
+"1054
+[; ;nanomodbus.c: 1054:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 217  ]
+"1055
+[; ;nanomodbus.c: 1055: }
+[e :UE 217 ]
+}
+"1060
+[; ;nanomodbus.c: 1060: static nmbs_error handle_write_multiple_registers(nmbs_t* nmbs) {
+[v _handle_write_multiple_registers `(E204 ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _handle_write_multiple_registers ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"1061
+[; ;nanomodbus.c: 1061:     nmbs_error err = recv(nmbs, 5);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv (2 , _nmbs -> -> 5 `i `us ]
+"1062
+[; ;nanomodbus.c: 1062:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 238  ]
+"1063
+[; ;nanomodbus.c: 1063:         return err;
+[e ) _err ]
+[e $UE 237  ]
+[e :U 238 ]
+"1065
+[; ;nanomodbus.c: 1065:     uint16_t address = get_2(nmbs);
+[v _address `us ~T0 @X0 1 a ]
+[e = _address ( _get_2 (1 _nmbs ]
+"1066
+[; ;nanomodbus.c: 1066:     uint16_t quantity = get_2(nmbs);
+[v _quantity `us ~T0 @X0 1 a ]
+[e = _quantity ( _get_2 (1 _nmbs ]
+"1067
+[; ;nanomodbus.c: 1067:     uint8_t registers_bytes = get_1(nmbs);
+[v _registers_bytes `uc ~T0 @X0 1 a ]
+[e = _registers_bytes ( _get_1 (1 _nmbs ]
+"1069
+[; ;nanomodbus.c: 1069:     (void) (0);
+[e -> 0 `i ]
+"1071
+[; ;nanomodbus.c: 1071:     err = recv(nmbs, registers_bytes);
+[e = _err ( _recv (2 , _nmbs -> _registers_bytes `us ]
+"1072
+[; ;nanomodbus.c: 1072:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 239  ]
+"1073
+[; ;nanomodbus.c: 1073:         return err;
+[e ) _err ]
+[e $UE 237  ]
+[e :U 239 ]
+"1075
+[; ;nanomodbus.c: 1075:     uint16_t registers[32];
+[v _registers `us ~T0 @X0 -> 32 `i a ]
+"1076
+[; ;nanomodbus.c: 1076:     for (int i = 0; i < registers_bytes / 2; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $U 243  ]
+[e :U 240 ]
+{
+"1077
+[; ;nanomodbus.c: 1077:         registers[i] = get_2(nmbs);
+[e = *U + &U _registers * -> -> _i `ui `ux -> -> # *U &U _registers `ui `ux ( _get_2 (1 _nmbs ]
+"1078
+[; ;nanomodbus.c: 1078:         (void) (0);
+[e -> 0 `i ]
+"1079
+[; ;nanomodbus.c: 1079:     }
+}
+[e ++ _i -> 1 `i ]
+[e :U 243 ]
+[e $ < _i / -> _registers_bytes `i -> 2 `i 240  ]
+[e :U 241 ]
+}
+"1081
+[; ;nanomodbus.c: 1081:     err = recv_msg_footer(nmbs);
+[e = _err ( _recv_msg_footer (1 _nmbs ]
+"1082
+[; ;nanomodbus.c: 1082:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 244  ]
+"1083
+[; ;nanomodbus.c: 1083:         return err;
+[e ) _err ]
+[e $UE 237  ]
+[e :U 244 ]
+"1085
+[; ;nanomodbus.c: 1085:     if (!nmbs->msg.ignored) {
+[e $ ! ! != -> . . *U _nmbs 0 6 `i -> 0 `i 245  ]
+{
+"1086
+[; ;nanomodbus.c: 1086:         if (quantity < 1 || quantity > 0x007B)
+[e $ ! || < -> _quantity `ui -> -> 1 `i `ui > -> _quantity `ui -> -> 123 `i `ui 246  ]
+"1087
+[; ;nanomodbus.c: 1087:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_VALUE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 10 `uc ]
+[e $UE 237  ]
+[e :U 246 ]
+"1089
+[; ;nanomodbus.c: 1089:         if ((uint32_t) address + (uint32_t) quantity > ((uint32_t) 0xFFFF) + 1)
+[e $ ! > + -> _address `ul -> _quantity `ul + -> -> 65535 `ui `ul -> -> -> 1 `i `l `ul 247  ]
+"1090
+[; ;nanomodbus.c: 1090:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_ADDRESS);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 9 `uc ]
+[e $UE 237  ]
+[e :U 247 ]
+"1092
+[; ;nanomodbus.c: 1092:         if (registers_bytes == 0)
+[e $ ! == -> _registers_bytes `i -> 0 `i 248  ]
+"1093
+[; ;nanomodbus.c: 1093:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_VALUE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 10 `uc ]
+[e $UE 237  ]
+[e :U 248 ]
+"1095
+[; ;nanomodbus.c: 1095:         if (registers_bytes != quantity * 2)
+[e $ ! != -> _registers_bytes `ui * -> _quantity `ui -> -> 2 `i `ui 249  ]
+"1096
+[; ;nanomodbus.c: 1096:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_VALUE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 10 `uc ]
+[e $UE 237  ]
+[e :U 249 ]
+"1098
+[; ;nanomodbus.c: 1098:         if (nmbs->callbacks.write_multiple_registers) {
+[e $ ! != . . *U _nmbs 1 6 -> -> 0 `i `*F724 250  ]
+{
+"1099
+[; ;nanomodbus.c: 1099:             err = nmbs->callbacks.write_multiple_registers(address, quantity, registers, nmbs->msg.unit_id,
+[e = _err ( *U . . *U _nmbs 1 6 (4 , , , , _address _quantity -> &U _registers `*Cus . . *U _nmbs 0 2 . . *U _nmbs 4 3 ]
+"1101
+[; ;nanomodbus.c: 1101:             if (err != NMBS_ERROR_NONE) {
+[e $ ! != -> _err `i -> . `E204 7 `i 251  ]
+{
+"1102
+[; ;nanomodbus.c: 1102:                 if (((err) > 0 && (err) < 5))
+[e $ ! && > -> _err `i -> 0 `i < -> _err `i -> 5 `i 252  ]
+"1103
+[; ;nanomodbus.c: 1103:                     return send_exception_msg(nmbs, err);
+[e ) ( _send_exception_msg (2 , _nmbs -> _err `uc ]
+[e $UE 237  ]
+[e :U 252 ]
+"1105
+[; ;nanomodbus.c: 1105:                 return send_exception_msg(nmbs, NMBS_EXCEPTION_SERVER_DEVICE_FAILURE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 11 `uc ]
+[e $UE 237  ]
+"1106
+[; ;nanomodbus.c: 1106:             }
+}
+[e :U 251 ]
+"1108
+[; ;nanomodbus.c: 1108:             if (!nmbs->msg.broadcast) {
+[e $ ! ! != -> . . *U _nmbs 0 5 `i -> 0 `i 253  ]
+{
+"1109
+[; ;nanomodbus.c: 1109:                 put_res_header(nmbs, 4);
+[e ( _put_res_header (2 , _nmbs -> -> 4 `i `us ]
+"1111
+[; ;nanomodbus.c: 1111:                 put_2(nmbs, address);
+[e ( _put_2 (2 , _nmbs _address ]
+"1112
+[; ;nanomodbus.c: 1112:                 put_2(nmbs, quantity);
+[e ( _put_2 (2 , _nmbs _quantity ]
+"1113
+[; ;nanomodbus.c: 1113:                 (void) (0);
+[e -> 0 `i ]
+"1115
+[; ;nanomodbus.c: 1115:                 err = send_msg(nmbs);
+[e = _err ( _send_msg (1 _nmbs ]
+"1116
+[; ;nanomodbus.c: 1116:                 if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 254  ]
+"1117
+[; ;nanomodbus.c: 1117:                     return err;
+[e ) _err ]
+[e $UE 237  ]
+[e :U 254 ]
+"1118
+[; ;nanomodbus.c: 1118:             }
+}
+[e :U 253 ]
+"1119
+[; ;nanomodbus.c: 1119:         }
+}
+[e $U 255  ]
+"1120
+[; ;nanomodbus.c: 1120:         else {
+[e :U 250 ]
+{
+"1121
+[; ;nanomodbus.c: 1121:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_FUNCTION);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 8 `uc ]
+[e $UE 237  ]
+"1122
+[; ;nanomodbus.c: 1122:         }
+}
+[e :U 255 ]
+"1123
+[; ;nanomodbus.c: 1123:     }
+}
+[e $U 256  ]
+"1124
+[; ;nanomodbus.c: 1124:     else {
+[e :U 245 ]
+{
+"1125
+[; ;nanomodbus.c: 1125:         return recv_write_multiple_registers_res(nmbs, address, quantity);
+[e ) ( _recv_write_multiple_registers_res (3 , , _nmbs _address _quantity ]
+[e $UE 237  ]
+"1126
+[; ;nanomodbus.c: 1126:     }
+}
+[e :U 256 ]
+"1128
+[; ;nanomodbus.c: 1128:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 237  ]
+"1129
+[; ;nanomodbus.c: 1129: }
+[e :UE 237 ]
+}
+"1346
+[; ;nanomodbus.c: 1346: static nmbs_error handle_read_write_registers(nmbs_t* nmbs) {
+[v _handle_read_write_registers `(E204 ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _handle_read_write_registers ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"1347
+[; ;nanomodbus.c: 1347:     nmbs_error err = recv(nmbs, 9);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv (2 , _nmbs -> -> 9 `i `us ]
+"1348
+[; ;nanomodbus.c: 1348:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 258  ]
+"1349
+[; ;nanomodbus.c: 1349:         return err;
+[e ) _err ]
+[e $UE 257  ]
+[e :U 258 ]
+"1351
+[; ;nanomodbus.c: 1351:     uint16_t read_address = get_2(nmbs);
+[v _read_address `us ~T0 @X0 1 a ]
+[e = _read_address ( _get_2 (1 _nmbs ]
+"1352
+[; ;nanomodbus.c: 1352:     uint16_t read_quantity = get_2(nmbs);
+[v _read_quantity `us ~T0 @X0 1 a ]
+[e = _read_quantity ( _get_2 (1 _nmbs ]
+"1353
+[; ;nanomodbus.c: 1353:     uint16_t write_address = get_2(nmbs);
+[v _write_address `us ~T0 @X0 1 a ]
+[e = _write_address ( _get_2 (1 _nmbs ]
+"1354
+[; ;nanomodbus.c: 1354:     uint16_t write_quantity = get_2(nmbs);
+[v _write_quantity `us ~T0 @X0 1 a ]
+[e = _write_quantity ( _get_2 (1 _nmbs ]
+"1356
+[; ;nanomodbus.c: 1356:     uint8_t byte_count_write = get_1(nmbs);
+[v _byte_count_write `uc ~T0 @X0 1 a ]
+[e = _byte_count_write ( _get_1 (1 _nmbs ]
+"1358
+[; ;nanomodbus.c: 1358:     (void) (0);
+[e -> 0 `i ]
+"1361
+[; ;nanomodbus.c: 1361:     err = recv(nmbs, byte_count_write);
+[e = _err ( _recv (2 , _nmbs -> _byte_count_write `us ]
+"1362
+[; ;nanomodbus.c: 1362:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 259  ]
+"1363
+[; ;nanomodbus.c: 1363:         return err;
+[e ) _err ]
+[e $UE 257  ]
+[e :U 259 ]
+"1366
+[; ;nanomodbus.c: 1366:     uint16_t registers[32];
+[v _registers `us ~T0 @X0 -> 32 `i a ]
+"1370
+[; ;nanomodbus.c: 1370:     for (int i = 0; i < byte_count_write / 2; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $U 263  ]
+[e :U 260 ]
+{
+"1371
+[; ;nanomodbus.c: 1371:         registers[i] = get_2(nmbs);
+[e = *U + &U _registers * -> -> _i `ui `ux -> -> # *U &U _registers `ui `ux ( _get_2 (1 _nmbs ]
+"1372
+[; ;nanomodbus.c: 1372:         (void) (0);
+[e -> 0 `i ]
+"1373
+[; ;nanomodbus.c: 1373:     }
+}
+[e ++ _i -> 1 `i ]
+[e :U 263 ]
+[e $ < _i / -> _byte_count_write `i -> 2 `i 260  ]
+[e :U 261 ]
+}
+"1375
+[; ;nanomodbus.c: 1375:     err = recv_msg_footer(nmbs);
+[e = _err ( _recv_msg_footer (1 _nmbs ]
+"1376
+[; ;nanomodbus.c: 1376:     if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 264  ]
+"1377
+[; ;nanomodbus.c: 1377:         return err;
+[e ) _err ]
+[e $UE 257  ]
+[e :U 264 ]
+"1379
+[; ;nanomodbus.c: 1379:     if (!nmbs->msg.ignored) {
+[e $ ! ! != -> . . *U _nmbs 0 6 `i -> 0 `i 265  ]
+{
+"1380
+[; ;nanomodbus.c: 1380:         if (read_quantity < 1 || read_quantity > 0x007D)
+[e $ ! || < -> _read_quantity `ui -> -> 1 `i `ui > -> _read_quantity `ui -> -> 125 `i `ui 266  ]
+"1381
+[; ;nanomodbus.c: 1381:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_VALUE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 10 `uc ]
+[e $UE 257  ]
+[e :U 266 ]
+"1383
+[; ;nanomodbus.c: 1383:         if (write_quantity < 1 || write_quantity > 0x007B)
+[e $ ! || < -> _write_quantity `ui -> -> 1 `i `ui > -> _write_quantity `ui -> -> 123 `i `ui 267  ]
+"1384
+[; ;nanomodbus.c: 1384:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_VALUE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 10 `uc ]
+[e $UE 257  ]
+[e :U 267 ]
+"1386
+[; ;nanomodbus.c: 1386:         if (byte_count_write != write_quantity * 2)
+[e $ ! != -> _byte_count_write `ui * -> _write_quantity `ui -> -> 2 `i `ui 268  ]
+"1387
+[; ;nanomodbus.c: 1387:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_VALUE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 10 `uc ]
+[e $UE 257  ]
+[e :U 268 ]
+"1389
+[; ;nanomodbus.c: 1389:         if ((uint32_t) read_address + (uint32_t) read_quantity > ((uint32_t) 0xFFFF) + 1)
+[e $ ! > + -> _read_address `ul -> _read_quantity `ul + -> -> 65535 `ui `ul -> -> -> 1 `i `l `ul 269  ]
+"1390
+[; ;nanomodbus.c: 1390:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_ADDRESS);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 9 `uc ]
+[e $UE 257  ]
+[e :U 269 ]
+"1392
+[; ;nanomodbus.c: 1392:         if ((uint32_t) write_address + (uint32_t) write_quantity > ((uint32_t) 0xFFFF) + 1)
+[e $ ! > + -> _write_address `ul -> _write_quantity `ul + -> -> 65535 `ui `ul -> -> -> 1 `i `l `ul 270  ]
+"1393
+[; ;nanomodbus.c: 1393:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_DATA_ADDRESS);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 9 `uc ]
+[e $UE 257  ]
+[e :U 270 ]
+"1395
+[; ;nanomodbus.c: 1395:         if (!nmbs->callbacks.write_multiple_registers || !nmbs->callbacks.read_holding_registers)
+[e $ ! || ! != . . *U _nmbs 1 6 -> -> 0 `i `*F758 ! != . . *U _nmbs 1 1 -> -> 0 `i `*F776 271  ]
+"1396
+[; ;nanomodbus.c: 1396:             return send_exception_msg(nmbs, NMBS_EXCEPTION_ILLEGAL_FUNCTION);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 8 `uc ]
+[e $UE 257  ]
+[e :U 271 ]
+"1398
+[; ;nanomodbus.c: 1398:         err = nmbs->callbacks.write_multiple_registers(write_address, write_quantity, registers, nmbs->msg.unit_id,
+[e = _err ( *U . . *U _nmbs 1 6 (4 , , , , _write_address _write_quantity -> &U _registers `*Cus . . *U _nmbs 0 2 . . *U _nmbs 4 3 ]
+"1400
+[; ;nanomodbus.c: 1400:         if (err != NMBS_ERROR_NONE) {
+[e $ ! != -> _err `i -> . `E204 7 `i 272  ]
+{
+"1401
+[; ;nanomodbus.c: 1401:             if (((err) > 0 && (err) < 5))
+[e $ ! && > -> _err `i -> 0 `i < -> _err `i -> 5 `i 273  ]
+"1402
+[; ;nanomodbus.c: 1402:                 return send_exception_msg(nmbs, err);
+[e ) ( _send_exception_msg (2 , _nmbs -> _err `uc ]
+[e $UE 257  ]
+[e :U 273 ]
+"1404
+[; ;nanomodbus.c: 1404:             return send_exception_msg(nmbs, NMBS_EXCEPTION_SERVER_DEVICE_FAILURE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 11 `uc ]
+[e $UE 257  ]
+"1405
+[; ;nanomodbus.c: 1405:         }
+}
+[e :U 272 ]
+"1407
+[; ;nanomodbus.c: 1407:         if (!nmbs->msg.broadcast) {
+[e $ ! ! != -> . . *U _nmbs 0 5 `i -> 0 `i 274  ]
+{
+"1409
+[; ;nanomodbus.c: 1409:             uint16_t regs[32];
+[v _regs `us ~T0 @X0 -> 32 `i a ]
+"1413
+[; ;nanomodbus.c: 1413:             err = nmbs->callbacks.read_holding_registers(read_address, read_quantity, regs, nmbs->msg.unit_id,
+[e = _err ( *U . . *U _nmbs 1 1 (4 , , , , _read_address _read_quantity &U _regs . . *U _nmbs 0 2 . . *U _nmbs 4 3 ]
+"1415
+[; ;nanomodbus.c: 1415:             if (err != NMBS_ERROR_NONE) {
+[e $ ! != -> _err `i -> . `E204 7 `i 275  ]
+{
+"1416
+[; ;nanomodbus.c: 1416:                 if (((err) > 0 && (err) < 5))
+[e $ ! && > -> _err `i -> 0 `i < -> _err `i -> 5 `i 276  ]
+"1417
+[; ;nanomodbus.c: 1417:                     return send_exception_msg(nmbs, err);
+[e ) ( _send_exception_msg (2 , _nmbs -> _err `uc ]
+[e $UE 257  ]
+[e :U 276 ]
+"1419
+[; ;nanomodbus.c: 1419:                 return send_exception_msg(nmbs, NMBS_EXCEPTION_SERVER_DEVICE_FAILURE);
+[e ) ( _send_exception_msg (2 , _nmbs -> . `E204 11 `uc ]
+[e $UE 257  ]
+"1420
+[; ;nanomodbus.c: 1420:             }
+}
+[e :U 275 ]
+"1422
+[; ;nanomodbus.c: 1422:             uint8_t regs_bytes = read_quantity * 2;
+[v _regs_bytes `uc ~T0 @X0 1 a ]
+[e = _regs_bytes -> * -> _read_quantity `ui -> -> 2 `i `ui `uc ]
+"1423
+[; ;nanomodbus.c: 1423:             put_res_header(nmbs, 1 + regs_bytes);
+[e ( _put_res_header (2 , _nmbs -> + -> 1 `i -> _regs_bytes `i `us ]
+"1425
+[; ;nanomodbus.c: 1425:             put_1(nmbs, regs_bytes);
+[e ( _put_1 (2 , _nmbs _regs_bytes ]
+"1427
+[; ;nanomodbus.c: 1427:             (void) (0);
+[e -> 0 `i ]
+"1429
+[; ;nanomodbus.c: 1429:             (void) (0);
+[e -> 0 `i ]
+"1430
+[; ;nanomodbus.c: 1430:             for (int i = 0; i < read_quantity; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $U 280  ]
+[e :U 277 ]
+{
+"1431
+[; ;nanomodbus.c: 1431:                 put_2(nmbs, regs[i]);
+[e ( _put_2 (2 , _nmbs *U + &U _regs * -> -> _i `ui `ux -> -> # *U &U _regs `ui `ux ]
+"1432
+[; ;nanomodbus.c: 1432:                 (void) (0);
+[e -> 0 `i ]
+"1433
+[; ;nanomodbus.c: 1433:             }
+}
+[e ++ _i -> 1 `i ]
+[e :U 280 ]
+[e $ < -> _i `ui -> _read_quantity `ui 277  ]
+[e :U 278 ]
+}
+"1435
+[; ;nanomodbus.c: 1435:             err = send_msg(nmbs);
+[e = _err ( _send_msg (1 _nmbs ]
+"1436
+[; ;nanomodbus.c: 1436:             if (err != NMBS_ERROR_NONE)
+[e $ ! != -> _err `i -> . `E204 7 `i 281  ]
+"1437
+[; ;nanomodbus.c: 1437:                 return err;
+[e ) _err ]
+[e $UE 257  ]
+[e :U 281 ]
+"1438
+[; ;nanomodbus.c: 1438:         }
+}
+[e :U 274 ]
+"1439
+[; ;nanomodbus.c: 1439:     }
+}
+[e $U 282  ]
+"1440
+[; ;nanomodbus.c: 1440:     else {
+[e :U 265 ]
+{
+"1441
+[; ;nanomodbus.c: 1441:         return recv_write_multiple_registers_res(nmbs, write_address, write_quantity);
+[e ) ( _recv_write_multiple_registers_res (3 , , _nmbs _write_address _write_quantity ]
+[e $UE 257  ]
+"1442
+[; ;nanomodbus.c: 1442:     }
+}
+[e :U 282 ]
+"1444
+[; ;nanomodbus.c: 1444:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 257  ]
+"1445
+[; ;nanomodbus.c: 1445: }
+[e :UE 257 ]
+}
+"1449
+[; ;nanomodbus.c: 1449: static nmbs_error handle_req_fc(nmbs_t* nmbs) {
+[v _handle_req_fc `(E204 ~T0 @X0 1 sf1`*S4 ]
+{
+[e :U _handle_req_fc ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"1450
+[; ;nanomodbus.c: 1450:     (void) (0);
+[e -> 0 `i ]
+"1452
+[; ;nanomodbus.c: 1452:     nmbs_error err;
+[v _err `E204 ~T0 @X0 1 a ]
+"1453
+[; ;nanomodbus.c: 1453:     switch (nmbs->msg.fc) {
+[e $U 285  ]
+{
+"1455
+[; ;nanomodbus.c: 1455:         case 1:
+[e :U 286 ]
+"1456
+[; ;nanomodbus.c: 1456:             err = handle_read_coils(nmbs);
+[e = _err ( _handle_read_coils (1 _nmbs ]
+"1457
+[; ;nanomodbus.c: 1457:             break;
+[e $U 284  ]
+"1467
+[; ;nanomodbus.c: 1467:         case 3:
+[e :U 287 ]
+"1468
+[; ;nanomodbus.c: 1468:             err = handle_read_holding_registers(nmbs);
+[e = _err ( _handle_read_holding_registers (1 _nmbs ]
+"1469
+[; ;nanomodbus.c: 1469:             break;
+[e $U 284  ]
+"1473
+[; ;nanomodbus.c: 1473:         case 4:
+[e :U 288 ]
+"1474
+[; ;nanomodbus.c: 1474:             err = handle_read_input_registers(nmbs);
+[e = _err ( _handle_read_input_registers (1 _nmbs ]
+"1475
+[; ;nanomodbus.c: 1475:             break;
+[e $U 284  ]
+"1479
+[; ;nanomodbus.c: 1479:         case 5:
+[e :U 289 ]
+"1480
+[; ;nanomodbus.c: 1480:             err = handle_write_single_coil(nmbs);
+[e = _err ( _handle_write_single_coil (1 _nmbs ]
+"1481
+[; ;nanomodbus.c: 1481:             break;
+[e $U 284  ]
+"1485
+[; ;nanomodbus.c: 1485:         case 6:
+[e :U 290 ]
+"1486
+[; ;nanomodbus.c: 1486:             err = handle_write_single_register(nmbs);
+[e = _err ( _handle_write_single_register (1 _nmbs ]
+"1487
+[; ;nanomodbus.c: 1487:             break;
+[e $U 284  ]
+"1491
+[; ;nanomodbus.c: 1491:         case 15:
+[e :U 291 ]
+"1492
+[; ;nanomodbus.c: 1492:             err = handle_write_multiple_coils(nmbs);
+[e = _err ( _handle_write_multiple_coils (1 _nmbs ]
+"1493
+[; ;nanomodbus.c: 1493:             break;
+[e $U 284  ]
+"1497
+[; ;nanomodbus.c: 1497:         case 16:
+[e :U 292 ]
+"1498
+[; ;nanomodbus.c: 1498:             err = handle_write_multiple_registers(nmbs);
+[e = _err ( _handle_write_multiple_registers (1 _nmbs ]
+"1499
+[; ;nanomodbus.c: 1499:             break;
+[e $U 284  ]
+"1515
+[; ;nanomodbus.c: 1515:         case 23:
+[e :U 293 ]
+"1516
+[; ;nanomodbus.c: 1516:             err = handle_read_write_registers(nmbs);
+[e = _err ( _handle_read_write_registers (1 _nmbs ]
+"1517
+[; ;nanomodbus.c: 1517:             break;
+[e $U 284  ]
+"1519
+[; ;nanomodbus.c: 1519:         default:
+[e :U 294 ]
+"1520
+[; ;nanomodbus.c: 1520:             err = NMBS_EXCEPTION_ILLEGAL_FUNCTION;
+[e = _err . `E204 8 ]
+"1521
+[; ;nanomodbus.c: 1521:     }
+}
+[e $U 284  ]
+[e :U 285 ]
+[e [\ -> . . *U _nmbs 0 3 `i , $ -> 1 `i 286
+ , $ -> 3 `i 287
+ , $ -> 4 `i 288
+ , $ -> 5 `i 289
+ , $ -> 6 `i 290
+ , $ -> 15 `i 291
+ , $ -> 16 `i 292
+ , $ -> 23 `i 293
+ 294 ]
+[e :U 284 ]
+"1523
+[; ;nanomodbus.c: 1523:     return err;
+[e ) _err ]
+[e $UE 283  ]
+"1524
+[; ;nanomodbus.c: 1524: }
+[e :UE 283 ]
+}
+"1527
+[; ;nanomodbus.c: 1527: nmbs_error nmbs_server_create(nmbs_t* nmbs, uint8_t address_rtu, const nmbs_platform_conf* platform_conf,
+[v _nmbs_server_create `(E204 ~T0 @X0 1 ef4`*S4`uc`*CS2`*CS3 ]
+"1528
+[; ;nanomodbus.c: 1528:                               const nmbs_callbacks* callbacks) {
+{
+[e :U _nmbs_server_create ]
+"1527
+[; ;nanomodbus.c: 1527: nmbs_error nmbs_server_create(nmbs_t* nmbs, uint8_t address_rtu, const nmbs_platform_conf* platform_conf,
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[v _address_rtu `uc ~T0 @X0 1 r2 ]
+[v _platform_conf `*CS2 ~T0 @X0 1 r3 ]
+"1528
+[; ;nanomodbus.c: 1528:                               const nmbs_callbacks* callbacks) {
+[v _callbacks `*CS3 ~T0 @X0 1 r4 ]
+[f ]
+"1529
+[; ;nanomodbus.c: 1529:     if (platform_conf->transport == NMBS_TRANSPORT_RTU && address_rtu == 0)
+[e $ ! && == -> . *U _platform_conf 0 `ui -> . `E219 0 `ui == -> _address_rtu `i -> 0 `i 296  ]
+"1530
+[; ;nanomodbus.c: 1530:         return NMBS_ERROR_INVALID_ARGUMENT;
+[e ) . `E204 6 ]
+[e $UE 295  ]
+[e :U 296 ]
+"1532
+[; ;nanomodbus.c: 1532:     nmbs_error ret = nmbs_create(nmbs, platform_conf);
+[v _ret `E204 ~T0 @X0 1 a ]
+[e = _ret ( _nmbs_create (2 , _nmbs _platform_conf ]
+"1533
+[; ;nanomodbus.c: 1533:     if (ret != NMBS_ERROR_NONE)
+[e $ ! != -> _ret `i -> . `E204 7 `i 297  ]
+"1534
+[; ;nanomodbus.c: 1534:         return ret;
+[e ) _ret ]
+[e $UE 295  ]
+[e :U 297 ]
+"1536
+[; ;nanomodbus.c: 1536:     nmbs->address_rtu = address_rtu;
+[e = . *U _nmbs 5 _address_rtu ]
+"1537
+[; ;nanomodbus.c: 1537:     nmbs->callbacks = *callbacks;
+[e = . *U _nmbs 1 *U _callbacks ]
+"1539
+[; ;nanomodbus.c: 1539:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 295  ]
+"1540
+[; ;nanomodbus.c: 1540: }
+[e :UE 295 ]
+}
+"1543
+[; ;nanomodbus.c: 1543: nmbs_error nmbs_server_poll(nmbs_t* nmbs) {
+[v _nmbs_server_poll `(E204 ~T0 @X0 1 ef1`*S4 ]
+{
+[e :U _nmbs_server_poll ]
+[v _nmbs `*S4 ~T0 @X0 1 r1 ]
+[f ]
+"1544
+[; ;nanomodbus.c: 1544:     msg_state_reset(nmbs);
+[e ( _msg_state_reset (1 _nmbs ]
+"1546
+[; ;nanomodbus.c: 1546:     _Bool first_byte_received = 0;
+[v _first_byte_received `a ~T0 @X0 1 a ]
+[e = _first_byte_received -> -> 0 `i `a ]
+"1547
+[; ;nanomodbus.c: 1547:     nmbs_error err = recv_req_header(nmbs, &first_byte_received);
+[v _err `E204 ~T0 @X0 1 a ]
+[e = _err ( _recv_req_header (2 , _nmbs &U _first_byte_received ]
+"1548
+[; ;nanomodbus.c: 1548:     if (err != NMBS_ERROR_NONE) {
+[e $ ! != -> _err `i -> . `E204 7 `i 299  ]
+{
+"1549
+[; ;nanomodbus.c: 1549:         if (!first_byte_received && err == NMBS_ERROR_TIMEOUT)
+[e $ ! && ! != -> _first_byte_received `i -> 0 `i == -> _err `i -> . `E204 4 `i 300  ]
+"1550
+[; ;nanomodbus.c: 1550:             return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 298  ]
+[e :U 300 ]
+"1552
+[; ;nanomodbus.c: 1552:         return err;
+[e ) _err ]
+[e $UE 298  ]
+"1553
+[; ;nanomodbus.c: 1553:     }
+}
+[e :U 299 ]
+"1566
+[; ;nanomodbus.c: 1566:     err = handle_req_fc(nmbs);
+[e = _err ( _handle_req_fc (1 _nmbs ]
+"1567
+[; ;nanomodbus.c: 1567:     if (err != NMBS_ERROR_NONE && !((err) > 0 && (err) < 5)) {
+[e $ ! && != -> _err `i -> . `E204 7 `i ! && > -> _err `i -> 0 `i < -> _err `i -> 5 `i 301  ]
+{
+"1568
+[; ;nanomodbus.c: 1568:         if (nmbs->platform.transport == NMBS_TRANSPORT_RTU && err != NMBS_ERROR_TIMEOUT && nmbs->msg.ignored) {
+[e $ ! && && == -> . . *U _nmbs 4 0 `ui -> . `E219 0 `ui != -> _err `i -> . `E204 4 `i != -> . . *U _nmbs 0 6 `i -> 0 `i 302  ]
+{
+"1570
+[; ;nanomodbus.c: 1570:             nmbs->platform.read(nmbs->msg.buf, sizeof(nmbs->msg.buf), 0, nmbs->platform.arg);
+[e ( *U . . *U _nmbs 4 1 (4 , , , &U . . *U _nmbs 0 0 -> * -> # *U &U . . *U _nmbs 0 0 `ui -> -> 32 `i `ui `us -> -> 0 `i `l . . *U _nmbs 4 3 ]
+"1571
+[; ;nanomodbus.c: 1571:         }
+}
+[e :U 302 ]
+"1573
+[; ;nanomodbus.c: 1573:         return err;
+[e ) _err ]
+[e $UE 298  ]
+"1574
+[; ;nanomodbus.c: 1574:     }
+}
+[e :U 301 ]
+"1576
+[; ;nanomodbus.c: 1576:     return NMBS_ERROR_NONE;
+[e ) . `E204 7 ]
+[e $UE 298  ]
+"1577
+[; ;nanomodbus.c: 1577: }
+[e :UE 298 ]
+}
