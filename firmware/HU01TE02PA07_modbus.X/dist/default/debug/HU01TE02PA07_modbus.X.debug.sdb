@@ -1,0 +1,2158 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18425 ]
+[d frameptr 6 ]
+"67 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/examples/i2c1_master_example.c
+[e E358 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"68
+[e E363 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+"114 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/adcc.c
+[e E10340 . `uc
+A4 4
+A5 5
+A2 18
+channel_Vss 59
+channel_Temp_Sensor 60
+channel_DAC1_Output 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+]
+"146 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/i2c1_master.c
+[e E10731 . `uc
+I2C1_IDLE 0
+I2C1_SEND_ADR_READ 1
+I2C1_SEND_ADR_WRITE 2
+I2C1_TX 3
+I2C1_RX 4
+I2C1_RCEN 5
+I2C1_TX_EMPTY 6
+I2C1_SEND_RESTART_READ 7
+I2C1_SEND_RESTART_WRITE 8
+I2C1_SEND_RESTART 9
+I2C1_SEND_STOP 10
+I2C1_RX_ACK 11
+I2C1_RX_NACK_STOP 12
+I2C1_RX_NACK_RESTART 13
+I2C1_RESET 14
+I2C1_ADDRESS_NACK 15
+]
+"165
+[e E363 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+[e E358 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"191
+[e E10749 . `uc
+I2C1_DATA_COMPLETE 0
+I2C1_WRITE_COLLISION 1
+I2C1_ADDR_NACK 2
+I2C1_DATA_NACK 3
+I2C1_TIMEOUT 4
+I2C1_NULL 5
+]
+"55 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/main.c
+[e E10735 . `uc
+A4 4
+A5 5
+A2 18
+channel_Vss 59
+channel_Temp_Sensor 60
+channel_DAC1_Output 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+]
+"117
+[e E10966 nmbs_error `c
+NMBS_ERROR_INVALID_UNIT_ID -7
+NMBS_ERROR_INVALID_TCP_MBAP -6
+NMBS_ERROR_CRC -5
+NMBS_ERROR_TRANSPORT -4
+NMBS_ERROR_TIMEOUT -3
+NMBS_ERROR_INVALID_RESPONSE -2
+NMBS_ERROR_INVALID_ARGUMENT -1
+NMBS_ERROR_NONE 0
+NMBS_EXCEPTION_ILLEGAL_FUNCTION 1
+NMBS_EXCEPTION_ILLEGAL_DATA_ADDRESS 2
+NMBS_EXCEPTION_ILLEGAL_DATA_VALUE 3
+NMBS_EXCEPTION_SERVER_DEVICE_FAILURE 4
+]
+[e E10981 nmbs_transport `uc
+NMBS_TRANSPORT_RTU 1
+NMBS_TRANSPORT_TCP 2
+]
+"163
+[e E10868 . `uc
+TEMP 0
+PRES 1
+]
+"8 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/sensor.c
+[e E10735 . `uc
+A4 4
+A5 5
+A2 18
+channel_Vss 59
+channel_Temp_Sensor 60
+channel_DAC1_Output 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+]
+"88
+[e E10868 . `uc
+TEMP 0
+PRES 1
+]
+"60 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/modbus_imp.c
+[e E10966 nmbs_error `c
+NMBS_ERROR_INVALID_UNIT_ID -7
+NMBS_ERROR_INVALID_TCP_MBAP -6
+NMBS_ERROR_CRC -5
+NMBS_ERROR_TRANSPORT -4
+NMBS_ERROR_TIMEOUT -3
+NMBS_ERROR_INVALID_RESPONSE -2
+NMBS_ERROR_INVALID_ARGUMENT -1
+NMBS_ERROR_NONE 0
+NMBS_EXCEPTION_ILLEGAL_FUNCTION 1
+NMBS_EXCEPTION_ILLEGAL_DATA_ADDRESS 2
+NMBS_EXCEPTION_ILLEGAL_DATA_VALUE 3
+NMBS_EXCEPTION_SERVER_DEVICE_FAILURE 4
+]
+"39 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/nanomodbus.c
+[e E10857 nmbs_error `c
+NMBS_ERROR_INVALID_UNIT_ID -7
+NMBS_ERROR_INVALID_TCP_MBAP -6
+NMBS_ERROR_CRC -5
+NMBS_ERROR_TRANSPORT -4
+NMBS_ERROR_TIMEOUT -3
+NMBS_ERROR_INVALID_RESPONSE -2
+NMBS_ERROR_INVALID_ARGUMENT -1
+NMBS_ERROR_NONE 0
+NMBS_EXCEPTION_ILLEGAL_FUNCTION 1
+NMBS_EXCEPTION_ILLEGAL_DATA_ADDRESS 2
+NMBS_EXCEPTION_ILLEGAL_DATA_VALUE 3
+NMBS_EXCEPTION_SERVER_DEVICE_FAILURE 4
+]
+[e E10872 nmbs_transport `uc
+NMBS_TRANSPORT_RTU 1
+NMBS_TRANSPORT_TCP 2
+]
+"5 /opt/microchip/xc8/v2.50/pic/sources/c99/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 /opt/microchip/xc8/v2.50/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"1177 /opt/microchip/xc8/v2.50/pic/sources/c99/common/doprnt.c
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1817
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"5 /opt/microchip/xc8/v2.50/pic/sources/c99/common/ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"5 /opt/microchip/xc8/v2.50/pic/sources/c99/common/ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"5 /opt/microchip/xc8/v2.50/pic/sources/c99/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 /opt/microchip/xc8/v2.50/pic/sources/c99/common/lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"8 /opt/microchip/xc8/v2.50/pic/sources/c99/common/nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 /opt/microchip/xc8/v2.50/pic/sources/c99/common/nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 /opt/microchip/xc8/v2.50/pic/sources/c99/common/printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"7 /opt/microchip/xc8/v2.50/pic/sources/c99/common/putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 /opt/microchip/xc8/v2.50/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 /opt/microchip/xc8/v2.50/pic/sources/c99/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 /opt/microchip/xc8/v2.50/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v2.50/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"20 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/communication.c
+[v _sendPacket sendPacket `(v  1 e 1 0 ]
+"64
+[v _TxDeviceEnable TxDeviceEnable `(v  1 e 1 0 ]
+"69
+[v _TxDeviceDisable TxDeviceDisable `(v  1 e 1 0 ]
+"96 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/device.c
+[v _stringlen stringlen `(uc  1 e 1 0 ]
+"140
+[v _uint24ToString uint24ToString `(v  1 e 1 0 ]
+"165
+[v _itoa itoa `(c  1 e 1 0 ]
+"87 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"176
+[v _is_a_new_value is_a_new_value `(v  1 e 1 0 ]
+"63 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"138
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+"84 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/eusart1.c
+[v _setBaudRateEUSART1 setBaudRateEUSART1 `(uc  1 e 1 0 ]
+"177
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"218
+[v _EUSART1_is_tx_ready EUSART1_is_tx_ready `(a  1 e 1 0 ]
+"228
+[v _EUSART1_is_tx_done EUSART1_is_tx_done `(a  1 e 1 0 ]
+"238
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"259
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"270
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+"294
+[v _EUSART1_RxDataHandler EUSART1_RxDataHandler `(v  1 e 1 0 ]
+"319
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"321
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"329
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"333
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"337
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"341
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+"346
+[v _EUSART1_SetRxInterruptHandler EUSART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+"350
+[v _UART_ClearBuffer UART_ClearBuffer `(v  1 e 1 0 ]
+[v i1_UART_ClearBuffer UART_ClearBuffer `(v  1 e 1 0 ]
+"111 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_WriteNBytes I2C1_WriteNBytes `(v  1 e 1 0 ]
+"120
+[v _I2C1_ReadNBytes I2C1_ReadNBytes `(v  1 e 1 0 ]
+"142
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E363  1 s 1 rd1RegCompleteHandler ]
+"149
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E363  1 s 1 rd2RegCompleteHandler ]
+"156
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E363  1 s 1 wr1RegCompleteHandler ]
+"163
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E363  1 s 1 wr2RegCompleteHandler ]
+"170
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E363  1 s 1 rdBlkRegCompleteHandler ]
+"58 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+"64
+[v _FVR_IsOutputReady FVR_IsOutputReady `(a  1 e 1 0 ]
+"167 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"176
+[v _I2C1_Open I2C1_Open `(E358  1 e 1 0 ]
+"209
+[v _I2C1_Close I2C1_Close `(E358  1 e 1 0 ]
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E358  1 e 1 0 ]
+"246
+[v _I2C1_MasterRead I2C1_MasterRead `(E358  1 e 1 0 ]
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E358  1 e 1 0 ]
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+"273
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+"283
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E10731  1 s 1 I2C1_DO_IDLE ]
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E10731  1 s 1 I2C1_DO_SEND_ADR_READ ]
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E10731  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E10731  1 s 1 I2C1_DO_TX ]
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E10731  1 s 1 I2C1_DO_RX ]
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E10731  1 s 1 I2C1_DO_RCEN ]
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E10731  1 s 1 I2C1_DO_TX_EMPTY ]
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E10731  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E10731  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E10731  1 s 1 I2C1_DO_SEND_RESTART ]
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E10731  1 s 1 I2C1_DO_SEND_STOP ]
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E10731  1 s 1 I2C1_DO_RX_ACK ]
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E10731  1 s 1 I2C1_DO_RX_NACK_STOP ]
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E10731  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E10731  1 s 1 I2C1_DO_RESET ]
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E10731  1 s 1 I2C1_DO_ADDRESS_NACK ]
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E363  1 e 1 0 ]
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E363  1 e 1 0 ]
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+"578
+[v _I2C1_MasterDisableRestart I2C1_MasterDisableRestart `T(v  1 s 1 I2C1_MasterDisableRestart ]
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+"615
+[v _I2C1_MasterClearBusCollision I2C1_MasterClearBusCollision `T(v  1 s 1 I2C1_MasterClearBusCollision ]
+"625
+[v _I2C1_MasterEnableIrq I2C1_MasterEnableIrq `T(v  1 s 1 I2C1_MasterEnableIrq ]
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+"52 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"63
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"77
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"58 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/memory.c
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+"80
+[v _DATAEE_WriteWord DATAEE_WriteWord `(v  1 e 1 0 ]
+"86
+[v _DATAEE_ReadWord DATAEE_ReadWord `(us  1 e 2 0 ]
+"94
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+"55 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"69 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"104
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+"110
+[v _TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+"132
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+"169
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+"183
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+"187
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"22 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/modbus_imp.c
+[v _read_serial read_serial `(l  1 e 4 0 ]
+"39
+[v _write_serial write_serial `(l  1 e 4 0 ]
+"75
+[v _handle_write_single_coil handle_write_single_coil `(E10966  1 e 1 0 ]
+"86
+[v _handler_read_input_registers handler_read_input_registers `(E10966  1 e 1 0 ]
+"98
+[v _handler_read_holding_registers handler_read_holding_registers `(E10966  1 e 1 0 ]
+"111
+[v _handle_write_single_register handle_write_single_register `(E10966  1 e 1 0 ]
+"123
+[v _default_values_register default_values_register `(v  1 e 1 0 ]
+"135
+[v _check_error_modbus check_error_modbus `(v  1 e 1 0 ]
+"39 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/nanomodbus.c
+[v _get_1 get_1 `(uc  1 s 1 get_1 ]
+"46
+[v _put_1 put_1 `(v  1 s 1 put_1 ]
+"56
+[v _get_2 get_2 `(us  1 s 2 get_2 ]
+"64
+[v _put_2 put_2 `(v  1 s 1 put_2 ]
+"70
+[v _msg_buf_reset msg_buf_reset `(v  1 s 1 msg_buf_reset ]
+"75
+[v _msg_state_reset msg_state_reset `(v  1 s 1 msg_state_reset ]
+"101
+[v _m_memset m_memset `(v  1 e 1 0 ]
+"110
+[v _nmbs_create nmbs_create `(E10857  1 e 1 0 ]
+"148
+[v _nmbs_crc_calc nmbs_crc_calc `(us  1 e 2 0 ]
+"166
+[v _recv recv `(E10857  1 s 1 recv ]
+"184
+[v _send send `(E10857  1 s 1 send ]
+"201
+[v _recv_msg_footer recv_msg_footer `(E10857  1 s 1 recv_msg_footer ]
+"221
+[v _recv_msg_header recv_msg_header `(E10857  1 s 1 recv_msg_header ]
+"249
+[v _put_msg_header put_msg_header `(v  1 s 1 put_msg_header ]
+"266
+[v _send_msg send_msg `(E10857  1 s 1 send_msg ]
+"281
+[v _recv_req_header recv_req_header `(E10857  1 s 1 recv_req_header ]
+"300
+[v _put_res_header put_res_header `(v  1 s 1 put_res_header ]
+"306
+[v _send_exception_msg send_exception_msg `(E10857  1 s 1 send_exception_msg ]
+"318
+[v _recv_res_header recv_res_header `(E10857  1 s 1 recv_res_header ]
+"415
+[v _recv_read_registers_res recv_read_registers_res `(E10857  1 s 1 recv_read_registers_res ]
+"450
+[v _recv_write_single_coil_res recv_write_single_coil_res `(E10857  1 e 1 0 ]
+"478
+[v _recv_write_single_register_res recv_write_single_register_res `(E10857  1 e 1 0 ]
+"626
+[v _handle_read_registers handle_read_registers `(E10857  1 s 1 handle_read_registers ]
+"702
+[v _handle_read_holding_registers handle_read_holding_registers `(E10857  1 s 1 handle_read_holding_registers ]
+"709
+[v _handle_read_input_registers handle_read_input_registers `(E10857  1 s 1 handle_read_input_registers ]
+"716
+[v _handle_write_single_coil@nanomodbus$F3828 handle_write_single_coil `(E10857  1 s 1 handle_write_single_coil ]
+"769
+[v _handle_write_single_register@nanomodbus$F3873 handle_write_single_register `(E10857  1 s 1 handle_write_single_register ]
+"1282
+[v _handle_req_fc handle_req_fc `(E10857  1 s 1 handle_req_fc ]
+"1360
+[v _nmbs_server_create nmbs_server_create `(E10966  1 e 1 0 ]
+"1376
+[v _nmbs_server_poll nmbs_server_poll `(E10966  1 e 1 0 ]
+"5 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/sensor.c
+[v _getADCData getADCData `(us  1 e 2 0 ]
+"16
+[v _readBMP280 readBMP280 `(uc  1 e 1 0 ]
+"28
+[v _writeBMP280 writeBMP280 `(v  1 e 1 0 ]
+"39
+[v _InitBMP280 InitBMP280 `(v  1 e 1 0 ]
+"45
+[v _readBMP280coeff readBMP280coeff `(v  1 e 1 0 ]
+"58
+[v _adjustBMP280coeff adjustBMP280coeff `(v  1 e 1 0 ]
+"88
+[v _getBMP280Data getBMP280Data `(um  1 e 3 0 ]
+"121
+[v _readDPS422 readDPS422 `(uc  1 e 1 0 ]
+"133
+[v _writeDPS422 writeDPS422 `(v  1 e 1 0 ]
+"190
+[v _getSHTC3Data getSHTC3Data `(us  1 e 2 0 ]
+"21 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/sensor.h
+[v _coeff_reg coeff_reg `[26]uc  1 e 26 0 ]
+[s S1663 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"426 /home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h
+[u S1668 . 1 `S1663 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES1668  1 e 1 @11 ]
+"546
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"596
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+"646
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+"696
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+[s S2486 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+]
+"711
+[u S2493 . 1 `S2486 1 . 1 0 ]
+[v _LATCbits LATCbits `VES2493  1 e 1 @26 ]
+"753
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @140 ]
+"881
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @141 ]
+"1016
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @142 ]
+"1144
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @143 ]
+"1542
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @146 ]
+"1670
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @147 ]
+"2326
+[v _ADACCU ADACCU `VEuc  1 e 1 @152 ]
+"2582
+[v _ADRPT ADRPT `VEuc  1 e 1 @154 ]
+"2980
+[v _ADRESL ADRESL `VEuc  1 e 1 @157 ]
+"3108
+[v _ADRESH ADRESH `VEuc  1 e 1 @158 ]
+"3228
+[v _ADPCH ADPCH `VEuc  1 e 1 @159 ]
+"3339
+[v _ADACQL ADACQL `VEuc  1 e 1 @268 ]
+"3467
+[v _ADACQH ADACQH `VEuc  1 e 1 @269 ]
+"3559
+[v _ADCAP ADCAP `VEuc  1 e 1 @270 ]
+"3658
+[v _ADPREL ADPREL `VEuc  1 e 1 @271 ]
+"3786
+[v _ADPREH ADPREH `VEuc  1 e 1 @272 ]
+"3878
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @273 ]
+[s S185 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM 1 0 :2:2 
+`uc 1 CS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CONT 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"3915
+[s S193 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+[s S201 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM0 1 0 :1:2 
+`uc 1 FM1 1 0 :1:3 
+]
+[s S206 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+`uc 1 ADFM1 1 0 :1:3 
+]
+[u S211 . 1 `S185 1 . 1 0 `S193 1 . 1 0 `S201 1 . 1 0 `S206 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES211  1 e 1 @273 ]
+"4000
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @274 ]
+"4090
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @275 ]
+"4268
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @276 ]
+"4398
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @277 ]
+"4523
+[v _ADREF ADREF `VEuc  1 e 1 @278 ]
+"4663
+[v _ADACT ADACT `VEuc  1 e 1 @279 ]
+"4755
+[v _ADCLK ADCLK `VEuc  1 e 1 @280 ]
+"4859
+[v _RC1REG RC1REG `VEuc  1 e 1 @281 ]
+"4913
+[v _TX1REG TX1REG `VEuc  1 e 1 @282 ]
+"4967
+[v _SP1BRG SP1BRG `VEus  1 e 2 @283 ]
+"4974
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @283 ]
+"5044
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @284 ]
+"5098
+[v _RC1STA RC1STA `VEuc  1 e 1 @285 ]
+[s S584 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"5124
+[u S593 . 1 `S584 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES593  1 e 1 @285 ]
+"5278
+[v _TX1STA TX1STA `VEuc  1 e 1 @286 ]
+[s S563 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5304
+[u S572 . 1 `S563 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES572  1 e 1 @286 ]
+"5458
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @287 ]
+"5704
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @396 ]
+"5724
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @397 ]
+"5914
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @399 ]
+"6278
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @400 ]
+[s S1018 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"6308
+[s S1024 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S1029 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S1038 . 1 `S1018 1 . 1 0 `S1024 1 . 1 0 `S1029 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES1038  1 e 1 @400 ]
+"6398
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @401 ]
+[s S1202 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"6445
+[s S1211 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK 1 0 :5:1 
+]
+[s S1214 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S1221 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S1230 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S1237 . 1 `S1202 1 . 1 0 `S1211 1 . 1 0 `S1214 1 . 1 0 `S1221 1 . 1 0 `S1230 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES1237  1 e 1 @401 ]
+"7590
+[v _TMR1L TMR1L `VEuc  1 e 1 @524 ]
+"7660
+[v _TMR1H TMR1H `VEuc  1 e 1 @525 ]
+"7730
+[v _T1CON T1CON `VEuc  1 e 1 @526 ]
+[s S1857 . 1 `uc 1 ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 NOT_SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CKPS 1 0 :2:4 
+]
+"7766
+[s S1863 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S1870 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+]
+[s S1874 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD161 1 0 :1:1 
+]
+[u S1877 . 1 `S1857 1 . 1 0 `S1863 1 . 1 0 `S1870 1 . 1 0 `S1874 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES1877  1 e 1 @526 ]
+"7920
+[v _T1GCON T1GCON `VEuc  1 e 1 @527 ]
+"8134
+[v _T1GATE T1GATE `VEuc  1 e 1 @528 ]
+"8300
+[v _T1CLK T1CLK `VEuc  1 e 1 @529 ]
+[s S670 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+"18908
+[u S677 . 1 `S670 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES677  1 e 1 @1807 ]
+[s S1693 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR3IF 1 0 :1:2 
+`uc 1 TMR4IF 1 0 :1:3 
+`uc 1 TMR5IF 1 0 :1:4 
+`uc 1 TMR6IF 1 0 :1:5 
+]
+"18958
+[u S1700 . 1 `S1693 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES1700  1 e 1 @1808 ]
+[s S610 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+"19279
+[u S617 . 1 `S610 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES617  1 e 1 @1817 ]
+[s S1676 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 TMR3IE 1 0 :1:2 
+`uc 1 TMR4IE 1 0 :1:3 
+`uc 1 TMR5IE 1 0 :1:4 
+`uc 1 TMR6IE 1 0 :1:5 
+]
+"19329
+[u S1683 . 1 `S1676 1 . 1 0 ]
+[v _PIE4bits PIE4bits `VES1683  1 e 1 @1818 ]
+"19539
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"19584
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"19640
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"19661
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"19706
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"19757
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"19784
+[v _PMD6 PMD6 `VEuc  1 e 1 @1948 ]
+"19817
+[v _PMD7 PMD7 `VEuc  1 e 1 @1949 ]
+"20512
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @2074 ]
+"20574
+[v _NVMADRH NVMADRH `VEuc  1 e 1 @2075 ]
+"20637
+[v _NVMDATL NVMDATL `VEuc  1 e 1 @2076 ]
+[s S1770 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 LWLO 1 0 :1:5 
+`uc 1 NVMREGS 1 0 :1:6 
+]
+"20765
+[u S1778 . 1 `S1770 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES1778  1 e 1 @2078 ]
+"20805
+[v _NVMCON2 NVMCON2 `VEuc  1 e 1 @2079 ]
+"20890
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"21030
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"21127
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"21178
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"21236
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"21773
+[v _FVRCON FVRCON `VEuc  1 e 1 @2316 ]
+[s S863 . 1 `uc 1 ADFVR 1 0 :2:0 
+`uc 1 CDAFVR 1 0 :2:2 
+`uc 1 TSRNG 1 0 :1:4 
+`uc 1 TSEN 1 0 :1:5 
+`uc 1 FVRRDY 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+"21794
+[s S870 . 1 `uc 1 ADFVR0 1 0 :1:0 
+`uc 1 ADFVR1 1 0 :1:1 
+`uc 1 CDAFVR0 1 0 :1:2 
+`uc 1 CDAFVR1 1 0 :1:3 
+]
+[u S875 . 1 `S863 1 . 1 0 `S870 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES875  1 e 1 @2316 ]
+"28298
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @7877 ]
+"28350
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @7878 ]
+"28610
+[v _RX1DTPPS RX1DTPPS `VEuc  1 e 1 @7883 ]
+"29004
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @7968 ]
+"29062
+[v _RC1PPS RC1PPS `VEuc  1 e 1 @7969 ]
+"29236
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @7972 ]
+"29352
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"29397
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"29447
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"29492
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"29537
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"29737
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"29787
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"29837
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"29887
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"29937
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+"153 /opt/microchip/xc8/v2.50/pic/sources/c99/common/doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"154
+[v _flags flags `uc  1 s 1 flags ]
+[s S1997 . 11 `[5]uc 1 codename 5 0 `[3]uc 1 address 3 5 `us 1 frequency 2 8 `uc 1 ADCChannel 1 10 ]
+"55 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/main.c
+[s S2003 . 13 `S1997 1 sensor_info 11 0 `*.37(us 1 sense 2 11 ]
+[v _sensor1 sensor1 `S2003  1 e 13 0 ]
+"61 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/eusart1.c
+[v _eusart1RxHead eusart1RxHead `VEuc  1 e 1 0 ]
+"62
+[v _eusart1RxTail eusart1RxTail `VEuc  1 e 1 0 ]
+"63
+[v _eusart1RxBuffer eusart1RxBuffer `VE[8]uc  1 e 8 0 ]
+[s S551 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"64
+[u S556 . 1 `S551 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxStatusBuffer eusart1RxStatusBuffer `VE[8]S556  1 e 8 0 ]
+"65
+[v _eusart1RxCount eusart1RxCount `VEuc  1 e 1 0 ]
+"66
+[v _eusart1PacketFinish eusart1PacketFinish `VEuc  1 e 1 0 ]
+"67
+[v _eusart1RxLastError eusart1RxLastError `VES556  1 e 1 0 ]
+"74
+[v _EUSART1_RxDefaultInterruptHandler EUSART1_RxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
+"76
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"77
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"78
+[v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.37(v  1 e 2 0 ]
+"146 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/i2c1_master.c
+[v _fsmStateTable fsmStateTable `DC[16]*.37(E10731  1 e 32 0 ]
+[s S992 . 30 `[6]*.37(E363 1 callbackTable 12 0 `[6]*.30v 1 callbackPayload 6 12 `us 1 time_out 2 18 `us 1 time_out_value 2 20 `uc 1 address 1 22 `*.39uc 1 data_ptr 2 23 `ui 1 data_length 2 25 `E10731 1 state 1 27 `E358 1 error 1 28 `uc 1 addressNackCheck 1 29 :1:0 
+`uc 1 busy 1 29 :1:1 
+`uc 1 inUse 1 29 :1:2 
+`uc 1 bufferFree 1 29 :1:3 
+]
+"165
+[v _I2C1_Status I2C1_Status `S992  1 e 30 0 ]
+"60 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
+"61
+[v _TMR1_InterruptHandler TMR1_InterruptHandler `*.37(v  1 e 2 0 ]
+"63
+[v _uart_expire_time uart_expire_time `VEa  1 e 1 0 ]
+"87 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"117
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v main@nmbs nmbs `S2162  1 a 76 0 ]
+[s S2049 . 1 `[1]uc 1 coils 1 0 ]
+"100
+[s S2051 . 40 `us 1 sensor_type 2 0 `us 1 serial_number 2 2 `us 1 sensor1_value 2 4 `us 1 sensor2_value 2 6 `us 1 sensor3_valueH 2 8 `us 1 sensor3_valueL 2 10 `us 1 sensor4_valueH 2 12 `us 1 sensor4_valueL 2 14 `[12]us 1 coeff 24 16 ]
+[s S2061 . 4 `us 1 addr_slave 2 0 `us 1 baudrate 2 2 ]
+[s S2064 . 45 `S2049 1 server_coils 1 0 `S2051 1 server_input_register 40 1 `S2061 1 server_holding_register 4 41 ]
+[v main@registers registers `S2064  1 a 45 0 ]
+"125
+[v main@callbacks callbacks `S2102  1 a 9 5 ]
+"119
+[v main@platform_conf platform_conf `S2143  1 a 7 0 ]
+"138
+[v main@actual_regs actual_regs `S2061  1 a 4 0 ]
+"132
+[v main@err err `E10966  1 a 1 4 ]
+"103
+[v main@is_in_memory is_in_memory `uc  1 a 1 77 ]
+"174
+} 0
+"5 /opt/microchip/xc8/v2.50/pic/sources/c99/common/printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.4v  1 a 1 27 ]
+"5
+[v printf@fmt fmt `*.25DCuc  1 p 2 25 ]
+"13
+} 0
+"1817 /opt/microchip/xc8/v2.50/pic/sources/c99/common/doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1820
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 23 ]
+[s S4472 _IO_FILE 0 ]
+"1817
+[v vfprintf@fp fp `*.2S4472  1 p 2 17 ]
+[v vfprintf@fmt fmt `*.25DCuc  1 p 2 19 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 21 ]
+"1840
+} 0
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[s S4472 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.2S4472  1 p 2 9 ]
+[v vfpfcnvrt@fmt fmt `*.4*.25uc  1 p 1 11 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 12 ]
+"1814
+} 0
+"8 /opt/microchip/xc8/v2.50/pic/sources/c99/common/nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 0 ]
+[u S4451 . 2 `*.2uc 1 buffer 2 0 `*.2DCuc 1 source 2 0 ]
+[s S4454 _IO_FILE 11 `S4451 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.2S4454  1 p 2 2 ]
+"24
+} 0
+"7 /opt/microchip/xc8/v2.50/pic/sources/c99/common/putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"1376 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/nanomodbus.c
+[v _nmbs_server_poll nmbs_server_poll `(E10966  1 e 1 0 ]
+{
+"1380
+[v nmbs_server_poll@err err `E10857  1 a 1 73 ]
+"1379
+[v nmbs_server_poll@first_byte_received first_byte_received `a  1 a 1 72 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"1376
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v nmbs_server_poll@nmbs nmbs `*.39S2162  1 p 2 78 ]
+"1410
+} 0
+"281
+[v _recv_req_header recv_req_header `(E10857  1 s 1 recv_req_header ]
+{
+"282
+[v recv_req_header@err err `E10857  1 a 1 35 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"281
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v recv_req_header@nmbs nmbs `*.39S2162  1 p 2 32 ]
+[v recv_req_header@first_byte_received first_byte_received `*.4a  1 p 1 34 ]
+"297
+} 0
+"1282
+[v _handle_req_fc handle_req_fc `(E10857  1 s 1 handle_req_fc ]
+{
+"1285
+[v handle_req_fc@err err `E10857  1 a 1 77 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"1282
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v handle_req_fc@nmbs nmbs `*.39S2162  1 p 2 75 ]
+"1357
+} 0
+"769
+[v _handle_write_single_register@nanomodbus$F3873 handle_write_single_register `(E10857  1 s 1 handle_write_single_register ]
+{
+"775
+[v handle_write_single_register@nanomodbus$F3873@value value `us  1 a 2 57 ]
+"774
+[v handle_write_single_register@nanomodbus$F3873@address address `us  1 a 2 55 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"769
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v handle_write_single_register@nanomodbus$F3873@nmbs nmbs `*.39S2162  1 p 2 51 ]
+"815
+} 0
+"478
+[v _recv_write_single_register_res recv_write_single_register_res `(E10857  1 e 1 0 ]
+{
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v recv_write_single_register_res@nmbs nmbs `*.39S2162  1 p 2 45 ]
+[v recv_write_single_register_res@address address `us  1 p 2 47 ]
+[v recv_write_single_register_res@value_req value_req `us  1 p 2 49 ]
+"502
+} 0
+"111 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/modbus_imp.c
+[v _handle_write_single_register handle_write_single_register `(E10966  1 e 1 0 ]
+{
+"116
+[v handle_write_single_register@server_registers server_registers `*.6us  1 a 1 9 ]
+"111
+[v handle_write_single_register@address address `us  1 p 2 0 ]
+[v handle_write_single_register@registers registers `*.2DCus  1 p 2 2 ]
+[v handle_write_single_register@unit_id unit_id `uc  1 p 1 4 ]
+[v handle_write_single_register@arg arg `*.39v  1 p 2 5 ]
+"121
+} 0
+"716 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/nanomodbus.c
+[v _handle_write_single_coil@nanomodbus$F3828 handle_write_single_coil `(E10857  1 s 1 handle_write_single_coil ]
+{
+"722
+[v handle_write_single_coil@nanomodbus$F3828@value value `us  1 a 2 62 ]
+"721
+[v handle_write_single_coil@nanomodbus$F3828@address address `us  1 a 2 60 ]
+"717
+[v handle_write_single_coil@nanomodbus$F3828@err err `E10857  1 a 1 64 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"716
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v handle_write_single_coil@nanomodbus$F3828@nmbs nmbs `*.39S2162  1 p 2 56 ]
+"764
+} 0
+"450
+[v _recv_write_single_coil_res recv_write_single_coil_res `(E10857  1 e 1 0 ]
+{
+"460
+[v recv_write_single_coil_res@value_res value_res `us  1 a 2 53 ]
+"459
+[v recv_write_single_coil_res@address_res address_res `us  1 a 2 51 ]
+"451
+[v recv_write_single_coil_res@err err `E10857  1 a 1 55 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"450
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v recv_write_single_coil_res@nmbs nmbs `*.39S2162  1 p 2 45 ]
+[v recv_write_single_coil_res@address address `us  1 p 2 47 ]
+[v recv_write_single_coil_res@value_req value_req `us  1 p 2 49 ]
+"475
+} 0
+"75 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/modbus_imp.c
+[v _handle_write_single_coil handle_write_single_coil `(E10966  1 e 1 0 ]
+{
+"80
+[v handle_write_single_coil@server_coils server_coils `*.39[1]uc  1 a 2 13 ]
+"75
+[v handle_write_single_coil@address address `us  1 p 2 0 ]
+[v handle_write_single_coil@coils coils `a  1 p 1 2 ]
+[v handle_write_single_coil@unit_id unit_id `uc  1 p 1 3 ]
+[v handle_write_single_coil@arg arg `*.39v  1 p 2 4 ]
+"84
+} 0
+"709 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/nanomodbus.c
+[v _handle_read_input_registers handle_read_input_registers `(E10857  1 s 1 handle_read_input_registers ]
+{
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v handle_read_input_registers@nmbs nmbs `*.39S2162  1 p 2 73 ]
+"711
+} 0
+"702
+[v _handle_read_holding_registers handle_read_holding_registers `(E10857  1 s 1 handle_read_holding_registers ]
+{
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v handle_read_holding_registers@nmbs nmbs `*.39S2162  1 p 2 73 ]
+"704
+} 0
+"626
+[v _handle_read_registers handle_read_registers `(E10857  1 s 1 handle_read_registers ]
+{
+"667
+[v handle_read_registers@i i `i  1 a 2 67 ]
+"659
+[v handle_read_registers@regs_bytes regs_bytes `uc  1 a 1 66 ]
+"649
+[v handle_read_registers@regs regs `[32]us  1 a 64 0 ]
+"633
+[v handle_read_registers@quantity quantity `us  1 a 2 69 ]
+"632
+[v handle_read_registers@address address `us  1 a 2 64 ]
+"628
+[v handle_read_registers@err err `E10857  1 a 1 71 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"626
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v handle_read_registers@nmbs nmbs `*.39S2162  1 p 2 61 ]
+"627
+[v handle_read_registers@callback callback `*.37(E10857  1 p 2 63 ]
+"683
+} 0
+"306
+[v _send_exception_msg send_exception_msg `(E10857  1 s 1 send_exception_msg ]
+{
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v send_exception_msg@nmbs nmbs `*.39S2162  1 p 2 37 ]
+[v send_exception_msg@exception exception `uc  1 p 1 39 ]
+"314
+} 0
+"266
+[v _send_msg send_msg `(E10857  1 s 1 send_msg ]
+{
+"270
+[v send_msg@crc crc `us  1 a 2 34 ]
+"274
+[v send_msg@err err `E10857  1 a 1 36 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"266
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v send_msg@nmbs nmbs `*.39S2162  1 p 2 30 ]
+"277
+} 0
+"184
+[v _send send `(E10857  1 s 1 send ]
+{
+"185
+[v send@ret ret `l  1 a 4 26 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"184
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v send@nmbs nmbs `*.39S2162  1 p 2 17 ]
+[v send@count count `us  1 p 2 19 ]
+"198
+} 0
+"39 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/modbus_imp.c
+[v _write_serial write_serial `(l  1 e 4 0 ]
+{
+"44
+[v write_serial@i i `i  1 a 2 15 ]
+"42
+[v write_serial@number_of_byte_send number_of_byte_send `l  1 a 4 11 ]
+"39
+[v write_serial@buf buf `*.39DCuc  1 p 2 1 ]
+[v write_serial@count count `us  1 p 2 3 ]
+[v write_serial@byte_timeout_ms byte_timeout_ms `l  1 p 4 5 ]
+[v write_serial@arg arg `*.39v  1 p 2 9 ]
+"57
+} 0
+"64 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/communication.c
+[v _TxDeviceEnable TxDeviceEnable `(v  1 e 1 0 ]
+{
+"67
+} 0
+"69
+[v _TxDeviceDisable TxDeviceDisable `(v  1 e 1 0 ]
+{
+"72
+} 0
+"218 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/eusart1.c
+[v _EUSART1_is_tx_ready EUSART1_is_tx_ready `(a  1 e 1 0 ]
+{
+"221
+} 0
+"228
+[v _EUSART1_is_tx_done EUSART1_is_tx_done `(a  1 e 1 0 ]
+{
+"231
+} 0
+"259
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 p 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 p 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 p 1 0 ]
+"266
+} 0
+"415 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/nanomodbus.c
+[v _recv_read_registers_res recv_read_registers_res `(E10857  1 s 1 recv_read_registers_res ]
+{
+"433
+[v recv_read_registers_res@reg reg `us  1 a 2 55 ]
+"432
+[v recv_read_registers_res@i i `i  1 a 2 57 ]
+"416
+[v recv_read_registers_res@err err `E10857  1 a 1 60 ]
+"424
+[v recv_read_registers_res@registers_bytes registers_bytes `uc  1 a 1 59 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"415
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v recv_read_registers_res@nmbs nmbs `*.39S2162  1 p 2 45 ]
+[v recv_read_registers_res@quantity quantity `us  1 p 2 47 ]
+[v recv_read_registers_res@registers registers `*.2us  1 p 2 49 ]
+"447
+} 0
+"318
+[v _recv_res_header recv_res_header `(E10857  1 s 1 recv_res_header ]
+{
+"342
+[v recv_res_header@exception exception `uc  1 a 1 43 ]
+"319
+[v recv_res_header@req_transaction_id req_transaction_id `us  1 a 2 38 ]
+"324
+[v recv_res_header@err err `E10857  1 a 1 44 ]
+"321
+[v recv_res_header@req_fc req_fc `uc  1 a 1 42 ]
+"323
+[v recv_res_header@first_byte_received first_byte_received `a  1 a 1 41 ]
+"320
+[v recv_res_header@req_unit_id req_unit_id `uc  1 a 1 40 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"318
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v recv_res_header@nmbs nmbs `*.39S2162  1 p 2 34 ]
+"361
+} 0
+"221
+[v _recv_msg_header recv_msg_header `(E10857  1 s 1 recv_msg_header ]
+{
+"229
+[v recv_msg_header@err err `E10857  1 a 1 31 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"221
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v recv_msg_header@nmbs nmbs `*.39S2162  1 p 2 25 ]
+[v recv_msg_header@first_byte_received first_byte_received `*.4a  1 p 1 27 ]
+"246
+} 0
+"75
+[v _msg_state_reset msg_state_reset `(v  1 s 1 msg_state_reset ]
+{
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v msg_state_reset@nmbs nmbs `*.39S2162  1 p 2 2 ]
+"82
+} 0
+"39
+[v _get_1 get_1 `(uc  1 s 1 get_1 ]
+{
+"40
+[v get_1@result result `uc  1 a 1 2 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"39
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v get_1@nmbs nmbs `*.39S2162  1 p 2 0 ]
+"43
+} 0
+"201
+[v _recv_msg_footer recv_msg_footer `(E10857  1 s 1 recv_msg_footer ]
+{
+"211
+[v recv_msg_footer@recv_crc recv_crc `us  1 a 2 31 ]
+"205
+[v recv_msg_footer@crc crc `us  1 a 2 29 ]
+"207
+[v recv_msg_footer@err err `E10857  1 a 1 33 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"201
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v recv_msg_footer@nmbs nmbs `*.39S2162  1 p 2 25 ]
+"218
+} 0
+"166
+[v _recv recv `(E10857  1 s 1 recv ]
+{
+"167
+[v recv@ret ret `c  1 a 1 24 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"166
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v recv@nmbs nmbs `*.39S2162  1 p 2 20 ]
+[v recv@count count `us  1 p 2 22 ]
+"181
+} 0
+"22 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/modbus_imp.c
+[v _read_serial read_serial `(l  1 e 4 0 ]
+{
+"24
+[v read_serial@charCount charCount `l  1 a 4 16 ]
+"25
+[v read_serial@c c `uc  1 a 1 15 ]
+"22
+[v read_serial@buf buf `*.39uc  1 p 2 1 ]
+[v read_serial@count count `us  1 p 2 3 ]
+[v read_serial@byte_timeout_ms byte_timeout_ms `l  1 p 4 5 ]
+[v read_serial@arg arg `*.39v  1 p 2 9 ]
+"35
+} 0
+"238 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/eusart1.c
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+{
+"240
+[v EUSART1_Read@readValue readValue `uc  1 a 1 0 ]
+"257
+} 0
+"148 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/nanomodbus.c
+[v _nmbs_crc_calc nmbs_crc_calc `(us  1 e 2 0 ]
+{
+"152
+[v nmbs_crc_calc@j j `i  1 a 2 14 ]
+"150
+[v nmbs_crc_calc@i i `ul  1 a 4 10 ]
+"149
+[v nmbs_crc_calc@crc crc `us  1 a 2 16 ]
+"148
+[v nmbs_crc_calc@data data `*.39DCuc  1 p 2 0 ]
+[v nmbs_crc_calc@length length `ul  1 p 4 2 ]
+"163
+} 0
+"56
+[v _get_2 get_2 `(us  1 s 2 get_2 ]
+{
+"57
+[v get_2@result result `us  1 a 2 9 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"56
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v get_2@nmbs nmbs `*.39S2162  1 p 2 0 ]
+"61
+} 0
+"300
+[v _put_res_header put_res_header `(v  1 s 1 put_res_header ]
+{
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v put_res_header@nmbs nmbs `*.39S2162  1 p 2 10 ]
+[v put_res_header@data_length data_length `us  1 p 2 12 ]
+"303
+} 0
+"249
+[v _put_msg_header put_msg_header `(v  1 s 1 put_msg_header ]
+{
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v put_msg_header@nmbs nmbs `*.39S2162  1 p 2 6 ]
+[v put_msg_header@data_length data_length `us  1 p 2 8 ]
+"263
+} 0
+"64
+[v _put_2 put_2 `(v  1 s 1 put_2 ]
+{
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v put_2@nmbs nmbs `*.39S2162  1 p 2 0 ]
+[v put_2@data data `us  1 p 2 2 ]
+"68
+} 0
+"46
+[v _put_1 put_1 `(v  1 s 1 put_1 ]
+{
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v put_1@nmbs nmbs `*.39S2162  1 p 2 0 ]
+[v put_1@data data `uc  1 p 1 2 ]
+"49
+} 0
+"70
+[v _msg_buf_reset msg_buf_reset `(v  1 s 1 msg_buf_reset ]
+{
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v msg_buf_reset@nmbs nmbs `*.39S2162  1 p 2 0 ]
+"72
+} 0
+"98 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/modbus_imp.c
+[v _handler_read_holding_registers handler_read_holding_registers `(E10966  1 e 1 0 ]
+{
+"104
+[v handler_read_holding_registers@i i `i  1 a 2 12 ]
+"103
+[v handler_read_holding_registers@server_registers server_registers `*.6us  1 a 1 11 ]
+"98
+[v handler_read_holding_registers@address address `us  1 p 2 0 ]
+[v handler_read_holding_registers@quantity quantity `us  1 p 2 2 ]
+[v handler_read_holding_registers@registers_out registers_out `*.4us  1 p 1 4 ]
+[v handler_read_holding_registers@arg arg `*.39v  1 p 2 6 ]
+"108
+} 0
+"86
+[v _handler_read_input_registers handler_read_input_registers `(E10966  1 e 1 0 ]
+{
+"92
+[v handler_read_input_registers@i i `i  1 a 2 12 ]
+"91
+[v handler_read_input_registers@server_registers server_registers `*.6us  1 a 1 11 ]
+"86
+[v handler_read_input_registers@address address `us  1 p 2 0 ]
+[v handler_read_input_registers@quantity quantity `us  1 p 2 2 ]
+[v handler_read_input_registers@registers_out registers_out `*.4us  1 p 1 4 ]
+[v handler_read_input_registers@unit_id unit_id `uc  1 p 1 5 ]
+[v handler_read_input_registers@arg arg `*.39v  1 p 2 6 ]
+"96
+} 0
+"1360 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/nanomodbus.c
+[v _nmbs_server_create nmbs_server_create `(E10966  1 e 1 0 ]
+{
+"1365
+[v nmbs_server_create@ret ret `E10857  1 a 1 22 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"1360
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v nmbs_server_create@nmbs nmbs `*.39S2162  1 p 2 14 ]
+[v nmbs_server_create@address_rtu address_rtu `uc  1 p 1 16 ]
+[v nmbs_server_create@platform_conf platform_conf `*.39DCS2143  1 p 2 17 ]
+"1361
+[v nmbs_server_create@callbacks callbacks `*.39DCS2102  1 p 2 19 ]
+"1373
+} 0
+"110
+[v _nmbs_create nmbs_create `(E10857  1 e 1 0 ]
+{
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v nmbs_create@nmbs nmbs `*.39S2162  1 p 2 8 ]
+[v nmbs_create@platform_conf platform_conf `*.39DCS2143  1 p 2 10 ]
+"131
+} 0
+"176 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/main.c
+[v _is_a_new_value is_a_new_value `(v  1 e 1 0 ]
+{
+[s S2049 . 1 `[1]uc 1 coils 1 0 ]
+[s S2051 . 40 `us 1 sensor_type 2 0 `us 1 serial_number 2 2 `us 1 sensor1_value 2 4 `us 1 sensor2_value 2 6 `us 1 sensor3_valueH 2 8 `us 1 sensor3_valueL 2 10 `us 1 sensor4_valueH 2 12 `us 1 sensor4_valueL 2 14 `[12]us 1 coeff 24 16 ]
+[s S2061 . 4 `us 1 addr_slave 2 0 `us 1 baudrate 2 2 ]
+[s S2064 . 45 `S2049 1 server_coils 1 0 `S2051 1 server_input_register 40 1 `S2061 1 server_holding_register 4 41 ]
+[v is_a_new_value@registers registers `*.39S2064  1 p 2 8 ]
+[v is_a_new_value@actual_regs actual_regs `*.39S2061  1 p 2 10 ]
+[s S2077 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S2102 nmbs_callbacks 9 `*.37(E10966 1 read_holding_registers 2 0 `*.37(E10966 1 read_input_registers 2 2 `*.37(E10966 1 write_single_coil 2 4 `*.37(E10966 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S2143 nmbs_platform_conf 7 `E10981 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.39v 1 arg 2 5 ]
+[s S2162 nmbs_t 76 `S2077 1 msg 56 0 `S2102 1 callbacks 9 56 `S2143 1 platform 7 65 `uc 1 address_rtu 1 72 `uc 1 dest_address_rtu 1 73 `us 1 current_tid 2 74 ]
+[v is_a_new_value@nmbs nmbs `*.39S2162  1 p 2 12 ]
+"204
+} 0
+"84 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/eusart1.c
+[v _setBaudRateEUSART1 setBaudRateEUSART1 `(uc  1 e 1 0 ]
+{
+[v setBaudRateEUSART1@baudRate baudRate `ul  1 p 4 0 ]
+"175
+} 0
+"80 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/memory.c
+[v _DATAEE_WriteWord DATAEE_WriteWord `(v  1 e 1 0 ]
+{
+[v DATAEE_WriteWord@bAdd bAdd `us  1 p 2 4 ]
+[v DATAEE_WriteWord@bData bData `us  1 p 2 6 ]
+"84
+} 0
+"58
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+{
+"60
+[v DATAEE_WriteByte@GIEBitValue GIEBitValue `uc  1 a 1 3 ]
+"58
+[v DATAEE_WriteByte@bAdd bAdd `us  1 p 2 0 ]
+[v DATAEE_WriteByte@bData bData `uc  1 p 1 2 ]
+"78
+} 0
+"190 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/sensor.c
+[v _getSHTC3Data getSHTC3Data `(us  1 e 2 0 ]
+{
+"193
+[v getSHTC3Data@Txbuffer Txbuffer `[2]uc  1 a 2 29 ]
+"194
+[v getSHTC3Data@Rxbuffer Rxbuffer `[2]uc  1 a 2 27 ]
+"192
+[v getSHTC3Data@result result `us  1 a 2 25 ]
+"195
+[v getSHTC3Data@pbuffer pbuffer `*.4uc  1 a 1 31 ]
+"226
+} 0
+"88
+[v _getBMP280Data getBMP280Data `(um  1 e 3 0 ]
+{
+[v getBMP280Data@param param `E10868  1 p 1 wreg ]
+"106
+[v getBMP280Data@i_2696 i `uc  1 a 1 38 ]
+"96
+[v getBMP280Data@i i `us  1 a 2 36 ]
+"93
+[v getBMP280Data@ret ret `um  1 a 3 39 ]
+"91
+[v getBMP280Data@Rxbuffer Rxbuffer `[3]uc  1 a 3 31 ]
+"90
+[v getBMP280Data@Txbuffer Txbuffer `uc  1 a 1 34 ]
+"88
+[v getBMP280Data@param param `E10868  1 p 1 wreg ]
+"91
+[v getBMP280Data@param param `E10868  1 p 1 35 ]
+"119
+} 0
+"5
+[v _getADCData getADCData `(us  1 e 2 0 ]
+{
+"7
+[v getADCData@result result `us  1 a 2 5 ]
+"8
+[v getADCData@channel channel `E10735  1 a 1 7 ]
+"5
+[v getADCData@sensorSelection sensorSelection `*.39v  1 p 2 3 ]
+"14
+} 0
+"138 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/adcc.c
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+{
+[v ADCC_GetSingleConversion@channel channel `E10340  1 p 1 wreg ]
+[v ADCC_GetSingleConversion@channel channel `E10340  1 p 1 wreg ]
+"141
+[v ADCC_GetSingleConversion@channel channel `E10340  1 p 1 2 ]
+"161
+} 0
+"123 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/modbus_imp.c
+[v _default_values_register default_values_register `(v  1 e 1 0 ]
+{
+[s S2049 . 1 `[1]uc 1 coils 1 0 ]
+[s S2051 . 40 `us 1 sensor_type 2 0 `us 1 serial_number 2 2 `us 1 sensor1_value 2 4 `us 1 sensor2_value 2 6 `us 1 sensor3_valueH 2 8 `us 1 sensor3_valueL 2 10 `us 1 sensor4_valueH 2 12 `us 1 sensor4_valueL 2 14 `[12]us 1 coeff 24 16 ]
+[s S2061 . 4 `us 1 addr_slave 2 0 `us 1 baudrate 2 2 ]
+[s S2064 . 45 `S2049 1 server_coils 1 0 `S2051 1 server_input_register 40 1 `S2061 1 server_holding_register 4 41 ]
+[v default_values_register@registers registers `*.39S2064  1 p 2 29 ]
+"133
+} 0
+"45 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/sensor.c
+[v _readBMP280coeff readBMP280coeff `(v  1 e 1 0 ]
+{
+"51
+[v readBMP280coeff@i i `uc  1 a 1 28 ]
+"47
+[v readBMP280coeff@Txbuffer Txbuffer `uc  1 a 1 27 ]
+"45
+[v readBMP280coeff@coeff_buff coeff_buff `*.39us  1 p 2 24 ]
+"56
+} 0
+"16
+[v _readBMP280 readBMP280 `(uc  1 e 1 0 ]
+{
+[v readBMP280@regadd regadd `uc  1 p 1 wreg ]
+"18
+[v readBMP280@ret ret `uc  1 a 1 23 ]
+"20
+[v readBMP280@pTxbuffer pTxbuffer `*.4uc  1 a 1 21 ]
+"19
+[v readBMP280@pRxbuffer pRxbuffer `*.4uc  1 a 1 20 ]
+"16
+[v readBMP280@regadd regadd `uc  1 p 1 wreg ]
+"21
+[v readBMP280@regadd regadd `uc  1 p 1 22 ]
+"26
+} 0
+"120 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_ReadNBytes I2C1_ReadNBytes `(v  1 e 1 0 ]
+{
+[v I2C1_ReadNBytes@address address `uc  1 p 1 wreg ]
+[v I2C1_ReadNBytes@address address `uc  1 p 1 wreg ]
+[v I2C1_ReadNBytes@data data `*.4uc  1 p 1 16 ]
+[v I2C1_ReadNBytes@len len `ui  1 p 2 17 ]
+[v I2C1_ReadNBytes@address address `uc  1 p 1 19 ]
+"126
+} 0
+"246 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_MasterRead I2C1_MasterRead `(E358  1 e 1 0 ]
+{
+"249
+} 0
+"58 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/sensor.c
+[v _adjustBMP280coeff adjustBMP280coeff `(v  1 e 1 0 ]
+{
+[v adjustBMP280coeff@coeff_buff coeff_buff `*.39us  1 p 2 0 ]
+"86
+} 0
+"101 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/nanomodbus.c
+[v _m_memset m_memset `(v  1 e 1 0 ]
+{
+"103
+[v m_memset@p p `*.39uc  1 a 2 6 ]
+"101
+[v m_memset@s s `*.39v  1 p 2 0 ]
+[v m_memset@c c `i  1 p 2 2 ]
+[v m_memset@len len `ui  1 p 2 4 ]
+"108
+} 0
+"135 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/modbus_imp.c
+[v _check_error_modbus check_error_modbus `(v  1 e 1 0 ]
+{
+"166
+} 0
+"350 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/eusart1.c
+[v _UART_ClearBuffer UART_ClearBuffer `(v  1 e 1 0 ]
+{
+"354
+} 0
+"50 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"61
+} 0
+"69 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"102
+} 0
+"183
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"185
+} 0
+"77 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"95
+} 0
+"55 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"112
+} 0
+"63 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"75
+} 0
+"167 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"174
+} 0
+"58 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+{
+"62
+} 0
+"177 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"216
+} 0
+"346
+[v _EUSART1_SetRxInterruptHandler EUSART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetRxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"348
+} 0
+"337
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"339
+} 0
+"333
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"335
+} 0
+"341
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"343
+} 0
+"63 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"112
+} 0
+"39 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/sensor.c
+[v _InitBMP280 InitBMP280 `(v  1 e 1 0 ]
+{
+"43
+} 0
+"28
+[v _writeBMP280 writeBMP280 `(v  1 e 1 0 ]
+{
+[v writeBMP280@regadd regadd `uc  1 p 1 wreg ]
+"30
+[v writeBMP280@Txbuffer Txbuffer `[2]uc  1 a 2 23 ]
+"31
+[v writeBMP280@pTxbuffer pTxbuffer `*.4uc  1 a 1 22 ]
+"28
+[v writeBMP280@regadd regadd `uc  1 p 1 wreg ]
+[v writeBMP280@regdata regdata `uc  1 p 1 20 ]
+"33
+[v writeBMP280@regadd regadd `uc  1 p 1 21 ]
+"37
+} 0
+"111 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_WriteNBytes I2C1_WriteNBytes `(v  1 e 1 0 ]
+{
+[v I2C1_WriteNBytes@address address `uc  1 p 1 wreg ]
+[v I2C1_WriteNBytes@address address `uc  1 p 1 wreg ]
+[v I2C1_WriteNBytes@data data `*.4uc  1 p 1 16 ]
+[v I2C1_WriteNBytes@len len `ui  1 p 2 17 ]
+[v I2C1_WriteNBytes@address address `uc  1 p 1 19 ]
+"118
+} 0
+"283 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetAddressNackCallback@cb cb `*.37(E363  1 p 2 6 ]
+[v I2C1_SetAddressNackCallback@ptr ptr `*.2v  1 p 2 8 ]
+"286
+} 0
+"176
+[v _I2C1_Open I2C1_Open `(E358  1 e 1 0 ]
+{
+[v I2C1_Open@address address `uc  1 p 1 wreg ]
+"178
+[v I2C1_Open@returnValue returnValue `E358  1 a 1 1 ]
+"176
+[v I2C1_Open@address address `uc  1 p 1 wreg ]
+"178
+[v I2C1_Open@address address `uc  1 p 1 0 ]
+"207
+} 0
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+{
+"555
+} 0
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E358  1 e 1 0 ]
+{
+"254
+} 0
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E358  1 e 1 0 ]
+{
+[v I2C1_MasterOperation@read read `a  1 p 1 wreg ]
+"226
+[v I2C1_MasterOperation@returnValue returnValue `E358  1 a 1 15 ]
+"224
+[v I2C1_MasterOperation@read read `a  1 p 1 wreg ]
+"226
+[v I2C1_MasterOperation@read read `a  1 p 1 14 ]
+"244
+} 0
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+{
+"319
+} 0
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+{
+"659
+} 0
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+{
+"330
+} 0
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E10731  1 s 1 I2C1_DO_ADDRESS_NACK ]
+{
+"512
+} 0
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E10731  1 s 1 I2C1_DO_RESET ]
+{
+"499
+} 0
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E10731  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+{
+"492
+} 0
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E10731  1 s 1 I2C1_DO_RX_NACK_STOP ]
+{
+"486
+} 0
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E10731  1 s 1 I2C1_DO_RX_ACK ]
+{
+"479
+} 0
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E10731  1 s 1 I2C1_DO_SEND_STOP ]
+{
+"473
+} 0
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E10731  1 s 1 I2C1_DO_SEND_RESTART ]
+{
+"467
+} 0
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E10731  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+{
+"460
+} 0
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E10731  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+{
+"454
+} 0
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E10731  1 s 1 I2C1_DO_RCEN ]
+{
+"407
+} 0
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E10731  1 s 1 I2C1_DO_RX ]
+{
+"400
+} 0
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E10731  1 s 1 I2C1_DO_TX ]
+{
+"376
+} 0
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E10731  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+{
+"352
+} 0
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E10731  1 s 1 I2C1_DO_SEND_ADR_READ ]
+{
+"345
+} 0
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E10731  1 s 1 I2C1_DO_IDLE ]
+{
+"338
+} 0
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E10731  1 s 1 I2C1_DO_TX_EMPTY ]
+{
+"424
+} 0
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+{
+"648
+} 0
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+{
+"601
+} 0
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+{
+[v I2C1_MasterSendTxData@data data `uc  1 p 1 wreg ]
+[v I2C1_MasterSendTxData@data data `uc  1 p 1 wreg ]
+"570
+[v I2C1_MasterSendTxData@data data `uc  1 p 1 0 ]
+"571
+} 0
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+{
+"607
+} 0
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+{
+"566
+} 0
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+{
+"613
+} 0
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+{
+"586
+} 0
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E363  1 e 1 0 ]
+{
+[v I2C1_CallbackReturnReset@funPtr funPtr `*.30v  1 p 1 9 ]
+"528
+} 0
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E363  1 e 1 0 ]
+{
+"523
+} 0
+"170 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/examples/i2c1_master_example.c
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E363  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@ptr ptr `*.30v  1 p 1 9 ]
+"175
+} 0
+"156
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E363  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@ptr ptr `*.30v  1 p 1 9 ]
+"161
+} 0
+"149
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E363  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@ptr ptr `*.30v  1 p 1 9 ]
+"154
+} 0
+"142
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E363  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@ptr ptr `*.30v  1 p 1 9 ]
+"147
+} 0
+"163
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E363  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@ptr ptr `*.30v  1 p 1 9 ]
+"168
+} 0
+"273 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetDataCompleteCallback@cb cb `*.37(E363  1 p 2 6 ]
+[v I2C1_SetDataCompleteCallback@ptr ptr `*.30v  1 p 1 8 ]
+"276
+} 0
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+{
+[v I2C1_SetCallback@idx idx `E10749  1 p 1 wreg ]
+[v I2C1_SetCallback@idx idx `E10749  1 p 1 wreg ]
+[v I2C1_SetCallback@cb cb `*.37(E363  1 p 2 0 ]
+[v I2C1_SetCallback@ptr ptr `*.30v  1 p 1 2 ]
+"300
+[v I2C1_SetCallback@idx idx `E10749  1 p 1 5 ]
+"310
+} 0
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+{
+[v I2C1_SetBuffer@buffer buffer `*.39v  1 p 2 0 ]
+[v I2C1_SetBuffer@bufferSize bufferSize `ui  1 p 2 2 ]
+"271
+} 0
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+{
+"596
+} 0
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+{
+"576
+} 0
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+{
+"591
+} 0
+"209
+[v _I2C1_Close I2C1_Close `(E358  1 e 1 0 ]
+{
+"211
+[v I2C1_Close@returnValue returnValue `E358  1 a 1 0 ]
+"222
+} 0
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+{
+"638
+} 0
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+{
+"561
+} 0
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+{
+"643
+} 0
+"64 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/fvr.c
+[v _FVR_IsOutputReady FVR_IsOutputReady `(a  1 e 1 0 ]
+{
+"67
+} 0
+"86 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/memory.c
+[v _DATAEE_ReadWord DATAEE_ReadWord `(us  1 e 2 0 ]
+{
+"89
+[v DATAEE_ReadWord@high_byte high_byte `uc  1 a 1 10 ]
+"88
+[v DATAEE_ReadWord@low_byte low_byte `uc  1 a 1 9 ]
+"86
+[v DATAEE_ReadWord@bAdd bAdd `us  1 p 2 2 ]
+"92
+} 0
+"94
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+{
+[v DATAEE_ReadByte@bAdd bAdd `us  1 p 2 0 ]
+"104
+} 0
+"52 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"74
+} 0
+"169 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/tmr1.c
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+{
+"180
+} 0
+"187
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"197
+} 0
+"350 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/eusart1.c
+[v i1_UART_ClearBuffer UART_ClearBuffer `(v  1 e 1 0 ]
+{
+"354
+} 0
+"270
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+{
+"292
+} 0
+"321
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+{
+"327
+} 0
+"319
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"329
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+{
+"331
+} 0
+"294
+[v _EUSART1_RxDataHandler EUSART1_RxDataHandler `(v  1 e 1 0 ]
+{
+"296
+[v EUSART1_RxDataHandler@t t `i  1 a 2 4 ]
+"317
+} 0
+"132 /home/fabio/Documentos/V3/HU01TE02PA07_modbus.X/mcc_generated_files/tmr1.c
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR1_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
+"152
+} 0
+"110
+[v _TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+{
+"114
+} 0
+"104
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+{
+"108
+} 0
