@@ -1,0 +1,1657 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18425 ]
+[d frameptr 6 ]
+"114 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/adcc.c
+[e E10330 . `uc
+A4 4
+A5 5
+A2 18
+channel_Vss 59
+channel_Temp_Sensor 60
+channel_DAC1_Output 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+]
+"53 /home/fabio/Documentos/V3/WD03WS04_MB.X/main.c
+[e E10679 . `uc
+A4 4
+A5 5
+A2 18
+channel_Vss 59
+channel_Temp_Sensor 60
+channel_DAC1_Output 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+]
+"101
+[e E10863 nmbs_error `c
+NMBS_ERROR_INVALID_UNIT_ID -7
+NMBS_ERROR_INVALID_TCP_MBAP -6
+NMBS_ERROR_CRC -5
+NMBS_ERROR_TRANSPORT -4
+NMBS_ERROR_TIMEOUT -3
+NMBS_ERROR_INVALID_RESPONSE -2
+NMBS_ERROR_INVALID_ARGUMENT -1
+NMBS_ERROR_NONE 0
+NMBS_EXCEPTION_ILLEGAL_FUNCTION 1
+NMBS_EXCEPTION_ILLEGAL_DATA_ADDRESS 2
+NMBS_EXCEPTION_ILLEGAL_DATA_VALUE 3
+NMBS_EXCEPTION_SERVER_DEVICE_FAILURE 4
+]
+[e E10878 nmbs_transport `uc
+NMBS_TRANSPORT_RTU 1
+NMBS_TRANSPORT_TCP 2
+]
+"7 /home/fabio/Documentos/V3/WD03WS04_MB.X/sensor.c
+[e E10679 . `uc
+A4 4
+A5 5
+A2 18
+channel_Vss 59
+channel_Temp_Sensor 60
+channel_DAC1_Output 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+]
+"60 /home/fabio/Documentos/V3/WD03WS04_MB.X/modbus_imp.c
+[e E10863 nmbs_error `c
+NMBS_ERROR_INVALID_UNIT_ID -7
+NMBS_ERROR_INVALID_TCP_MBAP -6
+NMBS_ERROR_CRC -5
+NMBS_ERROR_TRANSPORT -4
+NMBS_ERROR_TIMEOUT -3
+NMBS_ERROR_INVALID_RESPONSE -2
+NMBS_ERROR_INVALID_ARGUMENT -1
+NMBS_ERROR_NONE 0
+NMBS_EXCEPTION_ILLEGAL_FUNCTION 1
+NMBS_EXCEPTION_ILLEGAL_DATA_ADDRESS 2
+NMBS_EXCEPTION_ILLEGAL_DATA_VALUE 3
+NMBS_EXCEPTION_SERVER_DEVICE_FAILURE 4
+]
+"39 /home/fabio/Documentos/V3/WD03WS04_MB.X/nanomodbus.c
+[e E10802 nmbs_error `c
+NMBS_ERROR_INVALID_UNIT_ID -7
+NMBS_ERROR_INVALID_TCP_MBAP -6
+NMBS_ERROR_CRC -5
+NMBS_ERROR_TRANSPORT -4
+NMBS_ERROR_TIMEOUT -3
+NMBS_ERROR_INVALID_RESPONSE -2
+NMBS_ERROR_INVALID_ARGUMENT -1
+NMBS_ERROR_NONE 0
+NMBS_EXCEPTION_ILLEGAL_FUNCTION 1
+NMBS_EXCEPTION_ILLEGAL_DATA_ADDRESS 2
+NMBS_EXCEPTION_ILLEGAL_DATA_VALUE 3
+NMBS_EXCEPTION_SERVER_DEVICE_FAILURE 4
+]
+[e E10817 nmbs_transport `uc
+NMBS_TRANSPORT_RTU 1
+NMBS_TRANSPORT_TCP 2
+]
+"7 /opt/microchip/xc8/v2.36/pic/sources/c99/common/_Exit.c
+[v __Exit _Exit `(v  1 e 1 0 ]
+"17 /opt/microchip/xc8/v2.36/pic/sources/c99/common/atexit.c
+[v ___funcs_on_exit __funcs_on_exit `(v  1 e 1 0 ]
+"27
+[v ___cxa_atexit __cxa_atexit `(i  1 e 2 0 ]
+"45
+[v _call call `(v  1 s 1 call ]
+"5 /opt/microchip/xc8/v2.36/pic/sources/c99/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"8 /opt/microchip/xc8/v2.36/pic/sources/c99/common/exit.c
+[v _exit exit `(v  1 e 1 0 ]
+"5 /opt/microchip/xc8/v2.36/pic/sources/c99/common/ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"5 /opt/microchip/xc8/v2.36/pic/sources/c99/common/ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"10 /opt/microchip/xc8/v2.36/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /opt/microchip/xc8/v2.36/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v2.36/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"20 /home/fabio/Documentos/V3/WD03WS04_MB.X/communication.c
+[v _sendPacket sendPacket `(v  1 e 1 0 ]
+"63
+[v _TxDeviceEnable TxDeviceEnable `(v  1 e 1 0 ]
+"68
+[v _TxDeviceDisable TxDeviceDisable `(v  1 e 1 0 ]
+"65 /home/fabio/Documentos/V3/WD03WS04_MB.X/device.c
+[v _stringlen stringlen `(uc  1 e 1 0 ]
+"83
+[v _uint24ToString uint24ToString `(v  1 e 1 0 ]
+"70 /home/fabio/Documentos/V3/WD03WS04_MB.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"150
+[v _is_a_new_value is_a_new_value `(v  1 e 1 0 ]
+"63 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"138
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+"84 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/eusart1.c
+[v _setBaudRateEUSART1 setBaudRateEUSART1 `(uc  1 e 1 0 ]
+"177
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"218
+[v _EUSART1_is_tx_ready EUSART1_is_tx_ready `(a  1 e 1 0 ]
+"228
+[v _EUSART1_is_tx_done EUSART1_is_tx_done `(a  1 e 1 0 ]
+"238
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"259
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"270
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+"294
+[v _EUSART1_RxDataHandler EUSART1_RxDataHandler `(v  1 e 1 0 ]
+"319
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"321
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"329
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"333
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"337
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"341
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+"346
+[v _EUSART1_SetRxInterruptHandler EUSART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+"350
+[v _UART_ClearBuffer UART_ClearBuffer `(v  1 e 1 0 ]
+[v i1_UART_ClearBuffer UART_ClearBuffer `(v  1 e 1 0 ]
+"58 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+"64
+[v _FVR_IsOutputReady FVR_IsOutputReady `(a  1 e 1 0 ]
+"52 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"63
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"77
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"58 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/memory.c
+[v _FLASH_ReadWord FLASH_ReadWord `(us  1 e 2 0 ]
+"94
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+"149
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+"180
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+"202
+[v _DATAEE_WriteWord DATAEE_WriteWord `(v  1 e 1 0 ]
+"208
+[v _DATAEE_ReadWord DATAEE_ReadWord `(us  1 e 2 0 ]
+"216
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+"55 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"60 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"80
+[v _TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
+"114
+[v _TMR0_HasOverflowOccured TMR0_HasOverflowOccured `(a  1 e 1 0 ]
+"69 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"104
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+"110
+[v _TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+"132
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+"169
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+"183
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+"187
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"63 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/tmr5.c
+[v _TMR5_Initialize TMR5_Initialize `(v  1 e 1 0 ]
+"92
+[v _TMR5_StartTimer TMR5_StartTimer `(v  1 e 1 0 ]
+"98
+[v _TMR5_StopTimer TMR5_StopTimer `(v  1 e 1 0 ]
+"104
+[v _TMR5_ReadTimer TMR5_ReadTimer `(us  1 e 2 0 ]
+"120
+[v _TMR5_WriteTimer TMR5_WriteTimer `(v  1 e 1 0 ]
+"22 /home/fabio/Documentos/V3/WD03WS04_MB.X/modbus_imp.c
+[v _read_serial read_serial `(l  1 e 4 0 ]
+"39
+[v _write_serial write_serial `(l  1 e 4 0 ]
+"75
+[v _handle_write_single_coil handle_write_single_coil `(E10863  1 e 1 0 ]
+"86
+[v _handler_read_input_registers handler_read_input_registers `(E10863  1 e 1 0 ]
+"98
+[v _handler_read_holding_registers handler_read_holding_registers `(E10863  1 e 1 0 ]
+"111
+[v _handle_write_single_register handle_write_single_register `(E10863  1 e 1 0 ]
+"123
+[v _default_values_register default_values_register `(v  1 e 1 0 ]
+"134
+[v _check_error_modbus check_error_modbus `(v  1 e 1 0 ]
+"39 /home/fabio/Documentos/V3/WD03WS04_MB.X/nanomodbus.c
+[v _get_1 get_1 `(uc  1 s 1 get_1 ]
+"46
+[v _put_1 put_1 `(v  1 s 1 put_1 ]
+"56
+[v _get_2 get_2 `(us  1 s 2 get_2 ]
+"64
+[v _put_2 put_2 `(v  1 s 1 put_2 ]
+"70
+[v _msg_buf_reset msg_buf_reset `(v  1 s 1 msg_buf_reset ]
+"75
+[v _msg_state_reset msg_state_reset `(v  1 s 1 msg_state_reset ]
+"101
+[v _m_memset m_memset `(v  1 e 1 0 ]
+"110
+[v _nmbs_create nmbs_create `(E10802  1 e 1 0 ]
+"148
+[v _nmbs_crc_calc nmbs_crc_calc `(us  1 e 2 0 ]
+"166
+[v _recv recv `(E10802  1 s 1 recv ]
+"184
+[v _send send `(E10802  1 s 1 send ]
+"201
+[v _recv_msg_footer recv_msg_footer `(E10802  1 s 1 recv_msg_footer ]
+"221
+[v _recv_msg_header recv_msg_header `(E10802  1 s 1 recv_msg_header ]
+"249
+[v _put_msg_header put_msg_header `(v  1 s 1 put_msg_header ]
+"266
+[v _send_msg send_msg `(E10802  1 s 1 send_msg ]
+"281
+[v _recv_req_header recv_req_header `(E10802  1 s 1 recv_req_header ]
+"300
+[v _put_res_header put_res_header `(v  1 s 1 put_res_header ]
+"306
+[v _send_exception_msg send_exception_msg `(E10802  1 s 1 send_exception_msg ]
+"318
+[v _recv_res_header recv_res_header `(E10802  1 s 1 recv_res_header ]
+"414
+[v _recv_read_registers_res recv_read_registers_res `(E10802  1 s 1 recv_read_registers_res ]
+"449
+[v _recv_write_single_coil_res recv_write_single_coil_res `(E10802  1 e 1 0 ]
+"477
+[v _recv_write_single_register_res recv_write_single_register_res `(E10802  1 e 1 0 ]
+"625
+[v _handle_read_registers handle_read_registers `(E10802  1 s 1 handle_read_registers ]
+"701
+[v _handle_read_holding_registers handle_read_holding_registers `(E10802  1 s 1 handle_read_holding_registers ]
+"708
+[v _handle_read_input_registers handle_read_input_registers `(E10802  1 s 1 handle_read_input_registers ]
+"715
+[v _handle_write_single_coil@nanomodbus$F2778 handle_write_single_coil `(E10802  1 s 1 handle_write_single_coil ]
+"768
+[v _handle_write_single_register@nanomodbus$F2807 handle_write_single_register `(E10802  1 s 1 handle_write_single_register ]
+"1281
+[v _handle_req_fc handle_req_fc `(E10802  1 s 1 handle_req_fc ]
+"1359
+[v _nmbs_server_create nmbs_server_create `(E10863  1 e 1 0 ]
+"1375
+[v _nmbs_server_poll nmbs_server_poll `(E10863  1 e 1 0 ]
+"4 /home/fabio/Documentos/V3/WD03WS04_MB.X/sensor.c
+[v _getADCData getADCData `(us  1 e 2 0 ]
+"15
+[v _getCount getCount `(us  1 e 2 0 ]
+[s S1003 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"426 /home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h
+[u S1008 . 1 `S1003 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES1008  1 e 1 @11 ]
+"546
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"596
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+"646
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+"696
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+[s S1752 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+]
+"711
+[u S1759 . 1 `S1752 1 . 1 0 ]
+[v _LATCbits LATCbits `VES1759  1 e 1 @26 ]
+"753
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @140 ]
+"881
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @141 ]
+"1016
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @142 ]
+"1144
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @143 ]
+"1542
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @146 ]
+"1670
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @147 ]
+"2326
+[v _ADACCU ADACCU `VEuc  1 e 1 @152 ]
+"2582
+[v _ADRPT ADRPT `VEuc  1 e 1 @154 ]
+"2980
+[v _ADRESL ADRESL `VEuc  1 e 1 @157 ]
+"3108
+[v _ADRESH ADRESH `VEuc  1 e 1 @158 ]
+"3228
+[v _ADPCH ADPCH `VEuc  1 e 1 @159 ]
+"3339
+[v _ADACQL ADACQL `VEuc  1 e 1 @268 ]
+"3467
+[v _ADACQH ADACQH `VEuc  1 e 1 @269 ]
+"3559
+[v _ADCAP ADCAP `VEuc  1 e 1 @270 ]
+"3658
+[v _ADPREL ADPREL `VEuc  1 e 1 @271 ]
+"3786
+[v _ADPREH ADPREH `VEuc  1 e 1 @272 ]
+"3878
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @273 ]
+[s S53 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM 1 0 :2:2 
+`uc 1 CS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CONT 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"3915
+[s S61 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+[s S69 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM0 1 0 :1:2 
+`uc 1 FM1 1 0 :1:3 
+]
+[s S74 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+`uc 1 ADFM1 1 0 :1:3 
+]
+[u S79 . 1 `S53 1 . 1 0 `S61 1 . 1 0 `S69 1 . 1 0 `S74 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES79  1 e 1 @273 ]
+"4000
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @274 ]
+"4090
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @275 ]
+"4268
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @276 ]
+"4398
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @277 ]
+"4523
+[v _ADREF ADREF `VEuc  1 e 1 @278 ]
+"4663
+[v _ADACT ADACT `VEuc  1 e 1 @279 ]
+"4755
+[v _ADCLK ADCLK `VEuc  1 e 1 @280 ]
+"4859
+[v _RC1REG RC1REG `VEuc  1 e 1 @281 ]
+"4913
+[v _TX1REG TX1REG `VEuc  1 e 1 @282 ]
+"4967
+[v _SP1BRG SP1BRG `VEus  1 e 2 @283 ]
+"4974
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @283 ]
+"5044
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @284 ]
+"5098
+[v _RC1STA RC1STA `VEuc  1 e 1 @285 ]
+[s S452 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"5124
+[u S461 . 1 `S452 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES461  1 e 1 @285 ]
+"5278
+[v _TX1STA TX1STA `VEuc  1 e 1 @286 ]
+[s S431 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5304
+[u S440 . 1 `S431 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES440  1 e 1 @286 ]
+"5458
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @287 ]
+"7590
+[v _TMR1L TMR1L `VEuc  1 e 1 @524 ]
+"7660
+[v _TMR1H TMR1H `VEuc  1 e 1 @525 ]
+"7730
+[v _T1CON T1CON `VEuc  1 e 1 @526 ]
+[s S868 . 1 `uc 1 ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 NOT_SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CKPS 1 0 :2:4 
+]
+"7766
+[s S1222 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S881 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+]
+[s S1233 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD161 1 0 :1:1 
+]
+[u S1236 . 1 `S868 1 . 1 0 `S1222 1 . 1 0 `S881 1 . 1 0 `S1233 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES1236  1 e 1 @526 ]
+"7920
+[v _T1GCON T1GCON `VEuc  1 e 1 @527 ]
+"8134
+[v _T1GATE T1GATE `VEuc  1 e 1 @528 ]
+"8300
+[v _T1CLK T1CLK `VEuc  1 e 1 @529 ]
+"9342
+[v _TMR5L TMR5L `VEuc  1 e 1 @536 ]
+"9412
+[v _TMR5H TMR5H `VEuc  1 e 1 @537 ]
+"9482
+[v _T5CON T5CON `VEuc  1 e 1 @538 ]
+"9518
+[s S874 . 1 `uc 1 TMR5ON 1 0 :1:0 
+`uc 1 T5RD16 1 0 :1:1 
+`uc 1 NOT_T5SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T5CKPS0 1 0 :1:4 
+`uc 1 T5CKPS1 1 0 :1:5 
+]
+[s S885 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD165 1 0 :1:1 
+]
+[u S888 . 1 `S868 1 . 1 0 `S874 1 . 1 0 `S881 1 . 1 0 `S885 1 . 1 0 ]
+[v _T5CONbits T5CONbits `VES888  1 e 1 @538 ]
+"9672
+[v _T5GCON T5GCON `VEuc  1 e 1 @539 ]
+"9886
+[v _T5GATE T5GATE `VEuc  1 e 1 @540 ]
+"10052
+[v _T5CLK T5CLK `VEuc  1 e 1 @541 ]
+"16518
+[v _TMR0L TMR0L `VEuc  1 e 1 @1436 ]
+"16656
+[v _TMR0H TMR0H `VEuc  1 e 1 @1437 ]
+"16910
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @1438 ]
+[s S785 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 MD16 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"16938
+[s S791 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T0MD16 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+[s S797 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 T016BIT 1 0 :1:4 
+]
+[u S803 . 1 `S785 1 . 1 0 `S791 1 . 1 0 `S797 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES803  1 e 1 @1438 ]
+"17008
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @1439 ]
+[s S771 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"18801
+[u S776 . 1 `S771 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES776  1 e 1 @1804 ]
+[s S538 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+"18908
+[u S545 . 1 `S538 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES545  1 e 1 @1807 ]
+[s S850 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR3IF 1 0 :1:2 
+`uc 1 TMR4IF 1 0 :1:3 
+`uc 1 TMR5IF 1 0 :1:4 
+`uc 1 TMR6IF 1 0 :1:5 
+]
+"18958
+[u S857 . 1 `S850 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES857  1 e 1 @1808 ]
+[s S478 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+"19279
+[u S485 . 1 `S478 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES485  1 e 1 @1817 ]
+[s S1016 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 TMR3IE 1 0 :1:2 
+`uc 1 TMR4IE 1 0 :1:3 
+`uc 1 TMR5IE 1 0 :1:4 
+`uc 1 TMR6IE 1 0 :1:5 
+]
+"19329
+[u S1023 . 1 `S1016 1 . 1 0 ]
+[v _PIE4bits PIE4bits `VES1023  1 e 1 @1818 ]
+"19539
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"19584
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"19640
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"19661
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"19706
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"19757
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"19784
+[v _PMD6 PMD6 `VEuc  1 e 1 @1948 ]
+"19817
+[v _PMD7 PMD7 `VEuc  1 e 1 @1949 ]
+"20512
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @2074 ]
+"20574
+[v _NVMADRH NVMADRH `VEuc  1 e 1 @2075 ]
+"20637
+[v _NVMDATL NVMDATL `VEuc  1 e 1 @2076 ]
+[s S1096 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 LWLO 1 0 :1:5 
+`uc 1 NVMREGS 1 0 :1:6 
+]
+"20765
+[u S1104 . 1 `S1096 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES1104  1 e 1 @2078 ]
+"20805
+[v _NVMCON2 NVMCON2 `VEuc  1 e 1 @2079 ]
+"20890
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"21030
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"21127
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"21178
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"21236
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"21773
+[v _FVRCON FVRCON `VEuc  1 e 1 @2316 ]
+[s S732 . 1 `uc 1 ADFVR 1 0 :2:0 
+`uc 1 CDAFVR 1 0 :2:2 
+`uc 1 TSRNG 1 0 :1:4 
+`uc 1 TSEN 1 0 :1:5 
+`uc 1 FVRRDY 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+"21794
+[s S739 . 1 `uc 1 ADFVR0 1 0 :1:0 
+`uc 1 ADFVR1 1 0 :1:1 
+`uc 1 CDAFVR0 1 0 :1:2 
+`uc 1 CDAFVR1 1 0 :1:3 
+]
+[u S744 . 1 `S732 1 . 1 0 `S739 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES744  1 e 1 @2316 ]
+"27206
+[v _T5CKIPPS T5CKIPPS `VEuc  1 e 1 @7830 ]
+"28610
+[v _RX1DTPPS RX1DTPPS `VEuc  1 e 1 @7883 ]
+"29236
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @7972 ]
+"29352
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"29397
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"29447
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"29492
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"29537
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"29737
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"29787
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"29837
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"29887
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"29937
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+"13 /opt/microchip/xc8/v2.36/pic/sources/c99/common/atexit.c
+[s S3356 fl 130 `*.39S3356 1 next 2 0 `[32]*.37(v 1 f 64 2 `[32]*.39v 1 a 64 66 ]
+[v _builtin builtin `S3356  1 s 130 builtin ]
+[v _head head `*.39S3356  1 s 2 head ]
+"15
+[v _slot slot `i  1 s 2 slot ]
+[s S1360 . 11 `[5]uc 1 codename 5 0 `[3]uc 1 address 3 5 `us 1 frequency 2 8 `uc 1 ADCChannel 1 10 ]
+"53 /home/fabio/Documentos/V3/WD03WS04_MB.X/main.c
+[s S1366 . 13 `S1360 1 sensor_info 11 0 `*.37(us 1 sense 2 11 ]
+[v _sensor1 sensor1 `S1366  1 e 13 0 ]
+"61 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/eusart1.c
+[v _eusart1RxHead eusart1RxHead `VEuc  1 e 1 0 ]
+"62
+[v _eusart1RxTail eusart1RxTail `VEuc  1 e 1 0 ]
+"63
+[v _eusart1RxBuffer eusart1RxBuffer `VE[8]uc  1 e 8 0 ]
+[s S419 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"64
+[u S424 . 1 `S419 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxStatusBuffer eusart1RxStatusBuffer `VE[8]S424  1 e 8 0 ]
+"65
+[v _eusart1RxCount eusart1RxCount `VEuc  1 e 1 0 ]
+"66
+[v _eusart1PacketFinish eusart1PacketFinish `VEuc  1 e 1 0 ]
+"67
+[v _eusart1RxLastError eusart1RxLastError `VES424  1 e 1 0 ]
+"74
+[v _EUSART1_RxDefaultInterruptHandler EUSART1_RxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
+"76
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"77
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"78
+[v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.37(v  1 e 2 0 ]
+"60 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
+"61
+[v _TMR1_InterruptHandler TMR1_InterruptHandler `*.37(v  1 e 2 0 ]
+"63
+[v _uart_expire_time uart_expire_time `VEa  1 e 1 0 ]
+"57 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/tmr5.c
+[v _timer5ReloadVal timer5ReloadVal `VEus  1 e 2 0 ]
+"70 /home/fabio/Documentos/V3/WD03WS04_MB.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+"101
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v main@nmbs nmbs `S1514  1 a 75 0 ]
+[s S1406 . 1 `[1]uc 1 coils 1 0 ]
+"84
+[s S1408 . 8 `us 1 sensor_type 2 0 `us 1 serial_number 2 2 `us 1 sensor_value1 2 4 `us 1 sensor_value2 2 6 ]
+[s S1413 . 4 `us 1 addr_slave 2 0 `us 1 baudrate 2 2 ]
+[s S1416 . 13 `S1406 1 server_coils 1 0 `S1408 1 server_input_register 8 1 `S1413 1 server_holding_register 4 9 ]
+[v main@registers registers `S1416  1 a 13 0 ]
+"109
+[v main@callbacks callbacks `S1454  1 a 9 4 ]
+"103
+[v main@platform_conf platform_conf `S1495  1 a 6 13 ]
+"122
+[v main@actual_regs actual_regs `S1413  1 a 4 0 ]
+"116
+[v main@err err `E10863  1 a 1 78 ]
+"86
+[v main@is_in_memory is_in_memory `uc  1 a 1 77 ]
+"148
+} 0
+"1375 /home/fabio/Documentos/V3/WD03WS04_MB.X/nanomodbus.c
+[v _nmbs_server_poll nmbs_server_poll `(E10863  1 e 1 0 ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v nmbs_server_poll@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"1379
+[v nmbs_server_poll@err err `E10802  1 a 1 77 ]
+"1378
+[v nmbs_server_poll@first_byte_received first_byte_received `a  1 a 1 75 ]
+"1375
+[v nmbs_server_poll@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v nmbs_server_poll@nmbs nmbs `*.5S1514  1 a 1 76 ]
+"1409
+} 0
+"281
+[v _recv_req_header recv_req_header `(E10802  1 s 1 recv_req_header ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v recv_req_header@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"282
+[v recv_req_header@err err `E10802  1 a 1 33 ]
+"281
+[v recv_req_header@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v recv_req_header@first_byte_received first_byte_received `*.4a  1 p 1 30 ]
+[v recv_req_header@nmbs nmbs `*.5S1514  1 a 1 34 ]
+"297
+} 0
+"1281
+[v _handle_req_fc handle_req_fc `(E10802  1 s 1 handle_req_fc ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v handle_req_fc@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"1284
+[v handle_req_fc@err err `E10802  1 a 1 71 ]
+"1281
+[v handle_req_fc@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v handle_req_fc@nmbs nmbs `*.5S1514  1 a 1 72 ]
+"1356
+} 0
+"768
+[v _handle_write_single_register@nanomodbus$F2807 handle_write_single_register `(E10802  1 s 1 handle_write_single_register ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v handle_write_single_register@nanomodbus$F2807@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"774
+[v handle_write_single_register@nanomodbus$F2807@value value `us  1 a 2 56 ]
+"773
+[v handle_write_single_register@nanomodbus$F2807@address address `us  1 a 2 54 ]
+"769
+[v handle_write_single_register@nanomodbus$F2807@err err `E10802  1 a 1 53 ]
+"768
+[v handle_write_single_register@nanomodbus$F2807@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v handle_write_single_register@nanomodbus$F2807@nmbs nmbs `*.5S1514  1 a 1 58 ]
+"814
+} 0
+"477
+[v _recv_write_single_register_res recv_write_single_register_res `(E10802  1 e 1 0 ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v recv_write_single_register_res@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"478
+[v recv_write_single_register_res@err err `E10802  1 a 1 49 ]
+"477
+[v recv_write_single_register_res@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v recv_write_single_register_res@address address `us  1 p 2 44 ]
+[v recv_write_single_register_res@value_req value_req `us  1 p 2 46 ]
+[v recv_write_single_register_res@nmbs nmbs `*.5S1514  1 a 1 50 ]
+"501
+} 0
+"715
+[v _handle_write_single_coil@nanomodbus$F2778 handle_write_single_coil `(E10802  1 s 1 handle_write_single_coil ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v handle_write_single_coil@nanomodbus$F2778@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"721
+[v handle_write_single_coil@nanomodbus$F2778@value value `us  1 a 2 61 ]
+"720
+[v handle_write_single_coil@nanomodbus$F2778@address address `us  1 a 2 59 ]
+"716
+[v handle_write_single_coil@nanomodbus$F2778@err err `E10802  1 a 1 63 ]
+"715
+[v handle_write_single_coil@nanomodbus$F2778@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v handle_write_single_coil@nanomodbus$F2778@nmbs nmbs `*.5S1514  1 a 1 64 ]
+"763
+} 0
+"449
+[v _recv_write_single_coil_res recv_write_single_coil_res `(E10802  1 e 1 0 ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v recv_write_single_coil_res@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"459
+[v recv_write_single_coil_res@value_res value_res `us  1 a 2 51 ]
+"458
+[v recv_write_single_coil_res@address_res address_res `us  1 a 2 49 ]
+"450
+[v recv_write_single_coil_res@err err `E10802  1 a 1 54 ]
+"449
+[v recv_write_single_coil_res@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v recv_write_single_coil_res@address address `us  1 p 2 44 ]
+[v recv_write_single_coil_res@value_req value_req `us  1 p 2 46 ]
+[v recv_write_single_coil_res@nmbs nmbs `*.5S1514  1 a 1 53 ]
+"474
+} 0
+"75 /home/fabio/Documentos/V3/WD03WS04_MB.X/modbus_imp.c
+[v _handle_write_single_coil handle_write_single_coil `(E10863  1 e 1 0 ]
+{
+"80
+[v handle_write_single_coil@server_coils server_coils `*.6[1]uc  1 a 1 13 ]
+"75
+[v handle_write_single_coil@address address `us  1 p 2 0 ]
+[v handle_write_single_coil@coils coils `a  1 p 1 2 ]
+[v handle_write_single_coil@unit_id unit_id `uc  1 p 1 3 ]
+[v handle_write_single_coil@arg arg `*.6v  1 p 1 4 ]
+"84
+} 0
+"708 /home/fabio/Documentos/V3/WD03WS04_MB.X/nanomodbus.c
+[v _handle_read_input_registers handle_read_input_registers `(E10802  1 s 1 handle_read_input_registers ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v handle_read_input_registers@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v handle_read_input_registers@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v handle_read_input_registers@nmbs nmbs `*.5S1514  1 a 1 68 ]
+"710
+} 0
+"701
+[v _handle_read_holding_registers handle_read_holding_registers `(E10802  1 s 1 handle_read_holding_registers ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v handle_read_holding_registers@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v handle_read_holding_registers@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v handle_read_holding_registers@nmbs nmbs `*.5S1514  1 a 1 68 ]
+"703
+} 0
+"625
+[v _handle_read_registers handle_read_registers `(E10802  1 s 1 handle_read_registers ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v handle_read_registers@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"666
+[v handle_read_registers@i i `i  1 a 2 67 ]
+"658
+[v handle_read_registers@regs_bytes regs_bytes `uc  1 a 1 66 ]
+"648
+[v handle_read_registers@regs regs `[32]us  1 a 64 0 ]
+"632
+[v handle_read_registers@quantity quantity `us  1 a 2 69 ]
+"631
+[v handle_read_registers@address address `us  1 a 2 64 ]
+"627
+[v handle_read_registers@err err `E10802  1 a 1 71 ]
+"625
+[v handle_read_registers@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"626
+[v handle_read_registers@callback callback `*.37(E10802  1 p 2 58 ]
+"625
+[v handle_read_registers@nmbs nmbs `*.5S1514  1 a 1 72 ]
+"682
+} 0
+"306
+[v _send_exception_msg send_exception_msg `(E10802  1 s 1 send_exception_msg ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v send_exception_msg@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v send_exception_msg@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v send_exception_msg@exception exception `uc  1 p 1 34 ]
+[v send_exception_msg@nmbs nmbs `*.5S1514  1 a 1 36 ]
+"314
+} 0
+"266
+[v _send_msg send_msg `(E10802  1 s 1 send_msg ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v send_msg@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"270
+[v send_msg@crc crc `us  1 a 2 30 ]
+"274
+[v send_msg@err err `E10802  1 a 1 32 ]
+"266
+[v send_msg@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"269
+"266
+[v send_msg@nmbs nmbs `*.5S1514  1 a 1 33 ]
+"277
+} 0
+"184
+[v _send send `(E10802  1 s 1 send ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v send@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"185
+[v send@ret ret `l  1 a 4 23 ]
+"184
+[v send@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v send@count count `us  1 p 2 16 ]
+[v send@nmbs nmbs `*.5S1514  1 a 1 27 ]
+"198
+} 0
+"39 /home/fabio/Documentos/V3/WD03WS04_MB.X/modbus_imp.c
+[v _write_serial write_serial `(l  1 e 4 0 ]
+{
+"44
+[v write_serial@i i `i  1 a 2 14 ]
+"42
+[v write_serial@number_of_byte_send number_of_byte_send `l  1 a 4 10 ]
+"39
+[v write_serial@buf buf `*.5DCuc  1 p 1 1 ]
+[v write_serial@count count `us  1 p 2 2 ]
+[v write_serial@byte_timeout_ms byte_timeout_ms `l  1 p 4 4 ]
+[v write_serial@arg arg `*.6v  1 p 1 8 ]
+"57
+} 0
+"63 /home/fabio/Documentos/V3/WD03WS04_MB.X/communication.c
+[v _TxDeviceEnable TxDeviceEnable `(v  1 e 1 0 ]
+{
+"66
+} 0
+"68
+[v _TxDeviceDisable TxDeviceDisable `(v  1 e 1 0 ]
+{
+"71
+} 0
+"218 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/eusart1.c
+[v _EUSART1_is_tx_ready EUSART1_is_tx_ready `(a  1 e 1 0 ]
+{
+"221
+} 0
+"228
+[v _EUSART1_is_tx_done EUSART1_is_tx_done `(a  1 e 1 0 ]
+{
+"231
+} 0
+"259
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 0 ]
+"266
+} 0
+"414 /home/fabio/Documentos/V3/WD03WS04_MB.X/nanomodbus.c
+[v _recv_read_registers_res recv_read_registers_res `(E10802  1 s 1 recv_read_registers_res ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v recv_read_registers_res@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"432
+[v recv_read_registers_res@reg reg `us  1 a 2 51 ]
+"431
+[v recv_read_registers_res@i i `i  1 a 2 53 ]
+"415
+[v recv_read_registers_res@err err `E10802  1 a 1 57 ]
+"423
+[v recv_read_registers_res@registers_bytes registers_bytes `uc  1 a 1 55 ]
+"414
+[v recv_read_registers_res@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v recv_read_registers_res@quantity quantity `us  1 p 2 44 ]
+[v recv_read_registers_res@registers registers `*.1us  1 p 1 46 ]
+[v recv_read_registers_res@nmbs nmbs `*.5S1514  1 a 1 56 ]
+"446
+} 0
+"318
+[v _recv_res_header recv_res_header `(E10802  1 s 1 recv_res_header ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v recv_res_header@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"342
+[v recv_res_header@exception exception `uc  1 a 1 41 ]
+"319
+[v recv_res_header@req_transaction_id req_transaction_id `us  1 a 2 36 ]
+"324
+[v recv_res_header@err err `E10802  1 a 1 42 ]
+"321
+[v recv_res_header@req_fc req_fc `uc  1 a 1 40 ]
+"323
+[v recv_res_header@first_byte_received first_byte_received `a  1 a 1 39 ]
+"320
+[v recv_res_header@req_unit_id req_unit_id `uc  1 a 1 38 ]
+"318
+[v recv_res_header@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v recv_res_header@nmbs nmbs `*.5S1514  1 a 1 43 ]
+"360
+} 0
+"221
+[v _recv_msg_header recv_msg_header `(E10802  1 s 1 recv_msg_header ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v recv_msg_header@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"229
+[v recv_msg_header@err err `E10802  1 a 1 28 ]
+"221
+[v recv_msg_header@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v recv_msg_header@first_byte_received first_byte_received `*.4a  1 p 1 26 ]
+"224
+"221
+[v recv_msg_header@nmbs nmbs `*.5S1514  1 a 1 29 ]
+"246
+} 0
+"75
+[v _msg_state_reset msg_state_reset `(v  1 s 1 msg_state_reset ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v msg_state_reset@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v msg_state_reset@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v msg_state_reset@nmbs nmbs `*.5S1514  1 a 1 1 ]
+"82
+} 0
+"39
+[v _get_1 get_1 `(uc  1 s 1 get_1 ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v get_1@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"40
+[v get_1@result result `uc  1 a 1 2 ]
+"39
+[v get_1@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v get_1@nmbs nmbs `*.5S1514  1 a 1 3 ]
+"43
+} 0
+"201
+[v _recv_msg_footer recv_msg_footer `(E10802  1 s 1 recv_msg_footer ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v recv_msg_footer@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"211
+[v recv_msg_footer@recv_crc recv_crc `us  1 a 2 30 ]
+"205
+[v recv_msg_footer@crc crc `us  1 a 2 28 ]
+"207
+[v recv_msg_footer@err err `E10802  1 a 1 32 ]
+"201
+[v recv_msg_footer@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"204
+"201
+[v recv_msg_footer@nmbs nmbs `*.5S1514  1 a 1 33 ]
+"218
+} 0
+"166
+[v _recv recv `(E10802  1 s 1 recv ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v recv@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"167
+[v recv@ret ret `c  1 a 1 24 ]
+"166
+[v recv@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v recv@count count `us  1 p 2 19 ]
+[v recv@nmbs nmbs `*.5S1514  1 a 1 25 ]
+"181
+} 0
+"22 /home/fabio/Documentos/V3/WD03WS04_MB.X/modbus_imp.c
+[v _read_serial read_serial `(l  1 e 4 0 ]
+{
+"24
+[v read_serial@charCount charCount `l  1 a 4 15 ]
+"25
+[v read_serial@c c `uc  1 a 1 14 ]
+"22
+[v read_serial@buf buf `*.5uc  1 p 1 2 ]
+[v read_serial@count count `us  1 p 2 3 ]
+[v read_serial@byte_timeout_ms byte_timeout_ms `l  1 p 4 5 ]
+[v read_serial@arg arg `*.6v  1 p 1 9 ]
+"35
+} 0
+"238 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/eusart1.c
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+{
+"240
+[v EUSART1_Read@readValue readValue `uc  1 a 1 1 ]
+"257
+} 0
+"148 /home/fabio/Documentos/V3/WD03WS04_MB.X/nanomodbus.c
+[v _nmbs_crc_calc nmbs_crc_calc `(us  1 e 2 0 ]
+{
+[v nmbs_crc_calc@data data `*.5DCuc  1 a 1 wreg ]
+"152
+[v nmbs_crc_calc@j j `i  1 a 2 13 ]
+"150
+[v nmbs_crc_calc@i i `ul  1 a 4 9 ]
+"149
+[v nmbs_crc_calc@crc crc `us  1 a 2 15 ]
+"148
+[v nmbs_crc_calc@data data `*.5DCuc  1 a 1 wreg ]
+[v nmbs_crc_calc@length length `ul  1 p 4 0 ]
+[v nmbs_crc_calc@data data `*.5DCuc  1 a 1 8 ]
+"163
+} 0
+"56
+[v _get_2 get_2 `(us  1 s 2 get_2 ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v get_2@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"57
+[v get_2@result result `us  1 a 2 9 ]
+"56
+[v get_2@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v get_2@nmbs nmbs `*.5S1514  1 a 1 11 ]
+"61
+} 0
+"300
+[v _put_res_header put_res_header `(v  1 s 1 put_res_header ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v put_res_header@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v put_res_header@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v put_res_header@data_length data_length `us  1 p 2 9 ]
+[v put_res_header@nmbs nmbs `*.5S1514  1 a 1 11 ]
+"303
+} 0
+"249
+[v _put_msg_header put_msg_header `(v  1 s 1 put_msg_header ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v put_msg_header@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v put_msg_header@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v put_msg_header@data_length data_length `us  1 p 2 5 ]
+[v put_msg_header@nmbs nmbs `*.5S1514  1 a 1 8 ]
+"263
+} 0
+"64
+[v _put_2 put_2 `(v  1 s 1 put_2 ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v put_2@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v put_2@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v put_2@data data `us  1 p 2 0 ]
+[v put_2@nmbs nmbs `*.5S1514  1 a 1 4 ]
+"68
+} 0
+"46
+[v _put_1 put_1 `(v  1 s 1 put_1 ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v put_1@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v put_1@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v put_1@data data `uc  1 p 1 0 ]
+[v put_1@nmbs nmbs `*.5S1514  1 a 1 3 ]
+"49
+} 0
+"70
+[v _msg_buf_reset msg_buf_reset `(v  1 s 1 msg_buf_reset ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v msg_buf_reset@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v msg_buf_reset@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v msg_buf_reset@nmbs nmbs `*.5S1514  1 a 1 0 ]
+"72
+} 0
+"98 /home/fabio/Documentos/V3/WD03WS04_MB.X/modbus_imp.c
+[v _handler_read_holding_registers handler_read_holding_registers `(E10863  1 e 1 0 ]
+{
+"104
+[v handler_read_holding_registers@i i `i  1 a 2 11 ]
+"103
+[v handler_read_holding_registers@server_registers server_registers `*.6us  1 a 1 10 ]
+"98
+[v handler_read_holding_registers@address address `us  1 p 2 0 ]
+[v handler_read_holding_registers@quantity quantity `us  1 p 2 2 ]
+[v handler_read_holding_registers@registers_out registers_out `*.4us  1 p 1 4 ]
+[v handler_read_holding_registers@arg arg `*.6v  1 p 1 6 ]
+"108
+} 0
+"86
+[v _handler_read_input_registers handler_read_input_registers `(E10863  1 e 1 0 ]
+{
+"92
+[v handler_read_input_registers@i i `i  1 a 2 11 ]
+"91
+[v handler_read_input_registers@server_registers server_registers `*.6us  1 a 1 10 ]
+"86
+[v handler_read_input_registers@address address `us  1 p 2 0 ]
+[v handler_read_input_registers@quantity quantity `us  1 p 2 2 ]
+[v handler_read_input_registers@registers_out registers_out `*.4us  1 p 1 4 ]
+[v handler_read_input_registers@unit_id unit_id `uc  1 p 1 5 ]
+[v handler_read_input_registers@arg arg `*.6v  1 p 1 6 ]
+"96
+} 0
+"1359 /home/fabio/Documentos/V3/WD03WS04_MB.X/nanomodbus.c
+[v _nmbs_server_create nmbs_server_create `(E10863  1 e 1 0 ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v nmbs_server_create@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+"1364
+[v nmbs_server_create@ret ret `E10802  1 a 1 17 ]
+"1359
+[v nmbs_server_create@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v nmbs_server_create@address_rtu address_rtu `uc  1 p 1 12 ]
+[v nmbs_server_create@platform_conf platform_conf `*.5DCS1495  1 p 1 13 ]
+"1360
+[v nmbs_server_create@callbacks callbacks `*.5DCS1454  1 p 1 14 ]
+"1359
+[v nmbs_server_create@nmbs nmbs `*.5S1514  1 a 1 18 ]
+"1372
+} 0
+"110
+[v _nmbs_create nmbs_create `(E10802  1 e 1 0 ]
+{
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v nmbs_create@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v nmbs_create@nmbs nmbs `*.5S1514  1 a 1 wreg ]
+[v nmbs_create@platform_conf platform_conf `*.5DCS1495  1 p 1 8 ]
+[v nmbs_create@nmbs nmbs `*.5S1514  1 a 1 11 ]
+"131
+} 0
+"150 /home/fabio/Documentos/V3/WD03WS04_MB.X/main.c
+[v _is_a_new_value is_a_new_value `(v  1 e 1 0 ]
+{
+[s S1406 . 1 `[1]uc 1 coils 1 0 ]
+[s S1408 . 8 `us 1 sensor_type 2 0 `us 1 serial_number 2 2 `us 1 sensor_value1 2 4 `us 1 sensor_value2 2 6 ]
+[s S1413 . 4 `us 1 addr_slave 2 0 `us 1 baudrate 2 2 ]
+[s S1416 . 13 `S1406 1 server_coils 1 0 `S1408 1 server_input_register 8 1 `S1413 1 server_holding_register 4 9 ]
+[v is_a_new_value@registers registers `*.6S1416  1 a 1 wreg ]
+[v is_a_new_value@registers registers `*.6S1416  1 a 1 wreg ]
+[v is_a_new_value@actual_regs actual_regs `*.5S1413  1 p 1 9 ]
+[s S1429 . 56 `[48]uc 1 buf 48 0 `us 1 buf_idx 2 48 `uc 1 unit_id 1 50 `uc 1 fc 1 51 `us 1 transaction_id 2 52 `a 1 broadcast 1 54 `a 1 ignored 1 55 ]
+[s S1454 nmbs_callbacks 9 `*.37(E10863 1 read_holding_registers 2 0 `*.37(E10863 1 read_input_registers 2 2 `*.37(E10863 1 write_single_coil 2 4 `*.37(E10863 1 write_single_register 2 6 `uc 1 _nonempty 1 8 ]
+[s S1495 nmbs_platform_conf 6 `E10878 1 transport 1 0 `*.37(l 1 read 2 1 `*.37(l 1 write 2 3 `*.6v 1 arg 1 5 ]
+[s S1514 nmbs_t 75 `S1429 1 msg 56 0 `S1454 1 callbacks 9 56 `S1495 1 platform 6 65 `uc 1 address_rtu 1 71 `uc 1 dest_address_rtu 1 72 `us 1 current_tid 2 73 ]
+[v is_a_new_value@nmbs nmbs `*.5S1514  1 p 1 10 ]
+"152
+"150
+[v is_a_new_value@registers registers `*.6S1416  1 a 1 15 ]
+"178
+} 0
+"84 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/eusart1.c
+[v _setBaudRateEUSART1 setBaudRateEUSART1 `(uc  1 e 1 0 ]
+{
+[v setBaudRateEUSART1@baudRate baudRate `ul  1 p 4 0 ]
+"175
+} 0
+"202 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/memory.c
+[v _DATAEE_WriteWord DATAEE_WriteWord `(v  1 e 1 0 ]
+{
+[v DATAEE_WriteWord@bAdd bAdd `us  1 p 2 4 ]
+[v DATAEE_WriteWord@bData bData `us  1 p 2 6 ]
+"206
+} 0
+"180
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+{
+"182
+[v DATAEE_WriteByte@GIEBitValue GIEBitValue `uc  1 a 1 3 ]
+"180
+[v DATAEE_WriteByte@bAdd bAdd `us  1 p 2 0 ]
+[v DATAEE_WriteByte@bData bData `uc  1 p 1 2 ]
+"200
+} 0
+"15 /home/fabio/Documentos/V3/WD03WS04_MB.X/sensor.c
+[v _getCount getCount `(us  1 e 2 0 ]
+{
+"17
+[v getCount@result result `us  1 a 2 13 ]
+"38
+} 0
+"98 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/tmr5.c
+[v _TMR5_StopTimer TMR5_StopTimer `(v  1 e 1 0 ]
+{
+"102
+} 0
+"92
+[v _TMR5_StartTimer TMR5_StartTimer `(v  1 e 1 0 ]
+{
+"96
+} 0
+"104
+[v _TMR5_ReadTimer TMR5_ReadTimer `(us  1 e 2 0 ]
+{
+"106
+[v TMR5_ReadTimer@readVal readVal `us  1 a 2 7 ]
+"108
+[v TMR5_ReadTimer@readValLow readValLow `uc  1 a 1 10 ]
+"107
+[v TMR5_ReadTimer@readValHigh readValHigh `uc  1 a 1 9 ]
+"118
+} 0
+"80 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/tmr0.c
+[v _TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
+{
+"84
+} 0
+"114
+[v _TMR0_HasOverflowOccured TMR0_HasOverflowOccured `(a  1 e 1 0 ]
+{
+"118
+} 0
+"4 /home/fabio/Documentos/V3/WD03WS04_MB.X/sensor.c
+[v _getADCData getADCData `(us  1 e 2 0 ]
+{
+"6
+[v getADCData@result result `us  1 a 2 6 ]
+"7
+[v getADCData@channel channel `E10679  1 a 1 8 ]
+"4
+[v getADCData@sensorSelection sensorSelection `*.6v  1 p 1 3 ]
+"13
+} 0
+"138 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/adcc.c
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+{
+[v ADCC_GetSingleConversion@channel channel `E10330  1 a 1 wreg ]
+[v ADCC_GetSingleConversion@channel channel `E10330  1 a 1 wreg ]
+"141
+[v ADCC_GetSingleConversion@channel channel `E10330  1 a 1 2 ]
+"161
+} 0
+"8 /opt/microchip/xc8/v2.36/pic/sources/c99/common/exit.c
+[v _exit exit `(v  1 e 1 0 ]
+{
+[v exit@code code `i  1 p 2 10 ]
+"13
+} 0
+"17 /opt/microchip/xc8/v2.36/pic/sources/c99/common/atexit.c
+[v ___funcs_on_exit __funcs_on_exit `(v  1 e 1 0 ]
+{
+"19
+[v ___funcs_on_exit@arg arg `*.39v  1 a 2 8 ]
+[v ___funcs_on_exit@func func `*.37(v  1 a 2 6 ]
+"25
+} 0
+"45
+[v _call call `(v  1 s 1 call ]
+{
+[v call@p p `*.39v  1 p 2 0 ]
+"48
+} 0
+"7 /opt/microchip/xc8/v2.36/pic/sources/c99/common/_Exit.c
+[v __Exit _Exit `(v  1 e 1 0 ]
+{
+[v __Exit@ec ec `i  1 p 2 0 ]
+"11
+} 0
+"123 /home/fabio/Documentos/V3/WD03WS04_MB.X/modbus_imp.c
+[v _default_values_register default_values_register `(v  1 e 1 0 ]
+{
+[s S1406 . 1 `[1]uc 1 coils 1 0 ]
+[s S1408 . 8 `us 1 sensor_type 2 0 `us 1 serial_number 2 2 `us 1 sensor_value1 2 4 `us 1 sensor_value2 2 6 ]
+[s S1413 . 4 `us 1 addr_slave 2 0 `us 1 baudrate 2 2 ]
+[s S1416 . 13 `S1406 1 server_coils 1 0 `S1408 1 server_input_register 8 1 `S1413 1 server_holding_register 4 9 ]
+[v default_values_register@registers registers `*.6S1416  1 a 1 wreg ]
+[v default_values_register@registers registers `*.6S1416  1 a 1 wreg ]
+"125
+"123
+[v default_values_register@registers registers `*.6S1416  1 a 1 8 ]
+"132
+} 0
+"101 /home/fabio/Documentos/V3/WD03WS04_MB.X/nanomodbus.c
+[v _m_memset m_memset `(v  1 e 1 0 ]
+{
+"103
+[v m_memset@p p `*.39uc  1 a 2 6 ]
+"101
+[v m_memset@s s `*.39v  1 p 2 0 ]
+[v m_memset@c c `i  1 p 2 2 ]
+[v m_memset@len len `ui  1 p 2 4 ]
+"108
+} 0
+"134 /home/fabio/Documentos/V3/WD03WS04_MB.X/modbus_imp.c
+[v _check_error_modbus check_error_modbus `(v  1 e 1 0 ]
+{
+"165
+} 0
+"350 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/eusart1.c
+[v _UART_ClearBuffer UART_ClearBuffer `(v  1 e 1 0 ]
+{
+"354
+} 0
+"50 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"61
+} 0
+"63 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/tmr5.c
+[v _TMR5_Initialize TMR5_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"69 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"102
+} 0
+"183
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"185
+} 0
+"60 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"77 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"95
+} 0
+"55 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"109
+} 0
+"63 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"75
+} 0
+"58 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+{
+"62
+} 0
+"177 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"216
+} 0
+"346
+[v _EUSART1_SetRxInterruptHandler EUSART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetRxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"348
+} 0
+"337
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"339
+} 0
+"333
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"335
+} 0
+"341
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"343
+} 0
+"63 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"112
+} 0
+"64 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/fvr.c
+[v _FVR_IsOutputReady FVR_IsOutputReady `(a  1 e 1 0 ]
+{
+"67
+} 0
+"208 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/memory.c
+[v _DATAEE_ReadWord DATAEE_ReadWord `(us  1 e 2 0 ]
+{
+"211
+[v DATAEE_ReadWord@high_byte high_byte `uc  1 a 1 10 ]
+"210
+[v DATAEE_ReadWord@low_byte low_byte `uc  1 a 1 9 ]
+"208
+[v DATAEE_ReadWord@bAdd bAdd `us  1 p 2 2 ]
+"214
+} 0
+"216
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+{
+[v DATAEE_ReadByte@bAdd bAdd `us  1 p 2 0 ]
+"226
+} 0
+"52 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"74
+} 0
+"169 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/tmr1.c
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+{
+"180
+} 0
+"187
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"197
+} 0
+"350 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/eusart1.c
+[v i1_UART_ClearBuffer UART_ClearBuffer `(v  1 e 1 0 ]
+{
+"354
+} 0
+"270
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+{
+"292
+} 0
+"321
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+{
+"327
+} 0
+"319
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"329
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+{
+"331
+} 0
+"294
+[v _EUSART1_RxDataHandler EUSART1_RxDataHandler `(v  1 e 1 0 ]
+{
+"296
+[v EUSART1_RxDataHandler@t t `i  1 a 2 4 ]
+"317
+} 0
+"132 /home/fabio/Documentos/V3/WD03WS04_MB.X/mcc_generated_files/tmr1.c
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR1_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
+"152
+} 0
+"110
+[v _TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+{
+"114
+} 0
+"104
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+{
+"108
+} 0

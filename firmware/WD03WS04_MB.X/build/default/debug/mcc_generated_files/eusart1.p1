@@ -1,0 +1,2081 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"79 mcc_generated_files/eusart1.h
+[; ;mcc_generated_files/eusart1.h: 79:     struct {
+[s S1421 :1 `uc 1 :1 `uc 1 :1 `uc 1 :5 `uc 1 ]
+[n S1421 . perr ferr oerr reserved ]
+"78
+[; ;mcc_generated_files/eusart1.h: 78: typedef union {
+[u S1420 `S1421 1 `uc 1 ]
+[n S1420 . . status ]
+[v F10395 `(v ~T0 @X0 0 tf ]
+[v F10397 `(v ~T0 @X0 0 tf ]
+[v F10399 `(v ~T0 @X0 0 tf ]
+[v F10401 `(v ~T0 @X0 0 tf ]
+"5293 /home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5293:     struct {
+[s S242 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S242 . TX9D TRMT BRGH SENDB SYNC TXEN TX9 CSRC ]
+"5292
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5292: typedef union {
+[u S241 `S242 1 ]
+[n S241 . . ]
+"5304
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5304: extern volatile TX1STAbits_t TX1STAbits __attribute__((address(0x11E)));
+[v _TX1STAbits `VS241 ~T0 @X0 0 e@286 ]
+"5113
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5113:     struct {
+[s S236 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S236 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+"5112
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5112: typedef union {
+[u S235 `S236 1 ]
+[n S235 . . ]
+"5124
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5124: extern volatile RC1STAbits_t RC1STAbits __attribute__((address(0x11D)));
+[v _RC1STAbits `VS235 ~T0 @X0 0 e@285 ]
+"4974
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4974: extern volatile unsigned char SP1BRGL __attribute__((address(0x11B)));
+[v _SP1BRGL `Vuc ~T0 @X0 0 e@283 ]
+"5044
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5044: extern volatile unsigned char SP1BRGH __attribute__((address(0x11C)));
+[v _SP1BRGH `Vuc ~T0 @X0 0 e@284 ]
+"7660
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 7660: extern volatile unsigned char TMR1H __attribute__((address(0x20D)));
+[v _TMR1H `Vuc ~T0 @X0 0 e@525 ]
+"7590
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 7590: extern volatile unsigned char TMR1L __attribute__((address(0x20C)));
+[v _TMR1L `Vuc ~T0 @X0 0 e@524 ]
+"4967
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4967: extern volatile unsigned short SP1BRG __attribute__((address(0x11B)));
+[v _SP1BRG `Vus ~T0 @X0 0 e@283 ]
+"19270
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19270:     struct {
+[s S897 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S897 . SSP1IE BCL1IE SSP2IE BCL2IE TX1IE RC1IE ]
+"19269
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19269: typedef union {
+[u S896 `S897 1 ]
+[n S896 . . ]
+"19279
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19279: extern volatile PIE3bits_t PIE3bits __attribute__((address(0x719)));
+[v _PIE3bits `VS896 ~T0 @X0 0 e@1817 ]
+[v F10363 `(v ~T0 @X0 0 tf ]
+"469 mcc_generated_files/eusart1.h
+[; ;mcc_generated_files/eusart1.h: 469: void EUSART1_SetRxInterruptHandler(void (* interruptHandler)(void));
+[v _EUSART1_SetRxInterruptHandler `(v ~T0 @X0 0 ef1`*F10363 ]
+"373
+[; ;mcc_generated_files/eusart1.h: 373: void EUSART1_Receive_ISR(void);
+[v _EUSART1_Receive_ISR `(v ~T0 @X0 0 ef ]
+"5458 /home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5458: extern volatile unsigned char BAUD1CON __attribute__((address(0x11F)));
+[v _BAUD1CON `Vuc ~T0 @X0 0 e@287 ]
+"5098
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5098: extern volatile unsigned char RC1STA __attribute__((address(0x11D)));
+[v _RC1STA `Vuc ~T0 @X0 0 e@285 ]
+"5278
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5278: extern volatile unsigned char TX1STA __attribute__((address(0x11E)));
+[v _TX1STA `Vuc ~T0 @X0 0 e@286 ]
+[v F10351 `(v ~T0 @X0 0 tf ]
+"412 mcc_generated_files/eusart1.h
+[; ;mcc_generated_files/eusart1.h: 412: void EUSART1_SetFramingErrorHandler(void (* interruptHandler)(void));
+[v _EUSART1_SetFramingErrorHandler `(v ~T0 @X0 0 ef1`*F10351 ]
+"80 mcc_generated_files/eusart1.c
+[; ;mcc_generated_files/eusart1.c: 80: void EUSART1_DefaultFramingErrorHandler(void);
+[v _EUSART1_DefaultFramingErrorHandler `(v ~T0 @X0 0 ef ]
+[v F10355 `(v ~T0 @X0 0 tf ]
+"430 mcc_generated_files/eusart1.h
+[; ;mcc_generated_files/eusart1.h: 430: void EUSART1_SetOverrunErrorHandler(void (* interruptHandler)(void));
+[v _EUSART1_SetOverrunErrorHandler `(v ~T0 @X0 0 ef1`*F10355 ]
+"81 mcc_generated_files/eusart1.c
+[; ;mcc_generated_files/eusart1.c: 81: void EUSART1_DefaultOverrunErrorHandler(void);
+[v _EUSART1_DefaultOverrunErrorHandler `(v ~T0 @X0 0 ef ]
+[v F10359 `(v ~T0 @X0 0 tf ]
+"448 mcc_generated_files/eusart1.h
+[; ;mcc_generated_files/eusart1.h: 448: void EUSART1_SetErrorHandler(void (* interruptHandler)(void));
+[v _EUSART1_SetErrorHandler `(v ~T0 @X0 0 ef1`*F10359 ]
+"82 mcc_generated_files/eusart1.c
+[; ;mcc_generated_files/eusart1.c: 82: void EUSART1_DefaultErrorHandler(void);
+[v _EUSART1_DefaultErrorHandler `(v ~T0 @X0 0 ef ]
+"18899 /home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18899:     struct {
+[s S879 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S879 . SSP1IF BCL1IF SSP2IF BCL2IF TX1IF RC1IF ]
+"18898
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18898: typedef union {
+[u S878 `S879 1 ]
+[n S878 . . ]
+"18908
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18908: extern volatile PIR3bits_t PIR3bits __attribute__((address(0x70F)));
+[v _PIR3bits `VS878 ~T0 @X0 0 e@1807 ]
+"4913
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4913: extern volatile unsigned char TX1REG __attribute__((address(0x11A)));
+[v _TX1REG `Vuc ~T0 @X0 0 e@282 ]
+"394 mcc_generated_files/eusart1.h
+[; ;mcc_generated_files/eusart1.h: 394: void EUSART1_RxDataHandler(void);
+[v _EUSART1_RxDataHandler `(v ~T0 @X0 0 ef ]
+"4859 /home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4859: extern volatile unsigned char RC1REG __attribute__((address(0x119)));
+[v _RC1REG `Vuc ~T0 @X0 0 e@281 ]
+"161 mcc_generated_files/tmr1.h
+[; ;mcc_generated_files/tmr1.h: 161: void TMR1_StopTimer(void);
+[v _TMR1_StopTimer `(v ~T0 @X0 0 ef ]
+"235
+[; ;mcc_generated_files/tmr1.h: 235: void TMR1_WriteTimer(uint16_t timerVal);
+[v _TMR1_WriteTimer `(v ~T0 @X0 0 ef1`us ]
+"129
+[; ;mcc_generated_files/tmr1.h: 129: void TMR1_StartTimer(void);
+[v _TMR1_StartTimer `(v ~T0 @X0 0 ef ]
+"69 mcc_generated_files/eusart1.c
+[; ;mcc_generated_files/eusart1.c: 69: extern uart_expire_time;
+[v _uart_expire_time `i ~T0 @X0 0 e ]
+[v F10427 `(v ~T0 @X0 0 tf ]
+[v F10429 `(v ~T0 @X0 0 tf ]
+[v F10432 `(v ~T0 @X0 0 tf ]
+[v F10434 `(v ~T0 @X0 0 tf ]
+[v F10437 `(v ~T0 @X0 0 tf ]
+[v F10439 `(v ~T0 @X0 0 tf ]
+[v F10442 `(v ~T0 @X0 0 tf ]
+[v F10444 `(v ~T0 @X0 0 tf ]
+"110 /home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 110: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"130
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 130: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"150
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 150: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"170
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 170: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"233
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 233: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"253
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 253: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"277
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 277: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"297
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 297: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"317
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 317: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"375
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 375: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"395
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 395: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"415
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 415: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"448
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 448: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"498
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 498: __asm("PORTC equ 0Eh");
+[; <" PORTC equ 0Eh ;# ">
+"548
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 548: __asm("TRISA equ 012h");
+[; <" TRISA equ 012h ;# ">
+"598
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 598: __asm("TRISC equ 014h");
+[; <" TRISC equ 014h ;# ">
+"648
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 648: __asm("LATA equ 018h");
+[; <" LATA equ 018h ;# ">
+"698
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 698: __asm("LATC equ 01Ah");
+[; <" LATC equ 01Ah ;# ">
+"748
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 748: __asm("ADLTH equ 08Ch");
+[; <" ADLTH equ 08Ch ;# ">
+"755
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 755: __asm("ADLTHL equ 08Ch");
+[; <" ADLTHL equ 08Ch ;# ">
+"883
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 883: __asm("ADLTHH equ 08Dh");
+[; <" ADLTHH equ 08Dh ;# ">
+"1011
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 1011: __asm("ADUTH equ 08Eh");
+[; <" ADUTH equ 08Eh ;# ">
+"1018
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 1018: __asm("ADUTHL equ 08Eh");
+[; <" ADUTHL equ 08Eh ;# ">
+"1146
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 1146: __asm("ADUTHH equ 08Fh");
+[; <" ADUTHH equ 08Fh ;# ">
+"1274
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 1274: __asm("ADERR equ 090h");
+[; <" ADERR equ 090h ;# ">
+"1281
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 1281: __asm("ADERRL equ 090h");
+[; <" ADERRL equ 090h ;# ">
+"1409
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 1409: __asm("ADERRH equ 091h");
+[; <" ADERRH equ 091h ;# ">
+"1537
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 1537: __asm("ADSTPT equ 092h");
+[; <" ADSTPT equ 092h ;# ">
+"1544
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 1544: __asm("ADSTPTL equ 092h");
+[; <" ADSTPTL equ 092h ;# ">
+"1672
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 1672: __asm("ADSTPTH equ 093h");
+[; <" ADSTPTH equ 093h ;# ">
+"1800
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 1800: __asm("ADFLTR equ 094h");
+[; <" ADFLTR equ 094h ;# ">
+"1807
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 1807: __asm("ADFLTRL equ 094h");
+[; <" ADFLTRL equ 094h ;# ">
+"1935
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 1935: __asm("ADFLTRH equ 095h");
+[; <" ADFLTRH equ 095h ;# ">
+"2065
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 2065: __asm("ADACC equ 096h");
+[; <" ADACC equ 096h ;# ">
+"2072
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 2072: __asm("ADACCL equ 096h");
+[; <" ADACCL equ 096h ;# ">
+"2200
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 2200: __asm("ADACCH equ 097h");
+[; <" ADACCH equ 097h ;# ">
+"2328
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 2328: __asm("ADACCU equ 098h");
+[; <" ADACCU equ 098h ;# ">
+"2456
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 2456: __asm("ADCNT equ 099h");
+[; <" ADCNT equ 099h ;# ">
+"2584
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 2584: __asm("ADRPT equ 09Ah");
+[; <" ADRPT equ 09Ah ;# ">
+"2712
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 2712: __asm("ADPREV equ 09Bh");
+[; <" ADPREV equ 09Bh ;# ">
+"2719
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 2719: __asm("ADPREVL equ 09Bh");
+[; <" ADPREVL equ 09Bh ;# ">
+"2847
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 2847: __asm("ADPREVH equ 09Ch");
+[; <" ADPREVH equ 09Ch ;# ">
+"2975
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 2975: __asm("ADRES equ 09Dh");
+[; <" ADRES equ 09Dh ;# ">
+"2982
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 2982: __asm("ADRESL equ 09Dh");
+[; <" ADRESL equ 09Dh ;# ">
+"3110
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 3110: __asm("ADRESH equ 09Eh");
+[; <" ADRESH equ 09Eh ;# ">
+"3230
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 3230: __asm("ADPCH equ 09Fh");
+[; <" ADPCH equ 09Fh ;# ">
+"3334
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 3334: __asm("ADACQ equ 010Ch");
+[; <" ADACQ equ 010Ch ;# ">
+"3341
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 3341: __asm("ADACQL equ 010Ch");
+[; <" ADACQL equ 010Ch ;# ">
+"3469
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 3469: __asm("ADACQH equ 010Dh");
+[; <" ADACQH equ 010Dh ;# ">
+"3561
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 3561: __asm("ADCAP equ 010Eh");
+[; <" ADCAP equ 010Eh ;# ">
+"3653
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 3653: __asm("ADPRE equ 010Fh");
+[; <" ADPRE equ 010Fh ;# ">
+"3660
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 3660: __asm("ADPREL equ 010Fh");
+[; <" ADPREL equ 010Fh ;# ">
+"3788
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 3788: __asm("ADPREH equ 0110h");
+[; <" ADPREH equ 0110h ;# ">
+"3880
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 3880: __asm("ADCON0 equ 0111h");
+[; <" ADCON0 equ 0111h ;# ">
+"4002
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4002: __asm("ADCON1 equ 0112h");
+[; <" ADCON1 equ 0112h ;# ">
+"4092
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4092: __asm("ADCON2 equ 0113h");
+[; <" ADCON2 equ 0113h ;# ">
+"4270
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4270: __asm("ADCON3 equ 0114h");
+[; <" ADCON3 equ 0114h ;# ">
+"4400
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4400: __asm("ADSTAT equ 0115h");
+[; <" ADSTAT equ 0115h ;# ">
+"4525
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4525: __asm("ADREF equ 0116h");
+[; <" ADREF equ 0116h ;# ">
+"4665
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4665: __asm("ADACT equ 0117h");
+[; <" ADACT equ 0117h ;# ">
+"4757
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4757: __asm("ADCLK equ 0118h");
+[; <" ADCLK equ 0118h ;# ">
+"4861
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4861: __asm("RC1REG equ 0119h");
+[; <" RC1REG equ 0119h ;# ">
+"4866
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4866: __asm("RCREG equ 0119h");
+[; <" RCREG equ 0119h ;# ">
+"4870
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4870: __asm("RCREG1 equ 0119h");
+[; <" RCREG1 equ 0119h ;# ">
+"4915
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4915: __asm("TX1REG equ 011Ah");
+[; <" TX1REG equ 011Ah ;# ">
+"4920
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4920: __asm("TXREG1 equ 011Ah");
+[; <" TXREG1 equ 011Ah ;# ">
+"4924
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4924: __asm("TXREG equ 011Ah");
+[; <" TXREG equ 011Ah ;# ">
+"4969
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4969: __asm("SP1BRG equ 011Bh");
+[; <" SP1BRG equ 011Bh ;# ">
+"4976
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4976: __asm("SP1BRGL equ 011Bh");
+[; <" SP1BRGL equ 011Bh ;# ">
+"4981
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4981: __asm("SPBRG equ 011Bh");
+[; <" SPBRG equ 011Bh ;# ">
+"4985
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4985: __asm("SPBRG1 equ 011Bh");
+[; <" SPBRG1 equ 011Bh ;# ">
+"4989
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 4989: __asm("SPBRGL equ 011Bh");
+[; <" SPBRGL equ 011Bh ;# ">
+"5046
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5046: __asm("SP1BRGH equ 011Ch");
+[; <" SP1BRGH equ 011Ch ;# ">
+"5051
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5051: __asm("SPBRGH equ 011Ch");
+[; <" SPBRGH equ 011Ch ;# ">
+"5055
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5055: __asm("SPBRGH1 equ 011Ch");
+[; <" SPBRGH1 equ 011Ch ;# ">
+"5100
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5100: __asm("RC1STA equ 011Dh");
+[; <" RC1STA equ 011Dh ;# ">
+"5105
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5105: __asm("RCSTA1 equ 011Dh");
+[; <" RCSTA1 equ 011Dh ;# ">
+"5109
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5109: __asm("RCSTA equ 011Dh");
+[; <" RCSTA equ 011Dh ;# ">
+"5280
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5280: __asm("TX1STA equ 011Eh");
+[; <" TX1STA equ 011Eh ;# ">
+"5285
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5285: __asm("TXSTA1 equ 011Eh");
+[; <" TXSTA1 equ 011Eh ;# ">
+"5289
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5289: __asm("TXSTA equ 011Eh");
+[; <" TXSTA equ 011Eh ;# ">
+"5460
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5460: __asm("BAUD1CON equ 011Fh");
+[; <" BAUD1CON equ 011Fh ;# ">
+"5465
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5465: __asm("BAUDCON1 equ 011Fh");
+[; <" BAUDCON1 equ 011Fh ;# ">
+"5469
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5469: __asm("BAUDCTL1 equ 011Fh");
+[; <" BAUDCTL1 equ 011Fh ;# ">
+"5473
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5473: __asm("BAUDCON equ 011Fh");
+[; <" BAUDCON equ 011Fh ;# ">
+"5477
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5477: __asm("BAUDCTL equ 011Fh");
+[; <" BAUDCTL equ 011Fh ;# ">
+"5706
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5706: __asm("SSP1BUF equ 018Ch");
+[; <" SSP1BUF equ 018Ch ;# ">
+"5726
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5726: __asm("SSP1ADD equ 018Dh");
+[; <" SSP1ADD equ 018Dh ;# ">
+"5846
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5846: __asm("SSP1MSK equ 018Eh");
+[; <" SSP1MSK equ 018Eh ;# ">
+"5916
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 5916: __asm("SSP1STAT equ 018Fh");
+[; <" SSP1STAT equ 018Fh ;# ">
+"6280
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 6280: __asm("SSP1CON1 equ 0190h");
+[; <" SSP1CON1 equ 0190h ;# ">
+"6400
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 6400: __asm("SSP1CON2 equ 0191h");
+[; <" SSP1CON2 equ 0191h ;# ">
+"6587
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 6587: __asm("SSP1CON3 equ 0192h");
+[; <" SSP1CON3 equ 0192h ;# ">
+"6649
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 6649: __asm("SSP2BUF equ 0196h");
+[; <" SSP2BUF equ 0196h ;# ">
+"6669
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 6669: __asm("SSP2ADD equ 0197h");
+[; <" SSP2ADD equ 0197h ;# ">
+"6789
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 6789: __asm("SSP2MSK equ 0198h");
+[; <" SSP2MSK equ 0198h ;# ">
+"6859
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 6859: __asm("SSP2STAT equ 0199h");
+[; <" SSP2STAT equ 0199h ;# ">
+"7223
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 7223: __asm("SSP2CON1 equ 019Ah");
+[; <" SSP2CON1 equ 019Ah ;# ">
+"7343
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 7343: __asm("SSP2CON2 equ 019Bh");
+[; <" SSP2CON2 equ 019Bh ;# ">
+"7530
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 7530: __asm("SSP2CON3 equ 019Ch");
+[; <" SSP2CON3 equ 019Ch ;# ">
+"7592
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 7592: __asm("TMR1L equ 020Ch");
+[; <" TMR1L equ 020Ch ;# ">
+"7662
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 7662: __asm("TMR1H equ 020Dh");
+[; <" TMR1H equ 020Dh ;# ">
+"7732
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 7732: __asm("T1CON equ 020Eh");
+[; <" T1CON equ 020Eh ;# ">
+"7737
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 7737: __asm("TMR1CON equ 020Eh");
+[; <" TMR1CON equ 020Eh ;# ">
+"7922
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 7922: __asm("T1GCON equ 020Fh");
+[; <" T1GCON equ 020Fh ;# ">
+"7927
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 7927: __asm("TMR1GCON equ 020Fh");
+[; <" TMR1GCON equ 020Fh ;# ">
+"8136
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 8136: __asm("T1GATE equ 0210h");
+[; <" T1GATE equ 0210h ;# ">
+"8141
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 8141: __asm("TMR1GATE equ 0210h");
+[; <" TMR1GATE equ 0210h ;# ">
+"8302
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 8302: __asm("T1CLK equ 0211h");
+[; <" T1CLK equ 0211h ;# ">
+"8307
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 8307: __asm("TMR1CLK equ 0211h");
+[; <" TMR1CLK equ 0211h ;# ">
+"8468
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 8468: __asm("TMR3L equ 0212h");
+[; <" TMR3L equ 0212h ;# ">
+"8538
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 8538: __asm("TMR3H equ 0213h");
+[; <" TMR3H equ 0213h ;# ">
+"8608
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 8608: __asm("T3CON equ 0214h");
+[; <" T3CON equ 0214h ;# ">
+"8613
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 8613: __asm("TMR3CON equ 0214h");
+[; <" TMR3CON equ 0214h ;# ">
+"8798
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 8798: __asm("T3GCON equ 0215h");
+[; <" T3GCON equ 0215h ;# ">
+"8803
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 8803: __asm("TMR3GCON equ 0215h");
+[; <" TMR3GCON equ 0215h ;# ">
+"9012
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 9012: __asm("T3GATE equ 0216h");
+[; <" T3GATE equ 0216h ;# ">
+"9017
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 9017: __asm("TMR3GATE equ 0216h");
+[; <" TMR3GATE equ 0216h ;# ">
+"9178
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 9178: __asm("T3CLK equ 0217h");
+[; <" T3CLK equ 0217h ;# ">
+"9183
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 9183: __asm("TMR3CLK equ 0217h");
+[; <" TMR3CLK equ 0217h ;# ">
+"9344
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 9344: __asm("TMR5L equ 0218h");
+[; <" TMR5L equ 0218h ;# ">
+"9414
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 9414: __asm("TMR5H equ 0219h");
+[; <" TMR5H equ 0219h ;# ">
+"9484
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 9484: __asm("T5CON equ 021Ah");
+[; <" T5CON equ 021Ah ;# ">
+"9489
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 9489: __asm("TMR5CON equ 021Ah");
+[; <" TMR5CON equ 021Ah ;# ">
+"9674
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 9674: __asm("T5GCON equ 021Bh");
+[; <" T5GCON equ 021Bh ;# ">
+"9679
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 9679: __asm("TMR5GCON equ 021Bh");
+[; <" TMR5GCON equ 021Bh ;# ">
+"9888
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 9888: __asm("T5GATE equ 021Ch");
+[; <" T5GATE equ 021Ch ;# ">
+"9893
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 9893: __asm("TMR5GATE equ 021Ch");
+[; <" TMR5GATE equ 021Ch ;# ">
+"10054
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10054: __asm("T5CLK equ 021Dh");
+[; <" T5CLK equ 021Dh ;# ">
+"10059
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10059: __asm("TMR5CLK equ 021Dh");
+[; <" TMR5CLK equ 021Dh ;# ">
+"10220
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10220: __asm("CCPTMRS0 equ 021Eh");
+[; <" CCPTMRS0 equ 021Eh ;# ">
+"10258
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10258: __asm("CCPTMRS1 equ 021Fh");
+[; <" CCPTMRS1 equ 021Fh ;# ">
+"10290
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10290: __asm("T2TMR equ 028Ch");
+[; <" T2TMR equ 028Ch ;# ">
+"10295
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10295: __asm("TMR2 equ 028Ch");
+[; <" TMR2 equ 028Ch ;# ">
+"10344
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10344: __asm("T2PR equ 028Dh");
+[; <" T2PR equ 028Dh ;# ">
+"10349
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10349: __asm("PR2 equ 028Dh");
+[; <" PR2 equ 028Dh ;# ">
+"10398
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10398: __asm("T2CON equ 028Eh");
+[; <" T2CON equ 028Eh ;# ">
+"10544
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10544: __asm("T2HLT equ 028Fh");
+[; <" T2HLT equ 028Fh ;# ">
+"10672
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10672: __asm("T2CLKCON equ 0290h");
+[; <" T2CLKCON equ 0290h ;# ">
+"10752
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10752: __asm("T2RST equ 0291h");
+[; <" T2RST equ 0291h ;# ">
+"10844
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10844: __asm("T4TMR equ 0292h");
+[; <" T4TMR equ 0292h ;# ">
+"10849
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10849: __asm("TMR4 equ 0292h");
+[; <" TMR4 equ 0292h ;# ">
+"10898
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10898: __asm("T4PR equ 0293h");
+[; <" T4PR equ 0293h ;# ">
+"10903
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10903: __asm("PR4 equ 0293h");
+[; <" PR4 equ 0293h ;# ">
+"10952
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 10952: __asm("T4CON equ 0294h");
+[; <" T4CON equ 0294h ;# ">
+"11098
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 11098: __asm("T4HLT equ 0295h");
+[; <" T4HLT equ 0295h ;# ">
+"11226
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 11226: __asm("T4CLKCON equ 0296h");
+[; <" T4CLKCON equ 0296h ;# ">
+"11306
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 11306: __asm("T4RST equ 0297h");
+[; <" T4RST equ 0297h ;# ">
+"11398
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 11398: __asm("T6TMR equ 0298h");
+[; <" T6TMR equ 0298h ;# ">
+"11403
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 11403: __asm("TMR6 equ 0298h");
+[; <" TMR6 equ 0298h ;# ">
+"11452
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 11452: __asm("T6PR equ 0299h");
+[; <" T6PR equ 0299h ;# ">
+"11457
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 11457: __asm("PR6 equ 0299h");
+[; <" PR6 equ 0299h ;# ">
+"11506
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 11506: __asm("T6CON equ 029Ah");
+[; <" T6CON equ 029Ah ;# ">
+"11652
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 11652: __asm("T6HLT equ 029Bh");
+[; <" T6HLT equ 029Bh ;# ">
+"11780
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 11780: __asm("T6CLKCON equ 029Ch");
+[; <" T6CLKCON equ 029Ch ;# ">
+"11860
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 11860: __asm("T6RST equ 029Dh");
+[; <" T6RST equ 029Dh ;# ">
+"11952
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 11952: __asm("ADCPCON0 equ 029Fh");
+[; <" ADCPCON0 equ 029Fh ;# ">
+"11979
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 11979: __asm("CCPR1 equ 030Ch");
+[; <" CCPR1 equ 030Ch ;# ">
+"11986
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 11986: __asm("CCPR1L equ 030Ch");
+[; <" CCPR1L equ 030Ch ;# ">
+"12006
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12006: __asm("CCPR1H equ 030Dh");
+[; <" CCPR1H equ 030Dh ;# ">
+"12026
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12026: __asm("CCP1CON equ 030Eh");
+[; <" CCP1CON equ 030Eh ;# ">
+"12144
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12144: __asm("CCP1CAP equ 030Fh");
+[; <" CCP1CAP equ 030Fh ;# ">
+"12212
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12212: __asm("CCPR2 equ 0310h");
+[; <" CCPR2 equ 0310h ;# ">
+"12219
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12219: __asm("CCPR2L equ 0310h");
+[; <" CCPR2L equ 0310h ;# ">
+"12239
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12239: __asm("CCPR2H equ 0311h");
+[; <" CCPR2H equ 0311h ;# ">
+"12259
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12259: __asm("CCP2CON equ 0312h");
+[; <" CCP2CON equ 0312h ;# ">
+"12377
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12377: __asm("CCP2CAP equ 0313h");
+[; <" CCP2CAP equ 0313h ;# ">
+"12445
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12445: __asm("CCPR3 equ 0314h");
+[; <" CCPR3 equ 0314h ;# ">
+"12452
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12452: __asm("CCPR3L equ 0314h");
+[; <" CCPR3L equ 0314h ;# ">
+"12472
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12472: __asm("CCPR3H equ 0315h");
+[; <" CCPR3H equ 0315h ;# ">
+"12492
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12492: __asm("CCP3CON equ 0316h");
+[; <" CCP3CON equ 0316h ;# ">
+"12610
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12610: __asm("CCP3CAP equ 0317h");
+[; <" CCP3CAP equ 0317h ;# ">
+"12678
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12678: __asm("CCPR4 equ 0318h");
+[; <" CCPR4 equ 0318h ;# ">
+"12685
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12685: __asm("CCPR4L equ 0318h");
+[; <" CCPR4L equ 0318h ;# ">
+"12705
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12705: __asm("CCPR4H equ 0319h");
+[; <" CCPR4H equ 0319h ;# ">
+"12725
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12725: __asm("CCP4CON equ 031Ah");
+[; <" CCP4CON equ 031Ah ;# ">
+"12843
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12843: __asm("CCP4CAP equ 031Bh");
+[; <" CCP4CAP equ 031Bh ;# ">
+"12911
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12911: __asm("PWM6DC equ 038Ch");
+[; <" PWM6DC equ 038Ch ;# ">
+"12918
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12918: __asm("PWM6DCL equ 038Ch");
+[; <" PWM6DCL equ 038Ch ;# ">
+"12984
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 12984: __asm("PWM6DCH equ 038Dh");
+[; <" PWM6DCH equ 038Dh ;# ">
+"13154
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 13154: __asm("PWM6CON equ 038Eh");
+[; <" PWM6CON equ 038Eh ;# ">
+"13210
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 13210: __asm("PWM7DC equ 0390h");
+[; <" PWM7DC equ 0390h ;# ">
+"13217
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 13217: __asm("PWM7DCL equ 0390h");
+[; <" PWM7DCL equ 0390h ;# ">
+"13283
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 13283: __asm("PWM7DCH equ 0391h");
+[; <" PWM7DCH equ 0391h ;# ">
+"13453
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 13453: __asm("PWM7CON equ 0392h");
+[; <" PWM7CON equ 0392h ;# ">
+"13511
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 13511: __asm("SMT1TMR equ 048Ch");
+[; <" SMT1TMR equ 048Ch ;# ">
+"13518
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 13518: __asm("SMT1TMRL equ 048Ch");
+[; <" SMT1TMRL equ 048Ch ;# ">
+"13646
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 13646: __asm("SMT1TMRH equ 048Dh");
+[; <" SMT1TMRH equ 048Dh ;# ">
+"13774
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 13774: __asm("SMT1TMRU equ 048Eh");
+[; <" SMT1TMRU equ 048Eh ;# ">
+"13904
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 13904: __asm("SMT1CPR equ 048Fh");
+[; <" SMT1CPR equ 048Fh ;# ">
+"13911
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 13911: __asm("SMT1CPRL equ 048Fh");
+[; <" SMT1CPRL equ 048Fh ;# ">
+"14039
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 14039: __asm("SMT1CPRH equ 0490h");
+[; <" SMT1CPRH equ 0490h ;# ">
+"14167
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 14167: __asm("SMT1CPRU equ 0491h");
+[; <" SMT1CPRU equ 0491h ;# ">
+"14297
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 14297: __asm("SMT1CPW equ 0492h");
+[; <" SMT1CPW equ 0492h ;# ">
+"14304
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 14304: __asm("SMT1CPWL equ 0492h");
+[; <" SMT1CPWL equ 0492h ;# ">
+"14432
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 14432: __asm("SMT1CPWH equ 0493h");
+[; <" SMT1CPWH equ 0493h ;# ">
+"14560
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 14560: __asm("SMT1CPWU equ 0494h");
+[; <" SMT1CPWU equ 0494h ;# ">
+"14690
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 14690: __asm("SMT1PR equ 0495h");
+[; <" SMT1PR equ 0495h ;# ">
+"14697
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 14697: __asm("SMT1PRL equ 0495h");
+[; <" SMT1PRL equ 0495h ;# ">
+"14825
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 14825: __asm("SMT1PRH equ 0496h");
+[; <" SMT1PRH equ 0496h ;# ">
+"14953
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 14953: __asm("SMT1PRU equ 0497h");
+[; <" SMT1PRU equ 0497h ;# ">
+"15081
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 15081: __asm("SMT1CON0 equ 0498h");
+[; <" SMT1CON0 equ 0498h ;# ">
+"15199
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 15199: __asm("SMT1CON1 equ 0499h");
+[; <" SMT1CON1 equ 0499h ;# ">
+"15279
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 15279: __asm("SMT1STAT equ 049Ah");
+[; <" SMT1STAT equ 049Ah ;# ">
+"15378
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 15378: __asm("SMT1CLK equ 049Bh");
+[; <" SMT1CLK equ 049Bh ;# ">
+"15446
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 15446: __asm("SMT1SIG equ 049Ch");
+[; <" SMT1SIG equ 049Ch ;# ">
+"15538
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 15538: __asm("SMT1WIN equ 049Dh");
+[; <" SMT1WIN equ 049Dh ;# ">
+"15632
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 15632: __asm("NCO1ACC equ 058Ch");
+[; <" NCO1ACC equ 058Ch ;# ">
+"15639
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 15639: __asm("NCO1ACCL equ 058Ch");
+[; <" NCO1ACCL equ 058Ch ;# ">
+"15767
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 15767: __asm("NCO1ACCH equ 058Dh");
+[; <" NCO1ACCH equ 058Dh ;# ">
+"15895
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 15895: __asm("NCO1ACCU equ 058Eh");
+[; <" NCO1ACCU equ 058Eh ;# ">
+"15977
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 15977: __asm("NCO1INC equ 058Fh");
+[; <" NCO1INC equ 058Fh ;# ">
+"15984
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 15984: __asm("NCO1INCL equ 058Fh");
+[; <" NCO1INCL equ 058Fh ;# ">
+"16112
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 16112: __asm("NCO1INCH equ 0590h");
+[; <" NCO1INCH equ 0590h ;# ">
+"16240
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 16240: __asm("NCO1INCU equ 0591h");
+[; <" NCO1INCU equ 0591h ;# ">
+"16320
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 16320: __asm("NCO1CON equ 0592h");
+[; <" NCO1CON equ 0592h ;# ">
+"16388
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 16388: __asm("NCO1CLK equ 0593h");
+[; <" NCO1CLK equ 0593h ;# ">
+"16520
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 16520: __asm("TMR0L equ 059Ch");
+[; <" TMR0L equ 059Ch ;# ">
+"16525
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 16525: __asm("TMR0 equ 059Ch");
+[; <" TMR0 equ 059Ch ;# ">
+"16658
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 16658: __asm("TMR0H equ 059Dh");
+[; <" TMR0H equ 059Dh ;# ">
+"16663
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 16663: __asm("PR0 equ 059Dh");
+[; <" PR0 equ 059Dh ;# ">
+"16912
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 16912: __asm("T0CON0 equ 059Eh");
+[; <" T0CON0 equ 059Eh ;# ">
+"17010
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 17010: __asm("T0CON1 equ 059Fh");
+[; <" T0CON1 equ 059Fh ;# ">
+"17152
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 17152: __asm("CWG1CLK equ 060Ch");
+[; <" CWG1CLK equ 060Ch ;# ">
+"17157
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 17157: __asm("CWG1CLKCON equ 060Ch");
+[; <" CWG1CLKCON equ 060Ch ;# ">
+"17206
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 17206: __asm("CWG1ISM equ 060Dh");
+[; <" CWG1ISM equ 060Dh ;# ">
+"17211
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 17211: __asm("CWG1DAT equ 060Dh");
+[; <" CWG1DAT equ 060Dh ;# ">
+"17296
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 17296: __asm("CWG1DBR equ 060Eh");
+[; <" CWG1DBR equ 060Eh ;# ">
+"17400
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 17400: __asm("CWG1DBF equ 060Fh");
+[; <" CWG1DBF equ 060Fh ;# ">
+"17504
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 17504: __asm("CWG1CON0 equ 0610h");
+[; <" CWG1CON0 equ 0610h ;# ">
+"17605
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 17605: __asm("CWG1CON1 equ 0611h");
+[; <" CWG1CON1 equ 0611h ;# ">
+"17683
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 17683: __asm("CWG1AS0 equ 0612h");
+[; <" CWG1AS0 equ 0612h ;# ">
+"17803
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 17803: __asm("CWG1AS1 equ 0613h");
+[; <" CWG1AS1 equ 0613h ;# ">
+"17859
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 17859: __asm("CWG1STR equ 0614h");
+[; <" CWG1STR equ 0614h ;# ">
+"17971
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 17971: __asm("CWG2CLK equ 0616h");
+[; <" CWG2CLK equ 0616h ;# ">
+"17976
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 17976: __asm("CWG2CLKCON equ 0616h");
+[; <" CWG2CLKCON equ 0616h ;# ">
+"18025
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18025: __asm("CWG2ISM equ 0617h");
+[; <" CWG2ISM equ 0617h ;# ">
+"18030
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18030: __asm("CWG2DAT equ 0617h");
+[; <" CWG2DAT equ 0617h ;# ">
+"18115
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18115: __asm("CWG2DBR equ 0618h");
+[; <" CWG2DBR equ 0618h ;# ">
+"18219
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18219: __asm("CWG2DBF equ 0619h");
+[; <" CWG2DBF equ 0619h ;# ">
+"18323
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18323: __asm("CWG2CON0 equ 061Ah");
+[; <" CWG2CON0 equ 061Ah ;# ">
+"18424
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18424: __asm("CWG2CON1 equ 061Bh");
+[; <" CWG2CON1 equ 061Bh ;# ">
+"18502
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18502: __asm("CWG2AS0 equ 061Ch");
+[; <" CWG2AS0 equ 061Ch ;# ">
+"18622
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18622: __asm("CWG2AS1 equ 061Dh");
+[; <" CWG2AS1 equ 061Dh ;# ">
+"18678
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18678: __asm("CWG2STR equ 061Eh");
+[; <" CWG2STR equ 061Eh ;# ">
+"18790
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18790: __asm("PIR0 equ 070Ch");
+[; <" PIR0 equ 070Ch ;# ">
+"18823
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18823: __asm("PIR1 equ 070Dh");
+[; <" PIR1 equ 070Dh ;# ">
+"18862
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18862: __asm("PIR2 equ 070Eh");
+[; <" PIR2 equ 070Eh ;# ">
+"18895
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18895: __asm("PIR3 equ 070Fh");
+[; <" PIR3 equ 070Fh ;# ">
+"18945
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18945: __asm("PIR4 equ 0710h");
+[; <" PIR4 equ 0710h ;# ">
+"18995
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 18995: __asm("PIR5 equ 0711h");
+[; <" PIR5 equ 0711h ;# ">
+"19052
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19052: __asm("PIR6 equ 0712h");
+[; <" PIR6 equ 0712h ;# ">
+"19090
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19090: __asm("PIR7 equ 0713h");
+[; <" PIR7 equ 0713h ;# ">
+"19129
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19129: __asm("PIR8 equ 0714h");
+[; <" PIR8 equ 0714h ;# ">
+"19161
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19161: __asm("PIE0 equ 0716h");
+[; <" PIE0 equ 0716h ;# ">
+"19194
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19194: __asm("PIE1 equ 0717h");
+[; <" PIE1 equ 0717h ;# ">
+"19233
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19233: __asm("PIE2 equ 0718h");
+[; <" PIE2 equ 0718h ;# ">
+"19266
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19266: __asm("PIE3 equ 0719h");
+[; <" PIE3 equ 0719h ;# ">
+"19316
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19316: __asm("PIE4 equ 071Ah");
+[; <" PIE4 equ 071Ah ;# ">
+"19366
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19366: __asm("PIE5 equ 071Bh");
+[; <" PIE5 equ 071Bh ;# ">
+"19423
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19423: __asm("PIE6 equ 071Ch");
+[; <" PIE6 equ 071Ch ;# ">
+"19461
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19461: __asm("PIE7 equ 071Dh");
+[; <" PIE7 equ 071Dh ;# ">
+"19509
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19509: __asm("PIE8 equ 071Eh");
+[; <" PIE8 equ 071Eh ;# ">
+"19541
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19541: __asm("PMD0 equ 0796h");
+[; <" PMD0 equ 0796h ;# ">
+"19586
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19586: __asm("PMD1 equ 0797h");
+[; <" PMD1 equ 0797h ;# ">
+"19642
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19642: __asm("PMD2 equ 0798h");
+[; <" PMD2 equ 0798h ;# ">
+"19663
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19663: __asm("PMD3 equ 0799h");
+[; <" PMD3 equ 0799h ;# ">
+"19708
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19708: __asm("PMD4 equ 079Ah");
+[; <" PMD4 equ 079Ah ;# ">
+"19759
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19759: __asm("PMD5 equ 079Bh");
+[; <" PMD5 equ 079Bh ;# ">
+"19786
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19786: __asm("PMD6 equ 079Ch");
+[; <" PMD6 equ 079Ch ;# ">
+"19819
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19819: __asm("PMD7 equ 079Dh");
+[; <" PMD7 equ 079Dh ;# ">
+"19869
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19869: __asm("WDTCON0 equ 080Ch");
+[; <" WDTCON0 equ 080Ch ;# ">
+"19944
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 19944: __asm("WDTCON1 equ 080Dh");
+[; <" WDTCON1 equ 080Dh ;# ">
+"20038
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20038: __asm("WDTPSL equ 080Eh");
+[; <" WDTPSL equ 080Eh ;# ">
+"20166
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20166: __asm("WDTPSH equ 080Fh");
+[; <" WDTPSH equ 080Fh ;# ">
+"20294
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20294: __asm("WDTTMR equ 0810h");
+[; <" WDTTMR equ 0810h ;# ">
+"20376
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20376: __asm("BORCON equ 0811h");
+[; <" BORCON equ 0811h ;# ">
+"20403
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20403: __asm("VREGCON equ 0812h");
+[; <" VREGCON equ 0812h ;# ">
+"20424
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20424: __asm("PCON0 equ 0813h");
+[; <" PCON0 equ 0813h ;# ">
+"20486
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20486: __asm("PCON1 equ 0814h");
+[; <" PCON1 equ 0814h ;# ">
+"20507
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20507: __asm("NVMADR equ 081Ah");
+[; <" NVMADR equ 081Ah ;# ">
+"20514
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20514: __asm("NVMADRL equ 081Ah");
+[; <" NVMADRL equ 081Ah ;# ">
+"20576
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20576: __asm("NVMADRH equ 081Bh");
+[; <" NVMADRH equ 081Bh ;# ">
+"20632
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20632: __asm("NVMDAT equ 081Ch");
+[; <" NVMDAT equ 081Ch ;# ">
+"20639
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20639: __asm("NVMDATL equ 081Ch");
+[; <" NVMDATL equ 081Ch ;# ">
+"20701
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20701: __asm("NVMDATH equ 081Dh");
+[; <" NVMDATH equ 081Dh ;# ">
+"20751
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20751: __asm("NVMCON1 equ 081Eh");
+[; <" NVMCON1 equ 081Eh ;# ">
+"20807
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20807: __asm("NVMCON2 equ 081Fh");
+[; <" NVMCON2 equ 081Fh ;# ">
+"20827
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20827: __asm("CPUDOZE equ 088Ch");
+[; <" CPUDOZE equ 088Ch ;# ">
+"20892
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20892: __asm("OSCCON1 equ 088Dh");
+[; <" OSCCON1 equ 088Dh ;# ">
+"20962
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 20962: __asm("OSCCON2 equ 088Eh");
+[; <" OSCCON2 equ 088Eh ;# ">
+"21032
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 21032: __asm("OSCCON3 equ 088Fh");
+[; <" OSCCON3 equ 088Fh ;# ">
+"21072
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 21072: __asm("OSCSTAT equ 0890h");
+[; <" OSCSTAT equ 0890h ;# ">
+"21129
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 21129: __asm("OSCEN equ 0891h");
+[; <" OSCEN equ 0891h ;# ">
+"21180
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 21180: __asm("OSCTUNE equ 0892h");
+[; <" OSCTUNE equ 0892h ;# ">
+"21238
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 21238: __asm("OSCFRQ equ 0893h");
+[; <" OSCFRQ equ 0893h ;# ">
+"21278
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 21278: __asm("CLKRCON equ 0895h");
+[; <" CLKRCON equ 0895h ;# ">
+"21343
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 21343: __asm("CLKRCLK equ 0896h");
+[; <" CLKRCLK equ 0896h ;# ">
+"21389
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 21389: __asm("MD1CON0 equ 0897h");
+[; <" MD1CON0 equ 0897h ;# ">
+"21457
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 21457: __asm("MD1CON1 equ 0898h");
+[; <" MD1CON1 equ 0898h ;# ">
+"21523
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 21523: __asm("MD1SRC equ 0899h");
+[; <" MD1SRC equ 0899h ;# ">
+"21615
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 21615: __asm("MD1CARL equ 089Ah");
+[; <" MD1CARL equ 089Ah ;# ">
+"21695
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 21695: __asm("MD1CARH equ 089Bh");
+[; <" MD1CARH equ 089Bh ;# ">
+"21775
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 21775: __asm("FVRCON equ 090Ch");
+[; <" FVRCON equ 090Ch ;# ">
+"21851
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 21851: __asm("DAC1CON0 equ 090Eh");
+[; <" DAC1CON0 equ 090Eh ;# ">
+"21942
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 21942: __asm("DAC1CON1 equ 090Fh");
+[; <" DAC1CON1 equ 090Fh ;# ">
+"21994
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 21994: __asm("ZCDCON equ 091Fh");
+[; <" ZCDCON equ 091Fh ;# ">
+"22040
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 22040: __asm("CMOUT equ 098Fh");
+[; <" CMOUT equ 098Fh ;# ">
+"22045
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 22045: __asm("CMSTAT equ 098Fh");
+[; <" CMSTAT equ 098Fh ;# ">
+"22118
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 22118: __asm("CM1CON0 equ 0990h");
+[; <" CM1CON0 equ 0990h ;# ">
+"22198
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 22198: __asm("CM1CON1 equ 0991h");
+[; <" CM1CON1 equ 0991h ;# ">
+"22238
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 22238: __asm("CM1NCH equ 0992h");
+[; <" CM1NCH equ 0992h ;# ">
+"22298
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 22298: __asm("CM1PCH equ 0993h");
+[; <" CM1PCH equ 0993h ;# ">
+"22358
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 22358: __asm("CM2CON0 equ 0994h");
+[; <" CM2CON0 equ 0994h ;# ">
+"22438
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 22438: __asm("CM2CON1 equ 0995h");
+[; <" CM2CON1 equ 0995h ;# ">
+"22478
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 22478: __asm("CM2NCH equ 0996h");
+[; <" CM2NCH equ 0996h ;# ">
+"22538
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 22538: __asm("CM2PCH equ 0997h");
+[; <" CM2PCH equ 0997h ;# ">
+"22598
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 22598: __asm("CLCDATA equ 01E0Fh");
+[; <" CLCDATA equ 01E0Fh ;# ">
+"22636
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 22636: __asm("CLC1CON equ 01E10h");
+[; <" CLC1CON equ 01E10h ;# ">
+"22754
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 22754: __asm("CLC1POL equ 01E11h");
+[; <" CLC1POL equ 01E11h ;# ">
+"22832
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 22832: __asm("CLC1SEL0 equ 01E12h");
+[; <" CLC1SEL0 equ 01E12h ;# ">
+"22936
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 22936: __asm("CLC1SEL1 equ 01E13h");
+[; <" CLC1SEL1 equ 01E13h ;# ">
+"23040
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 23040: __asm("CLC1SEL2 equ 01E14h");
+[; <" CLC1SEL2 equ 01E14h ;# ">
+"23144
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 23144: __asm("CLC1SEL3 equ 01E15h");
+[; <" CLC1SEL3 equ 01E15h ;# ">
+"23248
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 23248: __asm("CLC1GLS0 equ 01E16h");
+[; <" CLC1GLS0 equ 01E16h ;# ">
+"23360
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 23360: __asm("CLC1GLS1 equ 01E17h");
+[; <" CLC1GLS1 equ 01E17h ;# ">
+"23472
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 23472: __asm("CLC1GLS2 equ 01E18h");
+[; <" CLC1GLS2 equ 01E18h ;# ">
+"23584
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 23584: __asm("CLC1GLS3 equ 01E19h");
+[; <" CLC1GLS3 equ 01E19h ;# ">
+"23696
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 23696: __asm("CLC2CON equ 01E1Ah");
+[; <" CLC2CON equ 01E1Ah ;# ">
+"23814
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 23814: __asm("CLC2POL equ 01E1Bh");
+[; <" CLC2POL equ 01E1Bh ;# ">
+"23892
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 23892: __asm("CLC2SEL0 equ 01E1Ch");
+[; <" CLC2SEL0 equ 01E1Ch ;# ">
+"23996
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 23996: __asm("CLC2SEL1 equ 01E1Dh");
+[; <" CLC2SEL1 equ 01E1Dh ;# ">
+"24100
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 24100: __asm("CLC2SEL2 equ 01E1Eh");
+[; <" CLC2SEL2 equ 01E1Eh ;# ">
+"24204
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 24204: __asm("CLC2SEL3 equ 01E1Fh");
+[; <" CLC2SEL3 equ 01E1Fh ;# ">
+"24308
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 24308: __asm("CLC2GLS0 equ 01E20h");
+[; <" CLC2GLS0 equ 01E20h ;# ">
+"24420
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 24420: __asm("CLC2GLS1 equ 01E21h");
+[; <" CLC2GLS1 equ 01E21h ;# ">
+"24532
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 24532: __asm("CLC2GLS2 equ 01E22h");
+[; <" CLC2GLS2 equ 01E22h ;# ">
+"24644
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 24644: __asm("CLC2GLS3 equ 01E23h");
+[; <" CLC2GLS3 equ 01E23h ;# ">
+"24756
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 24756: __asm("CLC3CON equ 01E24h");
+[; <" CLC3CON equ 01E24h ;# ">
+"24874
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 24874: __asm("CLC3POL equ 01E25h");
+[; <" CLC3POL equ 01E25h ;# ">
+"24952
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 24952: __asm("CLC3SEL0 equ 01E26h");
+[; <" CLC3SEL0 equ 01E26h ;# ">
+"25056
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 25056: __asm("CLC3SEL1 equ 01E27h");
+[; <" CLC3SEL1 equ 01E27h ;# ">
+"25160
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 25160: __asm("CLC3SEL2 equ 01E28h");
+[; <" CLC3SEL2 equ 01E28h ;# ">
+"25264
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 25264: __asm("CLC3SEL3 equ 01E29h");
+[; <" CLC3SEL3 equ 01E29h ;# ">
+"25368
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 25368: __asm("CLC3GLS0 equ 01E2Ah");
+[; <" CLC3GLS0 equ 01E2Ah ;# ">
+"25480
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 25480: __asm("CLC3GLS1 equ 01E2Bh");
+[; <" CLC3GLS1 equ 01E2Bh ;# ">
+"25592
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 25592: __asm("CLC3GLS2 equ 01E2Ch");
+[; <" CLC3GLS2 equ 01E2Ch ;# ">
+"25704
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 25704: __asm("CLC3GLS3 equ 01E2Dh");
+[; <" CLC3GLS3 equ 01E2Dh ;# ">
+"25816
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 25816: __asm("CLC4CON equ 01E2Eh");
+[; <" CLC4CON equ 01E2Eh ;# ">
+"25934
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 25934: __asm("CLC4POL equ 01E2Fh");
+[; <" CLC4POL equ 01E2Fh ;# ">
+"26012
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 26012: __asm("CLC4SEL0 equ 01E30h");
+[; <" CLC4SEL0 equ 01E30h ;# ">
+"26116
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 26116: __asm("CLC4SEL1 equ 01E31h");
+[; <" CLC4SEL1 equ 01E31h ;# ">
+"26220
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 26220: __asm("CLC4SEL2 equ 01E32h");
+[; <" CLC4SEL2 equ 01E32h ;# ">
+"26324
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 26324: __asm("CLC4SEL3 equ 01E33h");
+[; <" CLC4SEL3 equ 01E33h ;# ">
+"26428
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 26428: __asm("CLC4GLS0 equ 01E34h");
+[; <" CLC4GLS0 equ 01E34h ;# ">
+"26540
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 26540: __asm("CLC4GLS1 equ 01E35h");
+[; <" CLC4GLS1 equ 01E35h ;# ">
+"26652
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 26652: __asm("CLC4GLS2 equ 01E36h");
+[; <" CLC4GLS2 equ 01E36h ;# ">
+"26764
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 26764: __asm("CLC4GLS3 equ 01E37h");
+[; <" CLC4GLS3 equ 01E37h ;# ">
+"26876
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 26876: __asm("PPSLOCK equ 01E8Fh");
+[; <" PPSLOCK equ 01E8Fh ;# ">
+"26896
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 26896: __asm("INTPPS equ 01E90h");
+[; <" INTPPS equ 01E90h ;# ">
+"26948
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 26948: __asm("T0CKIPPS equ 01E91h");
+[; <" T0CKIPPS equ 01E91h ;# ">
+"27000
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27000: __asm("T1CKIPPS equ 01E92h");
+[; <" T1CKIPPS equ 01E92h ;# ">
+"27052
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27052: __asm("T1GPPS equ 01E93h");
+[; <" T1GPPS equ 01E93h ;# ">
+"27104
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27104: __asm("T3CKIPPS equ 01E94h");
+[; <" T3CKIPPS equ 01E94h ;# ">
+"27156
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27156: __asm("T3GPPS equ 01E95h");
+[; <" T3GPPS equ 01E95h ;# ">
+"27208
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27208: __asm("T5CKIPPS equ 01E96h");
+[; <" T5CKIPPS equ 01E96h ;# ">
+"27260
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27260: __asm("T5GPPS equ 01E97h");
+[; <" T5GPPS equ 01E97h ;# ">
+"27312
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27312: __asm("T2INPPS equ 01E9Ch");
+[; <" T2INPPS equ 01E9Ch ;# ">
+"27364
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27364: __asm("T4INPPS equ 01E9Dh");
+[; <" T4INPPS equ 01E9Dh ;# ">
+"27416
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27416: __asm("T6INPPS equ 01E9Eh");
+[; <" T6INPPS equ 01E9Eh ;# ">
+"27468
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27468: __asm("CCP1PPS equ 01EA1h");
+[; <" CCP1PPS equ 01EA1h ;# ">
+"27520
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27520: __asm("CCP2PPS equ 01EA2h");
+[; <" CCP2PPS equ 01EA2h ;# ">
+"27572
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27572: __asm("CCP3PPS equ 01EA3h");
+[; <" CCP3PPS equ 01EA3h ;# ">
+"27624
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27624: __asm("CCP4PPS equ 01EA4h");
+[; <" CCP4PPS equ 01EA4h ;# ">
+"27676
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27676: __asm("SMT1WINPPS equ 01EA9h");
+[; <" SMT1WINPPS equ 01EA9h ;# ">
+"27728
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27728: __asm("SMT1SIGPPS equ 01EAAh");
+[; <" SMT1SIGPPS equ 01EAAh ;# ">
+"27780
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27780: __asm("CWG1PPS equ 01EB1h");
+[; <" CWG1PPS equ 01EB1h ;# ">
+"27832
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27832: __asm("CWG2PPS equ 01EB2h");
+[; <" CWG2PPS equ 01EB2h ;# ">
+"27884
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27884: __asm("MDCARLPPS equ 01EB8h");
+[; <" MDCARLPPS equ 01EB8h ;# ">
+"27936
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27936: __asm("MDCARHPPS equ 01EB9h");
+[; <" MDCARHPPS equ 01EB9h ;# ">
+"27988
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 27988: __asm("MDSRCPPS equ 01EBAh");
+[; <" MDSRCPPS equ 01EBAh ;# ">
+"28040
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28040: __asm("CLCIN0PPS equ 01EBBh");
+[; <" CLCIN0PPS equ 01EBBh ;# ">
+"28092
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28092: __asm("CLCIN1PPS equ 01EBCh");
+[; <" CLCIN1PPS equ 01EBCh ;# ">
+"28144
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28144: __asm("CLCIN2PPS equ 01EBDh");
+[; <" CLCIN2PPS equ 01EBDh ;# ">
+"28196
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28196: __asm("CLCIN3PPS equ 01EBEh");
+[; <" CLCIN3PPS equ 01EBEh ;# ">
+"28248
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28248: __asm("ADACTPPS equ 01EC3h");
+[; <" ADACTPPS equ 01EC3h ;# ">
+"28300
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28300: __asm("SSP1CLKPPS equ 01EC5h");
+[; <" SSP1CLKPPS equ 01EC5h ;# ">
+"28352
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28352: __asm("SSP1DATPPS equ 01EC6h");
+[; <" SSP1DATPPS equ 01EC6h ;# ">
+"28404
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28404: __asm("SSP1SSPPS equ 01EC7h");
+[; <" SSP1SSPPS equ 01EC7h ;# ">
+"28456
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28456: __asm("SSP2CLKPPS equ 01EC8h");
+[; <" SSP2CLKPPS equ 01EC8h ;# ">
+"28508
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28508: __asm("SSP2DATPPS equ 01EC9h");
+[; <" SSP2DATPPS equ 01EC9h ;# ">
+"28560
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28560: __asm("SSP2SSPPS equ 01ECAh");
+[; <" SSP2SSPPS equ 01ECAh ;# ">
+"28612
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28612: __asm("RX1DTPPS equ 01ECBh");
+[; <" RX1DTPPS equ 01ECBh ;# ">
+"28664
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28664: __asm("TX1CKPPS equ 01ECCh");
+[; <" TX1CKPPS equ 01ECCh ;# ">
+"28716
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28716: __asm("RA0PPS equ 01F10h");
+[; <" RA0PPS equ 01F10h ;# ">
+"28774
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28774: __asm("RA1PPS equ 01F11h");
+[; <" RA1PPS equ 01F11h ;# ">
+"28832
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28832: __asm("RA2PPS equ 01F12h");
+[; <" RA2PPS equ 01F12h ;# ">
+"28890
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28890: __asm("RA4PPS equ 01F14h");
+[; <" RA4PPS equ 01F14h ;# ">
+"28948
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 28948: __asm("RA5PPS equ 01F15h");
+[; <" RA5PPS equ 01F15h ;# ">
+"29006
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29006: __asm("RC0PPS equ 01F20h");
+[; <" RC0PPS equ 01F20h ;# ">
+"29064
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29064: __asm("RC1PPS equ 01F21h");
+[; <" RC1PPS equ 01F21h ;# ">
+"29122
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29122: __asm("RC2PPS equ 01F22h");
+[; <" RC2PPS equ 01F22h ;# ">
+"29180
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29180: __asm("RC3PPS equ 01F23h");
+[; <" RC3PPS equ 01F23h ;# ">
+"29238
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29238: __asm("RC4PPS equ 01F24h");
+[; <" RC4PPS equ 01F24h ;# ">
+"29296
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29296: __asm("RC5PPS equ 01F25h");
+[; <" RC5PPS equ 01F25h ;# ">
+"29354
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29354: __asm("ANSELA equ 01F38h");
+[; <" ANSELA equ 01F38h ;# ">
+"29399
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29399: __asm("WPUA equ 01F39h");
+[; <" WPUA equ 01F39h ;# ">
+"29449
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29449: __asm("ODCONA equ 01F3Ah");
+[; <" ODCONA equ 01F3Ah ;# ">
+"29494
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29494: __asm("SLRCONA equ 01F3Bh");
+[; <" SLRCONA equ 01F3Bh ;# ">
+"29539
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29539: __asm("INLVLA equ 01F3Ch");
+[; <" INLVLA equ 01F3Ch ;# ">
+"29589
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29589: __asm("IOCAP equ 01F3Dh");
+[; <" IOCAP equ 01F3Dh ;# ">
+"29639
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29639: __asm("IOCAN equ 01F3Eh");
+[; <" IOCAN equ 01F3Eh ;# ">
+"29689
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29689: __asm("IOCAF equ 01F3Fh");
+[; <" IOCAF equ 01F3Fh ;# ">
+"29739
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29739: __asm("ANSELC equ 01F4Eh");
+[; <" ANSELC equ 01F4Eh ;# ">
+"29789
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29789: __asm("WPUC equ 01F4Fh");
+[; <" WPUC equ 01F4Fh ;# ">
+"29839
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29839: __asm("ODCONC equ 01F50h");
+[; <" ODCONC equ 01F50h ;# ">
+"29889
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29889: __asm("SLRCONC equ 01F51h");
+[; <" SLRCONC equ 01F51h ;# ">
+"29939
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29939: __asm("INLVLC equ 01F52h");
+[; <" INLVLC equ 01F52h ;# ">
+"29989
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 29989: __asm("IOCCP equ 01F53h");
+[; <" IOCCP equ 01F53h ;# ">
+"30039
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 30039: __asm("IOCCN equ 01F54h");
+[; <" IOCCN equ 01F54h ;# ">
+"30089
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 30089: __asm("IOCCF equ 01F55h");
+[; <" IOCCF equ 01F55h ;# ">
+"30139
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 30139: __asm("STATUS_SHAD equ 01FE4h");
+[; <" STATUS_SHAD equ 01FE4h ;# ">
+"30159
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 30159: __asm("WREG_SHAD equ 01FE5h");
+[; <" WREG_SHAD equ 01FE5h ;# ">
+"30179
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 30179: __asm("BSR_SHAD equ 01FE6h");
+[; <" BSR_SHAD equ 01FE6h ;# ">
+"30199
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 30199: __asm("PCLATH_SHAD equ 01FE7h");
+[; <" PCLATH_SHAD equ 01FE7h ;# ">
+"30219
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 30219: __asm("FSR0_SHAD equ 01FE8h");
+[; <" FSR0_SHAD equ 01FE8h ;# ">
+"30226
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 30226: __asm("FSR0L_SHAD equ 01FE8h");
+[; <" FSR0L_SHAD equ 01FE8h ;# ">
+"30246
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 30246: __asm("FSR0H_SHAD equ 01FE9h");
+[; <" FSR0H_SHAD equ 01FE9h ;# ">
+"30266
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 30266: __asm("FSR1L_SHAD equ 01FEAh");
+[; <" FSR1L_SHAD equ 01FEAh ;# ">
+"30286
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 30286: __asm("FSR1H_SHAD equ 01FEBh");
+[; <" FSR1H_SHAD equ 01FEBh ;# ">
+"30306
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 30306: __asm("STKPTR equ 01FEDh");
+[; <" STKPTR equ 01FEDh ;# ">
+"30350
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 30350: __asm("TOSL equ 01FEEh");
+[; <" TOSL equ 01FEEh ;# ">
+"30420
+[; ;/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8/pic/include/proc/pic16f18425.h: 30420: __asm("TOSH equ 01FEFh");
+[; <" TOSH equ 01FEFh ;# ">
+"93 mcc_generated_files/eusart1.h
+[; ;mcc_generated_files/eusart1.h: 93: uint8_t flag_Rx;
+[v _flag_Rx `uc ~T0 @X0 1 e ]
+"61 mcc_generated_files/eusart1.c
+[; ;mcc_generated_files/eusart1.c: 61: volatile uint8_t eusart1RxHead = 0;
+[v _eusart1RxHead `Vuc ~T0 @X0 1 e ]
+[i _eusart1RxHead
+-> -> 0 `i `uc
+]
+"62
+[; ;mcc_generated_files/eusart1.c: 62: volatile uint8_t eusart1RxTail = 0;
+[v _eusart1RxTail `Vuc ~T0 @X0 1 e ]
+[i _eusart1RxTail
+-> -> 0 `i `uc
+]
+"63
+[; ;mcc_generated_files/eusart1.c: 63: volatile uint8_t eusart1RxBuffer[8];
+[v _eusart1RxBuffer `Vuc ~T0 @X0 -> 8 `i e ]
+"64
+[; ;mcc_generated_files/eusart1.c: 64: volatile eusart1_status_t eusart1RxStatusBuffer[8];
+[v _eusart1RxStatusBuffer `VS1420 ~T0 @X0 -> 8 `i e ]
+"65
+[; ;mcc_generated_files/eusart1.c: 65: volatile uint8_t eusart1RxCount;
+[v _eusart1RxCount `Vuc ~T0 @X0 1 e ]
+"66
+[; ;mcc_generated_files/eusart1.c: 66: volatile uint8_t eusart1PacketFinish = 0;
+[v _eusart1PacketFinish `Vuc ~T0 @X0 1 e ]
+[i _eusart1PacketFinish
+-> -> 0 `i `uc
+]
+"67
+[; ;mcc_generated_files/eusart1.c: 67: volatile eusart1_status_t eusart1RxLastError;
+[v _eusart1RxLastError `VS1420 ~T0 @X0 1 e ]
+"74
+[; ;mcc_generated_files/eusart1.c: 74: void (*EUSART1_RxDefaultInterruptHandler)(void);
+[v _EUSART1_RxDefaultInterruptHandler `*F10395 ~T0 @X0 1 e ]
+"76
+[; ;mcc_generated_files/eusart1.c: 76: void (*EUSART1_FramingErrorHandler)(void);
+[v _EUSART1_FramingErrorHandler `*F10397 ~T0 @X0 1 e ]
+"77
+[; ;mcc_generated_files/eusart1.c: 77: void (*EUSART1_OverrunErrorHandler)(void);
+[v _EUSART1_OverrunErrorHandler `*F10399 ~T0 @X0 1 e ]
+"78
+[; ;mcc_generated_files/eusart1.c: 78: void (*EUSART1_ErrorHandler)(void);
+[v _EUSART1_ErrorHandler `*F10401 ~T0 @X0 1 e ]
+"84
+[; ;mcc_generated_files/eusart1.c: 84: uint8_t setBaudRateEUSART1(uint32_t baudRate)
+[v _setBaudRateEUSART1 `(uc ~T0 @X0 1 ef1`ul ]
+"85
+[; ;mcc_generated_files/eusart1.c: 85: {
+{
+[e :U _setBaudRateEUSART1 ]
+"84
+[; ;mcc_generated_files/eusart1.c: 84: uint8_t setBaudRateEUSART1(uint32_t baudRate)
+[v _baudRate `ul ~T0 @X0 1 r1 ]
+"85
+[; ;mcc_generated_files/eusart1.c: 85: {
+[f ]
+"86
+[; ;mcc_generated_files/eusart1.c: 86:     TX1STAbits.TXEN = 0;
+[e = . . _TX1STAbits 0 5 -> -> 0 `i `uc ]
+"87
+[; ;mcc_generated_files/eusart1.c: 87:     RC1STAbits.CREN = 0;
+[e = . . _RC1STAbits 0 4 -> -> 0 `i `uc ]
+"90
+[; ;mcc_generated_files/eusart1.c: 90:     switch(baudRate)
+[e $U 1424  ]
+"91
+[; ;mcc_generated_files/eusart1.c: 91:     {
+{
+"92
+[; ;mcc_generated_files/eusart1.c: 92:         case 300:
+[e :U 1425 ]
+"94
+[; ;mcc_generated_files/eusart1.c: 94:              SP1BRGL = 0x40;
+[e = _SP1BRGL -> -> 64 `i `uc ]
+"97
+[; ;mcc_generated_files/eusart1.c: 97:             SP1BRGH = 0x03;
+[e = _SP1BRGH -> -> 3 `i `uc ]
+"100
+[; ;mcc_generated_files/eusart1.c: 100:             TMR1H = 0xDE;
+[e = _TMR1H -> -> 222 `i `uc ]
+"103
+[; ;mcc_generated_files/eusart1.c: 103:             TMR1L = 0xCC;
+[e = _TMR1L -> -> 204 `i `uc ]
+"104
+[; ;mcc_generated_files/eusart1.c: 104:             break;
+[e $U 1423  ]
+"105
+[; ;mcc_generated_files/eusart1.c: 105:         case 1200:
+[e :U 1426 ]
+"107
+[; ;mcc_generated_files/eusart1.c: 107:             SP1BRGL = 0xCF;
+[e = _SP1BRGL -> -> 207 `i `uc ]
+"110
+[; ;mcc_generated_files/eusart1.c: 110:             SP1BRGH = 0x00;
+[e = _SP1BRGH -> -> 0 `i `uc ]
+"113
+[; ;mcc_generated_files/eusart1.c: 113:             TMR1H = 0xF7;
+[e = _TMR1H -> -> 247 `i `uc ]
+"116
+[; ;mcc_generated_files/eusart1.c: 116:             TMR1L = 0xB3;
+[e = _TMR1L -> -> 179 `i `uc ]
+"117
+[; ;mcc_generated_files/eusart1.c: 117:             break;
+[e $U 1423  ]
+"118
+[; ;mcc_generated_files/eusart1.c: 118:         case 2400:
+[e :U 1427 ]
+"120
+[; ;mcc_generated_files/eusart1.c: 120:             SP1BRGL = 0x67;
+[e = _SP1BRGL -> -> 103 `i `uc ]
+"122
+[; ;mcc_generated_files/eusart1.c: 122:             SP1BRGH = 0x00;
+[e = _SP1BRGH -> -> 0 `i `uc ]
+"125
+[; ;mcc_generated_files/eusart1.c: 125:             TMR1H = 0xFB;
+[e = _TMR1H -> -> 251 `i `uc ]
+"128
+[; ;mcc_generated_files/eusart1.c: 128:             TMR1L = 0xE6;
+[e = _TMR1L -> -> 230 `i `uc ]
+"129
+[; ;mcc_generated_files/eusart1.c: 129:             break;
+[e $U 1423  ]
+"130
+[; ;mcc_generated_files/eusart1.c: 130:         case 4800:
+[e :U 1428 ]
+"132
+[; ;mcc_generated_files/eusart1.c: 132:             SP1BRG = (1000000 / (4 * 4800)) - 1;
+[e = _SP1BRG -> - / -> 1000000 `l -> * -> 4 `i -> 4800 `i `l -> -> 1 `i `l `us ]
+"135
+[; ;mcc_generated_files/eusart1.c: 135:             TMR1H = 0xFD;
+[e = _TMR1H -> -> 253 `i `uc ]
+"138
+[; ;mcc_generated_files/eusart1.c: 138:             TMR1L = 0xF3;
+[e = _TMR1L -> -> 243 `i `uc ]
+"139
+[; ;mcc_generated_files/eusart1.c: 139:             break;
+[e $U 1423  ]
+"140
+[; ;mcc_generated_files/eusart1.c: 140:         case 9600:
+[e :U 1429 ]
+"142
+[; ;mcc_generated_files/eusart1.c: 142:             SP1BRGL = 0x19;
+[e = _SP1BRGL -> -> 25 `i `uc ]
+"145
+[; ;mcc_generated_files/eusart1.c: 145:             SP1BRGH = 0x00;
+[e = _SP1BRGH -> -> 0 `i `uc ]
+"148
+[; ;mcc_generated_files/eusart1.c: 148:             TMR1H = 0xFE;
+[e = _TMR1H -> -> 254 `i `uc ]
+"151
+[; ;mcc_generated_files/eusart1.c: 151:             TMR1L = 0xED;
+[e = _TMR1L -> -> 237 `i `uc ]
+"152
+[; ;mcc_generated_files/eusart1.c: 152:             break;
+[e $U 1423  ]
+"153
+[; ;mcc_generated_files/eusart1.c: 153:         case 19200:
+[e :U 1430 ]
+"155
+[; ;mcc_generated_files/eusart1.c: 155:             SP1BRGL = 0x0C;
+[e = _SP1BRGL -> -> 12 `i `uc ]
+"158
+[; ;mcc_generated_files/eusart1.c: 158:             SP1BRGH = 0x00;
+[e = _SP1BRGH -> -> 0 `i `uc ]
+"161
+[; ;mcc_generated_files/eusart1.c: 161:             TMR1H = 0xFF;
+[e = _TMR1H -> -> 255 `i `uc ]
+"164
+[; ;mcc_generated_files/eusart1.c: 164:             TMR1L = 0x6A;
+[e = _TMR1L -> -> 106 `i `uc ]
+"165
+[; ;mcc_generated_files/eusart1.c: 165:             break;
+[e $U 1423  ]
+"166
+[; ;mcc_generated_files/eusart1.c: 166:         default:
+[e :U 1431 ]
+"168
+[; ;mcc_generated_files/eusart1.c: 168:             TX1STAbits.TXEN = 1;
+[e = . . _TX1STAbits 0 5 -> -> 1 `i `uc ]
+"169
+[; ;mcc_generated_files/eusart1.c: 169:             RC1STAbits.CREN = 1;
+[e = . . _RC1STAbits 0 4 -> -> 1 `i `uc ]
+"170
+[; ;mcc_generated_files/eusart1.c: 170:             return 1;
+[e ) -> -> 1 `i `uc ]
+[e $UE 1422  ]
+"171
+[; ;mcc_generated_files/eusart1.c: 171:     }
+}
+[e $U 1423  ]
+[e :U 1424 ]
+[e [\ _baudRate , $ -> -> -> 300 `i `l `ul 1425
+ , $ -> -> -> 1200 `i `l `ul 1426
+ , $ -> -> -> 2400 `i `l `ul 1427
+ , $ -> -> -> 4800 `i `l `ul 1428
+ , $ -> -> -> 9600 `i `l `ul 1429
+ , $ -> -> -> 19200 `i `l `ul 1430
+ 1431 ]
+[e :U 1423 ]
+"172
+[; ;mcc_generated_files/eusart1.c: 172:      TX1STAbits.TXEN = 1;
+[e = . . _TX1STAbits 0 5 -> -> 1 `i `uc ]
+"173
+[; ;mcc_generated_files/eusart1.c: 173:      RC1STAbits.CREN = 1;
+[e = . . _RC1STAbits 0 4 -> -> 1 `i `uc ]
+"174
+[; ;mcc_generated_files/eusart1.c: 174:     return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 1422  ]
+"175
+[; ;mcc_generated_files/eusart1.c: 175: }
+[e :UE 1422 ]
+}
+"177
+[; ;mcc_generated_files/eusart1.c: 177: void EUSART1_Initialize(void)
+[v _EUSART1_Initialize `(v ~T0 @X0 1 ef ]
+"178
+[; ;mcc_generated_files/eusart1.c: 178: {
+{
+[e :U _EUSART1_Initialize ]
+[f ]
+"180
+[; ;mcc_generated_files/eusart1.c: 180:     PIE3bits.RC1IE = 0;
+[e = . . _PIE3bits 0 5 -> -> 0 `i `uc ]
+"181
+[; ;mcc_generated_files/eusart1.c: 181:     EUSART1_SetRxInterruptHandler(EUSART1_Receive_ISR);
+[e ( _EUSART1_SetRxInterruptHandler (1 &U _EUSART1_Receive_ISR ]
+"185
+[; ;mcc_generated_files/eusart1.c: 185:     BAUD1CON = 0x08;
+[e = _BAUD1CON -> -> 8 `i `uc ]
+"188
+[; ;mcc_generated_files/eusart1.c: 188:     RC1STA = 0x90;
+[e = _RC1STA -> -> 144 `i `uc ]
+"191
+[; ;mcc_generated_files/eusart1.c: 191:     TX1STA = 0x24;
+[e = _TX1STA -> -> 36 `i `uc ]
+"194
+[; ;mcc_generated_files/eusart1.c: 194:     SP1BRGL = 0x19;
+[e = _SP1BRGL -> -> 25 `i `uc ]
+"197
+[; ;mcc_generated_files/eusart1.c: 197:     SP1BRGH = 0x00;
+[e = _SP1BRGH -> -> 0 `i `uc ]
+"203
+[; ;mcc_generated_files/eusart1.c: 203:     EUSART1_SetFramingErrorHandler(EUSART1_DefaultFramingErrorHandler);
+[e ( _EUSART1_SetFramingErrorHandler (1 &U _EUSART1_DefaultFramingErrorHandler ]
+"204
+[; ;mcc_generated_files/eusart1.c: 204:     EUSART1_SetOverrunErrorHandler(EUSART1_DefaultOverrunErrorHandler);
+[e ( _EUSART1_SetOverrunErrorHandler (1 &U _EUSART1_DefaultOverrunErrorHandler ]
+"205
+[; ;mcc_generated_files/eusart1.c: 205:     EUSART1_SetErrorHandler(EUSART1_DefaultErrorHandler);
+[e ( _EUSART1_SetErrorHandler (1 &U _EUSART1_DefaultErrorHandler ]
+"207
+[; ;mcc_generated_files/eusart1.c: 207:     eusart1RxLastError.status = 0;
+[e = . _eusart1RxLastError 1 -> -> 0 `i `uc ]
+"210
+[; ;mcc_generated_files/eusart1.c: 210:     eusart1RxHead = 0;
+[e = _eusart1RxHead -> -> 0 `i `uc ]
+"211
+[; ;mcc_generated_files/eusart1.c: 211:     eusart1RxTail = 0;
+[e = _eusart1RxTail -> -> 0 `i `uc ]
+"212
+[; ;mcc_generated_files/eusart1.c: 212:     eusart1RxCount = 0;
+[e = _eusart1RxCount -> -> 0 `i `uc ]
+"215
+[; ;mcc_generated_files/eusart1.c: 215:     PIE3bits.RC1IE = 1;
+[e = . . _PIE3bits 0 5 -> -> 1 `i `uc ]
+"216
+[; ;mcc_generated_files/eusart1.c: 216: }
+[e :UE 1432 ]
+}
+"218
+[; ;mcc_generated_files/eusart1.c: 218: _Bool EUSART1_is_tx_ready(void)
+[v _EUSART1_is_tx_ready `(a ~T0 @X0 1 ef ]
+"219
+[; ;mcc_generated_files/eusart1.c: 219: {
+{
+[e :U _EUSART1_is_tx_ready ]
+[f ]
+"220
+[; ;mcc_generated_files/eusart1.c: 220:     return (_Bool)(PIR3bits.TX1IF && TX1STAbits.TXEN);
+[e ) -> -> && != -> . . _PIR3bits 0 4 `i -> 0 `i != -> . . _TX1STAbits 0 5 `i -> 0 `i `i `a ]
+[e $UE 1433  ]
+"221
+[; ;mcc_generated_files/eusart1.c: 221: }
+[e :UE 1433 ]
+}
+"223
+[; ;mcc_generated_files/eusart1.c: 223: _Bool EUSART1_is_rx_ready(void)
+[v _EUSART1_is_rx_ready `(a ~T0 @X0 1 ef ]
+"224
+[; ;mcc_generated_files/eusart1.c: 224: {
+{
+[e :U _EUSART1_is_rx_ready ]
+[f ]
+"225
+[; ;mcc_generated_files/eusart1.c: 225:     return (eusart1RxCount ? 1 : 0);
+[e ) -> ? != -> _eusart1RxCount `i -> 0 `i : -> 1 `i -> 0 `i `a ]
+[e $UE 1434  ]
+"226
+[; ;mcc_generated_files/eusart1.c: 226: }
+[e :UE 1434 ]
+}
+"228
+[; ;mcc_generated_files/eusart1.c: 228: _Bool EUSART1_is_tx_done(void)
+[v _EUSART1_is_tx_done `(a ~T0 @X0 1 ef ]
+"229
+[; ;mcc_generated_files/eusart1.c: 229: {
+{
+[e :U _EUSART1_is_tx_done ]
+[f ]
+"230
+[; ;mcc_generated_files/eusart1.c: 230:     return TX1STAbits.TRMT;
+[e ) -> . . _TX1STAbits 0 1 `a ]
+[e $UE 1435  ]
+"231
+[; ;mcc_generated_files/eusart1.c: 231: }
+[e :UE 1435 ]
+}
+"233
+[; ;mcc_generated_files/eusart1.c: 233: eusart1_status_t EUSART1_get_last_status(void){
+[v _EUSART1_get_last_status `(S1420 ~T0 @X0 1 ef ]
+{
+[e :U _EUSART1_get_last_status ]
+[f ]
+"234
+[; ;mcc_generated_files/eusart1.c: 234:     return eusart1RxLastError;
+[e ) _eusart1RxLastError ]
+[e $UE 1436  ]
+"235
+[; ;mcc_generated_files/eusart1.c: 235: }
+[e :UE 1436 ]
+}
+"238
+[; ;mcc_generated_files/eusart1.c: 238: uint8_t EUSART1_Read(void)
+[v _EUSART1_Read `(uc ~T0 @X0 1 ef ]
+"239
+[; ;mcc_generated_files/eusart1.c: 239: {
+{
+[e :U _EUSART1_Read ]
+[f ]
+"240
+[; ;mcc_generated_files/eusart1.c: 240:     uint8_t readValue = 0;
+[v _readValue `uc ~T0 @X0 1 a ]
+[e = _readValue -> -> 0 `i `uc ]
+"249
+[; ;mcc_generated_files/eusart1.c: 249:     readValue = eusart1RxBuffer[eusart1RxTail];
+[e = _readValue *U + &U _eusart1RxBuffer * -> _eusart1RxTail `ux -> -> # *U &U _eusart1RxBuffer `ui `ux ]
+"250
+[; ;mcc_generated_files/eusart1.c: 250:     eusart1RxTail = (eusart1RxTail + 1) % 8;
+[e = _eusart1RxTail -> % + -> _eusart1RxTail `i -> 1 `i -> 8 `i `uc ]
+"255
+[; ;mcc_generated_files/eusart1.c: 255:     return readValue;
+[e ) _readValue ]
+[e $UE 1437  ]
+"257
+[; ;mcc_generated_files/eusart1.c: 257: }
+[e :UE 1437 ]
+}
+"259
+[; ;mcc_generated_files/eusart1.c: 259: void EUSART1_Write(uint8_t txData)
+[v _EUSART1_Write `(v ~T0 @X0 1 ef1`uc ]
+"260
+[; ;mcc_generated_files/eusart1.c: 260: {
+{
+[e :U _EUSART1_Write ]
+"259
+[; ;mcc_generated_files/eusart1.c: 259: void EUSART1_Write(uint8_t txData)
+[v _txData `uc ~T0 @X0 1 r1 ]
+"260
+[; ;mcc_generated_files/eusart1.c: 260: {
+[f ]
+"261
+[; ;mcc_generated_files/eusart1.c: 261:     while(0 == PIR3bits.TX1IF)
+[e $U 1439  ]
+[e :U 1440 ]
+"262
+[; ;mcc_generated_files/eusart1.c: 262:     {
+{
+"263
+[; ;mcc_generated_files/eusart1.c: 263:     }
+}
+[e :U 1439 ]
+"261
+[; ;mcc_generated_files/eusart1.c: 261:     while(0 == PIR3bits.TX1IF)
+[e $ == -> 0 `i -> . . _PIR3bits 0 4 `i 1440  ]
+[e :U 1441 ]
+"265
+[; ;mcc_generated_files/eusart1.c: 265:     TX1REG = txData;
+[e = _TX1REG _txData ]
+"266
+[; ;mcc_generated_files/eusart1.c: 266: }
+[e :UE 1438 ]
+}
+"270
+[; ;mcc_generated_files/eusart1.c: 270: void EUSART1_Receive_ISR(void)
+[v _EUSART1_Receive_ISR `(v ~T0 @X0 1 ef ]
+"271
+[; ;mcc_generated_files/eusart1.c: 271: {
+{
+[e :U _EUSART1_Receive_ISR ]
+[f ]
+"273
+[; ;mcc_generated_files/eusart1.c: 273:     eusart1RxStatusBuffer[eusart1RxHead].status = 0;
+[e = . *U + &U _eusart1RxStatusBuffer * -> _eusart1RxHead `ux -> -> # *U &U _eusart1RxStatusBuffer `ui `ux 1 -> -> 0 `i `uc ]
+"275
+[; ;mcc_generated_files/eusart1.c: 275:     if(RC1STAbits.FERR){
+[e $ ! != -> . . _RC1STAbits 0 2 `i -> 0 `i 1443  ]
+{
+"276
+[; ;mcc_generated_files/eusart1.c: 276:         eusart1RxStatusBuffer[eusart1RxHead].ferr = 1;
+[e = . . *U + &U _eusart1RxStatusBuffer * -> _eusart1RxHead `ux -> -> # *U &U _eusart1RxStatusBuffer `ui `ux 0 1 -> -> 1 `i `uc ]
+"277
+[; ;mcc_generated_files/eusart1.c: 277:         EUSART1_FramingErrorHandler();
+[e ( *U _EUSART1_FramingErrorHandler ..  ]
+"278
+[; ;mcc_generated_files/eusart1.c: 278:     }
+}
+[e :U 1443 ]
+"280
+[; ;mcc_generated_files/eusart1.c: 280:     if(RC1STAbits.OERR){
+[e $ ! != -> . . _RC1STAbits 0 1 `i -> 0 `i 1444  ]
+{
+"281
+[; ;mcc_generated_files/eusart1.c: 281:         eusart1RxStatusBuffer[eusart1RxHead].oerr = 1;
+[e = . . *U + &U _eusart1RxStatusBuffer * -> _eusart1RxHead `ux -> -> # *U &U _eusart1RxStatusBuffer `ui `ux 0 2 -> -> 1 `i `uc ]
+"282
+[; ;mcc_generated_files/eusart1.c: 282:         EUSART1_OverrunErrorHandler();
+[e ( *U _EUSART1_OverrunErrorHandler ..  ]
+"283
+[; ;mcc_generated_files/eusart1.c: 283:     }
+}
+[e :U 1444 ]
+"285
+[; ;mcc_generated_files/eusart1.c: 285:     if(eusart1RxStatusBuffer[eusart1RxHead].status){
+[e $ ! != -> . *U + &U _eusart1RxStatusBuffer * -> _eusart1RxHead `ux -> -> # *U &U _eusart1RxStatusBuffer `ui `ux 1 `i -> 0 `i 1445  ]
+{
+"286
+[; ;mcc_generated_files/eusart1.c: 286:         EUSART1_ErrorHandler();
+[e ( *U _EUSART1_ErrorHandler ..  ]
+"287
+[; ;mcc_generated_files/eusart1.c: 287:     } else {
+}
+[e $U 1446  ]
+[e :U 1445 ]
+{
+"288
+[; ;mcc_generated_files/eusart1.c: 288:         EUSART1_RxDataHandler();
+[e ( _EUSART1_RxDataHandler ..  ]
+"289
+[; ;mcc_generated_files/eusart1.c: 289:     }
+}
+[e :U 1446 ]
+"292
+[; ;mcc_generated_files/eusart1.c: 292: }
+[e :UE 1442 ]
+}
+"294
+[; ;mcc_generated_files/eusart1.c: 294: void EUSART1_RxDataHandler(void){
+[v _EUSART1_RxDataHandler `(v ~T0 @X0 1 ef ]
+{
+[e :U _EUSART1_RxDataHandler ]
+[f ]
+"296
+[; ;mcc_generated_files/eusart1.c: 296:     int t;
+[v _t `i ~T0 @X0 1 a ]
+"297
+[; ;mcc_generated_files/eusart1.c: 297:     eusart1RxBuffer[eusart1RxHead] = RC1REG;
+[e = *U + &U _eusart1RxBuffer * -> _eusart1RxHead `ux -> -> # *U &U _eusart1RxBuffer `ui `ux _RC1REG ]
+"298
+[; ;mcc_generated_files/eusart1.c: 298:     eusart1RxCount++;
+[e ++ _eusart1RxCount -> -> 1 `i `Vuc ]
+"300
+[; ;mcc_generated_files/eusart1.c: 300:     if(eusart1RxCount == 8)
+[e $ ! == -> _eusart1RxCount `i -> 8 `i 1448  ]
+"301
+[; ;mcc_generated_files/eusart1.c: 301:     {
+{
+"302
+[; ;mcc_generated_files/eusart1.c: 302:         eusart1PacketFinish++;
+[e ++ _eusart1PacketFinish -> -> 1 `i `Vuc ]
+"303
+[; ;mcc_generated_files/eusart1.c: 303:         eusart1RxCount = 0;
+[e = _eusart1RxCount -> -> 0 `i `uc ]
+"304
+[; ;mcc_generated_files/eusart1.c: 304:         TMR1_StopTimer();
+[e ( _TMR1_StopTimer ..  ]
+"305
+[; ;mcc_generated_files/eusart1.c: 305:     }else if(eusart1RxCount == 1){
+}
+[e $U 1449  ]
+[e :U 1448 ]
+[e $ ! == -> _eusart1RxCount `i -> 1 `i 1450  ]
+{
+"306
+[; ;mcc_generated_files/eusart1.c: 306:         TMR1_WriteTimer(0);
+[e ( _TMR1_WriteTimer (1 -> -> 0 `i `us ]
+"307
+[; ;mcc_generated_files/eusart1.c: 307:         TMR1_StartTimer();
+[e ( _TMR1_StartTimer ..  ]
+"308
+[; ;mcc_generated_files/eusart1.c: 308:     }
+}
+[e :U 1450 ]
+[e :U 1449 ]
+"310
+[; ;mcc_generated_files/eusart1.c: 310:     uart_expire_time = 0;
+[e = _uart_expire_time -> 0 `i ]
+"311
+[; ;mcc_generated_files/eusart1.c: 311:     t=eusart1RxHead;
+[e = _t -> _eusart1RxHead `i ]
+"312
+[; ;mcc_generated_files/eusart1.c: 312:     eusart1RxHead = (eusart1RxHead + 1)% 8;
+[e = _eusart1RxHead -> % + -> _eusart1RxHead `i -> 1 `i -> 8 `i `uc ]
+"313
+[; ;mcc_generated_files/eusart1.c: 313:     if(eusart1RxHead == eusart1RxTail)
+[e $ ! == -> _eusart1RxHead `i -> _eusart1RxTail `i 1451  ]
+"314
+[; ;mcc_generated_files/eusart1.c: 314:     {
+{
+"315
+[; ;mcc_generated_files/eusart1.c: 315:         eusart1RxHead = t;
+[e = _eusart1RxHead -> _t `uc ]
+"316
+[; ;mcc_generated_files/eusart1.c: 316:     }
+}
+[e :U 1451 ]
+"317
+[; ;mcc_generated_files/eusart1.c: 317: }
+[e :UE 1447 ]
+}
+"319
+[; ;mcc_generated_files/eusart1.c: 319: void EUSART1_DefaultFramingErrorHandler(void){}
+[v _EUSART1_DefaultFramingErrorHandler `(v ~T0 @X0 1 ef ]
+{
+[e :U _EUSART1_DefaultFramingErrorHandler ]
+[f ]
+[e :UE 1452 ]
+}
+"321
+[; ;mcc_generated_files/eusart1.c: 321: void EUSART1_DefaultOverrunErrorHandler(void){
+[v _EUSART1_DefaultOverrunErrorHandler `(v ~T0 @X0 1 ef ]
+{
+[e :U _EUSART1_DefaultOverrunErrorHandler ]
+[f ]
+"324
+[; ;mcc_generated_files/eusart1.c: 324:     RC1STAbits.CREN = 0;
+[e = . . _RC1STAbits 0 4 -> -> 0 `i `uc ]
+"325
+[; ;mcc_generated_files/eusart1.c: 325:     RC1STAbits.CREN = 1;
+[e = . . _RC1STAbits 0 4 -> -> 1 `i `uc ]
+"327
+[; ;mcc_generated_files/eusart1.c: 327: }
+[e :UE 1453 ]
+}
+"329
+[; ;mcc_generated_files/eusart1.c: 329: void EUSART1_DefaultErrorHandler(void){
+[v _EUSART1_DefaultErrorHandler `(v ~T0 @X0 1 ef ]
+{
+[e :U _EUSART1_DefaultErrorHandler ]
+[f ]
+"330
+[; ;mcc_generated_files/eusart1.c: 330:     EUSART1_RxDataHandler();
+[e ( _EUSART1_RxDataHandler ..  ]
+"331
+[; ;mcc_generated_files/eusart1.c: 331: }
+[e :UE 1454 ]
+}
+"333
+[; ;mcc_generated_files/eusart1.c: 333: void EUSART1_SetFramingErrorHandler(void (* interruptHandler)(void)){
+[v _EUSART1_SetFramingErrorHandler `(v ~T0 @X0 1 ef1`*F10427 ]
+{
+[e :U _EUSART1_SetFramingErrorHandler ]
+[v _interruptHandler `*F10429 ~T0 @X0 1 r1 ]
+[f ]
+"334
+[; ;mcc_generated_files/eusart1.c: 334:     EUSART1_FramingErrorHandler = interruptHandler;
+[e = _EUSART1_FramingErrorHandler _interruptHandler ]
+"335
+[; ;mcc_generated_files/eusart1.c: 335: }
+[e :UE 1455 ]
+}
+"337
+[; ;mcc_generated_files/eusart1.c: 337: void EUSART1_SetOverrunErrorHandler(void (* interruptHandler)(void)){
+[v _EUSART1_SetOverrunErrorHandler `(v ~T0 @X0 1 ef1`*F10432 ]
+{
+[e :U _EUSART1_SetOverrunErrorHandler ]
+[v _interruptHandler `*F10434 ~T0 @X0 1 r1 ]
+[f ]
+"338
+[; ;mcc_generated_files/eusart1.c: 338:     EUSART1_OverrunErrorHandler = interruptHandler;
+[e = _EUSART1_OverrunErrorHandler _interruptHandler ]
+"339
+[; ;mcc_generated_files/eusart1.c: 339: }
+[e :UE 1456 ]
+}
+"341
+[; ;mcc_generated_files/eusart1.c: 341: void EUSART1_SetErrorHandler(void (* interruptHandler)(void)){
+[v _EUSART1_SetErrorHandler `(v ~T0 @X0 1 ef1`*F10437 ]
+{
+[e :U _EUSART1_SetErrorHandler ]
+[v _interruptHandler `*F10439 ~T0 @X0 1 r1 ]
+[f ]
+"342
+[; ;mcc_generated_files/eusart1.c: 342:     EUSART1_ErrorHandler = interruptHandler;
+[e = _EUSART1_ErrorHandler _interruptHandler ]
+"343
+[; ;mcc_generated_files/eusart1.c: 343: }
+[e :UE 1457 ]
+}
+"346
+[; ;mcc_generated_files/eusart1.c: 346: void EUSART1_SetRxInterruptHandler(void (* interruptHandler)(void)){
+[v _EUSART1_SetRxInterruptHandler `(v ~T0 @X0 1 ef1`*F10442 ]
+{
+[e :U _EUSART1_SetRxInterruptHandler ]
+[v _interruptHandler `*F10444 ~T0 @X0 1 r1 ]
+[f ]
+"347
+[; ;mcc_generated_files/eusart1.c: 347:     EUSART1_RxDefaultInterruptHandler = interruptHandler;
+[e = _EUSART1_RxDefaultInterruptHandler _interruptHandler ]
+"348
+[; ;mcc_generated_files/eusart1.c: 348: }
+[e :UE 1458 ]
+}
+"350
+[; ;mcc_generated_files/eusart1.c: 350: void UART_ClearBuffer() {
+[v _UART_ClearBuffer `(v ~T0 @X0 1 ef ]
+{
+[e :U _UART_ClearBuffer ]
+[f ]
+"351
+[; ;mcc_generated_files/eusart1.c: 351:     eusart1RxHead = 0;
+[e = _eusart1RxHead -> -> 0 `i `uc ]
+"352
+[; ;mcc_generated_files/eusart1.c: 352:     eusart1RxTail = 0;
+[e = _eusart1RxTail -> -> 0 `i `uc ]
+"353
+[; ;mcc_generated_files/eusart1.c: 353:     eusart1RxCount = 0;
+[e = _eusart1RxCount -> -> 0 `i `uc ]
+"354
+[; ;mcc_generated_files/eusart1.c: 354: }
+[e :UE 1459 ]
+}
