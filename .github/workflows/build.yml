@@ -72,16 +72,7 @@ jobs:
         run: |
           export PATH=/usr/local/bin:$PATH
           echo "Nuevo PATH: $PATH"
-
-          
-      - name: Generar Makefiles y compilar proyecto
-        run: |
-          export PATH=/opt/microchip/xc8/bin:/opt/mplabx/mplab_platform/bin:$PATH
-          PROJECT_DIR="firmware/ENERGY_LIGHT_V3.X"
-          CONFIG="default" 
-          export PATH=/opt/microchip/xc8/bin:$PATH
-          sudo make -C $PROJECT_DIR 
-
+        
       - name: Generar Makefiles y compilar proyecto
         run: |
           export PATH=/opt/microchip/xc8/bin:/opt/mplabx/mplab_platform/bin:$PATH
