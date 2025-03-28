@@ -1,4 +1,4 @@
-name: Compilar Proyecto con XC8
+name: Build
 
 on:
   push:
@@ -12,10 +12,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout del código
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Descargar e instalar XC8 2.45
+      - name: Download and install XC8 2.45
         run: |
           pip install gdown
           gdown "https://drive.google.com/uc?id=1Dx4oikTP1t-stbjv9HHKJaf_qIhtrJiL" -O /tmp/xc8-installer.run
@@ -24,7 +24,7 @@ jobs:
           sudo chmod -R 755 /opt/microchip/xc8
           sudo ls -l /opt/microchip/xc8
 
-      - name: Descargar e instalar XC8 2.36
+      - name: Download and install XC8 2.36
         run: |
           pip install gdown
           gdown "https://drive.google.com/uc?id=13tdi_JvjdnBvUe1n_NnJRZOpbCXHbJuk" -O /tmp/xc8-installer-236.run
@@ -33,7 +33,7 @@ jobs:
           sudo chmod -R 755 /opt/microchip/xc8
           sudo ls -l /opt/microchip/xc8
 
-      - name: Descargar e instalar MPLAB X
+      - name: Download and install MPLAB X
         run: |
           wget -nv -O /tmp/mplabx.tar http://ww1.microchip.com/downloads/en/DeviceDoc/MPLABX-v6.00-linux-installer.tar
           tar -xf /tmp/mplabx.tar -C /tmp
@@ -42,10 +42,10 @@ jobs:
           sudo /tmp/mplabx_installer.sh --nox11 -- --unattendedmodeui none --mode unattended --ipe 0 --collectInfo 0 --installdir /opt/mplabx
           rm /tmp/mplabx_installer.sh
 
-      - name: Verificar instalación de MPLAB X
+      - name: Verify de MPLAB X
         run: ls -l /opt/mplabx
 
-      - name: Descargar e instalar PIC16F1xxxx DFP Pack desde Drive
+      - name: Download and install PIC16F1xxxx DFP Pack
         run: |
           sudo apt-get update
           sudo apt-get install -y p7zip-full
@@ -55,12 +55,12 @@ jobs:
           7z x /tmp/Microchip.PIC16F1xxxx_DFP.1.15.191.atpack -o"/opt/microchip/mplabx/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.15.191" -r -y
           sudo ls -l "/opt/microchip/mplabx/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.15.191/"
       
-      - name: Instalar dependencias ncurses
+      - name: Download and install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y libncurses6 libncursesw6
 
-      - name: Descargar fixDeps desde Google Drive
+      - name: Download fixDeps
         run: |
           pip install gdown
           gdown "https://drive.google.com/uc?id=1sE_fVqEaHVbSux4Ke4SEVpfgykGQ2_X_" -O /tmp/fixDeps
@@ -68,7 +68,7 @@ jobs:
           sudo mv /tmp/fixDeps /usr/local/bin/fixDeps
           sudo ls -l /usr/local/bin/fixDeps
 
-      - name: Agregar fixDeps al PATH
+      - name: Add fixDeps to PATH
         run: |
           export PATH=/usr/local/bin:$PATH
           echo "Nuevo PATH: $PATH"
