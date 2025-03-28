@@ -96,7 +96,14 @@ jobs:
           CONFIG="default" 
           export PATH=/opt/microchip/xc8/bin:$PATH
           sudo make -C $PROJECT_DIR
-  
+      
+      - name: Compile for TermistorRevH_modbus.X
+        run : |
+          export PATH=/opt/microchip/xc8/bin:/opt/mplabx/mplab_platform/bin:$PATH
+          PROJECT_DIR="firmware/TermistorRevH_modbus.X"
+          CONFIG="default"
+          export PATH=/opt/microchip/xc8/bin:$PATH
+          sudo make -C $PROJECT_DIR
 
       - name: Artifact WD
         uses: actions/upload-artifact@v4
@@ -115,3 +122,9 @@ jobs:
         with:
           name: rd10-modbus
           path: firmware/RD10_modbus.X/dist/default/production/RD10_modbus.X.production.hex
+      
+      - name: Artifact Termistor
+        uses: actions/upload-artifact@v4
+        with:
+          name: termistor-modbus
+          path: firmware/TermistorRevH_modbus.X/dist/default/production/TermistorRevH_modbus.X.production.hex

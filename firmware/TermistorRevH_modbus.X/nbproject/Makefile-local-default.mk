@@ -23,14 +23,14 @@ OS_CURRENT="$(shell uname -s)"
 MP_CC="/opt/microchip/xc8/v2.36/bin/xc8-cc"
 # MP_CPPC is not defined
 # MP_BC is not defined
-MP_AS="/opt/microchip/xc8/v2.36/bin/xc8-cc"
-MP_LD="/opt/microchip/xc8/v2.36/bin/xc8-cc"
-MP_AR="/opt/microchip/xc8/v2.36/bin/xc8-ar"
+MP_AS="/opt/microchip/xc8/bin/xc8-cc"
+MP_LD="/opt/microchip/xc8/bin/xc8-cc"
+MP_AR="/opt/microchip/xc8/bin/xc8-ar"
 DEP_GEN=${MP_JAVA_PATH}java -jar "/opt/microchip/mplabx/v6.25/mplab_platform/platform/../mplab_ide/modules/../../bin/extractobjectdependencies.jar"
-MP_CC_DIR="/opt/microchip/xc8/v2.36/bin"
+MP_CC_DIR="/opt/microchip/xc8/bin"
 # MP_CPPC_DIR is not defined
 # MP_BC_DIR is not defined
-MP_AS_DIR="/opt/microchip/xc8/v2.36/bin"
-MP_LD_DIR="/opt/microchip/xc8/v2.36/bin"
-MP_AR_DIR="/opt/microchip/xc8/v2.36/bin"
+MP_AS_DIR="/opt/microchip/xc8/bin"
+MP_LD_DIR="/opt/microchip/xc8/bin"
+MP_AR_DIR="/opt/microchip/xc8/bin"
 DFP_DIR=/home/fabio/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191
