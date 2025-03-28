@@ -49,11 +49,11 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y p7zip-full
-          sudo mkdir -p "/opt/microchip/mplabx/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410"
+          sudo mkdir -p "/opt/microchip/mplabx/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.15.191"
           pip install gdown
-          gdown "https://drive.google.com/uc?id=1o33lGYOxfhRTig8rJccEi6xjUGgItAUc" -O /tmp/Microchip.PIC16F1xxxx_DFP.1.26.410.atpack
-          7z x /tmp/Microchip.PIC16F1xxxx_DFP.1.26.410.atpack -o"/opt/microchip/mplabx/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410" -r -y
-          sudo ls -l "/opt/microchip/mplabx/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410/"
+          gdown "https://drive.google.com/uc?id=1xC24O9ySCPmTiEa0DIF5RM0uV9FnFvoM" -O /tmp/Microchip.PIC16F1xxxx_DFP.1.15.191.atpack
+          7z x /tmp/Microchip.PIC16F1xxxx_DFP.1.15.191.atpack -o"/opt/microchip/mplabx/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.15.191" -r -y
+          sudo ls -l "/opt/microchip/mplabx/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.15.191/"
       
       - name: Instalar dependencias ncurses
         run: |
