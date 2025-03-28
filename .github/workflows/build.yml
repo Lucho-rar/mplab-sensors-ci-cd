@@ -89,15 +89,29 @@ jobs:
           export PATH=/opt/microchip/xc8/bin:$PATH
           sudo make -C $PROJECT_DIR
       
+      - name: Compile for RD10_modbus.X
+        run : |
+          export PATH=/opt/microchip/xc8/bin:/opt/mplabx/mplab_platform/bin:$PATH
+          PROJECT_DIR="firmware/RD10_modbus.X"
+          CONFIG="default" 
+          export PATH=/opt/microchip/xc8/bin:$PATH
+          sudo make -C $PROJECT_DIR
+  
 
-      - name: Subir artefacto compilado
+      - name: Artifact WD
         uses: actions/upload-artifact@v4
         with:
           name: wd03ws04-modbus
           path: firmware/WD03WS04_MB.X/dist/default/production/WD03WS04_MB.X.production.hex
         
-      - name: Subir artefacto compiladoX
+      - name: Artifact HuTemPres
         uses: actions/upload-artifact@v4
         with:
           name: hu01te02pa07-modbus
           path: firmware/HU01TE02PA07_modbus.X/dist/default/production/HU01TE02PA07_modbus.X.production.hex
+
+      - name: Artifact RD
+        uses: actions/upload-artifact@v4
+        with:
+          name: rd10-modbus
+          path: firmware/RD10_modbus.X/dist/default/production/RD10_modbus.X.production.hex
