@@ -105,6 +105,14 @@ jobs:
           export PATH=/opt/microchip/xc8/bin:$PATH
           sudo make -C $PROJECT_DIR
 
+      - name: Compile for Energy_modbus
+        run : |
+          export PATH=/opt/microchip/xc8/bin:/opt/mplabx/mplab_platform/bin:$PATH
+          PROJECT_DIR="firmware/ENERGY_LIGHT_modbus.X"
+          CONFIG="default"
+          export PATH=/opt/microchip/xc8/bin:$PATH
+          sudo make -C $PROJECT_DIR
+
       - name: Artifact WD
         uses: actions/upload-artifact@v4
         with:
@@ -128,3 +136,9 @@ jobs:
         with:
           name: termistor-modbus
           path: firmware/TermistorRevH_modbus.X/dist/default/production/TermistorRevH_modbus.X.production.hex
+
+      - name: Artifact Energy
+        uses: actions/upload-artifact@v4
+        with:
+          name: energy-modbus
+          path: firmware/ENERGY_LIGHT_modbus.X/dist/default/production/ENERGY_LIGHT_modbus.X.production.hex
