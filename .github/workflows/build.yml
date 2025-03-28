@@ -73,7 +73,7 @@ jobs:
           export PATH=/usr/local/bin:$PATH
           echo "Nuevo PATH: $PATH"
         
-      - name: Generar Makefiles y compilar proyecto
+      - name: Compile for WD03WS04_MB.X
         run: |
           export PATH=/opt/microchip/xc8/bin:/opt/mplabx/mplab_platform/bin:$PATH
           PROJECT_DIR="firmware/WD03WS04_MB.X"
@@ -81,9 +81,23 @@ jobs:
           export PATH=/opt/microchip/xc8/bin:$PATH
           sudo make -C $PROJECT_DIR 
       
+      - name: Compile for HU01TE02PA07_modbus.X
+        run : |
+          export PATH=/opt/microchip/xc8/bin:/opt/mplabx/mplab_platform/bin:$PATH
+          PROJECT_DIR="firmware/HU01TE02PA07_modbus.X"
+          CONFIG="default" 
+          export PATH=/opt/microchip/xc8/bin:$PATH
+          sudo make -C $PROJECT_DIR
+      
 
       - name: Subir artefacto compilado
         uses: actions/upload-artifact@v4
         with:
-          name: firmware-hex
-          path: firmware/ENERGY_LIGHT_V3.X/dist/default/production/*.hex
+          name: wd03ws04-modbus
+          path: firmware/WD03WS04_MB.X/dist/default/production/WD03WS04_MB.X.production.hex
+        
+      - name: Subir artefacto compiladoX
+        uses: actions/upload-artifact@v4
+        with:
+          name: hu01te02pa07-modbus
+          path: firmware/HU01TE02PA07_modbus.X/dist/default/production/HU01TE02PA07_modbus.X.production.hex
